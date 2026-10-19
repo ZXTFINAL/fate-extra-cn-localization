@@ -237,7 +237,7 @@ Verify: annotation-font-build.json reports 518 rows / 3 pages; original
 - ruby：518 字 / 3 页；1,133 条文本修正。
 - UI：371 TXB / 2,598 TEX；466 目标。
 - v14 ISO：`81c651b5…cb7631`。
-- v15：`prepared_only=true`，1,186 文本 / 743 DAT / 375 资源。
+- v15：`prepared_only=true`，1,186 文本 / 743 DAT / 375 资源；已随 v0.16 重建整合进镜像，未实机验证。
 - 变更集：375 文件 / 71.9 MB，逐文件 SHA-256（`data/overlay/manifest.json`）。
 - 解包清单：15,962 文件 / 1.67 GB（`data/inventory/`）。
 - 语境：开场 641 ID；lane 1 1,452 / 6,356；lane 2/3 未开始。
