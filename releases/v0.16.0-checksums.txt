@@ -1,0 +1,25 @@
+# v0.16.0 校验和
+
+输入与产物，均可用 `sha256sum -c` 复核。产物由 `quick.py rebuild` 从同一张原盘确定性生成，
+不随仓库分发（见 release 说明）。
+
+## 输入
+
+```
+60399d610cbcda96601374a2e621a22bb58505c403c6fa4221eec5e87235667b  Fate/Extra 日版原盘 (NPJH-50247)
+7bf7e3d1f0586202ddaa90ca228737fff0e37be682b4bd9598c760aa7e451657  PSP_GAME/USRDIR/data.cpk
+364e64be7bd174bbbf732721a393841a08cc0469b141f07026534ea58b1aec06  data/translation/text.jsonl
+cf4650190a971ac5f5fa52df2596a59094d1452d8f0a0724b1a3ea4aec1008c0  data/translation/glyph-map.json
+```
+
+## 产物（本仓库实测）
+
+```
+853b718a46248f560b1de6eae99a12856ad3a25c7f0a59a17fd76ad1f15681a5  data.cpk  (1,307,189,648 字节)
+05f00976889b6b0344828589e5ec60b7a8ac9eb93bb404c6c5cf733c3eb856ce  Fate_Extra_CN.iso  (1,420,634,112 字节)
+```
+
+## 变更集
+
+375 个文件 / 71,900,512 字节，逐文件哈希见 `data/overlay/manifest.json`。
+解包树 15,962 个文件 / 1,792,291,226 字节，逐文件哈希见 `data/inventory/extracted-tree.jsonl.gz`。

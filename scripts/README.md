@@ -1,11 +1,26 @@
 # 脚本索引
 
-两类脚本：
+三类脚本：
 
+- `quick/`：日常入口，封装成"两条命令重建 + 改稿即重建"，不改变底层逻辑；
 - `pipeline/`：生产链路，输入输出稳定，可重复运行；
 - `audit/`：审计/审校辅助，部分带一次性研究假设与硬编码路径，运行前先读源码。
 
 所有 Python 脚本用 Python 3.11+。Swift 脚本用于 macOS 字形渲染（AppKit）。
+
+---
+
+## quick
+
+| 命令 | 作用 |
+|---|---|
+| `quick.py bootstrap` | ISO → 取 `data.cpk` → 解包 → 铺译文 → 生成 `refs.jsonl` → 核对解包清单 |
+| `quick.py rebuild` | 同步变更集 → 重建 CPK → 写回 ISO，产出构建报告 |
+| `quick.py text list/find/set/replace/check/diff` | 译文定位、改写、字库覆盖检查、相对主表 diff |
+| `quick.py image decode/apply/list` | 纹理预览、按配置回写 |
+| `quick.py overlay sync/verify` | 变更集清单重算与逐文件校验 |
+| `quick.py inventory verify` | 解包树与基准清单比对 |
+| `quick.py status` / `verify` | 工作区状态 / 产物校验 |
 
 ---
 

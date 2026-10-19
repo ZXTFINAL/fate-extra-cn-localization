@@ -21,7 +21,7 @@
 | # | 约束 | 原因 |
 |---|---|---|
 | 1 | **不得修改 `fate:extra/` 源工程** | 它是唯一可信的原始快照；所有产物写 `work/` 或新目录 |
-| 2 | **不得分发 ISO/CPK/字体/纹理** | 版权；仓库只含脚本、文档、译文 |
+| 2 | **不得分发原版 ISO 与未修改的游戏资源** | 版权；仓库只含脚本、文档、译文，以及 375 个**改动过的**补丁负载 |
 | 3 | **不得改 `text.jsonl` 的 `jp` 字段** | ID 由源字节哈希生成，改原文会让所有批次失联 |
 | 4 | **不得重排已分配的 `glyph-map` 别名** | 旧译文已按旧别名编码；唯一例外是字库压缩，必须整体重排并重编码全部译文 |
 | 5 | **不得用正文字库假设处理诗文/ruby** | 三套网格完全不同（16/14/9） |
@@ -38,8 +38,12 @@
 ```
 docs/       先读 00 → 01 → 02 → 对应专题
 data/       译文、映射、审计结果（只读为主）
+data/overlay/    375 个改过的二进制资源（变更集），重建时直接套用
+data/inventory/  解包树清单，用来核对自备 ISO 解出的树
+scripts/quick/   一键重建与快速改稿（quick.py）
 scripts/    pipeline 生产脚本；audit 审计辅助
 releases/   发布说明
+work/       本地工作区，脚本生成，不入库
 ```
 
 遇到问题时按这个顺序查：
@@ -52,6 +56,17 @@ releases/   发布说明
 ---
 
 ## 4. 标准作业流程
+
+### 4.0 首次接管
+
+```sh
+python3 scripts/quick/quick.py status         # 看缺什么
+python3 scripts/quick/quick.py bootstrap      # 从自备 ISO 展开工作区（一次性）
+python3 scripts/quick/quick.py rebuild        # 出 ISO
+python3 scripts/quick/quick.py verify         # 校验产物哈希 + 仓库数据
+```
+
+不要跳过 `status` 直接跑构建；也不要手工往 `work/` 里塞文件——它随时可以被删掉重建。
 
 ### 4.1 接任务
 
@@ -223,6 +238,8 @@ Verify: annotation-font-build.json reports 518 rows / 3 pages; original
 - UI：371 TXB / 2,598 TEX；466 目标。
 - v14 ISO：`81c651b5…cb7631`。
 - v15：`prepared_only=true`，1,186 文本 / 743 DAT / 375 资源。
+- 变更集：375 文件 / 71.9 MB，逐文件 SHA-256（`data/overlay/manifest.json`）。
+- 解包清单：15,962 文件 / 1.67 GB（`data/inventory/`）。
 - 语境：开场 641 ID；lane 1 1,452 / 6,356；lane 2/3 未开始。
 
 **不要把 v15 说成已发布 ISO。**

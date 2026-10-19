@@ -1,0 +1,21 @@
+{
+ "source": "PSP_GAME/USRDIR/data.cpk",
+ "file_count": 15962,
+ "total_bytes": 1792291226,
+ "sha256_prefix_len": 16,
+ "excluded": [
+  ".DS_Store",
+  "manifest.json"
+ ],
+ "exclude_reason": "junk / 内含绝对路径，无法跨机器复现",
+ "top_level": {
+  "cpk": {
+   "files": 1543,
+   "bytes": 714093866
+  },
+  "packages": {
+   "files": 14419,
+   "bytes": 1078197360
+  }
+ }
+}

@@ -1,6 +1,16 @@
 # 数据说明
 
-本目录保存**可公开的翻译与审计数据**，不含游戏资源。
+本目录保存**可公开的翻译数据、审计证据、变更集与解包清单**。除 `overlay/` 下 375 个
+改动过的资源外，不含任何游戏本体或未修改的原始资源。
+
+| 目录 | 作用 |
+|---|---|
+| `translation/` | 主翻译表、字库映射、批次清单 |
+| `review/` | ruby 与语境修正结果 |
+| `evidence/` | 诗文/UI/ruby/语境审计证据 |
+| `overlay/` | 变更集：375 个改过的二进制资源 + 逐文件校验和 |
+| `inventory/` | 解包树清单：15,962 个文件的路径/大小/校验和 |
+| `build/` | v15 构建报告 |
 
 ---
 
@@ -31,6 +41,21 @@ id = sha256(原始 Shift-JIS 字节).hexdigest()[:16]
 | `refs.jsonl`（约 70 MB） | 体积大、可由源重建 | `dump_fate_extra_text.py` |
 | `batches/001..211.jsonl` | 与主表重复；保留清单与样例 | 见 `batches-manifest.json` |
 | `text.pre-*.jsonl` | 历史快照 | 各阶段脚本自动备份 |
+
+---
+
+## overlay/
+
+汉化补丁负载。375 个文件 / 71,900,512 字节，全部是**被修改过**的资源：
+`pack/PRELOAD` 的 4 个字库/小字文件、5 个公共界面包、266 个 interface 包、100 个 battle 包。
+
+重建时由 `quick.py rebuild` 同步到 `work/build/assets/packages/`，再随 CPK 一起打包。
+详见 [overlay/README.md](overlay/README.md)。
+
+## inventory/
+
+解包树清单（gzip JSONL，每行 `path / size / sha256[:16]`）。用来核对自备 ISO 解出的树
+是否与工程基准一致。`quick.py bootstrap` 会自动比对一次。详见 [inventory/README.md](inventory/README.md)。
 
 ---
 

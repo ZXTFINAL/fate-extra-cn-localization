@@ -24,3 +24,7 @@ venv/
 # 编辑器
 .idea/
 .vscode/
+
+# 自备镜像
+iso/*.iso
+iso/*.ISO

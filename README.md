@@ -18,6 +18,7 @@
 | UI 图片 | 完成并入 v15 | 371 个 TXB、2,598 个 TEX 变更；191 页教程 + 274 个小图 |
 | 完整 ISO | v14 已构建 | `Fate_Extra_CN-v14.iso`，1,386,442,752 字节 |
 | v15 资源 | 已预备 | 1,186 条文本、743 个 DAT、375 个覆盖资源，**尚未回写 ISO** |
+| 可重建工程 | 完成 | 375 个变更文件 / 15,962 条解包清单 / `bootstrap` + `rebuild` 两条命令 |
 | 全量语境校对 | 进行中 | 开场 641 / 19,711 ID；lane 1 已读 1,452 / 6,356 |
 
 **结论边界**：v14 ISO 是可运行版本；v15 是已完成资源层准备、等待整合与实机回归的下一版。本仓库不声称"全部日文图片/文本已逐字校对完成"，未完成项见 [ROADMAP.md](ROADMAP.md)。
@@ -44,18 +45,25 @@ fate-extra-cn/
 │   ├── 08-quality-review.md  语境校对与质量流程
 │   ├── 09-pitfalls.md        踩坑清单（症状/根因/修法）
 │   ├── 10-timeline.md        按日期的工作记录
+│   ├── 11-quick-rebuild.md   一键重建与交接手册
 │   └── methodology.md        可迁移的方法论
+├── iso/                      放自备正版 ISO（不入库）
+├── scripts/
+│   ├── quick/                一键重建与快速编辑（quick.py）
+│   ├── pipeline/             20 个生产脚本（含 2 个 Swift 渲染器）
+│   └── audit/                14 个审计/审校辅助脚本
 ├── data/
+│   ├── overlay/              变更集：375 个改过的二进制资源 + 清单
+│   ├── inventory/            解包树清单（15,962 个文件的路径/大小/校验和）
 │   ├── glossary-GLOSSARY.md  术语表
 │   ├── translation/          主翻译表、字库映射、批次清单
 │   ├── review/               ruby 与语境修正结果
 │   ├── evidence/             诗文/UI/ruby/语境审计证据
 │   └── build/                v15 构建报告
-├── scripts/
-│   ├── pipeline/             20 个生产脚本（含 2 个 Swift 渲染器）
-│   └── audit/                14 个审计/审校辅助脚本
 └── releases/                 各版本发布说明
 ```
+
+> `work/` 是本地工作区（解包树、引用表、构建产物），由脚本生成，不入库。
 
 ---
 
@@ -63,32 +71,54 @@ fate-extra-cn/
 
 ### 依赖
 
-- Python 3.11+，`Pillow`、`numpy`
-- macOS（字形渲染脚本使用 Swift/AppKit；非 macOS 可用等价字体位图替代）
-- 自备日版 ISO（`NPJH-50247`），仅挂载只读
+- Python 3.11+；重建只需标准库，处理纹理时需 `Pillow`、`numpy`
+- 自备日版 ISO（`NPJH-50247`）
+- macOS 仅在**重新生成字形**时才需要（Swift/AppKit 渲染）；只做重建和改稿不需要
 - 测试建议 PPSSPP
 
-### 最短复现路径
+### 两条命令重建（推荐）
+
+仓库已经带好译文主表、字库映射和 375 个改过的二进制资源，**不需要重跑补字和图片重排**：
 
 ```sh
-# 1. 只读挂载/解包 ISO，读取 CPK 目录
-python3 scripts/pipeline/extract_fate_extra.py list \
-  /path/to/PSP_GAME/USRDIR/data.cpk > work/cpk-list.json
+# 1. 把正版日版 ISO 放到 iso/（或 --iso 指定），从零展开工作区
+python3 scripts/quick/quick.py bootstrap --iso iso/original.iso
 
-# 2. 解包 DAT/PAK/CMP
-python3 scripts/pipeline/extract_fate_extra.py extract \
-  /path/to/PSP_GAME/USRDIR/data.cpk --output work/extracted
+# 2. 应用变更集 + 重建 CPK + 写回 ISO
+python3 scripts/quick/quick.py rebuild
+```
 
-# 3. 生成可翻译文本表与引用表
+产物：`work/build/Fate_Extra_CN.iso`，附 `work/build/quick-build-report.json`（含各阶段 SHA-256）。
+
+`bootstrap` 会做四件事：从 ISO 里直接取出 `PSP_GAME/USRDIR/data.cpk`（不挂载、不改原盘）→
+解包 2,297 个 DAT/PAK/CMP → 铺好译文与字库映射 → 按 `data/inventory/` 核对解包树。
+
+### 日常改稿
+
+```sh
+python3 scripts/quick/quick.py text find "セイバー"          # 定位
+python3 scripts/quick/quick.py text set --id <ID> --zh "……" # 改写（自动查字库覆盖）
+python3 scripts/quick/quick.py rebuild                       # 只重建受影响的部分
+python3 scripts/quick/quick.py text diff                     # 相对主表改了哪些
+```
+
+改图：`image decode --package <包路径>` 导出预览 → `image apply --config <补丁配置>` 回写 →
+`overlay sync` 更新清单 → `rebuild`。详见 [docs/11-quick-rebuild.md](docs/11-quick-rebuild.md)。
+
+### 手动分步（要改流水线本身时）
+
+```sh
+# 1. 读取 CPK 目录 / 解包 DAT、PAK、CMP
+python3 scripts/pipeline/extract_fate_extra.py list /path/to/data.cpk > work/cpk-list.json
+python3 scripts/pipeline/extract_fate_extra.py extract /path/to/data.cpk --output work/extracted
+
+# 2. 生成可翻译文本表与引用表
 python3 scripts/pipeline/dump_fate_extra_text.py work/extracted/packages \
   --day-input work/extracted/cpk/day \
   --output work/translation/text.jsonl \
   --references work/translation/refs.jsonl
 
-# 3b. 若直接使用仓库现成译文，用主表覆盖刚生成的空表
-cp data/translation/text.jsonl data/translation/glyph-map.json work/translation/
-
-# 4. 重建 CPK（需要已翻译的 text.jsonl 与 glyph-map.json）
+# 3. 重建 CPK（需要已翻译的 text.jsonl 与 glyph-map.json）
 python3 scripts/pipeline/build_fate_extra.py \
   --translations work/translation/text.jsonl \
   --references work/translation/refs.jsonl \
@@ -96,7 +126,7 @@ python3 scripts/pipeline/build_fate_extra.py \
   --source-cpk /path/to/data.cpk \
   --output-cpk work/build/data.cpk
 
-# 5. 把新 CPK 写回 ISO
+# 4. 把新 CPK 写回 ISO
 python3 scripts/pipeline/embed_fate_extra_cpk.py \
   --source-iso /path/to/original.iso \
   --cpk work/build/data.cpk \
@@ -104,13 +134,15 @@ python3 scripts/pipeline/embed_fate_extra_cpk.py \
   --allow-volume-growth
 ```
 
-完整命令（字体、诗文、ruby、UI 图片、v15 增量整合）见 [docs/01-pipeline.md](docs/01-pipeline.md) 与各专题文档。
+补字、诗文、ruby、UI 图片、v15 增量整合的完整命令见 [docs/01-pipeline.md](docs/01-pipeline.md)。
 
 ### 数据文件说明
 
 - `data/translation/text.jsonl`：19,711 行，每行 `id / jp / jp_bytes_hex / zh_cn / reference_count`。`id` 是源字符串 SHA-256 前 16 位，稳定、与文件位置无关。
 - `data/translation/glyph-map.json`：1,571 个无法用原生 CP932 表示的字符 → 私有区别名。
-- `refs.jsonl`（70 MB）**不入库**，由第 3 步重新生成；它是 ID 到文件、偏移、指针位置的映射，属于可复现中间产物。
+- `data/overlay/`：375 个改过的二进制资源（字库表、小字表、UI 纹理），71.9 MB，带逐文件校验和。
+- `data/inventory/extracted-tree.jsonl.gz`：15,962 行解包树清单，用来核对自备 ISO 解出的树是否与工程基准一致。
+- `refs.jsonl`（70 MB）**不入库**，由 `bootstrap` 或第 2 步重新生成；它是 ID 到文件、偏移、指针位置的映射，属于可复现中间产物。
 
 ---
 
@@ -118,6 +150,7 @@ python3 scripts/pipeline/embed_fate_extra_cpk.py \
 
 | 想知道什么 | 看这里 |
 |---|---|
+| 只想重建出 ISO、或改几句话 | [docs/11-quick-rebuild.md](docs/11-quick-rebuild.md) |
 | 整体怎么做、各阶段输入输出 | [docs/01-pipeline.md](docs/01-pipeline.md) |
 | CPK/PAK/CMP/DAT/TXB 的字节结构 | [docs/02-formats.md](docs/02-formats.md) |
 | 文本怎么提取、长译文指针怎么搬家 | [docs/03-text-pipeline.md](docs/03-text-pipeline.md) |
