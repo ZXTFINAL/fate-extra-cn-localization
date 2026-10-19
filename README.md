@@ -1,6 +1,6 @@
 # Fate/Extra 简体中文汉化工程
 
-《Fate/Extra》（PSP 日版，`NPJH-50247`）的简体中文汉化工程记录。本仓库保存**全过程文档、方法论、可复现脚本、翻译主表、术语表与审计证据**。除 `data/evidence/poem/` 下用于复现缺陷的少量最小二进制切片外，不包含游戏本体、ISO 或完整商业素材。
+《Fate/Extra》（PSP 日版，`NPJH-50247`）的简体中文汉化工程记录。本仓库保存**全过程文档、方法论、可复现脚本、翻译主表、术语表、变更集与审计证据**。除 `data/overlay/` 下 375 个改动文件与 `data/evidence/poem/` 下的最小审计切片外，不包含游戏本体、ISO 或未修改的原始资源。
 
 > 目标不是"能跑就行"的补丁，而是可审计、可复现、可迭代的汉化流水线：每一条改动都能追溯到源字节、脚本和验证记录。
 
@@ -98,7 +98,7 @@ python3 scripts/quick/quick.py rebuild
 ```sh
 python3 scripts/quick/quick.py text find "セイバー"          # 定位
 python3 scripts/quick/quick.py text set --id <ID> --zh "……" # 改写（自动查字库覆盖）
-python3 scripts/quick/quick.py rebuild                       # 只重建受影响的部分
+python3 scripts/quick/quick.py rebuild                       # 重建 CPK 并写回 ISO（约 11 分钟）
 python3 scripts/quick/quick.py text diff                     # 相对主表改了哪些
 ```
 
@@ -177,7 +177,7 @@ python3 scripts/pipeline/embed_fate_extra_cpk.py \
 ## 版权与致谢
 
 - 游戏《Fate/Extra》及其全部素材版权归 Marvelous / TYPE-MOON 等原权利人所有。
-- 本仓库仅包含自行编写的脚本、文档、翻译文本与审计数据；除审计用最小切片外，**不提供 ISO、CPK、字体、图片等游戏资源**。使用者需自备正版游戏。
+- 本仓库包含自行编写的脚本、文档、翻译文本、审计数据，以及 `data/overlay/` 中 **375 个改动过的补丁文件**；**不提供 ISO、CPK 或未修改的原始资源**。使用者需自备正版游戏。
 - 本项目为非商业同人汉化，禁止用于任何商业用途。
 - 文件格式与工具链研究参考了 [ccc-tl/translation-tools](https://github.com/ccc-tl/translation-tools)（CPK/PAK/CMP 读取与 Extra 脚本转储思路）。本项目以其格式发现为基础，目标平台保持日版，未套用其面向美版的 MIPS 偏移。
 - 代码采用 MIT 许可；文档与翻译文本采用 CC BY-NC-SA 4.0。详见 [LICENSE](LICENSE)。

@@ -39,7 +39,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 
 ## 3. 游戏素材
 
-本仓库**不包含**《Fate/Extra》的游戏本体、ISO、CPK、字体、纹理、音频或任何完整的提取商业素材。`data/evidence/poem/` 下为说明网格缺陷而保留的少量最小审计切片除外，其版权仍属原权利人，仅作研究、评论与兼容性分析之用。
+本仓库**不包含**《Fate/Extra》的游戏本体、ISO、CPK 或任何完整的提取资源。`data/overlay/` 下为汉化补丁自身产出的 375 个**改动文件**（字库表、小字表、UI 纹理），必须叠加在用户自备的正版游戏上才有意义；`data/evidence/poem/` 下为说明网格缺陷而保留的少量最小审计切片。以上内容的版权仍属原权利人，仅作研究、评论与兼容性分析之用，禁止商用。
 `data/evidence/` 中仅包含为说明缺陷而保留的最小审计切片与对比图，其版权仍属原权利人，仅作研究、评论与兼容性分析之用。
 
 游戏及素材版权归 Marvelous / TYPE-MOON 等原权利人所有。使用本仓库脚本时，请自备合法取得的游戏副本，并自行承担当地法律风险。
