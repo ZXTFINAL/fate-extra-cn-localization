@@ -76,7 +76,7 @@ python3 scripts/pipeline/dump_fate_extra_text.py work/extracted/packages \
   --references work/translation/refs.jsonl
 ```
 
-转储器扫描 DAT 字节码中的文本指针操作码（`0x3926` 对话、`0x1530` 回想），并单独处理 57 个 `day/*.dat` 章节脚本。`id` 由源字符串字节的 SHA-1 前 16 位生成，因此同一句台词在多个文件中复用时只占一行。
+转储器扫描 DAT 字节码中的文本指针操作码（`0x3926` 对话、`0x1530` 回想），并单独处理 57 个 `day/*.dat` 章节脚本。`id` 由源字符串字节的 SHA-256 前 16 位生成，因此同一句台词在多个文件中复用时只占一行。
 
 `refs.jsonl` 每行至少包含：
 

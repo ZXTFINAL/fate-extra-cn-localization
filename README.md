@@ -85,6 +85,9 @@ python3 scripts/pipeline/dump_fate_extra_text.py work/extracted/packages \
   --output work/translation/text.jsonl \
   --references work/translation/refs.jsonl
 
+# 3b. 若直接使用仓库现成译文，用主表覆盖刚生成的空表
+cp data/translation/text.jsonl data/translation/glyph-map.json work/translation/
+
 # 4. 重建 CPK（需要已翻译的 text.jsonl 与 glyph-map.json）
 python3 scripts/pipeline/build_fate_extra.py \
   --translations work/translation/text.jsonl \
@@ -105,7 +108,7 @@ python3 scripts/pipeline/embed_fate_extra_cpk.py \
 
 ### 数据文件说明
 
-- `data/translation/text.jsonl`：19,711 行，每行 `id / jp / jp_bytes_hex / zh_cn / reference_count`。`id` 是源字符串 SHA-1 前 16 位，稳定、与文件位置无关。
+- `data/translation/text.jsonl`：19,711 行，每行 `id / jp / jp_bytes_hex / zh_cn / reference_count`。`id` 是源字符串 SHA-256 前 16 位，稳定、与文件位置无关。
 - `data/translation/glyph-map.json`：1,571 个无法用原生 CP932 表示的字符 → 私有区别名。
 - `refs.jsonl`（70 MB）**不入库**，由第 3 步重新生成；它是 ID 到文件、偏移、指针位置的映射，属于可复现中间产物。
 
@@ -141,7 +144,7 @@ python3 scripts/pipeline/embed_fate_extra_cpk.py \
 ## 版权与致谢
 
 - 游戏《Fate/Extra》及其全部素材版权归 Marvelous / TYPE-MOON 等原权利人所有。
-- 本仓库仅包含自行编写的脚本、文档、翻译文本与审计数据；**不提供 ISO、CPK、字体、图片等游戏资源**。使用者需自备正版游戏。
+- 本仓库仅包含自行编写的脚本、文档、翻译文本与审计数据；除审计用最小切片外，**不提供 ISO、CPK、字体、图片等游戏资源**。使用者需自备正版游戏。
 - 本项目为非商业同人汉化，禁止用于任何商业用途。
 - 文件格式与工具链研究参考了 [ccc-tl/translation-tools](https://github.com/ccc-tl/translation-tools)（CPK/PAK/CMP 读取与 Extra 脚本转储思路）。本项目以其格式发现为基础，目标平台保持日版，未套用其面向美版的 MIPS 偏移。
 - 代码采用 MIT 许可；文档与翻译文本采用 CC BY-NC-SA 4.0。详见 [LICENSE](LICENSE)。
