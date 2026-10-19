@@ -1,0 +1,1268 @@
+[
+ {
+  "batch": "001.jsonl",
+  "entries": 80,
+  "first_id": "a7012ba4d23fa991",
+  "last_id": "aa0e996e09a9439d"
+ },
+ {
+  "batch": "002.jsonl",
+  "entries": 80,
+  "first_id": "03a9b04f767f248e",
+  "last_id": "fb4214eeb398c394"
+ },
+ {
+  "batch": "003.jsonl",
+  "entries": 100,
+  "first_id": "b094833a39cf27a3",
+  "last_id": "68b584387916c113"
+ },
+ {
+  "batch": "004.jsonl",
+  "entries": 100,
+  "first_id": "69f34911a24c9183",
+  "last_id": "5126872d7e857038"
+ },
+ {
+  "batch": "005.jsonl",
+  "entries": 100,
+  "first_id": "644b68882aa6163f",
+  "last_id": "0c08a4892851ecfb"
+ },
+ {
+  "batch": "006.jsonl",
+  "entries": 100,
+  "first_id": "0c41d0433f4e9252",
+  "last_id": "29912baed34dd585"
+ },
+ {
+  "batch": "007.jsonl",
+  "entries": 100,
+  "first_id": "299cb370e7d7bf23",
+  "last_id": "46452f119055a4cb"
+ },
+ {
+  "batch": "008.jsonl",
+  "entries": 100,
+  "first_id": "4649f6fe77cd7f2e",
+  "last_id": "64e9cf9cde884d00"
+ },
+ {
+  "batch": "009.jsonl",
+  "entries": 100,
+  "first_id": "654bd44c2c8e9e20",
+  "last_id": "86369c34b73d5b17"
+ },
+ {
+  "batch": "010.jsonl",
+  "entries": 100,
+  "first_id": "865853a4c50eb26a",
+  "last_id": "a1a7de125b44dcd6"
+ },
+ {
+  "batch": "011.jsonl",
+  "entries": 100,
+  "first_id": "a1cd83f2091968b4",
+  "last_id": "c0ecc01c98ce616a"
+ },
+ {
+  "batch": "011.pre-alignment-audit-20261018.jsonl",
+  "entries": 100,
+  "first_id": "a1cd83f2091968b4",
+  "last_id": "c0ecc01c98ce616a"
+ },
+ {
+  "batch": "011.pre-classroom-fix.jsonl",
+  "entries": 100,
+  "first_id": "a1cd83f2091968b4",
+  "last_id": "c0ecc01c98ce616a"
+ },
+ {
+  "batch": "011.pre-user-alignment-fix2.jsonl",
+  "entries": 100,
+  "first_id": "a1cd83f2091968b4",
+  "last_id": "c0ecc01c98ce616a"
+ },
+ {
+  "batch": "012.jsonl",
+  "entries": 100,
+  "first_id": "c1170bd379fab563",
+  "last_id": "dfed28bba9cc7cf5"
+ },
+ {
+  "batch": "013.jsonl",
+  "entries": 100,
+  "first_id": "dff82112db0e2ff9",
+  "last_id": "fd51ed37cdf52660"
+ },
+ {
+  "batch": "014.jsonl",
+  "entries": 100,
+  "first_id": "fd698784ecf5176c",
+  "last_id": "46c1ae1ebe48b68e"
+ },
+ {
+  "batch": "015.jsonl",
+  "entries": 100,
+  "first_id": "47919536c2c5e0df",
+  "last_id": "a72a26c8dc21a70a"
+ },
+ {
+  "batch": "016.jsonl",
+  "entries": 100,
+  "first_id": "a88b85c57451cf78",
+  "last_id": "002ab09ca1cdc3a4"
+ },
+ {
+  "batch": "017.jsonl",
+  "entries": 100,
+  "first_id": "0038f4ef1fcd356a",
+  "last_id": "0c76fb6ff3f8e51f"
+ },
+ {
+  "batch": "018.jsonl",
+  "entries": 100,
+  "first_id": "0c7c70eda229eb4a",
+  "last_id": "17874b115978157c"
+ },
+ {
+  "batch": "019.jsonl",
+  "entries": 100,
+  "first_id": "179599b981916377",
+  "last_id": "221b434587c34ab8"
+ },
+ {
+  "batch": "020.jsonl",
+  "entries": 100,
+  "first_id": "2234c11f062f53e0",
+  "last_id": "2c7abf7591c09fbd"
+ },
+ {
+  "batch": "021.jsonl",
+  "entries": 100,
+  "first_id": "2c8566954f3c279c",
+  "last_id": "37c58ac30e445e0f"
+ },
+ {
+  "batch": "022.jsonl",
+  "entries": 100,
+  "first_id": "382a008ec15a8d77",
+  "last_id": "42589d3b6c1509f0"
+ },
+ {
+  "batch": "023.jsonl",
+  "entries": 100,
+  "first_id": "426ed196d49d3264",
+  "last_id": "4cfe43a8a554e96b"
+ },
+ {
+  "batch": "024.jsonl",
+  "entries": 100,
+  "first_id": "4d1a595bcaba6367",
+  "last_id": "5896c9e1a3b38fd7"
+ },
+ {
+  "batch": "025.jsonl",
+  "entries": 100,
+  "first_id": "589ac82121279ff0",
+  "last_id": "60d0f16402736f1f"
+ },
+ {
+  "batch": "026.jsonl",
+  "entries": 100,
+  "first_id": "60e74839f1981e81",
+  "last_id": "6ebd0cb512c539e1"
+ },
+ {
+  "batch": "027.jsonl",
+  "entries": 100,
+  "first_id": "6ec58e43267fb6a6",
+  "last_id": "7b871088ba172b22"
+ },
+ {
+  "batch": "028.jsonl",
+  "entries": 100,
+  "first_id": "7ba327eca45125c3",
+  "last_id": "87ca4e3cdac0d024"
+ },
+ {
+  "batch": "029.jsonl",
+  "entries": 100,
+  "first_id": "87e30965d1e465ca",
+  "last_id": "90ed143ecfb8a459"
+ },
+ {
+  "batch": "030.jsonl",
+  "entries": 100,
+  "first_id": "90ff29073e1bc265",
+  "last_id": "9ad5eb8cc1f5f40e"
+ },
+ {
+  "batch": "031.jsonl",
+  "entries": 100,
+  "first_id": "9ae29728cd798631",
+  "last_id": "a4a5dd870d77fbe5"
+ },
+ {
+  "batch": "032.jsonl",
+  "entries": 100,
+  "first_id": "a4b3a59e4b639ff1",
+  "last_id": "b07271a5869bd7f5"
+ },
+ {
+  "batch": "033.jsonl",
+  "entries": 100,
+  "first_id": "b07fdaac28d254b1",
+  "last_id": "bc0d0aecadaaa545"
+ },
+ {
+  "batch": "034.jsonl",
+  "entries": 100,
+  "first_id": "bc418154af0eb15a",
+  "last_id": "c62fb62525e822e9"
+ },
+ {
+  "batch": "035.jsonl",
+  "entries": 100,
+  "first_id": "c669f9acb454ce22",
+  "last_id": "d1db768d2b0c9574"
+ },
+ {
+  "batch": "036.jsonl",
+  "entries": 100,
+  "first_id": "d1e8cf38a047d61a",
+  "last_id": "dd4fa62eef4950ae"
+ },
+ {
+  "batch": "037.jsonl",
+  "entries": 100,
+  "first_id": "dd656a48312d2992",
+  "last_id": "e85f61aecf10a5a6"
+ },
+ {
+  "batch": "038.jsonl",
+  "entries": 100,
+  "first_id": "e8601f31da979453",
+  "last_id": "f46410c4e7aeb6c7"
+ },
+ {
+  "batch": "039.jsonl",
+  "entries": 100,
+  "first_id": "f48c5dd7bc7f8a89",
+  "last_id": "074e700ba808393b"
+ },
+ {
+  "batch": "040.jsonl",
+  "entries": 100,
+  "first_id": "08591aec9cc611b6",
+  "last_id": "2da3af9444081405"
+ },
+ {
+  "batch": "041.jsonl",
+  "entries": 100,
+  "first_id": "2dc9dca82c2254f9",
+  "last_id": "6583bbe5c9e2a8fe"
+ },
+ {
+  "batch": "042.jsonl",
+  "entries": 100,
+  "first_id": "65c946f9dcb25614",
+  "last_id": "951555e3adac40bd"
+ },
+ {
+  "batch": "043.jsonl",
+  "entries": 100,
+  "first_id": "959096b453fb3340",
+  "last_id": "c60a985eb268ba59"
+ },
+ {
+  "batch": "044.jsonl",
+  "entries": 100,
+  "first_id": "c6452947454d0b38",
+  "last_id": "f88c258ab3e54338"
+ },
+ {
+  "batch": "045.jsonl",
+  "entries": 100,
+  "first_id": "fa477e2390f5ea2e",
+  "last_id": "5cf95afc7dd452d9"
+ },
+ {
+  "batch": "046.jsonl",
+  "entries": 100,
+  "first_id": "5d03a82f848d7707",
+  "last_id": "f76f712da24df266"
+ },
+ {
+  "batch": "047.jsonl",
+  "entries": 100,
+  "first_id": "f8744eadf021b08b",
+  "last_id": "9c7110b5100da2b3"
+ },
+ {
+  "batch": "048.jsonl",
+  "entries": 100,
+  "first_id": "9d9258b57f49cab0",
+  "last_id": "4b5c6956212e86b1"
+ },
+ {
+  "batch": "049.jsonl",
+  "entries": 100,
+  "first_id": "4bc781f163e35830",
+  "last_id": "cfc2e0d51bca6b0a"
+ },
+ {
+  "batch": "050.jsonl",
+  "entries": 100,
+  "first_id": "cfdfc31cb032a4b4",
+  "last_id": "27266468b398af93"
+ },
+ {
+  "batch": "051.jsonl",
+  "entries": 100,
+  "first_id": "27896cfda0334197",
+  "last_id": "e7da35e55ac10cf2"
+ },
+ {
+  "batch": "052.jsonl",
+  "entries": 100,
+  "first_id": "e8b3263b16224cc2",
+  "last_id": "3233bede185dadc0"
+ },
+ {
+  "batch": "053.jsonl",
+  "entries": 100,
+  "first_id": "3d1c6b2175d1563a",
+  "last_id": "c370100972f15243"
+ },
+ {
+  "batch": "054.jsonl",
+  "entries": 100,
+  "first_id": "c84442b1a7bb8e7b",
+  "last_id": "94c7c83c8a5b6e2c"
+ },
+ {
+  "batch": "055.jsonl",
+  "entries": 100,
+  "first_id": "9605bf5f50b4ccd2",
+  "last_id": "7bba9cd423c32cb8"
+ },
+ {
+  "batch": "056.jsonl",
+  "entries": 100,
+  "first_id": "82025840d07262a2",
+  "last_id": "b92624986d9379df"
+ },
+ {
+  "batch": "057.jsonl",
+  "entries": 100,
+  "first_id": "bbc34b6340f1bee6",
+  "last_id": "d509bbc7d5358c1f"
+ },
+ {
+  "batch": "058.jsonl",
+  "entries": 100,
+  "first_id": "dfb918402401bb9f",
+  "last_id": "eb52eb4ed0bae47d"
+ },
+ {
+  "batch": "059.jsonl",
+  "entries": 100,
+  "first_id": "ef470ea7ca020592",
+  "last_id": "76103845bf35891d"
+ },
+ {
+  "batch": "060.jsonl",
+  "entries": 100,
+  "first_id": "76309d30c9cabc90",
+  "last_id": "31cc6464dca7d8ef"
+ },
+ {
+  "batch": "061.jsonl",
+  "entries": 100,
+  "first_id": "5e05dde6b852fe8d",
+  "last_id": "5fdb34095f57d483"
+ },
+ {
+  "batch": "062.jsonl",
+  "entries": 100,
+  "first_id": "d8187a251d7f4351",
+  "last_id": "67605efcf545d2e6"
+ },
+ {
+  "batch": "063.jsonl",
+  "entries": 100,
+  "first_id": "688333917c4d2a2f",
+  "last_id": "01cad62b5c17bb83"
+ },
+ {
+  "batch": "064.jsonl",
+  "entries": 100,
+  "first_id": "02708314ea3f060f",
+  "last_id": "4a17c781404a6a61"
+ },
+ {
+  "batch": "065.jsonl",
+  "entries": 100,
+  "first_id": "4ad4087a2ec73c16",
+  "last_id": "abe1ad610608af45"
+ },
+ {
+  "batch": "066.jsonl",
+  "entries": 100,
+  "first_id": "abf79a9f26a713cc",
+  "last_id": "081b56f3406a3fa8"
+ },
+ {
+  "batch": "067.jsonl",
+  "entries": 100,
+  "first_id": "0c4b4301896943a7",
+  "last_id": "8e61ab564d7fce7c"
+ },
+ {
+  "batch": "068.jsonl",
+  "entries": 100,
+  "first_id": "8e9bee1d05abdb9e",
+  "last_id": "04df6b1d3b44a577"
+ },
+ {
+  "batch": "069.jsonl",
+  "entries": 100,
+  "first_id": "05384f851612e405",
+  "last_id": "2f6b1853214d968f"
+ },
+ {
+  "batch": "070.jsonl",
+  "entries": 100,
+  "first_id": "2f9279ef2e6fd451",
+  "last_id": "5423adce56b8539b"
+ },
+ {
+  "batch": "071.jsonl",
+  "entries": 100,
+  "first_id": "545fdbd92da7cc14",
+  "last_id": "80f675079878f53c"
+ },
+ {
+  "batch": "072.jsonl",
+  "entries": 100,
+  "first_id": "80fa27db2e2bbb2f",
+  "last_id": "a7f39bf12e834d66"
+ },
+ {
+  "batch": "073.jsonl",
+  "entries": 100,
+  "first_id": "a838063c13a0ad69",
+  "last_id": "cd7cf536a8ee1882"
+ },
+ {
+  "batch": "074.jsonl",
+  "entries": 100,
+  "first_id": "cda3a9aaa816940e",
+  "last_id": "f3a97e51b74d3e02"
+ },
+ {
+  "batch": "075.jsonl",
+  "entries": 100,
+  "first_id": "f46681540c7cd9d0",
+  "last_id": "5e4e7a1ad25277cf"
+ },
+ {
+  "batch": "076.jsonl",
+  "entries": 100,
+  "first_id": "5e507c5559c75e42",
+  "last_id": "cb3fdad57b7ed845"
+ },
+ {
+  "batch": "077.jsonl",
+  "entries": 100,
+  "first_id": "cb9c53c4b9f3ae92",
+  "last_id": "0d88b69d77f5d550"
+ },
+ {
+  "batch": "078.jsonl",
+  "entries": 100,
+  "first_id": "0d8e24631d5cb770",
+  "last_id": "2591e9c89a1f6780"
+ },
+ {
+  "batch": "079.jsonl",
+  "entries": 100,
+  "first_id": "26417f7ff27ec3a4",
+  "last_id": "3d52ac4475785d9f"
+ },
+ {
+  "batch": "080.jsonl",
+  "entries": 100,
+  "first_id": "3d8cabde0d9dec23",
+  "last_id": "55a83ad962e2d460"
+ },
+ {
+  "batch": "081.jsonl",
+  "entries": 100,
+  "first_id": "55c2545046ebc796",
+  "last_id": "693087467b14ceba"
+ },
+ {
+  "batch": "082.jsonl",
+  "entries": 100,
+  "first_id": "695bb924cd021fe3",
+  "last_id": "80ac3281958f6451"
+ },
+ {
+  "batch": "083.jsonl",
+  "entries": 100,
+  "first_id": "812185cdcdc1c755",
+  "last_id": "966d7acfaad64a80"
+ },
+ {
+  "batch": "084.jsonl",
+  "entries": 100,
+  "first_id": "9670fc6e64586e70",
+  "last_id": "ac44360fcaa16830"
+ },
+ {
+  "batch": "085.jsonl",
+  "entries": 100,
+  "first_id": "acf668c75e5cc9cf",
+  "last_id": "c4b9bd626b6ccb0e"
+ },
+ {
+  "batch": "086.jsonl",
+  "entries": 100,
+  "first_id": "c55853f12193ae45",
+  "last_id": "db1a6f8b720ca841"
+ },
+ {
+  "batch": "087.jsonl",
+  "entries": 100,
+  "first_id": "db7c89b9a308a725",
+  "last_id": "eea6fa0da603cd73"
+ },
+ {
+  "batch": "088.jsonl",
+  "entries": 100,
+  "first_id": "eebe261b92f7b939",
+  "last_id": "00adf9009091da4f"
+ },
+ {
+  "batch": "089.jsonl",
+  "entries": 100,
+  "first_id": "00bb3e9f4a2c49cb",
+  "last_id": "02edb575cff12a90"
+ },
+ {
+  "batch": "090.jsonl",
+  "entries": 100,
+  "first_id": "02eeb1af1946c1dc",
+  "last_id": "05e4b4829f5b5b6a"
+ },
+ {
+  "batch": "091.jsonl",
+  "entries": 100,
+  "first_id": "05ebc41282e61fdc",
+  "last_id": "07e1b8866221a595"
+ },
+ {
+  "batch": "092.jsonl",
+  "entries": 100,
+  "first_id": "07e47a66cdf0d6d0",
+  "last_id": "0aa37261986be6c9"
+ },
+ {
+  "batch": "093.jsonl",
+  "entries": 100,
+  "first_id": "0aa8ce225d023045",
+  "last_id": "0d202ffc2ad9468d"
+ },
+ {
+  "batch": "094.jsonl",
+  "entries": 100,
+  "first_id": "0d235b50c5e27969",
+  "last_id": "0f59e06ccae80cee"
+ },
+ {
+  "batch": "095.jsonl",
+  "entries": 100,
+  "first_id": "0f62746910ddb60f",
+  "last_id": "11a20eb66926fbf0"
+ },
+ {
+  "batch": "096.jsonl",
+  "entries": 100,
+  "first_id": "11a7b4885877fc12",
+  "last_id": "13a8b06e3d600b98"
+ },
+ {
+  "batch": "097.jsonl",
+  "entries": 100,
+  "first_id": "13b1d0b27da982d1",
+  "last_id": "15acf25bd69b089a"
+ },
+ {
+  "batch": "098.jsonl",
+  "entries": 100,
+  "first_id": "15b1edce285db8cb",
+  "last_id": "18428ed684efeaaa"
+ },
+ {
+  "batch": "099.jsonl",
+  "entries": 100,
+  "first_id": "184e8422ecd0a65a",
+  "last_id": "1ad641bf10961fd2"
+ },
+ {
+  "batch": "100.jsonl",
+  "entries": 100,
+  "first_id": "1ae8086f8da05075",
+  "last_id": "1d668f208a0e918d"
+ },
+ {
+  "batch": "101.jsonl",
+  "entries": 100,
+  "first_id": "1d68f52a492831c0",
+  "last_id": "2019146d4a4ba394"
+ },
+ {
+  "batch": "102.jsonl",
+  "entries": 100,
+  "first_id": "201c997b08f09e46",
+  "last_id": "2214c986d297195a"
+ },
+ {
+  "batch": "103.jsonl",
+  "entries": 100,
+  "first_id": "221809b25aa28a2d",
+  "last_id": "241b6359966c47ff"
+ },
+ {
+  "batch": "104.jsonl",
+  "entries": 100,
+  "first_id": "241ee12e0b348b26",
+  "last_id": "26487aafb4ef7e71"
+ },
+ {
+  "batch": "104.pre-final-sync-20261018.jsonl",
+  "entries": 100,
+  "first_id": "241ee12e0b348b26",
+  "last_id": "26487aafb4ef7e71"
+ },
+ {
+  "batch": "105.jsonl",
+  "entries": 100,
+  "first_id": "264bae341612dd63",
+  "last_id": "288affd2dd553de0"
+ },
+ {
+  "batch": "106.jsonl",
+  "entries": 100,
+  "first_id": "288b5fef70b24dc6",
+  "last_id": "2ae14c74a3ef252f"
+ },
+ {
+  "batch": "107.jsonl",
+  "entries": 100,
+  "first_id": "2af056e145dad4de",
+  "last_id": "2d3971de5748d2e4"
+ },
+ {
+  "batch": "108.jsonl",
+  "entries": 100,
+  "first_id": "2d3e53940d459106",
+  "last_id": "2f959b8caf814efc"
+ },
+ {
+  "batch": "109.jsonl",
+  "entries": 100,
+  "first_id": "2fa4fe5ad046e416",
+  "last_id": "326a903ba648931d"
+ },
+ {
+  "batch": "110.jsonl",
+  "entries": 100,
+  "first_id": "326bd272c915f7e1",
+  "last_id": "34656b1d4c834748"
+ },
+ {
+  "batch": "110.pre-final-sync-20261018.jsonl",
+  "entries": 100,
+  "first_id": "326bd272c915f7e1",
+  "last_id": "34656b1d4c834748"
+ },
+ {
+  "batch": "111.jsonl",
+  "entries": 100,
+  "first_id": "3469c60cd91a65e4",
+  "last_id": "36a0299aced65da5"
+ },
+ {
+  "batch": "112.jsonl",
+  "entries": 100,
+  "first_id": "36a1a4104a9ff026",
+  "last_id": "38ed8b982d2eb52c"
+ },
+ {
+  "batch": "113.jsonl",
+  "entries": 100,
+  "first_id": "38f546c8ab6a78a6",
+  "last_id": "3b49e2b6fbd7ed84"
+ },
+ {
+  "batch": "114.jsonl",
+  "entries": 100,
+  "first_id": "3b542eeffc3415f9",
+  "last_id": "3ded5a92e5dee6ab"
+ },
+ {
+  "batch": "114.pre-final-sync-20261018.jsonl",
+  "entries": 100,
+  "first_id": "3b542eeffc3415f9",
+  "last_id": "3ded5a92e5dee6ab"
+ },
+ {
+  "batch": "115.jsonl",
+  "entries": 100,
+  "first_id": "3dfdb1642002921c",
+  "last_id": "403082b1a8325e3e"
+ },
+ {
+  "batch": "116.jsonl",
+  "entries": 100,
+  "first_id": "403320b356b6bc8d",
+  "last_id": "41dfcf778e208e7f"
+ },
+ {
+  "batch": "117.jsonl",
+  "entries": 100,
+  "first_id": "41e0cafca35ced71",
+  "last_id": "448cb108a1b023e6"
+ },
+ {
+  "batch": "118.jsonl",
+  "entries": 100,
+  "first_id": "449629a7a3ea0cce",
+  "last_id": "470dbc44ddb0274c"
+ },
+ {
+  "batch": "119.jsonl",
+  "entries": 100,
+  "first_id": "470de1c2d75e4777",
+  "last_id": "490120933d44e3a2"
+ },
+ {
+  "batch": "120.jsonl",
+  "entries": 100,
+  "first_id": "49081e3960311de9",
+  "last_id": "4b77c67b57e4b2f1"
+ },
+ {
+  "batch": "121.jsonl",
+  "entries": 100,
+  "first_id": "4b7a5d86258ef4dd",
+  "last_id": "4e2cfd9135cffcf2"
+ },
+ {
+  "batch": "122.jsonl",
+  "entries": 100,
+  "first_id": "4e3db1ce2b86c620",
+  "last_id": "5081c6221b1e47c0"
+ },
+ {
+  "batch": "123.jsonl",
+  "entries": 100,
+  "first_id": "508416cfd360e45b",
+  "last_id": "52de7d59eac00833"
+ },
+ {
+  "batch": "124.jsonl",
+  "entries": 100,
+  "first_id": "52dfd5e58af68f36",
+  "last_id": "550cd6c1a3ee7548"
+ },
+ {
+  "batch": "125.jsonl",
+  "entries": 100,
+  "first_id": "5510db5df3ec06ee",
+  "last_id": "575da24b8d54d7f3"
+ },
+ {
+  "batch": "126.jsonl",
+  "entries": 100,
+  "first_id": "57653eec0af964f9",
+  "last_id": "59d4dd659a4593e5"
+ },
+ {
+  "batch": "127.jsonl",
+  "entries": 100,
+  "first_id": "59ddeed5a0cb79cd",
+  "last_id": "5c3583bef1b95722"
+ },
+ {
+  "batch": "128.jsonl",
+  "entries": 100,
+  "first_id": "5c3abe63749adb40",
+  "last_id": "5e3fa7585ba86bbe"
+ },
+ {
+  "batch": "129.jsonl",
+  "entries": 100,
+  "first_id": "5e52ccabe7106b88",
+  "last_id": "607e537402df85e6"
+ },
+ {
+  "batch": "130.jsonl",
+  "entries": 100,
+  "first_id": "60801ce95bdbbce9",
+  "last_id": "62c03452d550a06c"
+ },
+ {
+  "batch": "131.jsonl",
+  "entries": 100,
+  "first_id": "62c23fd3485106ce",
+  "last_id": "64d75ff6b7c2f331"
+ },
+ {
+  "batch": "131.pre-final-sync-20261018.jsonl",
+  "entries": 100,
+  "first_id": "62c23fd3485106ce",
+  "last_id": "64d75ff6b7c2f331"
+ },
+ {
+  "batch": "132.jsonl",
+  "entries": 100,
+  "first_id": "64d993a8a9cf08ec",
+  "last_id": "670d35a7d82877a5"
+ },
+ {
+  "batch": "133.jsonl",
+  "entries": 100,
+  "first_id": "670d67d3d3309d9e",
+  "last_id": "69661ddcff6c778f"
+ },
+ {
+  "batch": "134.jsonl",
+  "entries": 100,
+  "first_id": "6975564b6445d1e9",
+  "last_id": "6c1c89b63b2b016e"
+ },
+ {
+  "batch": "135.jsonl",
+  "entries": 100,
+  "first_id": "6c207105b9abd00b",
+  "last_id": "6e8c6c79fc4e50aa"
+ },
+ {
+  "batch": "136.jsonl",
+  "entries": 100,
+  "first_id": "6e930484d2668172",
+  "last_id": "70e03197e7424944"
+ },
+ {
+  "batch": "136.pre-final-sync-20261018.jsonl",
+  "entries": 100,
+  "first_id": "6e930484d2668172",
+  "last_id": "70e03197e7424944"
+ },
+ {
+  "batch": "137.jsonl",
+  "entries": 100,
+  "first_id": "70f531e5d5e7a87e",
+  "last_id": "73688d61d8c86255"
+ },
+ {
+  "batch": "138.jsonl",
+  "entries": 100,
+  "first_id": "736c11e8996ce102",
+  "last_id": "75d4321ec08c1df1"
+ },
+ {
+  "batch": "139.jsonl",
+  "entries": 100,
+  "first_id": "75db282a0187e06c",
+  "last_id": "77f795f676879781"
+ },
+ {
+  "batch": "140.jsonl",
+  "entries": 100,
+  "first_id": "77fbe98c50f655af",
+  "last_id": "7a3bc6ebe5d76e72"
+ },
+ {
+  "batch": "141.jsonl",
+  "entries": 100,
+  "first_id": "7a406f199f6d2046",
+  "last_id": "7cd7791def0f5332"
+ },
+ {
+  "batch": "142.jsonl",
+  "entries": 100,
+  "first_id": "7cdc13dd6667aca4",
+  "last_id": "7f3acb291798d57e"
+ },
+ {
+  "batch": "143.jsonl",
+  "entries": 100,
+  "first_id": "7f43fd3e9a9386f3",
+  "last_id": "8198a7c5e1d9c6ca"
+ },
+ {
+  "batch": "144.jsonl",
+  "entries": 100,
+  "first_id": "819a5f7197e3359a",
+  "last_id": "83f45ffd3335c8fc"
+ },
+ {
+  "batch": "145.jsonl",
+  "entries": 100,
+  "first_id": "83ff09f38103f50e",
+  "last_id": "864f7f9064d10ab5"
+ },
+ {
+  "batch": "146.jsonl",
+  "entries": 100,
+  "first_id": "864f80bf9a6498b1",
+  "last_id": "88b250a5563b6d2f"
+ },
+ {
+  "batch": "147.jsonl",
+  "entries": 100,
+  "first_id": "88b61453f462dce9",
+  "last_id": "8ac0b3d131c79cec"
+ },
+ {
+  "batch": "148.jsonl",
+  "entries": 100,
+  "first_id": "8ac3195b02b0bfa8",
+  "last_id": "8d11742251d413a0"
+ },
+ {
+  "batch": "149.jsonl",
+  "entries": 100,
+  "first_id": "8d134f3a2ee54b12",
+  "last_id": "8f5ac94d4d04525b"
+ },
+ {
+  "batch": "150.jsonl",
+  "entries": 100,
+  "first_id": "8f5e6e263078c6cd",
+  "last_id": "917cedcb31499906"
+ },
+ {
+  "batch": "151.jsonl",
+  "entries": 100,
+  "first_id": "9193f7c686a44b35",
+  "last_id": "94004c2d1f63f18d"
+ },
+ {
+  "batch": "152.jsonl",
+  "entries": 100,
+  "first_id": "940802f4abbaf11d",
+  "last_id": "96817689ed3af790"
+ },
+ {
+  "batch": "153.jsonl",
+  "entries": 100,
+  "first_id": "9681f0c85c4b3cd6",
+  "last_id": "988a95dd04012351"
+ },
+ {
+  "batch": "154.jsonl",
+  "entries": 100,
+  "first_id": "989f2ff15943934f",
+  "last_id": "9b0110e1da0d7f24"
+ },
+ {
+  "batch": "155.jsonl",
+  "entries": 100,
+  "first_id": "9b043d14320949d9",
+  "last_id": "9db1abae85a84912"
+ },
+ {
+  "batch": "156.jsonl",
+  "entries": 100,
+  "first_id": "9dba13c1dda0162f",
+  "last_id": "a007257d69eb0aba"
+ },
+ {
+  "batch": "157.jsonl",
+  "entries": 100,
+  "first_id": "a00a708781d5bbe7",
+  "last_id": "a2518a1ecaffe466"
+ },
+ {
+  "batch": "158.jsonl",
+  "entries": 100,
+  "first_id": "a2522005b3da64b2",
+  "last_id": "a4e8be6796cee1b3"
+ },
+ {
+  "batch": "159.jsonl",
+  "entries": 100,
+  "first_id": "a4e8fc9aa24b5ba9",
+  "last_id": "a70339af6af22128"
+ },
+ {
+  "batch": "160.jsonl",
+  "entries": 100,
+  "first_id": "a706e74b5fff38b5",
+  "last_id": "a96c2bc4a673ec12"
+ },
+ {
+  "batch": "160.pre-final-sync-20261018.jsonl",
+  "entries": 100,
+  "first_id": "a706e74b5fff38b5",
+  "last_id": "a96c2bc4a673ec12"
+ },
+ {
+  "batch": "161.jsonl",
+  "entries": 100,
+  "first_id": "a977eb7640f5d97e",
+  "last_id": "ababcd037aa835cb"
+ },
+ {
+  "batch": "162.jsonl",
+  "entries": 100,
+  "first_id": "abbfa301d8deec17",
+  "last_id": "ad90b5e2b38cc2cb"
+ },
+ {
+  "batch": "163.jsonl",
+  "entries": 100,
+  "first_id": "ad9b1f486f42fbc0",
+  "last_id": "b04769608ed8e97b"
+ },
+ {
+  "batch": "164.jsonl",
+  "entries": 100,
+  "first_id": "b0492db9032dedb9",
+  "last_id": "b28d4a66e5f001c0"
+ },
+ {
+  "batch": "165.jsonl",
+  "entries": 100,
+  "first_id": "b29ccf77da32ef23",
+  "last_id": "b4e555646bdd6493"
+ },
+ {
+  "batch": "166.jsonl",
+  "entries": 100,
+  "first_id": "b4eb9a5da2d48455",
+  "last_id": "b7269279f4ff89e6"
+ },
+ {
+  "batch": "167.jsonl",
+  "entries": 100,
+  "first_id": "b7365a3b24072ce4",
+  "last_id": "b9595bc5b8ff29d0"
+ },
+ {
+  "batch": "168.jsonl",
+  "entries": 100,
+  "first_id": "b961e5ad9f6bbf4f",
+  "last_id": "bb57986f5741e5d6"
+ },
+ {
+  "batch": "169.jsonl",
+  "entries": 100,
+  "first_id": "bb5a42b9f16ac3ce",
+  "last_id": "bcd86a7415823558"
+ },
+ {
+  "batch": "170.jsonl",
+  "entries": 100,
+  "first_id": "be0264187143f71a",
+  "last_id": "c02b9be4adbc5637"
+ },
+ {
+  "batch": "171.jsonl",
+  "entries": 100,
+  "first_id": "c02db78d9ca6940c",
+  "last_id": "c34323b440b489e3"
+ },
+ {
+  "batch": "172.jsonl",
+  "entries": 100,
+  "first_id": "c345065fc0611ce8",
+  "last_id": "c549b45d0acafd54"
+ },
+ {
+  "batch": "173.jsonl",
+  "entries": 100,
+  "first_id": "c54c867455d1fb19",
+  "last_id": "c784e602e1b9c3cd"
+ },
+ {
+  "batch": "174.jsonl",
+  "entries": 100,
+  "first_id": "c788e9d56ecbaf03",
+  "last_id": "c9d43c84c3326e84"
+ },
+ {
+  "batch": "175.jsonl",
+  "entries": 100,
+  "first_id": "c9dd089079fc385a",
+  "last_id": "cc3743ed8c1835d7"
+ },
+ {
+  "batch": "176.jsonl",
+  "entries": 100,
+  "first_id": "cc3eb5bb895c170a",
+  "last_id": "cea076e0db02bed2"
+ },
+ {
+  "batch": "177.jsonl",
+  "entries": 100,
+  "first_id": "cea69e39c1305302",
+  "last_id": "d0b3eeacc9e6ec14"
+ },
+ {
+  "batch": "178.jsonl",
+  "entries": 100,
+  "first_id": "d0b4964714b57e06",
+  "last_id": "d291451bcb213880"
+ },
+ {
+  "batch": "179.jsonl",
+  "entries": 100,
+  "first_id": "d29d81d4e10efd2c",
+  "last_id": "d4b51362f3794b54"
+ },
+ {
+  "batch": "180.jsonl",
+  "entries": 100,
+  "first_id": "d4b9b5bcfc50cfb7",
+  "last_id": "d75549c9bb1ab867"
+ },
+ {
+  "batch": "181.jsonl",
+  "entries": 100,
+  "first_id": "d75703d3c0f03008",
+  "last_id": "d9a80a183f29a4ee"
+ },
+ {
+  "batch": "182.jsonl",
+  "entries": 100,
+  "first_id": "d9a8983b9d79280f",
+  "last_id": "dbc5c9a18aacf33e"
+ },
+ {
+  "batch": "183.jsonl",
+  "entries": 99,
+  "first_id": "dbc8d1d22d5eecac",
+  "last_id": "de349c2b1e358193"
+ },
+ {
+  "batch": "184.jsonl",
+  "entries": 100,
+  "first_id": "dd213830d90a50e1",
+  "last_id": "e0e06bdf06848c3b"
+ },
+ {
+  "batch": "185.jsonl",
+  "entries": 100,
+  "first_id": "e0e78d1bd36f39c4",
+  "last_id": "e3469c9c8157dc0e"
+ },
+ {
+  "batch": "186.jsonl",
+  "entries": 100,
+  "first_id": "e347417b264c75e6",
+  "last_id": "e5b5f0f85341869f"
+ },
+ {
+  "batch": "187.jsonl",
+  "entries": 100,
+  "first_id": "e5bad4062af7e8a5",
+  "last_id": "e7a2aeded6d49354"
+ },
+ {
+  "batch": "188.jsonl",
+  "entries": 100,
+  "first_id": "e7a5489ad206d703",
+  "last_id": "e9d292bc5d9ad4f4"
+ },
+ {
+  "batch": "189.jsonl",
+  "entries": 100,
+  "first_id": "e9eb6265bb6ded24",
+  "last_id": "ec09457172393478"
+ },
+ {
+  "batch": "190.jsonl",
+  "entries": 100,
+  "first_id": "ec0dc53689246c40",
+  "last_id": "ee36e596a09c7e88"
+ },
+ {
+  "batch": "191.jsonl",
+  "entries": 100,
+  "first_id": "ee3927c776ebcd97",
+  "last_id": "f091d0faeaf6f9a3"
+ },
+ {
+  "batch": "191.pre-2a-fix.jsonl",
+  "entries": 100,
+  "first_id": "ee3927c776ebcd97",
+  "last_id": "f091d0faeaf6f9a3"
+ },
+ {
+  "batch": "191.pre-user-alignment-fix2.jsonl",
+  "entries": 100,
+  "first_id": "ee3927c776ebcd97",
+  "last_id": "f091d0faeaf6f9a3"
+ },
+ {
+  "batch": "192.jsonl",
+  "entries": 100,
+  "first_id": "f094de3d8b1e7032",
+  "last_id": "f31dd4cec189c1d4"
+ },
+ {
+  "batch": "193.jsonl",
+  "entries": 100,
+  "first_id": "f322019e063baa5b",
+  "last_id": "f46be97b126d863d"
+ },
+ {
+  "batch": "193.pre-alignment-audit-20261018.jsonl",
+  "entries": 100,
+  "first_id": "f322019e063baa5b",
+  "last_id": "f46be97b126d863d"
+ },
+ {
+  "batch": "193.pre-user-alignment-fix2.jsonl",
+  "entries": 100,
+  "first_id": "f322019e063baa5b",
+  "last_id": "f46be97b126d863d"
+ },
+ {
+  "batch": "194.jsonl",
+  "entries": 100,
+  "first_id": "f5899243dcb50474",
+  "last_id": "f807ae236724fa9f"
+ },
+ {
+  "batch": "195.jsonl",
+  "entries": 100,
+  "first_id": "f811c5a1c731d1ff",
+  "last_id": "fa6d4af6ca4917c5"
+ },
+ {
+  "batch": "196.jsonl",
+  "entries": 100,
+  "first_id": "fa70dd324db93a06",
+  "last_id": "fc8c2f0249c3fa9f"
+ },
+ {
+  "batch": "197.jsonl",
+  "entries": 100,
+  "first_id": "fcaddbe95f98d6f2",
+  "last_id": "fee61e4e5e97df31"
+ },
+ {
+  "batch": "198.jsonl",
+  "entries": 52,
+  "first_id": "fee6d018bdfbe8c4",
+  "last_id": "ffffaaad1b6467dd"
+ }
+]

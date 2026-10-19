@@ -1,0 +1,19 @@
+{
+  "translated_glyphs": 396,
+  "empty_glyphs": [],
+  "nonzero_protection_row_or_column": [],
+  "lookup_mismatches": [],
+  "cell_pitch": 14,
+  "sampled_span": 13,
+  "comparison_assembly_advance": 13,
+  "layout_note": "Tight samples for fragment comparison; does not simulate animation layout.",
+  "snapshots": {
+    "before-assets/0000.dat": "d9cb31385bff6ee55d0ed07e26a623f8de3a63bba76c8de1b43586f190056c68",
+    "before-assets/poem.bin": "85a0af790fd7fb6d360eb62679ed9c576c473ee2d98def331950e35ede00119b",
+    "before-assets/poem_font.txb": "74292916f7b399930391d986f6b4b90c079c2417a5eafb1419fcf8432af006a4",
+    "after-assets/0000.dat": "d9cb31385bff6ee55d0ed07e26a623f8de3a63bba76c8de1b43586f190056c68",
+    "after-assets/poem-glyph-map.json": "21e084e9a02fff835cf5bcb9ed833cfc04110750612197198c7eb8a78cae21f8",
+    "after-assets/poem.bin": "aa3bfec1b1a9c72fe55979cad9c49e221d55fb96e3a6418c7bbd11dfa08172af",
+    "after-assets/poem_font.txb": "efc937be1030e3062c51308350dc87b4f371f6e595bd28762cfdfcdaa5c7f4d4"
+  }
+}

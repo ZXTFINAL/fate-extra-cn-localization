@@ -1,0 +1,25 @@
+{
+  "checks": [
+    {
+      "scope": "all unique original interface TXB",
+      "bundles": 200,
+      "texture_entries": 1627,
+      "empty_entries": 330,
+      "errors": 0
+    },
+    {
+      "scope": "emitted image assets",
+      "bundles": 371,
+      "changed_texture_entries_including_aliases": 2598,
+      "total_bytes": 71320704,
+      "errors": 0
+    }
+  ],
+  "format_counts": {
+    "T4": 1160,
+    "CCT32": 1583,
+    "T8": 467,
+    "CCTNone": 0
+  },
+  "errors": []
+}

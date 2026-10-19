@@ -1,0 +1,380 @@
+{
+  "scope": {
+    "cpk": "work/build/poem-v14-native-grid/data.cpk",
+    "cpk_size": 1272998288,
+    "cpk_entry": {
+      "DirName": "pack",
+      "FileName": "PRELOAD.pak",
+      "AbsoluteOffset": 1057107968,
+      "FileSize": 4101920,
+      "ExtractSize": 4101920
+    },
+    "translation_sha256": "364e64be7bd174bbbf732721a393841a08cc0469b141f07026534ea58b1aec06",
+    "translation_path": "work/translation/text.jsonl",
+    "notes": [
+      "Static archive/font audit. No emulator used.",
+      "RUBS..RUBE is upper ruby; RUBE..REND is body.",
+      "Missing counts are exact ruby.bin coverage, not a claim about runtime missing-glyph fallback or whitespace handling."
+    ]
+  },
+  "asset_comparisons": {
+    "ruby.bin": {
+      "current_size": 1328,
+      "original_size": 1328,
+      "identical_to_original": true,
+      "current_sha256": "44cf29cf91281af62db607f2e4d809ef289900383bb4009b1315732db2e68598",
+      "original_sha256": "44cf29cf91281af62db607f2e4d809ef289900383bb4009b1315732db2e68598"
+    },
+    "ruby.txb": {
+      "current_size": 17296,
+      "original_size": 17296,
+      "identical_to_original": true,
+      "current_sha256": "e7e88b43d397c5e7383c5c22cf0de3fb7098197e4cdaa8213d1de83786e59dd4",
+      "original_sha256": "e7e88b43d397c5e7383c5c22cf0de3fb7098197e4cdaa8213d1de83786e59dd4"
+    },
+    "kanzi.bin": {
+      "current_size": 24592,
+      "original_size": 18256,
+      "identical_to_original": false,
+      "current_sha256": "7170f41474b8c591170870be039f88efb71c99710ce96f1ce51713f94e1a8298",
+      "original_sha256": "004e73756a946b27717bdf4df0052eb55fc6c7a05fab7080a4dae0cd185ad012"
+    },
+    "font.txb": {
+      "current_size": 526416,
+      "original_size": 394816,
+      "identical_to_original": false,
+      "current_sha256": "1babe3b4d739e3551bfe7b1da60b178a772021d823135fc833872cbca841c983",
+      "original_sha256": "1a28ad80b1b2a35191d76bdaa8f37db9b6a3231ac24c47cc115cc4323b827b60"
+    }
+  },
+  "ruby_mapping": {
+    "count": 219,
+    "record_size": 6,
+    "count_endianness": "little",
+    "code_field": "u16 little-endian numeric CP932 code, serialized in reverse byte order to on-wire CP932",
+    "unicode_field": "3 UTF-8 bytes plus NUL",
+    "tail_zero_padding_bytes": 10,
+    "cp932_unicode_fields_match": true,
+    "han_glyph_count": 0,
+    "category_counts": {
+      "hiragana": 80,
+      "katakana": 85,
+      "fullwidth_latin": 52,
+      "other": 2
+    },
+    "all_characters": "・ーＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚあいうえおかがきぎくぐけげこごさざしじすずせぜそぞただちぢつづてでとどなにぬねのはばひびふぶへべほぼまみむめもゃやゅゆょよらりるれろわをんァアィイゥウェエォオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂツヅテデトドナニヌネノハバヒビフブヘベホボマミムメモャヤュユョヨラリルレロワヲンヴぁぃぅぇぉっぱぴぷぺぽッパピプペポヵヶⅡ、",
+    "record_examples": [
+      {
+        "index": 0,
+        "sjis_hex": "8145",
+        "char": "・"
+      },
+      {
+        "index": 1,
+        "sjis_hex": "815b",
+        "char": "ー"
+      },
+      {
+        "index": 2,
+        "sjis_hex": "8260",
+        "char": "Ａ"
+      },
+      {
+        "index": 196,
+        "sjis_hex": "8393",
+        "char": "ン"
+      },
+      {
+        "index": 197,
+        "sjis_hex": "8394",
+        "char": "ヴ"
+      },
+      {
+        "index": 198,
+        "sjis_hex": "829f",
+        "char": "ぁ"
+      },
+      {
+        "index": 217,
+        "sjis_hex": "8755",
+        "char": "Ⅱ"
+      },
+      {
+        "index": 218,
+        "sjis_hex": "8141",
+        "char": "、"
+      }
+    ]
+  },
+  "ruby_textures": {
+    "pak_flags": "0x8000",
+    "pages": [
+      {
+        "index": 0,
+        "name": "font08_00.tex",
+        "entry_size": 8320,
+        "texture_type": 4,
+        "swizzled": 1,
+        "logical_width": 128,
+        "logical_height": 128,
+        "stored_height": 128,
+        "data_size": 8192,
+        "header_size": 48,
+        "clut_tail_size": 80,
+        "nonzero_pixels": 7156
+      },
+      {
+        "index": 1,
+        "name": "font08_01.tex",
+        "entry_size": 8832,
+        "texture_type": 4,
+        "swizzled": 1,
+        "logical_width": 128,
+        "logical_height": 130,
+        "stored_height": 136,
+        "data_size": 8704,
+        "header_size": 48,
+        "clut_tail_size": 80,
+        "nonzero_pixels": 701
+      }
+    ],
+    "slot_pitch_x": 9,
+    "slot_pitch_y": 9,
+    "columns": 14,
+    "rows": 14,
+    "slots_per_page": 196,
+    "existing_capacity": 392,
+    "mapped_slots": 219,
+    "unused_slots": 173,
+    "ninth_column_chars": "ばふむもりオネ",
+    "ninth_row_chars": "ｇｊｐｑｙ",
+    "index_196_starts_second_page": "ン"
+  },
+  "corpus": {
+    "jp": {
+      "row_count": 1830,
+      "pair_count": 2119,
+      "upper_character_occurrences": 8242,
+      "upper_unique_characters": 175,
+      "mapped_unique_characters": 167,
+      "missing_unique_including_spaces": 8,
+      "missing_occurrences_including_spaces": 50,
+      "missing_unique_excluding_spaces": 6,
+      "missing_occurrences_excluding_spaces": 6,
+      "missing_han_unique": 6,
+      "missing_han_occurrences": 6,
+      "pairs_with_missing_nonspace": 2,
+      "rows_with_missing_nonspace": 2,
+      "pairs_with_han": 2,
+      "rows_with_han": 2,
+      "missing_nonspace_characters": "学工脳記録電",
+      "missing_ascii_nonspace_characters": "",
+      "missing_other_nonspace_characters": "",
+      "unmapped_whitespace_counts": {
+        "U+3000": 24,
+        "U+0020": 20
+      },
+      "top_missing_characters": [
+        {
+          "char": "学",
+          "occurrences": 1
+        },
+        {
+          "char": "工",
+          "occurrences": 1
+        },
+        {
+          "char": "脳",
+          "occurrences": 1
+        },
+        {
+          "char": "記",
+          "occurrences": 1
+        },
+        {
+          "char": "録",
+          "occurrences": 1
+        },
+        {
+          "char": "電",
+          "occurrences": 1
+        }
+      ]
+    },
+    "zh_cn": {
+      "row_count": 1649,
+      "pair_count": 1878,
+      "upper_character_occurrences": 4898,
+      "upper_unique_characters": 996,
+      "mapped_unique_characters": 41,
+      "missing_unique_including_spaces": 955,
+      "missing_occurrences_including_spaces": 4817,
+      "missing_unique_excluding_spaces": 953,
+      "missing_occurrences_excluding_spaces": 4797,
+      "missing_han_unique": 913,
+      "missing_han_occurrences": 4262,
+      "pairs_with_missing_nonspace": 1859,
+      "rows_with_missing_nonspace": 1636,
+      "pairs_with_han": 1765,
+      "rows_with_han": 1557,
+      "missing_nonspace_characters": ".ABCEFGHILMNPRSTWabcdehiklmnorstuvwxyz·…一七万三上下不丑世业东丝严丧个中串临为主丽么之乌乐也习书乱予争事二于互亚亡交亮亲人从他付仙代令以们件任份伊伎伏众伙会传伤伴伽低体佗余作供侵俊俏保信俩倍值假偏偶偷偿傀傲傻像儡儿先光克兔入全八公共关兵其具兹养兽内再农冲冷冻冽凛凶出击刃分切刈列则刚删利别制刺前剑剧副力加务动助努勇勋化千半单博卜卡卫危卷历厌原厮去反发取变口古句叫召可史号叹吉同名后向启吼告呵命咒咔咖哀品哈哥唤啡喻嗡嘲器噪回因园围固国图土圣在地场址坂坏坐型埃基堂堕塔填境墓墙士声处备复外多夜大天太夫失头奇奉奋套奥女她好如妖姆始婴嫩嬉子字存孤学孩它安定实客室宫家容密寡对导射尊小少尔尖尤尾局屏属山峰崩工巧巫己布帅师希帝席帮常幕干平并幸幻幽庄序底度廷建开异弃弄弊式引弱弹强归当录形影彻彼往征得御微德心必忆快念怀怎思怠性怨怪恋恭息恶恼悍悦悲情想愈意愤愿慎慕懂懈戏成我戒战戟戴所手打托执扭技抗护报抽拉招拼持指挑挟挥挨挫据捷掌排探接援搐搜搭摇操擎擦收改攻放政故敌救教敬数文斗料斩断斯方施旁旋族旗无日时明昏昔星映显普晶暂暗暴更替最月有服望期木未末术机杀村束来杯杵松板析果枪柔柳样根格桌桐档梦梳棋楔楼概槃模次欧欲欺歉歌此死歼残段毒比民气水污沉没沸油治泉法泡洞活流测浓海涅消涌深渊渣游溃溯滚潜激灌火灭灯灵炉点炼炽烈烛烦焰然照燃爆爱父爷爽片牟物特犹狂狐狩狸猎猛献玛玩现珍球理瑟生用由电男甸界畏留略畴疏疑疗病痕痴登白的皮益盖盗盘盛目直相省眉真眠眨眼着睡瞬瞳矜知短石码破确碎示礼神祸禁福私科称秽程稍稻穴穷空穿窥竞章笑符第等答筛管箭箱篡米类粉精系素索约级纹纽线细织终经结络统绩续维绿缓编缩罩罪羊美群耀老者耍耳职聪肌肤肯背胜胡胸能脆脑腹腾臆自舍良色艺艾节花苍若苦英范草荒荡落葛蓝蔑蔽藏藤藻虚虫蛊蛋蛮蜷蝇蝎蝗融螺蠢行补衰袒被装裔裹西要规视觉角解触言誉誓警认让议记识词试诗话诞语误说诸谅谎谣谱谴象豪豫貌贝负责败货贴贵资赋赎赐赖赛赞起超趣路跳蹦身躯车轨轩转轮软轻辑输辕辙辜辞辟辣辰辱边达迅过运近这进远违连迟迷迹追退选透通速造逻遍道遗遮那邪郁都里重野量金钟钥钻锅锋错键镇镜长门闯间闷阅阱防阳阴阶阿降限除陵陷随隐隔隙障难雄零雷霆霍露面革韦音顶颂预颅颇题风飞食饰饿馆首骂骄验骑骗高鬼魂魄魔鲍鸟鸡鸣鹿黄黑默齿",
+      "missing_ascii_nonspace_characters": ".ABCEFGHILMNPRSTWabcdehiklmnorstuvwxyz",
+      "missing_other_nonspace_characters": "·…",
+      "unmapped_whitespace_counts": {
+        "U+0020": 5,
+        "U+3000": 15
+      },
+      "top_missing_characters": [
+        {
+          "char": "主",
+          "occurrences": 309
+        },
+        {
+          "char": "御",
+          "occurrences": 309
+        },
+        {
+          "char": "爱",
+          "occurrences": 126
+        },
+        {
+          "char": "丽",
+          "occurrences": 125
+        },
+        {
+          "char": "丝",
+          "occurrences": 124
+        },
+        {
+          "char": "器",
+          "occurrences": 113
+        },
+        {
+          "char": "发",
+          "occurrences": 107
+        },
+        {
+          "char": "触",
+          "occurrences": 107
+        },
+        {
+          "char": "人",
+          "occurrences": 86
+        },
+        {
+          "char": "r",
+          "occurrences": 61
+        },
+        {
+          "char": "s",
+          "occurrences": 61
+        },
+        {
+          "char": "号",
+          "occurrences": 59
+        },
+        {
+          "char": "a",
+          "occurrences": 58
+        },
+        {
+          "char": "e",
+          "occurrences": 58
+        },
+        {
+          "char": "暗",
+          "occurrences": 57
+        },
+        {
+          "char": "键",
+          "occurrences": 55
+        },
+        {
+          "char": "…",
+          "occurrences": 51
+        },
+        {
+          "char": "偶",
+          "occurrences": 48
+        },
+        {
+          "char": "t",
+          "occurrences": 43
+        },
+        {
+          "char": "M",
+          "occurrences": 42
+        }
+      ],
+      "illustrative_pairs": [
+        {
+          "id": "dd61f066c89bf799",
+          "upper": "删除",
+          "body": "消去",
+          "missing_upper_characters": "删除"
+        },
+        {
+          "id": "1e7fbdd59d89489f",
+          "upper": "天线",
+          "body": "魔法阵",
+          "missing_upper_characters": "天线"
+        },
+        {
+          "id": "8c071a090880a2b3",
+          "upper": "天线",
+          "body": "魔法阵",
+          "missing_upper_characters": "天线"
+        },
+        {
+          "id": "b141f54a1b6bc84c",
+          "upper": "御主",
+          "body": "奏者",
+          "missing_upper_characters": "主御"
+        },
+        {
+          "id": "0e56d25219bb532e",
+          "upper": "御主",
+          "body": "主人",
+          "missing_upper_characters": "主御"
+        },
+        {
+          "id": "f87c40882f4d9e88",
+          "upper": "御主",
+          "body": "主人",
+          "missing_upper_characters": "主御"
+        },
+        {
+          "id": "1a6cb1753f9b4370",
+          "upper": "这里",
+          "body": "灵子虚构世界",
+          "missing_upper_characters": "这里"
+        },
+        {
+          "id": "8aade1ac7a2d23a9",
+          "upper": "这里",
+          "body": "我的",
+          "missing_upper_characters": "这里"
+        },
+        {
+          "id": "6a59eff49f6b092e",
+          "upper": "葛木",
+          "body": "葛木",
+          "missing_upper_characters": "木葛"
+        },
+        {
+          "id": "11bfa915cf082f4b",
+          "upper": "葛木",
+          "body": "葛木",
+          "missing_upper_characters": "木葛"
+        }
+      ],
+      "missing_from_main_font_nonascii_nonspace": []
+    }
+  },
+  "preserve_original_add_all_current_upper_missing": {
+    "new_slots_excluding_spaces": 953,
+    "total_mapped_slots": 1172,
+    "pages_required": 6,
+    "additional_pages_required": 4
+  }
+}

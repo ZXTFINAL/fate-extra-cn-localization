@@ -1,0 +1,204 @@
+{
+  "cpk": "work/build/poem-v12-main-font-motion-fix/data.cpk",
+  "poem_pak_copies": 12,
+  "target_text": "平凡的日常，宛如一捧砂金一般。",
+  "target_bytes": "95bd967d934993fa8fedf05e8a4a944088ea95f98dbb8be088ea94bc8142",
+  "glyphs": [
+    {
+      "unicode": "平",
+      "cp932_key": "95bd",
+      "index": 350,
+      "utf8": "平"
+    },
+    {
+      "unicode": "凡",
+      "cp932_key": "967d",
+      "index": 363,
+      "utf8": "凡"
+    },
+    {
+      "unicode": "的",
+      "cp932_key": "9349",
+      "index": 309,
+      "utf8": "的"
+    },
+    {
+      "unicode": "日",
+      "cp932_key": "93fa",
+      "index": 326,
+      "utf8": "日"
+    },
+    {
+      "unicode": "常",
+      "cp932_key": "8fed",
+      "index": 250,
+      "utf8": "常"
+    },
+    {
+      "unicode": "，",
+      "cp932_key": "f05e",
+      "index": 435,
+      "utf8": "，"
+    },
+    {
+      "unicode": "宛",
+      "cp932_key": "8a4a",
+      "index": 143,
+      "utf8": "宛"
+    },
+    {
+      "unicode": "如",
+      "cp932_key": "9440",
+      "index": 327,
+      "utf8": "如"
+    },
+    {
+      "unicode": "一",
+      "cp932_key": "88ea",
+      "index": 121,
+      "utf8": "一"
+    },
+    {
+      "unicode": "捧",
+      "cp932_key": "95f9",
+      "index": 356,
+      "utf8": "捧"
+    },
+    {
+      "unicode": "砂",
+      "cp932_key": "8dbb",
+      "index": 195,
+      "utf8": "砂"
+    },
+    {
+      "unicode": "金",
+      "cp932_key": "8be0",
+      "index": 164,
+      "utf8": "金"
+    },
+    {
+      "unicode": "一",
+      "cp932_key": "88ea",
+      "index": 121,
+      "utf8": "一"
+    },
+    {
+      "unicode": "般",
+      "cp932_key": "94bc",
+      "index": 334,
+      "utf8": "般"
+    },
+    {
+      "unicode": "。",
+      "cp932_key": "8142",
+      "index": 42,
+      "utf8": "。"
+    }
+  ],
+  "members": {
+    "poem.pak": [
+      {
+        "name": "interface/poem/poem.txb",
+        "offset": 96,
+        "size": 315776,
+        "alignment16": 0,
+        "sha256": "38b676bc0b57c4b2561ec5a50097dd8cb29b0b7e0f07bdcb7752d20f2e50ca0c"
+      },
+      {
+        "name": "interface/poem/poem_font.txb",
+        "offset": 315936,
+        "size": 65808,
+        "alignment16": 0,
+        "sha256": "74292916f7b399930391d986f6b4b90c079c2417a5eafb1419fcf8432af006a4"
+      },
+      {
+        "name": "interface/poem/poem_ruby.txb",
+        "offset": 381808,
+        "size": 2192,
+        "alignment16": 0,
+        "sha256": "289ffaf099a386379cabc70cba73e07a6ca72c850c478746003cd9c1be00cffe"
+      },
+      {
+        "name": "interface/poem/poem.bin",
+        "offset": 384064,
+        "size": 2634,
+        "alignment16": 0,
+        "sha256": "85a0af790fd7fb6d360eb62679ed9c576c473ee2d98def331950e35ede00119b"
+      },
+      {
+        "name": "interface/poem/poem_ruby.bin",
+        "offset": 386762,
+        "size": 80,
+        "alignment16": 10,
+        "sha256": "05d447371768b5ac275278631bab23a3a8d443eff923868d36cf7b723481a5fc"
+      },
+      {
+        "name": "effect/field/ef_ev_poem.efp",
+        "offset": 386906,
+        "size": 12240,
+        "alignment16": 10,
+        "sha256": "087c9ddc99a083861b731e91ec03e651a48b11fbc5d0fe2899cbfedf913f1fe0"
+      }
+    ],
+    "charsel.pak": [
+      {
+        "name": "interface/poem/poem_font.txb",
+        "offset": 112,
+        "size": 65808,
+        "alignment16": 0,
+        "sha256": "74292916f7b399930391d986f6b4b90c079c2417a5eafb1419fcf8432af006a4"
+      },
+      {
+        "name": "interface/poem/poem_ruby.txb",
+        "offset": 65984,
+        "size": 2192,
+        "alignment16": 0,
+        "sha256": "289ffaf099a386379cabc70cba73e07a6ca72c850c478746003cd9c1be00cffe"
+      },
+      {
+        "name": "interface/poem/poem.bin",
+        "offset": 68240,
+        "size": 2634,
+        "alignment16": 0,
+        "sha256": "85a0af790fd7fb6d360eb62679ed9c576c473ee2d98def331950e35ede00119b"
+      },
+      {
+        "name": "interface/poem/poem_ruby.bin",
+        "offset": 70938,
+        "size": 80,
+        "alignment16": 10,
+        "sha256": "05d447371768b5ac275278631bab23a3a8d443eff923868d36cf7b723481a5fc"
+      }
+    ],
+    "PRELOAD.pak": [
+      {
+        "name": "font.txb",
+        "offset": 544,
+        "size": 526416,
+        "alignment16": 0,
+        "sha256": "1babe3b4d739e3551bfe7b1da60b178a772021d823135fc833872cbca841c983"
+      },
+      {
+        "name": "kanzi.bin",
+        "offset": 544384,
+        "size": 24592,
+        "alignment16": 0,
+        "sha256": "7170f41474b8c591170870be039f88efb71c99710ce96f1ce51713f94e1a8298"
+      }
+    ]
+  },
+  "table_padding": {
+    "source_count": 405,
+    "source_rows_end": 2434,
+    "source_size": 2448,
+    "source_tail_bytes": 14,
+    "source_tail_all_zero": true,
+    "current_count": 436,
+    "current_rows_end": 2620,
+    "current_size": 2634,
+    "current_tail_bytes": 14,
+    "current_tail_all_zero": true,
+    "required_aligned_size": 2624,
+    "required_tail_bytes": 4
+  }
+}

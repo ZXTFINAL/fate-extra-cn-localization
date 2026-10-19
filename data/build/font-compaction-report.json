@@ -1,0 +1,2068 @@
+{
+  "original_font_glyph_count": 3040,
+  "extended_font_glyph_count": 4611,
+  "new_font_glyph_count": 4096,
+  "texture_pages": 16,
+  "removed_unreferenced_japanese_glyphs": [
+    {
+      "old_index": 2003,
+      "character": "働"
+    },
+    {
+      "old_index": 2004,
+      "character": "動"
+    },
+    {
+      "old_index": 2007,
+      "character": "導"
+    },
+    {
+      "old_index": 2012,
+      "character": "胴"
+    },
+    {
+      "old_index": 2014,
+      "character": "銅"
+    },
+    {
+      "old_index": 2017,
+      "character": "徳"
+    },
+    {
+      "old_index": 2018,
+      "character": "涜"
+    },
+    {
+      "old_index": 2021,
+      "character": "禿"
+    },
+    {
+      "old_index": 2024,
+      "character": "読"
+    },
+    {
+      "old_index": 2025,
+      "character": "栃"
+    },
+    {
+      "old_index": 2028,
+      "character": "頓"
+    },
+    {
+      "old_index": 2029,
+      "character": "呑"
+    },
+    {
+      "old_index": 2030,
+      "character": "曇"
+    },
+    {
+      "old_index": 2031,
+      "character": "鈍"
+    },
+    {
+      "old_index": 2035,
+      "character": "薙"
+    },
+    {
+      "old_index": 2036,
+      "character": "謎"
+    },
+    {
+      "old_index": 2037,
+      "character": "鍋"
+    },
+    {
+      "old_index": 2038,
+      "character": "馴"
+    },
+    {
+      "old_index": 2039,
+      "character": "縄"
+    },
+    {
+      "old_index": 2041,
+      "character": "楠"
+    },
+    {
+      "old_index": 2042,
+      "character": "軟"
+    },
+    {
+      "old_index": 2043,
+      "character": "難"
+    },
+    {
+      "old_index": 2046,
+      "character": "匂"
+    },
+    {
+      "old_index": 2047,
+      "character": "賑"
+    },
+    {
+      "old_index": 2056,
+      "character": "認"
+    },
+    {
+      "old_index": 2057,
+      "character": "濡"
+    },
+    {
+      "old_index": 2058,
+      "character": "寧"
+    },
+    {
+      "old_index": 2060,
+      "character": "熱"
+    },
+    {
+      "old_index": 2063,
+      "character": "捻"
+    },
+    {
+      "old_index": 2065,
+      "character": "粘"
+    },
+    {
+      "old_index": 2067,
+      "character": "悩"
+    },
+    {
+      "old_index": 2068,
+      "character": "濃"
+    },
+    {
+      "old_index": 2069,
+      "character": "納"
+    },
+    {
+      "old_index": 2071,
+      "character": "脳"
+    },
+    {
+      "old_index": 2072,
+      "character": "農"
+    },
+    {
+      "old_index": 2073,
+      "character": "覗"
+    },
+    {
+      "old_index": 2075,
+      "character": "覇"
+    },
+    {
+      "old_index": 2080,
+      "character": "罵"
+    },
+    {
+      "old_index": 2081,
+      "character": "馬"
+    },
+    {
+      "old_index": 2082,
+      "character": "廃"
+    },
+    {
+      "old_index": 2083,
+      "character": "拝"
+    },
+    {
+      "old_index": 2085,
+      "character": "敗"
+    },
+    {
+      "old_index": 2089,
+      "character": "輩"
+    },
+    {
+      "old_index": 2095,
+      "character": "買"
+    },
+    {
+      "old_index": 2096,
+      "character": "売"
+    },
+    {
+      "old_index": 2097,
+      "character": "這"
+    },
+    {
+      "old_index": 2098,
+      "character": "蝿"
+    },
+    {
+      "old_index": 2100,
+      "character": "萩"
+    },
+    {
+      "old_index": 2105,
+      "character": "柏"
+    },
+    {
+      "old_index": 2107,
+      "character": "粕"
+    },
+    {
+      "old_index": 2112,
+      "character": "縛"
+    },
+    {
+      "old_index": 2114,
+      "character": "麦"
+    },
+    {
+      "old_index": 2116,
+      "character": "箸"
+    },
+    {
+      "old_index": 2117,
+      "character": "筈"
+    },
+    {
+      "old_index": 2118,
+      "character": "幡"
+    },
+    {
+      "old_index": 2120,
+      "character": "畑"
+    },
+    {
+      "old_index": 2121,
+      "character": "畠"
+    },
+    {
+      "old_index": 2123,
+      "character": "鉢"
+    },
+    {
+      "old_index": 2124,
+      "character": "発"
+    },
+    {
+      "old_index": 2125,
+      "character": "髪"
+    },
+    {
+      "old_index": 2127,
+      "character": "罰"
+    },
+    {
+      "old_index": 2128,
+      "character": "抜"
+    },
+    {
+      "old_index": 2129,
+      "character": "閥"
+    },
+    {
+      "old_index": 2130,
+      "character": "鳩"
+    },
+    {
+      "old_index": 2131,
+      "character": "塙"
+    },
+    {
+      "old_index": 2139,
+      "character": "汎"
+    },
+    {
+      "old_index": 2145,
+      "character": "販"
+    },
+    {
+      "old_index": 2146,
+      "character": "範"
+    },
+    {
+      "old_index": 2147,
+      "character": "煩"
+    },
+    {
+      "old_index": 2148,
+      "character": "飯"
+    },
+    {
+      "old_index": 2150,
+      "character": "晩"
+    },
+    {
+      "old_index": 2152,
+      "character": "盤"
+    },
+    {
+      "old_index": 2156,
+      "character": "妃"
+    },
+    {
+      "old_index": 2163,
+      "character": "斐"
+    },
+    {
+      "old_index": 2170,
+      "character": "費"
+    },
+    {
+      "old_index": 2173,
+      "character": "飛"
+    },
+    {
+      "old_index": 2174,
+      "character": "樋"
+    },
+    {
+      "old_index": 2175,
+      "character": "備"
+    },
+    {
+      "old_index": 2182,
+      "character": "疋"
+    },
+    {
+      "old_index": 2183,
+      "character": "髭"
+    },
+    {
+      "old_index": 2184,
+      "character": "彦"
+    },
+    {
+      "old_index": 2186,
+      "character": "菱"
+    },
+    {
+      "old_index": 2187,
+      "character": "肘"
+    },
+    {
+      "old_index": 2189,
+      "character": "筆"
+    },
+    {
+      "old_index": 2190,
+      "character": "桧"
+    },
+    {
+      "old_index": 2191,
+      "character": "姫"
+    },
+    {
+      "old_index": 2192,
+      "character": "紐"
+    },
+    {
+      "old_index": 2194,
+      "character": "俵"
+    },
+    {
+      "old_index": 2195,
+      "character": "標"
+    },
+    {
+      "old_index": 2196,
+      "character": "氷"
+    },
+    {
+      "old_index": 2199,
+      "character": "評"
+    },
+    {
+      "old_index": 2204,
+      "character": "鋲"
+    },
+    {
+      "old_index": 2205,
+      "character": "蛭"
+    },
+    {
+      "old_index": 2207,
+      "character": "浜"
+    },
+    {
+      "old_index": 2208,
+      "character": "瀕"
+    },
+    {
+      "old_index": 2209,
+      "character": "貧"
+    },
+    {
+      "old_index": 2210,
+      "character": "頻"
+    },
+    {
+      "old_index": 2216,
+      "character": "婦"
+    },
+    {
+      "old_index": 2218,
+      "character": "冨"
+    },
+    {
+      "old_index": 2223,
+      "character": "斧"
+    },
+    {
+      "old_index": 2229,
+      "character": "膚"
+    },
+    {
+      "old_index": 2230,
+      "character": "譜"
+    },
+    {
+      "old_index": 2231,
+      "character": "負"
+    },
+    {
+      "old_index": 2232,
+      "character": "賦"
+    },
+    {
+      "old_index": 2234,
+      "character": "阜"
+    },
+    {
+      "old_index": 2236,
+      "character": "撫"
+    },
+    {
+      "old_index": 2241,
+      "character": "風"
+    },
+    {
+      "old_index": 2244,
+      "character": "復"
+    },
+    {
+      "old_index": 2249,
+      "character": "複"
+    },
+    {
+      "old_index": 2251,
+      "character": "淵"
+    },
+    {
+      "old_index": 2252,
+      "character": "払"
+    },
+    {
+      "old_index": 2254,
+      "character": "仏"
+    },
+    {
+      "old_index": 2257,
+      "character": "噴"
+    },
+    {
+      "old_index": 2258,
+      "character": "憤"
+    },
+    {
+      "old_index": 2261,
+      "character": "奮"
+    },
+    {
+      "old_index": 2263,
+      "character": "紛"
+    },
+    {
+      "old_index": 2264,
+      "character": "雰"
+    },
+    {
+      "old_index": 2266,
+      "character": "聞"
+    },
+    {
+      "old_index": 2267,
+      "character": "併"
+    },
+    {
+      "old_index": 2269,
+      "character": "塀"
+    },
+    {
+      "old_index": 2273,
+      "character": "並"
+    },
+    {
+      "old_index": 2275,
+      "character": "閉"
+    },
+    {
+      "old_index": 2278,
+      "character": "頁"
+    },
+    {
+      "old_index": 2281,
+      "character": "別"
+    },
+    {
+      "old_index": 2285,
+      "character": "変"
+    },
+    {
+      "old_index": 2288,
+      "character": "編"
+    },
+    {
+      "old_index": 2289,
+      "character": "辺"
+    },
+    {
+      "old_index": 2294,
+      "character": "弁"
+    },
+    {
+      "old_index": 2298,
+      "character": "歩"
+    },
+    {
+      "old_index": 2299,
+      "character": "補"
+    },
+    {
+      "old_index": 2300,
+      "character": "輔"
+    },
+    {
+      "old_index": 2301,
+      "character": "穂"
+    },
+    {
+      "old_index": 2307,
+      "character": "簿"
+    },
+    {
+      "old_index": 2309,
+      "character": "倣"
+    },
+    {
+      "old_index": 2312,
+      "character": "報"
+    },
+    {
+      "old_index": 2316,
+      "character": "峯"
+    },
+    {
+      "old_index": 2324,
+      "character": "砲"
+    },
+    {
+      "old_index": 2325,
+      "character": "縫"
+    },
+    {
+      "old_index": 2330,
+      "character": "褒"
+    },
+    {
+      "old_index": 2331,
+      "character": "訪"
+    },
+    {
+      "old_index": 2332,
+      "character": "豊"
+    },
+    {
+      "old_index": 2333,
+      "character": "鋒"
+    },
+    {
+      "old_index": 2334,
+      "character": "飽"
+    },
+    {
+      "old_index": 2335,
+      "character": "鳳"
+    },
+    {
+      "old_index": 2349,
+      "character": "紡"
+    },
+    {
+      "old_index": 2351,
+      "character": "謀"
+    },
+    {
+      "old_index": 2354,
+      "character": "吠"
+    },
+    {
+      "old_index": 2355,
+      "character": "頬"
+    },
+    {
+      "old_index": 2357,
+      "character": "僕"
+    },
+    {
+      "old_index": 2359,
+      "character": "撲"
+    },
+    {
+      "old_index": 2363,
+      "character": "堀"
+    },
+    {
+      "old_index": 2374,
+      "character": "昧"
+    },
+    {
+      "old_index": 2376,
+      "character": "毎"
+    },
+    {
+      "old_index": 2380,
+      "character": "桝"
+    },
+    {
+      "old_index": 2381,
+      "character": "俣"
+    },
+    {
+      "old_index": 2385,
+      "character": "沫"
+    },
+    {
+      "old_index": 2388,
+      "character": "満"
+    },
+    {
+      "old_index": 2390,
+      "character": "蔓"
+    },
+    {
+      "old_index": 2394,
+      "character": "巳"
+    },
+    {
+      "old_index": 2395,
+      "character": "箕"
+    },
+    {
+      "old_index": 2398,
+      "character": "湊"
+    },
+    {
+      "old_index": 2399,
+      "character": "脈"
+    },
+    {
+      "old_index": 2403,
+      "character": "務"
+    },
+    {
+      "old_index": 2404,
+      "character": "夢"
+    },
+    {
+      "old_index": 2405,
+      "character": "無"
+    },
+    {
+      "old_index": 2408,
+      "character": "霧"
+    },
+    {
+      "old_index": 2409,
+      "character": "椋"
+    },
+    {
+      "old_index": 2417,
+      "character": "銘"
+    },
+    {
+      "old_index": 2418,
+      "character": "鳴"
+    },
+    {
+      "old_index": 2419,
+      "character": "姪"
+    },
+    {
+      "old_index": 2420,
+      "character": "牝"
+    },
+    {
+      "old_index": 2421,
+      "character": "滅"
+    },
+    {
+      "old_index": 2423,
+      "character": "綿"
+    },
+    {
+      "old_index": 2431,
+      "character": "網"
+    },
+    {
+      "old_index": 2434,
+      "character": "黙"
+    },
+    {
+      "old_index": 2438,
+      "character": "戻"
+    },
+    {
+      "old_index": 2439,
+      "character": "貰"
+    },
+    {
+      "old_index": 2440,
+      "character": "問"
+    },
+    {
+      "old_index": 2441,
+      "character": "悶"
+    },
+    {
+      "old_index": 2442,
+      "character": "紋"
+    },
+    {
+      "old_index": 2443,
+      "character": "門"
+    },
+    {
+      "old_index": 2445,
+      "character": "冶"
+    },
+    {
+      "old_index": 2447,
+      "character": "爺"
+    },
+    {
+      "old_index": 2454,
+      "character": "約"
+    },
+    {
+      "old_index": 2455,
+      "character": "薬"
+    },
+    {
+      "old_index": 2456,
+      "character": "訳"
+    },
+    {
+      "old_index": 2457,
+      "character": "躍"
+    },
+    {
+      "old_index": 2461,
+      "character": "癒"
+    },
+    {
+      "old_index": 2463,
+      "character": "優"
+    },
+    {
+      "old_index": 2468,
+      "character": "憂"
+    },
+    {
+      "old_index": 2470,
+      "character": "柚"
+    },
+    {
+      "old_index": 2471,
+      "character": "湧"
+    },
+    {
+      "old_index": 2476,
+      "character": "誘"
+    },
+    {
+      "old_index": 2477,
+      "character": "遊"
+    },
+    {
+      "old_index": 2485,
+      "character": "預"
+    },
+    {
+      "old_index": 2486,
+      "character": "傭"
+    },
+    {
+      "old_index": 2491,
+      "character": "揚"
+    },
+    {
+      "old_index": 2492,
+      "character": "揺"
+    },
+    {
+      "old_index": 2493,
+      "character": "擁"
+    },
+    {
+      "old_index": 2495,
+      "character": "様"
+    },
+    {
+      "old_index": 2497,
+      "character": "溶"
+    },
+    {
+      "old_index": 2501,
+      "character": "葉"
+    },
+    {
+      "old_index": 2503,
+      "character": "踊"
+    },
+    {
+      "old_index": 2505,
+      "character": "陽"
+    },
+    {
+      "old_index": 2506,
+      "character": "養"
+    },
+    {
+      "old_index": 2510,
+      "character": "翌"
+    },
+    {
+      "old_index": 2512,
+      "character": "淀"
+    },
+    {
+      "old_index": 2513,
+      "character": "羅"
+    },
+    {
+      "old_index": 2517,
+      "character": "頼"
+    },
+    {
+      "old_index": 2519,
+      "character": "絡"
+    },
+    {
+      "old_index": 2522,
+      "character": "卵"
+    },
+    {
+      "old_index": 2523,
+      "character": "嵐"
+    },
+    {
+      "old_index": 2524,
+      "character": "藍"
+    },
+    {
+      "old_index": 2525,
+      "character": "覧"
+    },
+    {
+      "old_index": 2529,
+      "character": "梨"
+    },
+    {
+      "old_index": 2531,
+      "character": "裏"
+    },
+    {
+      "old_index": 2532,
+      "character": "裡"
+    },
+    {
+      "old_index": 2534,
+      "character": "離"
+    },
+    {
+      "old_index": 2535,
+      "character": "陸"
+    },
+    {
+      "old_index": 2541,
+      "character": "劉"
+    },
+    {
+      "old_index": 2547,
+      "character": "竜"
+    },
+    {
+      "old_index": 2548,
+      "character": "侶"
+    },
+    {
+      "old_index": 2549,
+      "character": "慮"
+    },
+    {
+      "old_index": 2552,
+      "character": "両"
+    },
+    {
+      "old_index": 2554,
+      "character": "寮"
+    },
+    {
+      "old_index": 2556,
+      "character": "涼"
+    },
+    {
+      "old_index": 2557,
+      "character": "猟"
+    },
+    {
+      "old_index": 2558,
+      "character": "療"
+    },
+    {
+      "old_index": 2559,
+      "character": "瞭"
+    },
+    {
+      "old_index": 2560,
+      "character": "糧"
+    },
+    {
+      "old_index": 2564,
+      "character": "領"
+    },
+    {
+      "old_index": 2566,
+      "character": "緑"
+    },
+    {
+      "old_index": 2567,
+      "character": "倫"
+    },
+    {
+      "old_index": 2569,
+      "character": "臨"
+    },
+    {
+      "old_index": 2570,
+      "character": "輪"
+    },
+    {
+      "old_index": 2571,
+      "character": "隣"
+    },
+    {
+      "old_index": 2572,
+      "character": "鱗"
+    },
+    {
+      "old_index": 2573,
+      "character": "麟"
+    },
+    {
+      "old_index": 2574,
+      "character": "涙"
+    },
+    {
+      "old_index": 2576,
+      "character": "類"
+    },
+    {
+      "old_index": 2581,
+      "character": "嶺"
+    },
+    {
+      "old_index": 2584,
+      "character": "鈴"
+    },
+    {
+      "old_index": 2585,
+      "character": "隷"
+    },
+    {
+      "old_index": 2587,
+      "character": "霊"
+    },
+    {
+      "old_index": 2588,
+      "character": "麗"
+    },
+    {
+      "old_index": 2589,
+      "character": "齢"
+    },
+    {
+      "old_index": 2590,
+      "character": "暦"
+    },
+    {
+      "old_index": 2591,
+      "character": "歴"
+    },
+    {
+      "old_index": 2598,
+      "character": "憐"
+    },
+    {
+      "old_index": 2599,
+      "character": "煉"
+    },
+    {
+      "old_index": 2600,
+      "character": "練"
+    },
+    {
+      "old_index": 2601,
+      "character": "蓮"
+    },
+    {
+      "old_index": 2602,
+      "character": "連"
+    },
+    {
+      "old_index": 2603,
+      "character": "錬"
+    },
+    {
+      "old_index": 2604,
+      "character": "呂"
+    },
+    {
+      "old_index": 2608,
+      "character": "労"
+    },
+    {
+      "old_index": 2617,
+      "character": "篭"
+    },
+    {
+      "old_index": 2619,
+      "character": "蝋"
+    },
+    {
+      "old_index": 2622,
+      "character": "録"
+    },
+    {
+      "old_index": 2623,
+      "character": "論"
+    },
+    {
+      "old_index": 2625,
+      "character": "話"
+    },
+    {
+      "old_index": 2627,
+      "character": "脇"
+    },
+    {
+      "old_index": 2629,
+      "character": "枠"
+    },
+    {
+      "old_index": 2630,
+      "character": "鷲"
+    },
+    {
+      "old_index": 2633,
+      "character": "丼"
+    },
+    {
+      "old_index": 2634,
+      "character": "亢"
+    },
+    {
+      "old_index": 2636,
+      "character": "佇"
+    },
+    {
+      "old_index": 2637,
+      "character": "儘"
+    },
+    {
+      "old_index": 2643,
+      "character": "儚"
+    },
+    {
+      "old_index": 2645,
+      "character": "冑"
+    },
+    {
+      "old_index": 2651,
+      "character": "剄"
+    },
+    {
+      "old_index": 2652,
+      "character": "勁"
+    },
+    {
+      "old_index": 2653,
+      "character": "匍"
+    },
+    {
+      "old_index": 2654,
+      "character": "匐"
+    },
+    {
+      "old_index": 2656,
+      "character": "叭"
+    },
+    {
+      "old_index": 2659,
+      "character": "咎"
+    },
+    {
+      "old_index": 2660,
+      "character": "呟"
+    },
+    {
+      "old_index": 2667,
+      "character": "咫"
+    },
+    {
+      "old_index": 2668,
+      "character": "咤"
+    },
+    {
+      "old_index": 2671,
+      "character": "唸"
+    },
+    {
+      "old_index": 2672,
+      "character": "喩"
+    },
+    {
+      "old_index": 2673,
+      "character": "喇"
+    },
+    {
+      "old_index": 2674,
+      "character": "嗚"
+    },
+    {
+      "old_index": 2679,
+      "character": "嘔"
+    },
+    {
+      "old_index": 2681,
+      "character": "噤"
+    },
+    {
+      "old_index": 2684,
+      "character": "囁"
+    },
+    {
+      "old_index": 2686,
+      "character": "埒"
+    },
+    {
+      "old_index": 2687,
+      "character": "塹"
+    },
+    {
+      "old_index": 2690,
+      "character": "奸"
+    },
+    {
+      "old_index": 2692,
+      "character": "娑"
+    },
+    {
+      "old_index": 2694,
+      "character": "嬌"
+    },
+    {
+      "old_index": 2696,
+      "character": "屓"
+    },
+    {
+      "old_index": 2697,
+      "character": "屹"
+    },
+    {
+      "old_index": 2699,
+      "character": "嵌"
+    },
+    {
+      "old_index": 2701,
+      "character": "彙"
+    },
+    {
+      "old_index": 2702,
+      "character": "彷"
+    },
+    {
+      "old_index": 2703,
+      "character": "彿"
+    },
+    {
+      "old_index": 2706,
+      "character": "徨"
+    },
+    {
+      "old_index": 2708,
+      "character": "悧"
+    },
+    {
+      "old_index": 2712,
+      "character": "慄"
+    },
+    {
+      "old_index": 2713,
+      "character": "慟"
+    },
+    {
+      "old_index": 2715,
+      "character": "憚"
+    },
+    {
+      "old_index": 2716,
+      "character": "憑"
+    },
+    {
+      "old_index": 2717,
+      "character": "憫"
+    },
+    {
+      "old_index": 2718,
+      "character": "憮"
+    },
+    {
+      "old_index": 2721,
+      "character": "懺"
+    },
+    {
+      "old_index": 2724,
+      "character": "拗"
+    },
+    {
+      "old_index": 2725,
+      "character": "拮"
+    },
+    {
+      "old_index": 2727,
+      "character": "掟"
+    },
+    {
+      "old_index": 2729,
+      "character": "搦"
+    },
+    {
+      "old_index": 2730,
+      "character": "摯"
+    },
+    {
+      "old_index": 2731,
+      "character": "擲"
+    },
+    {
+      "old_index": 2734,
+      "character": "暈"
+    },
+    {
+      "old_index": 2735,
+      "character": "曖"
+    },
+    {
+      "old_index": 2736,
+      "character": "曰"
+    },
+    {
+      "old_index": 2744,
+      "character": "檄"
+    },
+    {
+      "old_index": 2745,
+      "character": "檻"
+    },
+    {
+      "old_index": 2746,
+      "character": "鬱"
+    },
+    {
+      "old_index": 2747,
+      "character": "殲"
+    },
+    {
+      "old_index": 2749,
+      "character": "沁"
+    },
+    {
+      "old_index": 2750,
+      "character": "濤"
+    },
+    {
+      "old_index": 2753,
+      "character": "渾"
+    },
+    {
+      "old_index": 2754,
+      "character": "溘"
+    },
+    {
+      "old_index": 2755,
+      "character": "滄"
+    },
+    {
+      "old_index": 2759,
+      "character": "濘"
+    },
+    {
+      "old_index": 2761,
+      "character": "炯"
+    },
+    {
+      "old_index": 2763,
+      "character": "煌"
+    },
+    {
+      "old_index": 2764,
+      "character": "燻"
+    },
+    {
+      "old_index": 2765,
+      "character": "熾"
+    },
+    {
+      "old_index": 2766,
+      "character": "爛"
+    },
+    {
+      "old_index": 2770,
+      "character": "獪"
+    },
+    {
+      "old_index": 2771,
+      "character": "獰"
+    },
+    {
+      "old_index": 2772,
+      "character": "珈"
+    },
+    {
+      "old_index": 2773,
+      "character": "琲"
+    },
+    {
+      "old_index": 2775,
+      "character": "璧"
+    },
+    {
+      "old_index": 2776,
+      "character": "疇"
+    },
+    {
+      "old_index": 2779,
+      "character": "痍"
+    },
+    {
+      "old_index": 2781,
+      "character": "痣"
+    },
+    {
+      "old_index": 2782,
+      "character": "痺"
+    },
+    {
+      "old_index": 2783,
+      "character": "癪"
+    },
+    {
+      "old_index": 2784,
+      "character": "皺"
+    },
+    {
+      "old_index": 2788,
+      "character": "睨"
+    },
+    {
+      "old_index": 2791,
+      "character": "瞑"
+    },
+    {
+      "old_index": 2792,
+      "character": "瞞"
+    },
+    {
+      "old_index": 2794,
+      "character": "瞼"
+    },
+    {
+      "old_index": 2797,
+      "character": "礫"
+    },
+    {
+      "old_index": 2800,
+      "character": "齋"
+    },
+    {
+      "old_index": 2801,
+      "character": "穢"
+    },
+    {
+      "old_index": 2802,
+      "character": "穽"
+    },
+    {
+      "old_index": 2803,
+      "character": "窩"
+    },
+    {
+      "old_index": 2804,
+      "character": "竄"
+    },
+    {
+      "old_index": 2805,
+      "character": "筐"
+    },
+    {
+      "old_index": 2806,
+      "character": "筺"
+    },
+    {
+      "old_index": 2807,
+      "character": "篩"
+    },
+    {
+      "old_index": 2808,
+      "character": "籠"
+    },
+    {
+      "old_index": 2809,
+      "character": "絆"
+    },
+    {
+      "old_index": 2810,
+      "character": "綺"
+    },
+    {
+      "old_index": 2811,
+      "character": "緻"
+    },
+    {
+      "old_index": 2812,
+      "character": "縷"
+    },
+    {
+      "old_index": 2813,
+      "character": "縲"
+    },
+    {
+      "old_index": 2814,
+      "character": "縺"
+    },
+    {
+      "old_index": 2815,
+      "character": "繧"
+    },
+    {
+      "old_index": 2816,
+      "character": "繝"
+    },
+    {
+      "old_index": 2817,
+      "character": "罠"
+    },
+    {
+      "old_index": 2821,
+      "character": "翳"
+    },
+    {
+      "old_index": 2822,
+      "character": "脛"
+    },
+    {
+      "old_index": 2823,
+      "character": "腑"
+    },
+    {
+      "old_index": 2824,
+      "character": "舐"
+    },
+    {
+      "old_index": 2825,
+      "character": "芻"
+    },
+    {
+      "old_index": 2827,
+      "character": "荳"
+    },
+    {
+      "old_index": 2828,
+      "character": "菴"
+    },
+    {
+      "old_index": 2829,
+      "character": "薔"
+    },
+    {
+      "old_index": 2830,
+      "character": "藪"
+    },
+    {
+      "old_index": 2831,
+      "character": "薇"
+    },
+    {
+      "old_index": 2833,
+      "character": "蘊"
+    },
+    {
+      "old_index": 2835,
+      "character": "蚩"
+    },
+    {
+      "old_index": 2836,
+      "character": "蛛"
+    },
+    {
+      "old_index": 2841,
+      "character": "蠅"
+    },
+    {
+      "old_index": 2844,
+      "character": "袁"
+    },
+    {
+      "old_index": 2846,
+      "character": "褄"
+    },
+    {
+      "old_index": 2847,
+      "character": "訝"
+    },
+    {
+      "old_index": 2848,
+      "character": "詛"
+    },
+    {
+      "old_index": 2849,
+      "character": "詭"
+    },
+    {
+      "old_index": 2850,
+      "character": "誅"
+    },
+    {
+      "old_index": 2851,
+      "character": "諍"
+    },
+    {
+      "old_index": 2852,
+      "character": "諳"
+    },
+    {
+      "old_index": 2853,
+      "character": "謐"
+    },
+    {
+      "old_index": 2854,
+      "character": "謳"
+    },
+    {
+      "old_index": 2855,
+      "character": "譚"
+    },
+    {
+      "old_index": 2856,
+      "character": "貶"
+    },
+    {
+      "old_index": 2857,
+      "character": "賤"
+    },
+    {
+      "old_index": 2858,
+      "character": "賽"
+    },
+    {
+      "old_index": 2859,
+      "character": "贄"
+    },
+    {
+      "old_index": 2860,
+      "character": "贅"
+    },
+    {
+      "old_index": 2861,
+      "character": "贔"
+    },
+    {
+      "old_index": 2862,
+      "character": "蹂"
+    },
+    {
+      "old_index": 2868,
+      "character": "躓"
+    },
+    {
+      "old_index": 2869,
+      "character": "躙"
+    },
+    {
+      "old_index": 2870,
+      "character": "躾"
+    },
+    {
+      "old_index": 2871,
+      "character": "軋"
+    },
+    {
+      "old_index": 2872,
+      "character": "轅"
+    },
+    {
+      "old_index": 2876,
+      "character": "逡"
+    },
+    {
+      "old_index": 2878,
+      "character": "邁"
+    },
+    {
+      "old_index": 2879,
+      "character": "鋏"
+    },
+    {
+      "old_index": 2880,
+      "character": "鎬"
+    },
+    {
+      "old_index": 2881,
+      "character": "鏃"
+    },
+    {
+      "old_index": 2882,
+      "character": "鑽"
+    },
+    {
+      "old_index": 2883,
+      "character": "閻"
+    },
+    {
+      "old_index": 2884,
+      "character": "闊"
+    },
+    {
+      "old_index": 2885,
+      "character": "闖"
+    },
+    {
+      "old_index": 2886,
+      "character": "陦"
+    },
+    {
+      "old_index": 2887,
+      "character": "隕"
+    },
+    {
+      "old_index": 2888,
+      "character": "隲"
+    },
+    {
+      "old_index": 2891,
+      "character": "鞴"
+    },
+    {
+      "old_index": 2892,
+      "character": "韋"
+    },
+    {
+      "old_index": 2893,
+      "character": "頸"
+    },
+    {
+      "old_index": 2894,
+      "character": "頷"
+    },
+    {
+      "old_index": 2895,
+      "character": "颯"
+    },
+    {
+      "old_index": 2896,
+      "character": "飄"
+    },
+    {
+      "old_index": 2897,
+      "character": "餞"
+    },
+    {
+      "old_index": 2898,
+      "character": "饒"
+    },
+    {
+      "old_index": 2899,
+      "character": "騙"
+    },
+    {
+      "old_index": 2900,
+      "character": "驕"
+    },
+    {
+      "old_index": 2901,
+      "character": "髯"
+    },
+    {
+      "old_index": 2902,
+      "character": "髮"
+    },
+    {
+      "old_index": 2904,
+      "character": "麒"
+    },
+    {
+      "old_index": 2905,
+      "character": "齧"
+    },
+    {
+      "old_index": 2906,
+      "character": "遙"
+    },
+    {
+      "old_index": 2909,
+      "character": "詐"
+    },
+    {
+      "old_index": 2911,
+      "character": "幣"
+    },
+    {
+      "old_index": 2913,
+      "character": "貪"
+    },
+    {
+      "old_index": 2915,
+      "character": "礁"
+    },
+    {
+      "old_index": 2917,
+      "character": "噺"
+    },
+    {
+      "old_index": 2919,
+      "character": "侘"
+    },
+    {
+      "old_index": 2921,
+      "character": "蹟"
+    },
+    {
+      "old_index": 2922,
+      "character": "紬"
+    },
+    {
+      "old_index": 2924,
+      "character": "燈"
+    },
+    {
+      "old_index": 2926,
+      "character": "沌"
+    },
+    {
+      "old_index": 2928,
+      "character": "鵬"
+    },
+    {
+      "old_index": 2930,
+      "character": "淨"
+    },
+    {
+      "old_index": 2931,
+      "character": "祓"
+    },
+    {
+      "old_index": 2932,
+      "character": "蜴"
+    },
+    {
+      "old_index": 2933,
+      "character": "蜥"
+    },
+    {
+      "old_index": 2934,
+      "character": "葵"
+    },
+    {
+      "old_index": 2935,
+      "character": "茜"
+    },
+    {
+      "old_index": 2936,
+      "character": "梓"
+    },
+    {
+      "old_index": 2937,
+      "character": "斡"
+    },
+    {
+      "old_index": 2938,
+      "character": "虻"
+    },
+    {
+      "old_index": 2939,
+      "character": "鮎"
+    },
+    {
+      "old_index": 2940,
+      "character": "庵"
+    },
+    {
+      "old_index": 2941,
+      "character": "杏"
+    },
+    {
+      "old_index": 2942,
+      "character": "尉"
+    },
+    {
+      "old_index": 2943,
+      "character": "惟"
+    },
+    {
+      "old_index": 2945,
+      "character": "卯"
+    },
+    {
+      "old_index": 2946,
+      "character": "薗"
+    },
+    {
+      "old_index": 2947,
+      "character": "岳"
+    },
+    {
+      "old_index": 2949,
+      "character": "鴨"
+    },
+    {
+      "old_index": 2950,
+      "character": "舘"
+    },
+    {
+      "old_index": 2952,
+      "character": "峡"
+    },
+    {
+      "old_index": 2954,
+      "character": "欽"
+    },
+    {
+      "old_index": 2955,
+      "character": "倶"
+    },
+    {
+      "old_index": 2956,
+      "character": "隈"
+    },
+    {
+      "old_index": 2957,
+      "character": "薫"
+    },
+    {
+      "old_index": 2958,
+      "character": "圭"
+    },
+    {
+      "old_index": 2959,
+      "character": "慶"
+    },
+    {
+      "old_index": 2960,
+      "character": "憲"
+    },
+    {
+      "old_index": 2962,
+      "character": "瑚"
+    },
+    {
+      "old_index": 2963,
+      "character": "鯉"
+    },
+    {
+      "old_index": 2964,
+      "character": "孝"
+    },
+    {
+      "old_index": 2966,
+      "character": "弘"
+    },
+    {
+      "old_index": 2969,
+      "character": "浩"
+    },
+    {
+      "old_index": 2970,
+      "character": "裟"
+    },
+    {
+      "old_index": 2973,
+      "character": "汐"
+    },
+    {
+      "old_index": 2974,
+      "character": "紗"
+    },
+    {
+      "old_index": 2976,
+      "character": "駿"
+    },
+    {
+      "old_index": 2978,
+      "character": "淳"
+    },
+    {
+      "old_index": 2979,
+      "character": "渚"
+    },
+    {
+      "old_index": 2983,
+      "character": "樟"
+    },
+    {
+      "old_index": 2984,
+      "character": "湘"
+    },
+    {
+      "old_index": 2986,
+      "character": "埴"
+    },
+    {
+      "old_index": 2988,
+      "character": "薪"
+    },
+    {
+      "old_index": 2989,
+      "character": "嵩"
+    },
+    {
+      "old_index": 2990,
+      "character": "雛"
+    },
+    {
+      "old_index": 2991,
+      "character": "舛"
+    },
+    {
+      "old_index": 2993,
+      "character": "黛"
+    },
+    {
+      "old_index": 2994,
+      "character": "瀧"
+    },
+    {
+      "old_index": 2995,
+      "character": "啄"
+    },
+    {
+      "old_index": 2997,
+      "character": "勅"
+    },
+    {
+      "old_index": 2998,
+      "character": "碇"
+    },
+    {
+      "old_index": 3000,
+      "character": "惇"
+    },
+    {
+      "old_index": 3001,
+      "character": "敦"
+    },
+    {
+      "old_index": 3002,
+      "character": "楢"
+    },
+    {
+      "old_index": 3003,
+      "character": "祢"
+    },
+    {
+      "old_index": 3007,
+      "character": "肇"
+    },
+    {
+      "old_index": 3008,
+      "character": "隼"
+    },
+    {
+      "old_index": 3009,
+      "character": "磐"
+    },
+    {
+      "old_index": 3010,
+      "character": "緋"
+    },
+    {
+      "old_index": 3013,
+      "character": "楓"
+    },
+    {
+      "old_index": 3014,
+      "character": "甫"
+    },
+    {
+      "old_index": 3019,
+      "character": "槙"
+    },
+    {
+      "old_index": 3020,
+      "character": "岬"
+    },
+    {
+      "old_index": 3021,
+      "character": "蓑"
+    },
+    {
+      "old_index": 3022,
+      "character": "稔"
+    },
+    {
+      "old_index": 3023,
+      "character": "靖"
+    },
+    {
+      "old_index": 3024,
+      "character": "諭"
+    },
+    {
+      "old_index": 3026,
+      "character": "祐"
+    },
+    {
+      "old_index": 3027,
+      "character": "蘭"
+    },
+    {
+      "old_index": 3029,
+      "character": "琉"
+    },
+    {
+      "old_index": 3030,
+      "character": "龍"
+    },
+    {
+      "old_index": 3032,
+      "character": "僚"
+    },
+    {
+      "old_index": 3033,
+      "character": "稜"
+    },
+    {
+      "old_index": 3034,
+      "character": "遼"
+    },
+    {
+      "old_index": 3036,
+      "character": "伶"
+    },
+    {
+      "old_index": 3038,
+      "character": "漣"
+    },
+    {
+      "old_index": 3039,
+      "character": "蛯"
+    }
+  ]
+}

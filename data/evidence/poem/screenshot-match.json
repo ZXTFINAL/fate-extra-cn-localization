@@ -1,0 +1,22 @@
+[
+  {
+    "name": "opening",
+    "correlation": 0.9608795949402557,
+    "x": 492,
+    "y": 590,
+    "width": 265,
+    "height": 26,
+    "scale": 1.8399999999999959,
+    "resample": "3"
+  },
+  {
+    "name": "ordinary",
+    "correlation": 0.965103619239651,
+    "x": 492,
+    "y": 624,
+    "width": 360,
+    "height": 26,
+    "scale": 1.834999999999996,
+    "resample": "2"
+  }
+]

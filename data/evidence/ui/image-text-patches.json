@@ -1,0 +1,33 @@
+{
+  "entries": [
+    {
+      "file": "modeselect/interface/modeselect/fiction.txb",
+      "index": 0,
+      "blocks": [
+        {
+          "box": [
+            85,
+            106,
+            350,
+            63
+          ],
+          "text": "本故事纯属虚构。\n作品中的所有设定均为创作，\n与现实中的个人、团体无任何关系。",
+          "size": 16,
+          "spacing": 2,
+          "color": [
+            180,
+            255,
+            255,
+            255
+          ],
+          "background": [
+            0,
+            0,
+            0,
+            255
+          ]
+        }
+      ]
+    }
+  ]
+}

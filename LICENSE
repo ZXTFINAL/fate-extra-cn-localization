@@ -1,0 +1,49 @@
+# 许可协议
+
+本仓库采用**分域许可**，因为代码、文档与翻译文本的适用方式不同。
+
+## 1. 代码（`scripts/` 及其派生脚本）
+
+MIT License
+
+Copyright (c) 2026 Fate/Extra 简体中文汉化工程贡献者
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## 2. 文档与翻译文本（`docs/`、`README.md`、`data/translation/`、`data/review/`）
+
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+（CC BY-NC-SA 4.0）
+
+- 署名：注明来源仓库与贡献者。
+- 非商业：不得用于商业目的。
+- 相同方式共享：演绎作品须以相同许可发布。
+
+许可全文：<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+## 3. 游戏素材
+
+本仓库**不包含**《Fate/Extra》的游戏本体、ISO、CPK、字体、纹理、音频或任何提取出的商业素材。
+`data/evidence/` 中仅包含为说明缺陷而保留的最小审计切片与对比图，其版权仍属原权利人，仅作研究、评论与兼容性分析之用。
+
+游戏及素材版权归 Marvelous / TYPE-MOON 等原权利人所有。使用本仓库脚本时，请自备合法取得的游戏副本，并自行承担当地法律风险。
+
+## 4. 第三方参考
+
+文件格式研究参考了 [ccc-tl/translation-tools](https://github.com/ccc-tl/translation-tools)。该项目的代码与文档遵循其原始许可，本仓库未复制其实现代码，仅在文档中标注格式结论来源。

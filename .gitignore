@@ -1,0 +1,25 @@
+# 构建与中间产物
+work/
+*.iso
+*.cpk
+*.7z
+*.raw
+*.pgm
+
+# 可重建的引用表
+refs.jsonl
+text.pre-*.jsonl
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# macOS
+.DS_Store
+._*
+
+# 编辑器
+.idea/
+.vscode/

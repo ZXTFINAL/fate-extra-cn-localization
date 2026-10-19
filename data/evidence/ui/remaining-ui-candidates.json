@@ -1,0 +1,3834 @@
+[
+  {
+    "file": "000021_0/interface/dungeon/shar_arena.txb",
+    "index": 16,
+    "name": "hel_no_00_04.tex",
+    "width": 24,
+    "height": 24,
+    "png": "work/research/ui-localization-audit/all-ui/000021_0/interface/dungeon/shar_arena.txb/016-hel_no_00_04.png",
+    "ocr_lines": [
+      {
+        "box": [
+          1.9999999000000006,
+          3.9999998714285736,
+          17.999999999999996,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "寸"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000021_0/interface/dungeon/shar_arena.txb",
+      "work/extracted/packages/pack/000023_0/interface/dungeon/shar_arena.txb",
+      "work/extracted/packages/pack/000100_0/interface/dungeon/shar_arena.txb",
+      "work/extracted/packages/pack/000110_0/interface/dungeon/shar_arena.txb",
+      "work/extracted/packages/pack/000111_0/interface/dungeon/shar_arena.txb",
+      "work/extracted/packages/pack/000120_0/interface/dungeon/shar_arena.txb",
+      "work/extracted/packages/pack/000121_0/interface/dungeon/shar_arena.txb",
+      "work/extracted/packages/pack/000130_0/interface/dungeon/shar_arena.txb",
+      "work/extracted/packages/pack/000131_0/interface/dungeon/shar_arena.txb",
+      "work/extracted/packages/pack/000140_0/interface/dungeon/shar_arena.txb",
+      "work/extracted/packages/pack/000141_0/interface/dungeon/shar_arena.txb",
+      "work/extracted/packages/pack/000150_0/interface/dungeon/shar_arena.txb",
+      "work/extracted/packages/pack/000151_0/interface/dungeon/shar_arena.txb",
+      "work/extracted/packages/pack/000160_0/interface/dungeon/shar_arena.txb",
+      "work/extracted/packages/pack/000161_0/interface/dungeon/shar_arena.txb",
+      "work/extracted/packages/pack/000170_0/interface/dungeon/shar_arena.txb",
+      "work/extracted/packages/pack/000171_0/interface/dungeon/shar_arena.txb",
+      "work/extracted/packages/pack/000180_0/interface/dungeon/shar_arena.txb",
+      "work/extracted/packages/pack/000181_0/interface/dungeon/shar_arena.txb",
+      "work/extracted/packages/pack/000190_0/interface/dungeon/shar_arena.txb",
+      "work/extracted/packages/pack/000308_0/interface/dungeon/shar_arena.txb",
+      "work/extracted/packages/pack/000310_0/interface/dungeon/shar_arena.txb",
+      "work/extracted/packages/pack/000311_0/interface/dungeon/shar_arena.txb",
+      "work/extracted/packages/pack/000314_0/interface/dungeon/shar_arena.txb",
+      "work/extracted/packages/pack/000317_0/interface/dungeon/shar_arena.txb",
+      "work/extracted/packages/pack/000318_0/interface/dungeon/shar_arena.txb",
+      "work/extracted/packages/pack/000321_0/interface/dungeon/shar_arena.txb",
+      "work/extracted/packages/pack/000322_0/interface/dungeon/shar_arena.txb",
+      "work/extracted/packages/pack/000323_0/interface/dungeon/shar_arena.txb",
+      "work/extracted/packages/pack/000324_0/interface/dungeon/shar_arena.txb",
+      "work/extracted/packages/pack/000325_0/interface/dungeon/shar_arena.txb",
+      "work/extracted/packages/pack/000326_0/interface/dungeon/shar_arena.txb",
+      "work/extracted/packages/pack/000327_0/interface/dungeon/shar_arena.txb"
+    ],
+    "classification": "icon_digit_english_ocr_false_positive"
+  },
+  {
+    "file": "000021_1/battle/interface/btl_menu.txb",
+    "index": 10,
+    "name": "btl_bst_07.tex",
+    "width": 20,
+    "height": 20,
+    "png": "work/research/ui-localization-audit/all-ui/000021_1/battle/interface/btl_menu.txb/010-btl_bst_07.png",
+    "ocr_lines": [
+      {
+        "box": [
+          -1.97877720253814e-06,
+          1.999997978365653,
+          18.000003814697266,
+          16.00000381469727
+        ],
+        "confidence": 0.5,
+        "text": "で"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000021_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000023_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000100_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000110_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000111_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000120_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000121_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000130_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000131_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000140_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000141_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000150_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000151_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000160_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000161_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000170_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000171_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000180_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000181_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000190_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000308_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000310_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000311_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000314_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000317_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000318_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000321_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000322_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000323_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000324_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000325_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000326_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000327_1/battle/interface/btl_menu.txb"
+    ],
+    "classification": "icon_digit_english_ocr_false_positive"
+  },
+  {
+    "file": "000021_1/battle/interface/btl_menu.txb",
+    "index": 49,
+    "name": "btl_icon_03.tex",
+    "width": 32,
+    "height": 32,
+    "png": "work/research/ui-localization-audit/all-ui/000021_1/battle/interface/btl_menu.txb/049-btl_icon_03.png",
+    "ocr_lines": [
+      {
+        "box": [
+          3.999997992651368,
+          5.9999979815402575,
+          22.000003814697266,
+          20.000003814697266
+        ],
+        "confidence": 0.5,
+        "text": "父"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000021_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000023_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000100_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000110_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000111_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000120_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000121_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000130_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000131_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000140_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000141_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000150_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000151_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000160_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000161_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000170_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000171_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000180_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000181_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000190_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000308_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000310_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000311_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000314_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000317_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000318_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000321_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000322_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000323_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000324_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000325_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000326_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000327_1/battle/interface/btl_menu.txb"
+    ],
+    "classification": "icon_digit_english_ocr_false_positive"
+  },
+  {
+    "file": "000021_1/battle/interface/btl_menu.txb",
+    "index": 108,
+    "name": "btl_slt_05.tex",
+    "width": 80,
+    "height": 16,
+    "png": "work/research/ui-localization-audit/all-ui/000021_1/battle/interface/btl_menu.txb/108-btl_slt_05.png",
+    "ocr_lines": [
+      {
+        "box": [
+          7.999999840000001,
+          -6.999999868639861e-08,
+          60,
+          14
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ロSKILL"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000021_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000023_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000100_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000110_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000111_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000120_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000121_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000130_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000131_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000140_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000141_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000150_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000151_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000160_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000161_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000170_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000171_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000180_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000181_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000190_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000308_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000310_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000311_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000314_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000317_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000318_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000321_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000322_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000323_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000324_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000325_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000326_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000327_1/battle/interface/btl_menu.txb"
+    ],
+    "classification": "icon_digit_english_ocr_false_positive"
+  },
+  {
+    "file": "000021_1/battle/interface/btl_menu.txb",
+    "index": 149,
+    "name": "log_c_cast.tex",
+    "width": 64,
+    "height": 16,
+    "png": "work/research/ui-localization-audit/all-ui/000021_1/battle/interface/btl_menu.txb/149-log_c_cast.png",
+    "ocr_lines": [
+      {
+        "box": [
+          -0.0384636923979933,
+          -0.16672756676629064,
+          60.076927185058594,
+          14.333454608917238
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C・CAST"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000021_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000023_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000100_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000110_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000111_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000120_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000121_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000130_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000131_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000140_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000141_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000150_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000151_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000160_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000161_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000170_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000171_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000180_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000181_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000190_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000308_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000310_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000311_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000314_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000317_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000318_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000321_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000322_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000323_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000324_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000325_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000326_1/battle/interface/btl_menu.txb",
+      "work/extracted/packages/pack/000327_1/battle/interface/btl_menu.txb"
+    ],
+    "classification": "icon_digit_english_ocr_false_positive"
+  },
+  {
+    "file": "000023_0/interface/staff/staffroll.txb",
+    "index": 0,
+    "name": "00.tex",
+    "width": 480,
+    "height": 272,
+    "png": "work/research/ui-localization-audit/all-ui/000023_0/interface/staff/staffroll.txb/000-00.png",
+    "ocr_lines": [
+      {
+        "box": [
+          173.9999989166667,
+          24.00000008333332,
+          130.00000000000003,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "オープニング主題歌"
+      },
+      {
+        "box": [
+          184.00000104999998,
+          50.00000019999999,
+          112,
+          16.000000000000004
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ALI PROJECT"
+      },
+      {
+        "box": [
+          187.99999898000002,
+          72.00000005999998,
+          101.99999999999999,
+          17.999999999999996
+        ],
+        "confidence": 0.5,
+        "text": "『亂世エロイカ』"
+      },
+      {
+        "box": [
+          102.00000197142856,
+          95.9999999,
+          276,
+          18.00000000000003
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "作詞：宝野アリカ作曲編曲：片倉 三越也"
+      },
+      {
+        "box": [
+          188.00000086666665,
+          119.99999991666668,
+          104,
+          17.999999999999996
+        ],
+        "confidence": 0.5,
+        "text": "発売：ランティス"
+      },
+      {
+        "box": [
+          187.66463827222265,
+          234.45150398638327,
+          104.67072296142578,
+          27.09699249267578
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ーCASTー"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000023_0/interface/staff/staffroll.txb"
+    ],
+    "classification": "credits_preserved"
+  },
+  {
+    "file": "000023_0/interface/staff/staffroll.txb",
+    "index": 1,
+    "name": "01.tex",
+    "width": 480,
+    "height": 272,
+    "png": "work/research/ui-localization-audit/all-ui/000023_0/interface/staff/staffroll.txb/001-01.png",
+    "ocr_lines": [
+      {
+        "box": [
+          174.00000056,
+          15.999999900000013,
+          56.000000000000014,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "セイバー"
+      },
+      {
+        "box": [
+          160.0000007,
+          39.99999989999999,
+          69.99999999999999,
+          18.00000000000003
+        ],
+        "confidence": 1,
+        "text": "アーチャー"
+      },
+      {
+        "box": [
+          163.95706643286735,
+          63.836413262577594,
+          68.0858688354492,
+          18.327173233032244
+        ],
+        "confidence": 1,
+        "text": "キャスター"
+      },
+      {
+        "box": [
+          159.95959904170755,
+          135.84157266380123,
+          70.08080291748045,
+          18.3168544769287
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "間桐億二"
+      },
+      {
+        "box": [
+          176.00000045,
+          159.99999988333332,
+          53.99999999999999,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "ライダー"
+      },
+      {
+        "box": [
+          109.999999,
+          208.00000011666668,
+          120,
+          17.999999999999996
+        ],
+        "confidence": 0.5,
+        "text": "ダン=ブラックモア"
+      },
+      {
+        "box": [
+          162.00000067999997,
+          231.9999999,
+          68,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "アーチャー"
+      },
+      {
+        "box": [
+          249.99999953333338,
+          16.00000011666667,
+          56.000000000000014,
+          17.999999999999996
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "丹下 桜"
+      },
+      {
+        "box": [
+          249.75380029398482,
+          38.73865015671611,
+          86.49240112304688,
+          20.522699356079126
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "諏訪部順一"
+      },
+      {
+        "box": [
+          249.93036963004644,
+          63.72529802235377,
+          70.13925933837893,
+          18.54940509796141
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "斎藤千和"
+      },
+      {
+        "box": [
+          252.0000005,
+          135.9999999,
+          70.00000000000001,
+          17.999999999999996
+        ],
+        "confidence": 0.5,
+        "text": "神谷 浩史"
+      },
+      {
+        "box": [
+          251.99999961428568,
+          160.0000001,
+          54.00000000000002,
+          17.999999999999996
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "高乃麗"
+      },
+      {
+        "box": [
+          252.00000022857142,
+          207.9999999,
+          31.999999999999993,
+          17.999999999999996
+        ],
+        "confidence": 0.5,
+        "text": "麦人"
+      },
+      {
+        "box": [
+          252.00000058333328,
+          231.99999988333332,
+          70.00000000000001,
+          17.999999999999996
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "烏海浩輔"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000023_0/interface/staff/staffroll.txb"
+    ],
+    "classification": "credits_preserved"
+  },
+  {
+    "file": "000023_0/interface/staff/staffroll.txb",
+    "index": 2,
+    "name": "02.tex",
+    "width": 480,
+    "height": 272,
+    "png": "work/research/ui-localization-audit/all-ui/000023_0/interface/staff/staffroll.txb/002-02.png",
+    "ocr_lines": [
+      {
+        "box": [
+          189.99999966666667,
+          8.000000116666667,
+          40.000000000000014,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "ありす"
+      },
+      {
+        "box": [
+          163.99999925000003,
+          31.999999775000013,
+          68,
+          17.999999999999996
+        ],
+        "confidence": 0.5,
+        "text": "キャスター"
+      },
+      {
+        "box": [
+          159.8534856926361,
+          79.41221798703955,
+          70.29302978515625,
+          19.17556381225585
+        ],
+        "confidence": 0.5,
+        "text": "臥藤門司"
+      },
+      {
+        "box": [
+          148.00000081999997,
+          103.9999999,
+          82,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "バーサーカー"
+      },
+      {
+        "box": [
+          153.94034272904162,
+          151.73785679968364,
+          78.11931610107422,
+          18.524287223815918
+        ],
+        "confidence": 1,
+        "text": "ランルーくん"
+      },
+      {
+        "box": [
+          173.999999425,
+          175.999999775,
+          58.00000000000001,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "ランサー"
+      },
+      {
+        "box": [
+          85.99999880000001,
+          224.00000011666668,
+          144.00000000000003,
+          17.999999999999996
+        ],
+        "confidence": 0.5,
+        "text": "ユリウス・B・ハーウェイ"
+      },
+      {
+        "box": [
+          173.99999953333332,
+          248.00000008333336,
+          56.000000000000014,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "アサシン"
+      },
+      {
+        "box": [
+          249.9999993,
+          8.000000125000005,
+          56.000000000000014,
+          17.999999999999996
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "野中藍"
+      },
+      {
+        "box": [
+          249.99999944,
+          32.000000099999994,
+          55.99999999999996,
+          17.999999999999996
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "野中藍"
+      },
+      {
+        "box": [
+          251.8662802035207,
+          79.35375299916404,
+          84.2674407958985,
+          19.29249382019041
+        ],
+        "confidence": 0.5,
+        "text": "伊藤健太郎"
+      },
+      {
+        "box": [
+          251.96286059271605,
+          103.85865678122033,
+          68.07427978515625,
+          18.282686233520526
+        ],
+        "confidence": 0.5,
+        "text": "柚木 涼香"
+      },
+      {
+        "box": [
+          251.79459427043153,
+          151.23989477786694,
+          64.41081237792969,
+          19.520211219787598
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "小林 ゆう"
+      },
+      {
+        "box": [
+          251.91786645407294,
+          175.67510214039677,
+          70.16426849365234,
+          18.64979648590088
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "江川 央生"
+      },
+      {
+        "box": [
+          251.96900235375392,
+          223.87868106821827,
+          70.06199645996091,
+          18.242637634277347
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "羽多野渉"
+      },
+      {
+        "box": [
+          251.88843213384132,
+          247.5558556417949,
+          70.22313690185547,
+          18.888288497924798
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "安井 邦彦"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000023_0/interface/staff/staffroll.txb"
+    ],
+    "classification": "credits_preserved"
+  },
+  {
+    "file": "000023_0/interface/staff/staffroll.txb",
+    "index": 3,
+    "name": "03.tex",
+    "width": 480,
+    "height": 272,
+    "png": "work/research/ui-localization-audit/all-ui/000023_0/interface/staff/staffroll.txb/003-03.png",
+    "ocr_lines": [
+      {
+        "box": [
+          173.99999953333332,
+          24.00000008333332,
+          56.000000000000014,
+          17.999999999999996
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "遠坂凛"
+      },
+      {
+        "box": [
+          174.00000072499998,
+          47.99999987500001,
+          58.00000000000001,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "ランサー"
+      },
+      {
+        "box": [
+          173.99999960000002,
+          96.00000022500001,
+          56.000000000000014,
+          17.999999999999996
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ラニ=V"
+      },
+      {
+        "box": [
+          148.00000083999998,
+          119.9999999,
+          84,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "バーサーカー"
+      },
+      {
+        "box": [
+          73.99999888571429,
+          168.0000001,
+          155.99999999999997,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "レオナルド・B・ハーウェイ"
+      },
+      {
+        "box": [
+          176.00000045,
+          191.99999988333332,
+          53.99999999999999,
+          17.999999999999996
+        ],
+        "confidence": 0.5,
+        "text": "セイバー"
+      },
+      {
+        "box": [
+          86.00000102857143,
+          239.9999999,
+          144,
+          18.00000000000003
+        ],
+        "confidence": 0.5,
+        "text": "トワイス・H・ピースマン"
+      },
+      {
+        "box": [
+          251.96059086298558,
+          23.845503709277178,
+          70.07881927490237,
+          18.30899238586425
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "植田 佳奈"
+      },
+      {
+        "box": [
+          251.99999951428572,
+          48.0000001,
+          68.00000000000003,
+          17.999999999999996
+        ],
+        "confidence": 0.5,
+        "text": "神奈 延年"
+      },
+      {
+        "box": [
+          251.92451151378765,
+          95.66704549802658,
+          78.15097808837893,
+          18.665908813476552
+        ],
+        "confidence": 0.5,
+        "text": "真田アサミ"
+      },
+      {
+        "box": [
+          251.94263898129097,
+          119.77428424989378,
+          70.11472320556643,
+          18.45143127441404
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "安井 邦彦"
+      },
+      {
+        "box": [
+          251.91864624537925,
+          167.75291433225033,
+          54.16270828247072,
+          18.494171142578118
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "朴 璐美"
+      },
+      {
+        "box": [
+          251.8806538826634,
+          191.52408685902944,
+          70.23869323730472,
+          18.95182704925537
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "水島 大宙"
+      },
+      {
+        "box": [
+          251.82760690302555,
+          239.30434790591198,
+          70.34478759765625,
+          19.391304016113274
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "東地 宏樹"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000023_0/interface/staff/staffroll.txb"
+    ],
+    "classification": "credits_preserved"
+  },
+  {
+    "file": "000023_0/interface/staff/staffroll.txb",
+    "index": 4,
+    "name": "04.tex",
+    "width": 480,
+    "height": 272,
+    "png": "work/research/ui-localization-audit/all-ui/000023_0/interface/staff/staffroll.txb/004-04.png",
+    "ocr_lines": [
+      {
+        "box": [
+          181.9999994,
+          16.00000007499998,
+          48.000000000000014,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "両儀式"
+      },
+      {
+        "box": [
+          251.9568257558575,
+          15.830605404476707,
+          70.08634948730469,
+          18.33878898620607
+        ],
+        "confidence": 0.5,
+        "text": "坂本真綾"
+      },
+      {
+        "box": [
+          207.9813391407671,
+          87.93342580198865,
+          64.03732299804689,
+          18.133148193359382
+        ],
+        "confidence": 0.5,
+        "text": "音響監督"
+      },
+      {
+        "box": [
+          203.95603611351436,
+          111.8274830747202,
+          70.08792877197264,
+          18.34503364562988
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "辻谷耕史"
+      },
+      {
+        "box": [
+          148.00000185999997,
+          233.99999996000003,
+          186,
+          20.00000000000002
+        ],
+        "confidence": 0.5,
+        "text": "IMAGEEPOCH INC."
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000023_0/interface/staff/staffroll.txb"
+    ],
+    "classification": "credits_preserved"
+  },
+  {
+    "file": "000023_0/interface/staff/staffroll.txb",
+    "index": 5,
+    "name": "05.tex",
+    "width": 480,
+    "height": 272,
+    "png": "work/research/ui-localization-audit/all-ui/000023_0/interface/staff/staffroll.txb/005-05.png",
+    "ocr_lines": [
+      {
+        "box": [
+          184.0000018666666,
+          33.999999866666656,
+          111.99999999999997,
+          12.000000000000018
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ー DESIGN ー"
+      },
+      {
+        "box": [
+          178.00000154999998,
+          79.99999987500001,
+          123.99999999999999,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "アートディレクション"
+      },
+      {
+        "box": [
+          204.0000005833333,
+          103.99999988333333,
+          70.00000000000001,
+          17.999999999999996
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "斉藤 隆一"
+      },
+      {
+        "box": [
+          168.00000119999999,
+          151.99999988333332,
+          144.00000000000003,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "キャラクターモデリング"
+      },
+      {
+        "box": [
+          204.0000007,
+          175.9999999,
+          69.99999999999999,
+          17.999999999999996
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "鈴木 秀一"
+      },
+      {
+        "box": [
+          203.970332515648,
+          199.88392650633222,
+          70.0593338012695,
+          18.232147216796875
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "平原智行"
+      },
+      {
+        "box": [
+          211.9999996142857,
+          224.00000009999997,
+          53.99999999999997,
+          18.00000000000003
+        ],
+        "confidence": 0.5,
+        "text": "吉田藍"
+      },
+      {
+        "box": [
+          202.00000063333334,
+          247.99999988333332,
+          76.00000000000003,
+          17.999999999999996
+        ],
+        "confidence": 0.5,
+        "text": "荒牧 さゆり"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000023_0/interface/staff/staffroll.txb"
+    ],
+    "classification": "credits_preserved"
+  },
+  {
+    "file": "000023_0/interface/staff/staffroll.txb",
+    "index": 6,
+    "name": "06.tex",
+    "width": 480,
+    "height": 272,
+    "png": "work/research/ui-localization-audit/all-ui/000023_0/interface/staff/staffroll.txb/006-06.png",
+    "ocr_lines": [
+      {
+        "box": [
+          168.00000177499996,
+          23.999999875,
+          142.00000000000006,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "キャラクターモーション"
+      },
+      {
+        "box": [
+          212.00000056,
+          47.99999990000002,
+          56.000000000000014,
+          17.999999999999996
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "山本 誠"
+      },
+      {
+        "box": [
+          206.00000048571428,
+          71.99999989999999,
+          68,
+          17.999999999999996
+        ],
+        "confidence": 0.5,
+        "text": "稲田 定信"
+      },
+      {
+        "box": [
+          204.0000005833333,
+          95.99999991666664,
+          70.00000000000001,
+          18.00000000000003
+        ],
+        "confidence": 0.5,
+        "text": "田端浩和"
+      },
+      {
+        "box": [
+          212.0000003857143,
+          119.9999999,
+          54.00000000000002,
+          17.999999999999996
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "竹内功"
+      },
+      {
+        "box": [
+          189.74713988350112,
+          164.64736915927122,
+          100.50572204589845,
+          22.70526123046877
+        ],
+        "confidence": 1,
+        "text": "背景モデリング"
+      },
+      {
+        "box": [
+          203.94303181038387,
+          191.77583874872585,
+          70.11393737792972,
+          18.4483222961426
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "酒井 逍太"
+      },
+      {
+        "box": [
+          212.00000046666668,
+          215.99999988333332,
+          55.999999999999986,
+          17.999999999999996
+        ],
+        "confidence": 0.5,
+        "text": "萓野誠"
+      },
+      {
+        "box": [
+          211.9999996142857,
+          240.0000001,
+          53.99999999999997,
+          17.999999999999996
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "嶋谷将"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000023_0/interface/staff/staffroll.txb"
+    ],
+    "classification": "credits_preserved"
+  },
+  {
+    "file": "000023_0/interface/staff/staffroll.txb",
+    "index": 7,
+    "name": "07.tex",
+    "width": 480,
+    "height": 272,
+    "png": "work/research/ui-localization-audit/all-ui/000023_0/interface/staff/staffroll.txb/007-07.png",
+    "ocr_lines": [
+      {
+        "box": [
+          170.000001,
+          39.99999989999999,
+          140,
+          18.00000000000003
+        ],
+        "confidence": 1,
+        "text": "ヴィジュアルエフェクト"
+      },
+      {
+        "box": [
+          204.0000005,
+          63.99999990000002,
+          69.99999999999997,
+          17.999999999999996
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "武井 新二"
+      },
+      {
+        "box": [
+          203.99999941666667,
+          88.00000008333333,
+          70.00000000000004,
+          17.999999999999996
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "福井 拓生"
+      },
+      {
+        "box": [
+          206.00000048571428,
+          111.9999999,
+          68,
+          17.999999999999996
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "松山 裕貲"
+      },
+      {
+        "box": [
+          188.00000074285714,
+          159.9999999,
+          104.00000000000003,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "インターフェース"
+      },
+      {
+        "box": [
+          212.0000007,
+          183.99999987500001,
+          56.000000000000014,
+          17.999999999999996
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "石渡純"
+      },
+      {
+        "box": [
+          211.9492305803688,
+          207.8465174650625,
+          54.10153961181639,
+          18.306964874267567
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "島洸生"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000023_0/interface/staff/staffroll.txb"
+    ],
+    "classification": "credits_preserved"
+  },
+  {
+    "file": "000023_0/interface/staff/staffroll.txb",
+    "index": 8,
+    "name": "08.tex",
+    "width": 480,
+    "height": 272,
+    "png": "work/research/ui-localization-audit/all-ui/000023_0/interface/staff/staffroll.txb/008-08.png",
+    "ocr_lines": [
+      {
+        "box": [
+          168.00000142,
+          7.999999860000015,
+          141.99999999999997,
+          17.999999999999996
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ー PLANNING 一"
+      },
+      {
+        "box": [
+          174.00000131999997,
+          55.999999859999996,
+          132,
+          17.999999999999996
+        ],
+        "confidence": 0.5,
+        "text": "イベントプランニング"
+      },
+      {
+        "box": [
+          211.80461081819104,
+          79.39565667700222,
+          54.390777587890604,
+          19.208686828613274
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "池大輔"
+      },
+      {
+        "box": [
+          203.95302494354246,
+          103.81555093375081,
+          70.09394836425783,
+          18.36889839172363
+        ],
+        "confidence": 0.5,
+        "text": "田中国光"
+      },
+      {
+        "box": [
+          205.9453854643392,
+          127.79141797258126,
+          68.10923004150389,
+          18.417163848876953
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "佐藤一哉"
+      },
+      {
+        "box": [
+          203.9126923227268,
+          151.65425119170413,
+          70.17461395263672,
+          18.691498756408706
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "藤田基椡"
+      },
+      {
+        "box": [
+          172.00000135999997,
+          199.99999986,
+          135.99999999999994,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "アリーナブランニング"
+      },
+      {
+        "box": [
+          206.00000048571428,
+          223.9999999,
+          68,
+          17.999999999999996
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "関根 保成"
+      },
+      {
+        "box": [
+          205.9109349329229,
+          247.6574543857667,
+          68.17813110351567,
+          18.685091018676758
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "尾崎邦彦"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000023_0/interface/staff/staffroll.txb"
+    ],
+    "classification": "credits_preserved"
+  },
+  {
+    "file": "000023_0/interface/staff/staffroll.txb",
+    "index": 9,
+    "name": "09.tex",
+    "width": 480,
+    "height": 272,
+    "png": "work/research/ui-localization-audit/all-ui/000023_0/interface/staff/staffroll.txb/009-09.png",
+    "ocr_lines": [
+      {
+        "box": [
+          178.00000101666666,
+          23.999999883333338,
+          122,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "バトルブランニング"
+      },
+      {
+        "box": [
+          203.95769812250376,
+          47.834070309007984,
+          70.08460235595702,
+          18.331860542297356
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "鈴木 良和"
+      },
+      {
+        "box": [
+          203.99999941666667,
+          72.00000011666666,
+          70.00000000000004,
+          17.999999999999996
+        ],
+        "confidence": 0.5,
+        "text": "山本和哉"
+      },
+      {
+        "box": [
+          165.99999817500003,
+          146.00000004999998,
+          146,
+          11.999999999999988
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ー SCENARIOー"
+      },
+      {
+        "box": [
+          144.00000135714285,
+          191.99999989999998,
+          190.00000000000003,
+          18.00000000000003
+        ],
+        "confidence": 0.5,
+        "text": "奈須きのこ（TYPE-MOON）"
+      },
+      {
+        "box": [
+          203.97963664622466,
+          215.92048178295977,
+          70.04072570800784,
+          18.15903663635254
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "藤田基樹"
+      },
+      {
+        "box": [
+          206.00000048571428,
+          239.9999999,
+          68,
+          18.00000000000003
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "田中 国光"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000023_0/interface/staff/staffroll.txb"
+    ],
+    "classification": "credits_preserved"
+  },
+  {
+    "file": "000023_0/interface/staff/staffroll.txb",
+    "index": 10,
+    "name": "10.tex",
+    "width": 480,
+    "height": 272,
+    "png": "work/research/ui-localization-audit/all-ui/000023_0/interface/staff/staffroll.txb/010-10.png",
+    "ocr_lines": [
+      {
+        "box": [
+          152.00000152499996,
+          42.000000175,
+          178,
+          14.00000000000001
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ー PROGRAMMING 一"
+      },
+      {
+        "box": [
+          188.00000043333335,
+          87.99999984999997,
+          103.99999999999997,
+          18.00000000000003
+        ],
+        "confidence": 0.5,
+        "text": "リードプログラム"
+      },
+      {
+        "box": [
+          173.9999990714286,
+          112.00000010000002,
+          130,
+          17.999999999999996
+        ],
+        "confidence": 0.5,
+        "text": "フィールドブログラム"
+      },
+      {
+        "box": [
+          197.9485479626916,
+          135.75674142026708,
+          84.10290527343744,
+          18.486516952514663
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "黒岩太一郎"
+      },
+      {
+        "box": [
+          186.00000089999997,
+          183.9999999166667,
+          108.00000000000001,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "バトルブログラム"
+      },
+      {
+        "box": [
+          211.99999955,
+          208.00000008333336,
+          53.99999999999997,
+          17.999999999999996
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "東和也"
+      },
+      {
+        "box": [
+          154.00000171999997,
+          255.99999994,
+          172.00000000000003,
+          14.00000000000001
+        ],
+        "confidence": 1,
+        "text": "インターフェースプログラム"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000023_0/interface/staff/staffroll.txb"
+    ],
+    "classification": "credits_preserved"
+  },
+  {
+    "file": "000023_0/interface/staff/staffroll.txb",
+    "index": 11,
+    "name": "11.tex",
+    "width": 480,
+    "height": 272,
+    "png": "work/research/ui-localization-audit/all-ui/000023_0/interface/staff/staffroll.txb/011-11.png",
+    "ocr_lines": [
+      {
+        "box": [
+          166.00000184999996,
+          7.999999924999994,
+          148.00000000000003,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "ダイナミクスプログラム"
+      },
+      {
+        "box": [
+          222.00000027142858,
+          31.999999900000017,
+          38,
+          17.999999999999996
+        ],
+        "confidence": 0.5,
+        "text": "東真"
+      },
+      {
+        "box": [
+          136.00000148571428,
+          79.99999990000003,
+          208,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "ヴィジュアルエフェクトプログラム"
+      },
+      {
+        "box": [
+          203.8752548833624,
+          103.50197324217166,
+          70.24948883056639,
+          18.99605369567871
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "中島 勇雄"
+      },
+      {
+        "box": [
+          203.97920277027436,
+          127.91877927200858,
+          70.0415954589844,
+          18.16244125366211
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "藤本 雅土"
+      },
+      {
+        "box": [
+          205.81534243292805,
+          151.27509964397126,
+          68.36931610107425,
+          19.449800491333008
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "山田 一輝"
+      },
+      {
+        "box": [
+          180.00000085714285,
+          199.9999999,
+          119.99999999999997,
+          18.00000000000003
+        ],
+        "confidence": 0.5,
+        "text": "サウンドブログラム"
+      },
+      {
+        "box": [
+          159.99999802500005,
+          224.00000012499999,
+          158.00000000000006,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "ユーティリティブログラム"
+      },
+      {
+        "box": [
+          204.0000005,
+          247.99999990000003,
+          69.99999999999997,
+          17.999999999999996
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "藤本 雅士"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000023_0/interface/staff/staffroll.txb"
+    ],
+    "classification": "credits_preserved"
+  },
+  {
+    "file": "000023_0/interface/staff/staffroll.txb",
+    "index": 12,
+    "name": "12.tex",
+    "width": 480,
+    "height": 272,
+    "png": "work/research/ui-localization-audit/all-ui/000023_0/interface/staff/staffroll.txb/012-12.png",
+    "ocr_lines": [
+      {
+        "box": [
+          178.00000154999998,
+          23.999999875,
+          123.99999999999999,
+          17.999999999999996
+        ],
+        "confidence": 0.5,
+        "text": "プログラムサポート"
+      },
+      {
+        "box": [
+          203.95414294144473,
+          47.81998646305113,
+          70.09171295166018,
+          18.360027313232408
+        ],
+        "confidence": 0.5,
+        "text": "松浦直樹"
+      },
+      {
+        "box": [
+          142.00000242499993,
+          169.99999987500001,
+          193.99999999999997,
+          21.999999999999982
+        ],
+        "confidence": 0.5,
+        "text": "SuperSweep cooltd"
+      },
+      {
+        "box": [
+          181.999999325,
+          239.999999775,
+          113.99999999999994,
+          17.999999999999996
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ー SOUND ー"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000023_0/interface/staff/staffroll.txb"
+    ],
+    "classification": "credits_preserved"
+  },
+  {
+    "file": "000023_0/interface/staff/staffroll.txb",
+    "index": 13,
+    "name": "13.tex",
+    "width": 480,
+    "height": 272,
+    "png": "work/research/ui-localization-audit/all-ui/000023_0/interface/staff/staffroll.txb/013-13.png",
+    "ocr_lines": [
+      {
+        "box": [
+          180.00000085714285,
+          15.999999900000013,
+          119.99999999999997,
+          17.999999999999996
+        ],
+        "confidence": 0.5,
+        "text": "サウンドコンボーズ"
+      },
+      {
+        "box": [
+          216.0000006,
+          39.99999987500001,
+          48.000000000000014,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "作編曲"
+      },
+      {
+        "box": [
+          203.98008669720076,
+          63.92224800462033,
+          70.03982543945311,
+          18.155504226684577
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "細江慎治"
+      },
+      {
+        "box": [
+          181.99999857500003,
+          112.000000075,
+          114.00000000000003,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "サウンドエフェクト"
+      },
+      {
+        "box": [
+          205.95551003540612,
+          135.8304385346507,
+          68.08898162841801,
+          18.33912277221679
+        ],
+        "confidence": 0.5,
+        "text": "江口 孝宏"
+      },
+      {
+        "box": [
+          177.99999990166668,
+          257.99999999,
+          121.99999999999997,
+          11.999999999999988
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "TVPR-MOON"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000023_0/interface/staff/staffroll.txb"
+    ],
+    "classification": "credits_preserved"
+  },
+  {
+    "file": "000023_0/interface/staff/staffroll.txb",
+    "index": 14,
+    "name": "14.tex",
+    "width": 480,
+    "height": 272,
+    "png": "work/research/ui-localization-audit/all-ui/000023_0/interface/staff/staffroll.txb/014-14.png",
+    "ocr_lines": [
+      {
+        "box": [
+          224.00000022857142,
+          31.999999900000017,
+          31.999999999999964,
+          17.999999999999996
+        ],
+        "confidence": 0.5,
+        "text": "音楽"
+      },
+      {
+        "box": [
+          157.99999863333335,
+          56.000000083333326,
+          164,
+          18.00000000000003
+        ],
+        "confidence": 0.5,
+        "text": "KATE（TYPE-MOON）"
+      },
+      {
+        "box": [
+          185.99999894,
+          80.00000014,
+          105.99999999999997,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "James Harris"
+      },
+      {
+        "box": [
+          224.00000026666666,
+          127.99999991666665,
+          32.00000000000002,
+          18.00000000000003
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "協力"
+      },
+      {
+        "box": [
+          145.99999816000002,
+          152.0000001,
+          184,
+          17.999999999999996
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "清武 伸之（TYPE-MOON）"
+      },
+      {
+        "box": [
+          153.99999860000003,
+          176.00000011666668,
+          168,
+          17.999999999999996
+        ],
+        "confidence": 0.5,
+        "text": "simo氏（TYPE-MOON）"
+      },
+      {
+        "box": [
+          199.9000287870054,
+          199.55640497379574,
+          78.19994354248045,
+          18.887189865112312
+        ],
+        "confidence": 0.5,
+        "text": "森井しづき"
+      },
+      {
+        "box": [
+          203.87458851407735,
+          223.49922361628387,
+          70.25082397460938,
+          19.001552581787116
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "逢倉千尋"
+      },
+      {
+        "box": [
+          203.8776505160654,
+          247.5117808486027,
+          70.24469757080077,
+          18.976438522338874
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "三輪清宗"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000023_0/interface/staff/staffroll.txb"
+    ],
+    "classification": "credits_preserved"
+  },
+  {
+    "file": "000023_0/interface/staff/staffroll.txb",
+    "index": 15,
+    "name": "15.tex",
+    "width": 480,
+    "height": 272,
+    "png": "work/research/ui-localization-audit/all-ui/000023_0/interface/staff/staffroll.txb/015-15.png",
+    "ocr_lines": [
+      {
+        "box": [
+          82.00000397499991,
+          97.99999997500001,
+          318,
+          22.000000000000014
+        ],
+        "confidence": 0.5,
+        "text": "Marvelous Entertainment Inc."
+      },
+      {
+        "box": [
+          221.99999966000001,
+          144.0000001,
+          34.000000000000014,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "制作"
+      },
+      {
+        "box": [
+          212.0000003857143,
+          167.9999999,
+          54.00000000000002,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "飛塚剛"
+      },
+      {
+        "box": [
+          205.95713854675148,
+          191.83669747609696,
+          68.08572387695312,
+          18.326604843139634
+        ],
+        "confidence": 0.5,
+        "text": "中田真純"
+      },
+      {
+        "box": [
+          221.999999575,
+          240.000000075,
+          34.000000000000014,
+          17.999999999999996
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "宜伝"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000023_0/interface/staff/staffroll.txb"
+    ],
+    "classification": "credits_preserved"
+  },
+  {
+    "file": "000023_0/interface/staff/staffroll.txb",
+    "index": 16,
+    "name": "16.tex",
+    "width": 480,
+    "height": 272,
+    "png": "work/research/ui-localization-audit/all-ui/000023_0/interface/staff/staffroll.txb/016-16.png",
+    "ocr_lines": [
+      {
+        "box": [
+          212.0000003857143,
+          15.999999900000013,
+          54.00000000000002,
+          17.999999999999996
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "森 由美"
+      },
+      {
+        "box": [
+          185.99999902000002,
+          63.99999982,
+          105.99999999999997,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "セールススタッフ"
+      },
+      {
+        "box": [
+          205.94442819084574,
+          87.78140344594235,
+          70.11114501953129,
+          18.43719291687011
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "佐膝 澄宜"
+      },
+      {
+        "box": [
+          211.96219977950676,
+          111.88595591217633,
+          54.075599670410135,
+          18.228088378906257
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "真瀬徹"
+      },
+      {
+        "box": [
+          209.99999944,
+          136.0000001,
+          56.000000000000014,
+          17.999999999999996
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "瀧田弘"
+      },
+      {
+        "box": [
+          180.00000085714285,
+          183.99999990000003,
+          119.99999999999997,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "パッケージデザイン"
+      },
+      {
+        "box": [
+          140.00000197999998,
+          207.9999999,
+          198,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "ソフトウェアマニュアルデザイン"
+      },
+      {
+        "box": [
+          205.90751353843547,
+          231.6333292573072,
+          70.18497467041014,
+          18.733341217040994
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "関根 弘子"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000023_0/interface/staff/staffroll.txb"
+    ],
+    "classification": "credits_preserved"
+  },
+  {
+    "file": "000023_0/interface/staff/staffroll.txb",
+    "index": 17,
+    "name": "17.tex",
+    "width": 480,
+    "height": 272,
+    "png": "work/research/ui-localization-audit/all-ui/000023_0/interface/staff/staffroll.txb/017-17.png",
+    "ocr_lines": [
+      {
+        "box": [
+          109.99999826000004,
+          79.99999980000001,
+          258,
+          20.00000000000002
+        ],
+        "confidence": 0.5,
+        "text": "RYU'S OFFICE Corporation"
+      },
+      {
+        "box": [
+          182.00000081428573,
+          127.9999999,
+          114,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "宜伝プロデュース"
+      },
+      {
+        "box": [
+          203.89486988461414,
+          151.58206953242808,
+          70.2102584838867,
+          18.835862159728986
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "小沼竜太"
+      },
+      {
+        "box": [
+          180.00000085714285,
+          199.9999999,
+          119.99999999999997,
+          18.00000000000003
+        ],
+        "confidence": 1,
+        "text": "パッケージデザイン"
+      },
+      {
+        "box": [
+          137.9506806595947,
+          223.7556942942337,
+          88.09864044189455,
+          18.488611221313473
+        ],
+        "confidence": 0.5,
+        "text": "笠島 まなぶ"
+      },
+      {
+        "box": [
+          225.99999843333342,
+          226.0000002333333,
+          114.00000000000003,
+          14.00000000000001
+        ],
+        "confidence": 0.5,
+        "text": "（Yellow Stone）"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000023_0/interface/staff/staffroll.txb"
+    ],
+    "classification": "credits_preserved"
+  },
+  {
+    "file": "000023_0/interface/staff/staffroll.txb",
+    "index": 18,
+    "name": "18.tex",
+    "width": 480,
+    "height": 272,
+    "png": "work/research/ui-localization-audit/all-ui/000023_0/interface/staff/staffroll.txb/018-18.png",
+    "ocr_lines": [
+      {
+        "box": [
+          195.94487870026805,
+          -0.2671567192665094,
+          86.11024475097662,
+          18.534313201904318
+        ],
+        "confidence": 1,
+        "text": "特典デザイン"
+      },
+      {
+        "box": [
+          137.99999750000006,
+          24.000000125000007,
+          200,
+          17.999999999999996
+        ],
+        "confidence": 0.5,
+        "text": "染谷 洋平（BALCOLONY.）"
+      },
+      {
+        "box": [
+          213.99999948,
+          74.00000008,
+          52,
+          16.000000000000004
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "スタッフ"
+      },
+      {
+        "box": [
+          206.00000048571428,
+          95.9999999,
+          68,
+          18.00000000000003
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "依田英治"
+      },
+      {
+        "box": [
+          161.99999846000003,
+          144.0000001,
+          154,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "プロモーション映像監替"
+      },
+      {
+        "box": [
+          192.0000007,
+          167.99999982,
+          94.00000000000001,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "ナカザワフミア"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000023_0/interface/staff/staffroll.txb"
+    ],
+    "classification": "credits_preserved"
+  },
+  {
+    "file": "000023_0/interface/staff/staffroll.txb",
+    "index": 19,
+    "name": "19.tex",
+    "width": 480,
+    "height": 272,
+    "png": "work/research/ui-localization-audit/all-ui/000023_0/interface/staff/staffroll.txb/019-19.png",
+    "ocr_lines": [
+      {
+        "box": [
+          150.0000012857143,
+          17.999999900000006,
+          180.00000000000003,
+          17.999999999999996
+        ],
+        "confidence": 0.5,
+        "text": "SPECIAL THANKS"
+      },
+      {
+        "box": [
+          157.99999865,
+          64.00000011666666,
+          162,
+          18.00000000000003
+        ],
+        "confidence": 0.5,
+        "text": "ボールトウウィン株式会社"
+      },
+      {
+        "box": [
+          138.00000254999992,
+          87.99999987499999,
+          204,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "株式会社ダックスプロダクション"
+      },
+      {
+        "box": [
+          168.00000119999999,
+          111.99999991666665,
+          144.00000000000003,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "株式会社パワーハウス"
+      },
+      {
+        "box": [
+          142.00000138571426,
+          135.9999999,
+          193.99999999999997,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "レコーディングスタジオジェイク"
+      },
+      {
+        "box": [
+          150.00000127142857,
+          159.9999999,
+          178,
+          17.999999999999996
+        ],
+        "confidence": 0.5,
+        "text": "レコーディングスタジオ デコ"
+      },
+      {
+        "box": [
+          151.99999826000004,
+          184.0000001,
+          174,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "株式会社エーワン・オフィス"
+      },
+      {
+        "box": [
+          157.99999797500004,
+          208.00000012499999,
+          161.99999999999997,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "フォントワークス株式会社"
+      },
+      {
+        "box": [
+          203.89899121312197,
+          255.4760755571923,
+          70.20201873779298,
+          15.047848224639889
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "小畑英椡"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000023_0/interface/staff/staffroll.txb"
+    ],
+    "classification": "credits_preserved"
+  },
+  {
+    "file": "000023_0/interface/staff/staffroll.txb",
+    "index": 20,
+    "name": "20.tex",
+    "width": 480,
+    "height": 272,
+    "png": "work/research/ui-localization-audit/all-ui/000023_0/interface/staff/staffroll.txb/020-20.png",
+    "ocr_lines": [
+      {
+        "box": [
+          203.98394780762843,
+          7.937376906686147,
+          70.03210449218744,
+          18.125246047973647
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "八木 健夫"
+      },
+      {
+        "box": [
+          203.88096608302587,
+          31.525364849071984,
+          70.23806762695314,
+          18.949270248413075
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "荒井 宏光"
+      },
+      {
+        "box": [
+          205.9999999,
+          55.99999997187501,
+          68.00000000000003,
+          17.999999999999996
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "佐々木 淳"
+      },
+      {
+        "box": [
+          203.999999903125,
+          79.99999997187498,
+          69.99999999999999,
+          17.999999999999996
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "石川夏子"
+      },
+      {
+        "box": [
+          203.95260610101883,
+          103.81389710437381,
+          70.09478759765626,
+          18.372204780578606
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "佐藤数也"
+      },
+      {
+        "box": [
+          203.88383473926064,
+          127.53708454911319,
+          70.23233032226561,
+          18.925831794738777
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "溝畑葱三"
+      },
+      {
+        "box": [
+          203.9999999,
+          151.99999997096774,
+          70.00000000000001,
+          17.999999999999996
+        ],
+        "confidence": 0.5,
+        "text": "松本 芽里"
+      },
+      {
+        "box": [
+          205.96368397892437,
+          175.86181542312391,
+          68.07263183593749,
+          18.27636909484864
+        ],
+        "confidence": 0.5,
+        "text": "大辻 朝子"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000023_0/interface/staff/staffroll.txb"
+    ],
+    "classification": "credits_preserved"
+  },
+  {
+    "file": "000023_0/interface/staff/staffroll.txb",
+    "index": 23,
+    "name": "23.tex",
+    "width": 480,
+    "height": 272,
+    "png": "work/research/ui-localization-audit/all-ui/000023_0/interface/staff/staffroll.txb/023-23.png",
+    "ocr_lines": [
+      {
+        "box": [
+          220.00000009473683,
+          3.15789332461236e-08,
+          40.000000000000014,
+          12.000000000000018
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "パリTF"
+      },
+      {
+        "box": [
+          170.00000098571428,
+          61.999999814285715,
+          137.99999999999997,
+          34
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "MM"
+      },
+      {
+        "box": [
+          170.00000172499995,
+          97.99999992499997,
+          138.00000000000003,
+          10.000000000000025
+        ],
+        "confidence": 1,
+        "text": "Marvelous Entertainment Inc."
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000023_0/interface/staff/staffroll.txb"
+    ],
+    "classification": "credits_preserved"
+  },
+  {
+    "file": "000023_0/interface/staff/staffroll.txb",
+    "index": 24,
+    "name": "24.tex",
+    "width": 480,
+    "height": 272,
+    "png": "work/research/ui-localization-audit/all-ui/000023_0/interface/staff/staffroll.txb/024-24.png",
+    "ocr_lines": [
+      {
+        "box": [
+          219.99999933333336,
+          0,
+          39.999999999999936,
+          11.999999999999988
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "バTF"
+      },
+      {
+        "box": [
+          184.00000042307693,
+          47.99999986923079,
+          109.99999999999999,
+          50
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ate"
+      },
+      {
+        "box": [
+          206.00000038,
+          96.00000022,
+          65.99999999999997,
+          21.999999999999982
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "staw night"
+      },
+      {
+        "box": [
+          217.99999996666668,
+          115.99999983333332,
+          46,
+          10.000000000000025
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ウェイセンスダイカイト"
+      },
+      {
+        "box": [
+          146.00000234999993,
+          149.99999990000003,
+          187.99999999999997,
+          11.999999999999988
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "◎ TYPE-MOON AII Rights Reserved."
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000023_0/interface/staff/staffroll.txb"
+    ],
+    "classification": "credits_preserved"
+  },
+  {
+    "file": "000111_0/interface/hunting/hunting_01.txb",
+    "index": 6,
+    "name": "htg_no_04.tex",
+    "width": 16,
+    "height": 16,
+    "png": "work/research/ui-localization-audit/all-ui/000111_0/interface/hunting/hunting_01.txb/006-htg_no_04.png",
+    "ocr_lines": [
+      {
+        "box": [
+          -9.999999850407448e-08,
+          -1.3999999737279722e-07,
+          10,
+          14
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "星"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000111_0/interface/hunting/hunting_01.txb",
+      "work/extracted/packages/pack/000141_0/interface/hunting/hunting_01.txb"
+    ],
+    "classification": "icon_digit_english_ocr_false_positive"
+  },
+  {
+    "file": "000170_0/interface/dungeon/are_title_07.txb",
+    "index": 0,
+    "name": "entry_0000.tex",
+    "width": 272,
+    "height": 32,
+    "png": "work/research/ui-localization-audit/all-ui/000170_0/interface/dungeon/are_title_07.txb/000-entry_0000.png",
+    "ocr_lines": [
+      {
+        "box": [
+          -9.615382623451296e-08,
+          -3.846153617814707e-09,
+          270,
+          10
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "THE HOLY GRAIL, ONLY THE STRONGEST WZARD HAS GOT TO GRAB IT"
+      },
+      {
+        "box": [
+          9.999999908474564,
+          19.999999994915253,
+          128,
+          6
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ーLE THERE BE LSHUTO YOUI"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000170_0/interface/dungeon/are_title_07.txb",
+      "work/extracted/packages/pack/000171_0/interface/dungeon/are_title_07.txb"
+    ],
+    "classification": "icon_digit_english_ocr_false_positive"
+  },
+  {
+    "file": "000180_0/interface/dungeon/are_title_08.txb",
+    "index": 0,
+    "name": "entry_0000.tex",
+    "width": 272,
+    "height": 32,
+    "png": "work/research/ui-localization-audit/all-ui/000180_0/interface/dungeon/are_title_08.txb/000-entry_0000.png",
+    "ocr_lines": [
+      {
+        "box": [
+          2.0000020249999437,
+          -7.499999554738679e-08,
+          162.00000000000003,
+          9.999999999999996
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "THE HOLY GRAIL IS THE CAGE OF SERAPH！"
+      },
+      {
+        "box": [
+          1.1479394345315086e-05,
+          10.000000088418588,
+          229.99998474121094,
+          6
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "AND ALSOITS THE GREAT Q8SE8VE:S CE INACENAPY SEA"
+      },
+      {
+        "box": [
+          16.0000117293944,
+          17.999999900000006,
+          245.9999847412109,
+          10
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ーNOW. AT LAST, THE PROCESS OF THE MOON-CELL IS RLOWED."
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000180_0/interface/dungeon/are_title_08.txb",
+      "work/extracted/packages/pack/000181_0/interface/dungeon/are_title_08.txb"
+    ],
+    "classification": "icon_digit_english_ocr_false_positive"
+  },
+  {
+    "file": "000311_0/interface/staff/0000.txb",
+    "index": 0,
+    "name": "entry_0000.tex",
+    "width": 480,
+    "height": 272,
+    "png": "work/research/ui-localization-audit/all-ui/000311_0/interface/staff/0000.txb/000-entry_0000.png",
+    "ocr_lines": [
+      {
+        "box": [
+          28.000000449999987,
+          117.99999988333334,
+          53.99999999999999,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "シナリオ"
+      },
+      {
+        "box": [
+          23.999999585714292,
+          136.0000001,
+          57.99999999999999,
+          30.000000000000014
+        ],
+        "confidence": 1,
+        "text": "奈須"
+      },
+      {
+        "box": [
+          75.99999916000002,
+          138.00000006,
+          84.00000000000001,
+          26
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "きのこ"
+      },
+      {
+        "box": [
+          30.00000131999998,
+          185.9999999,
+          131.99999999999997,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "サーヴァントデザイン"
+      },
+      {
+        "box": [
+          28.0000005,
+          201.9999998,
+          110.00000000000001,
+          19.99999999999999
+        ],
+        "confidence": 1,
+        "text": "キャラクター原案"
+      },
+      {
+        "box": [
+          27.96300794086568,
+          219.88368712167502,
+          94.07398223876953,
+          30.2326259613037
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "武内祟"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000311_0/interface/staff/0000.txb",
+      "work/extracted/packages/pack/000317_0/interface/staff/0000.txb",
+      "work/extracted/packages/pack/000318_0/interface/staff/0000.txb"
+    ],
+    "classification": "credits_preserved"
+  },
+  {
+    "file": "000311_0/interface/staff/0000.txb",
+    "index": 1,
+    "name": "entry_0001.tex",
+    "width": 480,
+    "height": 272,
+    "png": "work/research/ui-localization-audit/all-ui/000311_0/interface/staff/0000.txb/001-entry_0001.png",
+    "ocr_lines": [
+      {
+        "box": [
+          319.91460886063214,
+          25.626190058067642,
+          86.170783996582,
+          20.747619628906264
+        ],
+        "confidence": 1,
+        "text": "プロデュース"
+      },
+      {
+        "box": [
+          319.9510010811072,
+          43.78848480363967,
+          120.09799957275392,
+          28.423029899597182
+        ],
+        "confidence": 1,
+        "text": "新納一哉"
+      },
+      {
+        "box": [
+          320.0000009666667,
+          85.99999991666668,
+          116.00000000000001,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "開発ディレクション"
+      },
+      {
+        "box": [
+          319.97451837904214,
+          101.89221648141641,
+          118.05096435546878,
+          28.215566635131818
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "門脇 宗悦"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000311_0/interface/staff/0000.txb",
+      "work/extracted/packages/pack/000317_0/interface/staff/0000.txb",
+      "work/extracted/packages/pack/000318_0/interface/staff/0000.txb"
+    ],
+    "classification": "credits_preserved"
+  },
+  {
+    "file": "000311_0/interface/staff/0000.txb",
+    "index": 2,
+    "name": "entry_0002.tex",
+    "width": 480,
+    "height": 272,
+    "png": "work/research/ui-localization-audit/all-ui/000311_0/interface/staff/0000.txb/002-entry_0002.png",
+    "ocr_lines": [
+      {
+        "box": [
+          320.0000009428571,
+          143.9999999,
+          132,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "キャラクターデザイン"
+      },
+      {
+        "box": [
+          319.87905205207505,
+          161.48120395460612,
+          118.24189758300783,
+          29.0375919342041
+        ],
+        "confidence": 1,
+        "text": "ワダアルコ"
+      },
+      {
+        "box": [
+          320.00000109999996,
+          203.99999987500001,
+          88,
+          17.999999999999996
+        ],
+        "confidence": 1,
+        "text": "宝具デザイン"
+      },
+      {
+        "box": [
+          319.7765737174615,
+          223.2407101864771,
+          86.44685363769531,
+          27.51857948303222
+        ],
+        "confidence": 0.5,
+        "text": "huke"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000311_0/interface/staff/0000.txb",
+      "work/extracted/packages/pack/000317_0/interface/staff/0000.txb",
+      "work/extracted/packages/pack/000318_0/interface/staff/0000.txb"
+    ],
+    "classification": "credits_preserved"
+  },
+  {
+    "file": "000311_0/interface/staff/0000.txb",
+    "index": 3,
+    "name": "entry_0003.tex",
+    "width": 480,
+    "height": 272,
+    "png": "work/research/ui-localization-audit/all-ui/000311_0/interface/staff/0000.txb/003-entry_0003.png",
+    "ocr_lines": [
+      {
+        "box": [
+          319.9999989666667,
+          28.00000009999998,
+          123.99999999999999,
+          16.000000000000004
+        ],
+        "confidence": 1,
+        "text": "チーフプロデュース"
+      },
+      {
+        "box": [
+          319.92624578547895,
+          45.68046959408497,
+          120.14750671386722,
+          28.63906097412108
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "水谷英之"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/000311_0/interface/staff/0000.txb",
+      "work/extracted/packages/pack/000317_0/interface/staff/0000.txb",
+      "work/extracted/packages/pack/000318_0/interface/staff/0000.txb"
+    ],
+    "classification": "credits_preserved"
+  },
+  {
+    "file": "003016/interface/nameentry/0000.txb",
+    "index": 28,
+    "name": "ne_icon_base_man.tex",
+    "width": 80,
+    "height": 80,
+    "png": "work/research/ui-localization-audit/all-ui/003016/interface/nameentry/0000.txb/028-ne_icon_base_man.png",
+    "ocr_lines": [
+      {
+        "box": [
+          6.000000299999993,
+          15.999999850000002,
+          36.00000000000001,
+          25.999999999999996
+        ],
+        "confidence": 1,
+        "text": "男"
+      },
+      {
+        "box": [
+          9.249999735061465e-07,
+          41.999999925,
+          74,
+          10
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "SEHDDLBDY"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/003016/interface/nameentry/0000.txb"
+    ],
+    "classification": "gender_icon_same_han_in_chinese"
+  },
+  {
+    "file": "003016/interface/nameentry/0000.txb",
+    "index": 29,
+    "name": "ne_icon_base_wma.tex",
+    "width": 80,
+    "height": 80,
+    "png": "work/research/ui-localization-audit/all-ui/003016/interface/nameentry/0000.txb/029-ne_icon_base_wma.png",
+    "ocr_lines": [
+      {
+        "box": [
+          39.99999988333333,
+          15.999999800000007,
+          22,
+          23.999999999999993
+        ],
+        "confidence": 1,
+        "text": "女"
+      },
+      {
+        "box": [
+          7.614696883706529e-06,
+          41.999999900000006,
+          75.99999237060547,
+          6.000000000000005
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "SEHBBLSIRL"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/003016/interface/nameentry/0000.txb"
+    ],
+    "classification": "gender_icon_same_han_in_chinese"
+  },
+  {
+    "file": "010007/interface/gradationair/ga.txb",
+    "index": 3,
+    "name": "ga_bg_01.tex",
+    "width": 448,
+    "height": 16,
+    "png": "work/research/ui-localization-audit/all-ui/010007/interface/gradationair/ga.txb/003-ga_bg_01.png",
+    "ocr_lines": [
+      {
+        "box": [
+          133.99999776666672,
+          1.9999999000000024,
+          158.00000000000003,
+          6
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ーSTRTISIMBRRUEMENTー"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/010007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/011007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/012007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/013007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/014007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/015007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/016007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/017007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/018007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/019007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/020007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/021007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/022007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/023007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/024007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/025007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/026007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/027007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/028007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/029007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/030007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/031007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/032007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/033007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/034007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/035007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/036007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/037007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/038007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/039007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/040007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/041007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/042007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/043007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/044007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/045007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/046007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/047007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/048007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/049007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/050007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/051007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/052007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/053007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/054007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/056007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/057007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/058007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/059007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/060007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/061007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/062007/interface/gradationair/ga.txb",
+      "work/extracted/packages/pack/063007/interface/gradationair/ga.txb"
+    ],
+    "classification": "icon_digit_english_ocr_false_positive"
+  },
+  {
+    "file": "PRELOAD/interface/cmn/i_exp.txb",
+    "index": 3,
+    "name": "exp_002_02.tex",
+    "width": 32,
+    "height": 32,
+    "png": "work/research/ui-localization-audit/all-ui/PRELOAD/interface/cmn/i_exp.txb/003-exp_002_02.png",
+    "ocr_lines": [
+      {
+        "box": [
+          1.9999989177542563,
+          5.999998483774242,
+          18.000001907348633,
+          12.00000286102295
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "・"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/PRELOAD/interface/cmn/i_exp.txb"
+    ],
+    "classification": "icon_digit_english_ocr_false_positive"
+  },
+  {
+    "file": "PRELOAD/interface/cmn/i_exp.txb",
+    "index": 11,
+    "name": "exp_009_00.tex",
+    "width": 32,
+    "height": 32,
+    "png": "work/research/ui-localization-audit/all-ui/PRELOAD/interface/cmn/i_exp.txb/011-exp_009_00.png",
+    "ocr_lines": [
+      {
+        "box": [
+          3.9999979926513696,
+          5.99999799265137,
+          20.000003814697266,
+          16.000003814697266
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "仮"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/PRELOAD/interface/cmn/i_exp.txb"
+    ],
+    "classification": "single_kanji_temporary_icon_review_needed"
+  },
+  {
+    "file": "PRELOAD/interface/mainmenu/0001.txb",
+    "index": 7,
+    "name": "item_icon_02.tex",
+    "width": 16,
+    "height": 16,
+    "png": "work/research/ui-localization-audit/all-ui/PRELOAD/interface/mainmenu/0001.txb/007-item_icon_02.png",
+    "ocr_lines": [
+      {
+        "box": [
+          -9.99999993922529e-08,
+          -1.0000000116860974e-07,
+          14,
+          14.000000000000002
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "旨"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/PRELOAD/interface/mainmenu/0001.txb"
+    ],
+    "classification": "icon_digit_english_ocr_false_positive"
+  },
+  {
+    "file": "PRELOAD/interface/mainmenu/0001.txb",
+    "index": 56,
+    "name": "shar_no_06_00.tex",
+    "width": 16,
+    "height": 16,
+    "png": "work/research/ui-localization-audit/all-ui/PRELOAD/interface/mainmenu/0001.txb/056-shar_no_06_00.png",
+    "ocr_lines": [
+      {
+        "box": [
+          -1.499999964238441e-07,
+          5.999999900000002,
+          12,
+          8
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "三"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/PRELOAD/interface/mainmenu/0001.txb"
+    ],
+    "classification": "icon_digit_english_ocr_false_positive"
+  },
+  {
+    "file": "PRELOAD/interface/mainmenu/0001.txb",
+    "index": 59,
+    "name": "shar_no_06_03.tex",
+    "width": 16,
+    "height": 16,
+    "png": "work/research/ui-localization-audit/all-ui/PRELOAD/interface/mainmenu/0001.txb/059-shar_no_06_03.png",
+    "ocr_lines": [
+      {
+        "box": [
+          -9.999999761589606e-08,
+          5.999999900000002,
+          12,
+          8
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "三"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/PRELOAD/interface/mainmenu/0001.txb"
+    ],
+    "classification": "icon_digit_english_ocr_false_positive"
+  },
+  {
+    "file": "beginning/interface/beginning/0000.txb",
+    "index": 22,
+    "name": "beg_font_l13.tex",
+    "width": 48,
+    "height": 40,
+    "png": "work/research/ui-localization-audit/all-ui/beginning/interface/beginning/0000.txb/022-beg_font_l13.png",
+    "ocr_lines": [
+      {
+        "box": [
+          1.9999999055555548,
+          -1.0555555540747719e-07,
+          42,
+          38
+        ],
+        "confidence": 1,
+        "text": "フ"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/beginning/interface/beginning/0000.txb"
+    ],
+    "classification": "single_glyph_same_in_chinese_or_digit_latin"
+  },
+  {
+    "file": "beginning/interface/beginning/0000.txb",
+    "index": 26,
+    "name": "beg_font_m03.tex",
+    "width": 40,
+    "height": 40,
+    "png": "work/research/ui-localization-audit/all-ui/beginning/interface/beginning/0000.txb/026-beg_font_m03.png",
+    "ocr_lines": [
+      {
+        "box": [
+          7.999999912500002,
+          5.999999837500001,
+          25.999999999999996,
+          26
+        ],
+        "confidence": 1,
+        "text": "幕"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/beginning/interface/beginning/0000.txb"
+    ],
+    "classification": "single_glyph_same_in_chinese_or_digit_latin"
+  },
+  {
+    "file": "beginning/interface/beginning/0000.txb",
+    "index": 28,
+    "name": "beg_font_m05.tex",
+    "width": 40,
+    "height": 40,
+    "png": "work/research/ui-localization-audit/all-ui/beginning/interface/beginning/0000.txb/028-beg_font_m05.png",
+    "ocr_lines": [
+      {
+        "box": [
+          7.999999899999999,
+          7.999999850000004,
+          24,
+          24
+        ],
+        "confidence": 1,
+        "text": "杯"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/beginning/interface/beginning/0000.txb"
+    ],
+    "classification": "single_glyph_same_in_chinese_or_digit_latin"
+  },
+  {
+    "file": "beginning/interface/beginning/0000.txb",
+    "index": 38,
+    "name": "beg_font_mbar.tex",
+    "width": 40,
+    "height": 40,
+    "png": "work/research/ui-localization-audit/all-ui/beginning/interface/beginning/0000.txb/038-beg_font_mbar.png",
+    "ocr_lines": [
+      {
+        "box": [
+          3.9999999000000024,
+          21.99999992,
+          28,
+          16
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ー"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/beginning/interface/beginning/0000.txb"
+    ],
+    "classification": "single_glyph_same_in_chinese_or_digit_latin"
+  },
+  {
+    "file": "charsel/interface/poem/poem_font.txb",
+    "index": 0,
+    "name": "entry_0000.tex",
+    "width": 256,
+    "height": 256,
+    "png": "work/research/ui-localization-audit/all-ui/charsel/interface/poem/poem_font.txb/000-entry_0000.png",
+    "ocr_lines": [
+      {
+        "box": [
+          10.000000449999987,
+          -1.500000053056283e-07,
+          56,
+          12
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "0 12 3"
+      },
+      {
+        "box": [
+          68.000000075,
+          2.0000001249999855,
+          14,
+          10
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "4"
+      },
+      {
+        "box": [
+          81.9999999,
+          -1.500000053056283e-07,
+          12,
+          12
+        ],
+        "confidence": 0.5,
+        "text": "5"
+      },
+      {
+        "box": [
+          93.9999990666667,
+          1.3333331594367337e-07,
+          56,
+          12
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "6 78 9"
+      },
+      {
+        "box": [
+          150.00000036666665,
+          -1.9999998812636477e-07,
+          42,
+          12
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ACD"
+      },
+      {
+        "box": [
+          193.999999925,
+          -1.500000053056283e-07,
+          10,
+          12
+        ],
+        "confidence": 1,
+        "text": "E"
+      },
+      {
+        "box": [
+          207.99999989999998,
+          -1.9999998812636477e-07,
+          14,
+          12
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "G"
+      },
+      {
+        "box": [
+          -0.08919769990406934,
+          9.584479284772442,
+          82.17839813232422,
+          18.831043243408203
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "MNOPQR"
+      },
+      {
+        "box": [
+          81.999999925,
+          13.999999849999995,
+          10,
+          12
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "S"
+      },
+      {
+        "box": [
+          93.9999990666667,
+          14.000000066666672,
+          56,
+          12
+        ],
+        "confidence": 0.5,
+        "text": "TUVW"
+      },
+      {
+        "box": [
+          149.99999993333333,
+          13.999999800000012,
+          12,
+          12
+        ],
+        "confidence": 0.5,
+        "text": "Y"
+      },
+      {
+        "box": [
+          8.573486880436576e-07,
+          29.999999823162824,
+          49.999996185302734,
+          12
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "rstv"
+      },
+      {
+        "box": [
+          100.0000003,
+          27.999999900000006,
+          24,
+          12
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "？々"
+      },
+      {
+        "box": [
+          205.99999989999998,
+          15.999999800000012,
+          14,
+          12
+        ],
+        "confidence": 0.5,
+        "text": "el"
+      },
+      {
+        "box": [
+          196.00000089999997,
+          27.999999900000006,
+          54,
+          14
+        ],
+        "confidence": 1,
+        "text": "あいうえ"
+      },
+      {
+        "box": [
+          -2.4999999510555426e-06,
+          42.000000099999994,
+          250,
+          14
+        ],
+        "confidence": 1,
+        "text": "おかがきぎくけげこさしすずせぜそただ"
+      },
+      {
+        "box": [
+          6.429394559859247e-06,
+          54.0000002101705,
+          251.99998474121094,
+          15.999999523162842
+        ],
+        "confidence": 0.5,
+        "text": "ちっつてでとどなにぬのはばひへベほぼ"
+      },
+      {
+        "box": [
+          -3.12499992105586e-06,
+          70.000000075,
+          250,
+          14
+        ],
+        "confidence": 1,
+        "text": "まみむめもやよらりるれろわをんアクコ"
+      },
+      {
+        "box": [
+          4.5000000170603016e-07,
+          84.000000175,
+          180,
+          14
+        ],
+        "confidence": 0.5,
+        "text": "セタッデブプリ握岡意為違育"
+      },
+      {
+        "box": [
+          179.90284608872247,
+          83.48185738249862,
+          72.19430541992188,
+          15.036286354064941
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "一逸茨逛映"
+      },
+      {
+        "box": [
+          -1.7857142751154242e-06,
+          98.00000008571428,
+          250,
+          16
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "栄英固艶音何価可果課過我餓回塊海界閉"
+      },
+      {
+        "box": [
+          -2.749999922002644e-06,
+          109.99999977499999,
+          252,
+          18
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "外覚楽冠歓甘間願祈貴輝偽救去魚競強教"
+      },
+      {
+        "box": [
+          2.0999999605919584e-06,
+          125.9999999,
+          252,
+          16
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "狭玉金銀看撈繫軽迎隙欠決結月剣見原源"
+      },
+      {
+        "box": [
+          2.0999999605919584e-06,
+          137.99999991666667,
+          252,
+          18
+        ],
+        "confidence": 0.5,
+        "text": "已故後語光口航荒行合獄骨今根魂砂座最"
+      },
+      {
+        "box": [
+          2.5199999669212048e-06,
+          153.99999986,
+          252,
+          18
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "細作搾殺惨始鎣子師恩指死獅私至試資軣"
+      },
+      {
+        "box": [
+          2.0999999605919584e-06,
+          165.99999991666667,
+          252,
+          18
+        ],
+        "confidence": 0.5,
+        "text": "持時治示七執失質者車弱取手終酬磈獣銃"
+      },
+      {
+        "box": [
+          2.5199999669212048e-06,
+          181.99999992,
+          252,
+          16
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "熟術隣盾巡処助女勝小少招消証筵上常食"
+      },
+      {
+        "box": [
+          -1.7857142751154242e-06,
+          194.0000001,
+          250,
+          18
+        ],
+        "confidence": 0.5,
+        "text": "心兵親身人尽図世性成星生聖赤跡絶戦前"
+      },
+      {
+        "box": [
+          2.0999999605919584e-06,
+          209.99999989999998,
+          252,
+          16
+        ],
+        "confidence": 0.5,
+        "text": "全想争相装走憎臓贈足続存他待大拓脱誰"
+      },
+      {
+        "box": [
+          2.0999999605919584e-06,
+          221.99999991666667,
+          252,
+          18
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "嘆鍛断男直知地恥着中兆挑朝聰讕長追定"
+      },
+      {
+        "box": [
+          9.919354226894939e-08,
+          238.00000000645161,
+          250,
+          16
+        ],
+        "confidence": 0.5,
+        "text": "底程泥的轍天渡度土悼等踏逃動道得特届"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/charsel/interface/poem/poem_font.txb",
+      "work/extracted/packages/pack/poem/interface/poem/poem_font.txb"
+    ],
+    "classification": "poem_glyph_atlas_or_background_separate_pipeline"
+  },
+  {
+    "file": "charsel/interface/poem/poem_font.txb",
+    "index": 1,
+    "name": "entry_0001.tex",
+    "width": 256,
+    "height": 256,
+    "png": "work/research/ui-localization-audit/all-ui/charsel/interface/poem/poem_font.txb/001-entry_0001.png",
+    "ocr_lines": [
+      {
+        "box": [
+          2.5199999669212048e-06,
+          -1.199999815071351e-07,
+          252,
+          15.999999999999972
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "二肉日如認燃破杯買判半黎番蛮否彼覃避"
+      },
+      {
+        "box": [
+          9.316237026268936e-08,
+          14.00000000683761,
+          250,
+          16
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "漂表不武淵物分紛平閉壁別包抱擇方傍忘"
+      },
+      {
+        "box": [
+          -3.12499992105586e-06,
+          28.000000075000003,
+          250,
+          14
+        ],
+        "confidence": 0.5,
+        "text": "望貌本凡廃幕末万満味未蜜眠夢無矛名命"
+      },
+      {
+        "box": [
+          3.149999926677083e-06,
+          41.999999900000006,
+          252,
+          16
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "迷嗚貝閲野与妖要欲来落利陸率流旅力輪"
+      },
+      {
+        "box": [
+          1.0499999802959792e-06,
+          55.999999900000006,
+          126,
+          16
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "隣例練路楼和濘熾遙"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/charsel/interface/poem/poem_font.txb",
+      "work/extracted/packages/pack/poem/interface/poem/poem_font.txb"
+    ],
+    "classification": "poem_glyph_atlas_or_background_separate_pipeline"
+  },
+  {
+    "file": "charsel/interface/poem/poem_ruby.txb",
+    "index": 0,
+    "name": "entry_0000.tex",
+    "width": 64,
+    "height": 64,
+    "png": "work/research/ui-localization-audit/all-ui/charsel/interface/poem/poem_ruby.txb/000-entry_0000.png",
+    "ocr_lines": [
+      {
+        "box": [
+          25.999999900000006,
+          -3.5714279533749504e-08,
+          28,
+          9.999999999999993
+        ],
+        "confidence": 0.5,
+        "text": "ちつぬ"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/charsel/interface/poem/poem_ruby.txb",
+      "work/extracted/packages/pack/poem/interface/poem/poem_ruby.txb"
+    ],
+    "classification": "poem_glyph_atlas_or_background_separate_pipeline"
+  },
+  {
+    "file": "gameover/interface/gameover/gov_00.txb",
+    "index": 1,
+    "name": "gov_bg_00.tex",
+    "width": 480,
+    "height": 272,
+    "png": "work/research/ui-localization-audit/all-ui/gameover/interface/gameover/gov_00.txb/001-gov_bg_00.png",
+    "ocr_lines": [
+      {
+        "box": [
+          353.9999993564962,
+          249.9999997,
+          14.000000953674316,
+          17.999999999999996
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "0U"
+      },
+      {
+        "box": [
+          379.13398899314075,
+          151.9322986010795,
+          88.74753570556638,
+          68.64598083496092
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "YOAIYOO1O"
+      },
+      {
+        "box": [
+          424.79999881532865,
+          126.61176495929229,
+          50.11764907836911,
+          28.047060012817386
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1012"
+      },
+      {
+        "box": [
+          453.99999801265136,
+          9.999998012651362,
+          24.000003814697273,
+          16.000003814697283
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "7ク）"
+      },
+      {
+        "box": [
+          -3.1698117067464153,
+          130.83018348690874,
+          73.28302001953125,
+          34.037746429443374
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1011107"
+      },
+      {
+        "box": [
+          -5.095890983219853,
+          96.95889707568402,
+          82.60274505615234,
+          46.98631668090819
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "0011107"
+      },
+      {
+        "box": [
+          -2.01015222064202,
+          62.98273464848405,
+          85.11065673828125,
+          61.56955528259278
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "100111011"
+      },
+      {
+        "box": [
+          15.999997909318038,
+          41.9999979259847,
+          26.00000381469727,
+          20.00000381469727
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2."
+      },
+      {
+        "box": [
+          -1.5036742873064668e-06,
+          17.99999834632571,
+          22.000001907348633,
+          28.000001907348633
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "で。"
+      },
+      {
+        "box": [
+          15.000002974725518,
+          -5.999996321208734,
+          54.99999618530274,
+          54.999996185302734
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "10771"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/gameover/interface/gameover/gov_00.txb"
+    ],
+    "classification": "icon_digit_english_ocr_false_positive"
+  },
+  {
+    "file": "hunting_get/interface/hunting/hunting_get.txb",
+    "index": 10,
+    "name": "htg_ttl_04.tex",
+    "width": 192,
+    "height": 16,
+    "png": "work/research/ui-localization-audit/all-ui/hunting_get/interface/hunting/hunting_get.txb/010-htg_ttl_04.png",
+    "ocr_lines": [
+      {
+        "box": [
+          11.999999888524584,
+          -1.1475410843786449e-08,
+          168.00000000000003,
+          14
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ーTreasure hunting ー"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/hunting_get/interface/hunting/hunting_get.txb"
+    ],
+    "classification": "icon_digit_english_ocr_false_positive"
+  },
+  {
+    "file": "hunting_get/interface/hunting/hunting_get.txb",
+    "index": 11,
+    "name": "htg_ttl_05.tex",
+    "width": 192,
+    "height": 16,
+    "png": "work/research/ui-localization-audit/all-ui/hunting_get/interface/hunting/hunting_get.txb/011-htg_ttl_05.png",
+    "ocr_lines": [
+      {
+        "box": [
+          37.999999900000006,
+          -1.2068966270817327e-08,
+          128,
+          14
+        ],
+        "confidence": 0.5,
+        "text": "Beast hunting ー"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/hunting_get/interface/hunting/hunting_get.txb"
+    ],
+    "classification": "icon_digit_english_ocr_false_positive"
+  },
+  {
+    "file": "hunting_title/interface/hunting/hunting_title.txb",
+    "index": 6,
+    "name": "htg_ttl_04.tex",
+    "width": 192,
+    "height": 16,
+    "png": "work/research/ui-localization-audit/all-ui/hunting_title/interface/hunting/hunting_title.txb/006-htg_ttl_04.png",
+    "ocr_lines": [
+      {
+        "box": [
+          11.999999888524584,
+          -1.1475410843786449e-08,
+          168.00000000000003,
+          14
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ーTreasure hunting ー"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/hunting_title/interface/hunting/hunting_title.txb"
+    ],
+    "classification": "icon_digit_english_ocr_false_positive"
+  },
+  {
+    "file": "hunting_title/interface/hunting/hunting_title.txb",
+    "index": 7,
+    "name": "htg_ttl_05.tex",
+    "width": 192,
+    "height": 16,
+    "png": "work/research/ui-localization-audit/all-ui/hunting_title/interface/hunting/hunting_title.txb/007-htg_ttl_05.png",
+    "ocr_lines": [
+      {
+        "box": [
+          14.000001333333302,
+          -8.333333312293689e-08,
+          160,
+          14
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ー Enemy hunting -"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/hunting_title/interface/hunting/hunting_title.txb"
+    ],
+    "classification": "icon_digit_english_ocr_false_positive"
+  },
+  {
+    "file": "modeselect/interface/modeselect/modeselect.txb",
+    "index": 3,
+    "name": "mode_easy_01.tex",
+    "width": 96,
+    "height": 16,
+    "png": "work/research/ui-localization-audit/all-ui/modeselect/interface/modeselect/modeselect.txb/003-mode_easy_01.png",
+    "ocr_lines": [
+      {
+        "box": [
+          -0.0501442954227187,
+          -0.28499795874295586,
+          78.10028839111328,
+          14.56999635696411
+        ],
+        "confidence": 1,
+        "text": "初心者モード"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/modeselect/interface/modeselect/modeselect.txb"
+    ],
+    "classification": "mode_screen_already_localized_in_v14"
+  },
+  {
+    "file": "modeselect/interface/modeselect/modeselect.txb",
+    "index": 5,
+    "name": "mode_help_00.tex",
+    "width": 192,
+    "height": 16,
+    "png": "work/research/ui-localization-audit/all-ui/modeselect/interface/modeselect/modeselect.txb/005-mode_help_00.png",
+    "ocr_lines": [
+      {
+        "box": [
+          2.3749999513711373e-06,
+          -2.4999998515795596e-08,
+          190,
+          14
+        ],
+        "confidence": 0.5,
+        "text": "◆難易度を選択してください。"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/modeselect/interface/modeselect/modeselect.txb"
+    ],
+    "classification": "mode_screen_already_localized_in_v14"
+  },
+  {
+    "file": "modeselect/interface/modeselect/modeselect.txb",
+    "index": 6,
+    "name": "mode_normal_01.tex",
+    "width": 96,
+    "height": 16,
+    "png": "work/research/ui-localization-audit/all-ui/modeselect/interface/modeselect/modeselect.txb/006-mode_normal_01.png",
+    "ocr_lines": [
+      {
+        "box": [
+          -0.03301249023675723,
+          -0.1573291032238977,
+          66.06602478027344,
+          14.314658164978027
+        ],
+        "confidence": 0.5,
+        "text": "通常モード"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/modeselect/interface/modeselect/modeselect.txb"
+    ],
+    "classification": "mode_screen_already_localized_in_v14"
+  },
+  {
+    "file": "poem/interface/poem/poem.txb",
+    "index": 0,
+    "name": "entry_0000.tex",
+    "width": 480,
+    "height": 272,
+    "png": "work/research/ui-localization-audit/all-ui/poem/interface/poem/poem.txb/000-entry_0000.png",
+    "ocr_lines": [
+      {
+        "box": [
+          93.00224708572003,
+          240.30112368527853,
+          71.66292572021486,
+          18.88988876342774
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ors Tor01"
+      },
+      {
+        "box": [
+          223.89592678236306,
+          213.24434363549454,
+          138.33483886718747,
+          14.17194604873657
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "91010703410161010601o"
+      },
+      {
+        "box": [
+          319.9999995333334,
+          246.0000001,
+          28.000000000000007,
+          9.999999999999964
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Qン"
+      }
+    ],
+    "aliases": [
+      "work/extracted/packages/pack/poem/interface/poem/poem.txb"
+    ],
+    "classification": "poem_glyph_atlas_or_background_separate_pipeline"
+  }
+]

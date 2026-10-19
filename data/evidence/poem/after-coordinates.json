@@ -1,0 +1,256 @@
+[
+  {
+    "name": "opening",
+    "pointer_offset": 9840,
+    "target_offset": 10282,
+    "raw": "f05482f1f05e8ba389669349f04c8980836696e28142",
+    "alias_text": "ん競映的園デ問。",
+    "translated_text": "随后，开场的钟声响起。",
+    "coordinates": [
+      {
+        "alias": "",
+        "translated": "随",
+        "key": "f054",
+        "index": 425,
+        "page": 1,
+        "x": 154,
+        "y": 70
+      },
+      {
+        "alias": "ん",
+        "translated": "后",
+        "key": "82f1",
+        "index": 104,
+        "page": 0,
+        "x": 196,
+        "y": 70
+      },
+      {
+        "alias": "",
+        "translated": "，",
+        "key": "f05e",
+        "index": 435,
+        "page": 1,
+        "x": 42,
+        "y": 84
+      },
+      {
+        "alias": "競",
+        "translated": "开",
+        "key": "8ba3",
+        "index": 159,
+        "page": 0,
+        "x": 210,
+        "y": 112
+      },
+      {
+        "alias": "映",
+        "translated": "场",
+        "key": "8966",
+        "index": 125,
+        "page": 0,
+        "x": 238,
+        "y": 84
+      },
+      {
+        "alias": "的",
+        "translated": "的",
+        "key": "9349",
+        "index": 309,
+        "page": 0,
+        "x": 42,
+        "y": 238
+      },
+      {
+        "alias": "",
+        "translated": "钟",
+        "key": "f04c",
+        "index": 417,
+        "page": 1,
+        "x": 42,
+        "y": 70
+      },
+      {
+        "alias": "園",
+        "translated": "声",
+        "key": "8980",
+        "index": 128,
+        "page": 0,
+        "x": 28,
+        "y": 98
+      },
+      {
+        "alias": "デ",
+        "translated": "响",
+        "key": "8366",
+        "index": 111,
+        "page": 0,
+        "x": 42,
+        "y": 84
+      },
+      {
+        "alias": "問",
+        "translated": "起",
+        "key": "96e2",
+        "index": 381,
+        "page": 1,
+        "x": 42,
+        "y": 42
+      },
+      {
+        "alias": "。",
+        "translated": "。",
+        "key": "8142",
+        "index": 42,
+        "page": 0,
+        "x": 84,
+        "y": 28
+      }
+    ]
+  },
+  {
+    "name": "ordinary",
+    "pointer_offset": 9904,
+    "target_offset": 5120,
+    "raw": "95bd967d934993fa8fedf05e8a4a944088ea95f98dbb8be088ea94bc8142",
+    "alias_text": "平凡的日常開如一捧砂金一半。",
+    "translated_text": "平凡的日常，宛如一捧砂金一般。",
+    "coordinates": [
+      {
+        "alias": "平",
+        "translated": "平",
+        "key": "95bd",
+        "index": 350,
+        "page": 1,
+        "x": 112,
+        "y": 14
+      },
+      {
+        "alias": "凡",
+        "translated": "凡",
+        "key": "967d",
+        "index": 363,
+        "page": 1,
+        "x": 42,
+        "y": 28
+      },
+      {
+        "alias": "的",
+        "translated": "的",
+        "key": "9349",
+        "index": 309,
+        "page": 0,
+        "x": 42,
+        "y": 238
+      },
+      {
+        "alias": "日",
+        "translated": "日",
+        "key": "93fa",
+        "index": 326,
+        "page": 1,
+        "x": 28,
+        "y": 0
+      },
+      {
+        "alias": "常",
+        "translated": "常",
+        "key": "8fed",
+        "index": 250,
+        "page": 0,
+        "x": 224,
+        "y": 182
+      },
+      {
+        "alias": "",
+        "translated": "，",
+        "key": "f05e",
+        "index": 435,
+        "page": 1,
+        "x": 42,
+        "y": 84
+      },
+      {
+        "alias": "開",
+        "translated": "宛",
+        "key": "8a4a",
+        "index": 143,
+        "page": 0,
+        "x": 238,
+        "y": 98
+      },
+      {
+        "alias": "如",
+        "translated": "如",
+        "key": "9440",
+        "index": 327,
+        "page": 1,
+        "x": 42,
+        "y": 0
+      },
+      {
+        "alias": "一",
+        "translated": "一",
+        "key": "88ea",
+        "index": 121,
+        "page": 0,
+        "x": 182,
+        "y": 84
+      },
+      {
+        "alias": "捧",
+        "translated": "捧",
+        "key": "95f9",
+        "index": 356,
+        "page": 1,
+        "x": 196,
+        "y": 14
+      },
+      {
+        "alias": "砂",
+        "translated": "砂",
+        "key": "8dbb",
+        "index": 195,
+        "page": 0,
+        "x": 210,
+        "y": 140
+      },
+      {
+        "alias": "金",
+        "translated": "金",
+        "key": "8be0",
+        "index": 164,
+        "page": 0,
+        "x": 28,
+        "y": 126
+      },
+      {
+        "alias": "一",
+        "translated": "一",
+        "key": "88ea",
+        "index": 121,
+        "page": 0,
+        "x": 182,
+        "y": 84
+      },
+      {
+        "alias": "半",
+        "translated": "般",
+        "key": "94bc",
+        "index": 334,
+        "page": 1,
+        "x": 140,
+        "y": 0
+      },
+      {
+        "alias": "。",
+        "translated": "。",
+        "key": "8142",
+        "index": 42,
+        "page": 0,
+        "x": 84,
+        "y": 28
+      }
+    ]
+  }
+]
