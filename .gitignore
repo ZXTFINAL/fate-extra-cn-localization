@@ -1,5 +1,6 @@
 # 构建与中间产物
 work/
+dist/
 *.iso
 *.cpk
 *.7z
