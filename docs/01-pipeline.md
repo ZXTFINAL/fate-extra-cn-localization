@@ -14,7 +14,7 @@
 | S2 | 文本转储 | `dump_fate_extra_text.py` | `packages`、`cpk/day` | `text.jsonl`、`refs.jsonl` | 19,711 唯一 ID |
 | S3 | 翻译 | 人工/代理 + `apply_translation_batches.py` | `text.jsonl`、批次 | 合并后的 `text.jsonl` | 非空译文 19,709 |
 | S4 | 排版 | `fix_fate_extra_text_layout.py` | `text.jsonl`、`refs.jsonl` | 带安全换行的 `text.jsonl` | 对话 ≤ 24 全角字/行 |
-| S5 | 正文补字 | `patch_fate_extra_font.py` | `text.jsonl`、`kanzi.bin`、`font.txb` | `glyph-map.json`、新字库 | 1,571 别名 |
+| S5 | 正文补字 | `patch_fate_extra_font.py` | `text.jsonl`、`kanzi.bin`、`font.txb` | `glyph-map.json`、新字库 | 1,613 别名 |
 | S6 | 字库压缩 | `compact_fate_extra_font.py` | 扩展字库、文本 | 4,096 字 / 16 页 | 运行时索引上限 |
 | S7 | 重建 CPK | `build_fate_extra.py` | 文本、引用、字库 | `data.cpk` | 指针重定向、PAK/CMP 回环 |
 | S8 | 写回 ISO | `embed_fate_extra_cpk.py` | 原 ISO、新 CPK | 新 ISO | ISO9660 目录/卷大小 |

@@ -4,9 +4,14 @@
 from __future__ import annotations
 
 import argparse
+import ctypes
+import hashlib
 import json
+import os
+import subprocess
 import struct
 import sys
+import tempfile
 from pathlib import Path, PurePosixPath
 
 from extract_fate_extra import decode_cmp, parse_cpk, safe_relpath
@@ -138,8 +143,49 @@ def write_pak(entries: list[dict], package_dir: Path, original_package_dir: Path
     return bytes(out)
 
 
+_CMP_ENCODER = None
+
+
+def _native_cmp_encoder():
+    global _CMP_ENCODER
+    if _CMP_ENCODER is not None:
+        return _CMP_ENCODER
+    source = Path(__file__).with_name("cmp_lzss_encoder.c")
+    digest = hashlib.sha256(source.read_bytes()).hexdigest()[:16]
+    suffix = ".dylib" if sys.platform == "darwin" else ".so"
+    library = Path(tempfile.gettempdir()) / f"fate_extra_cmp_{digest}{suffix}"
+    if not library.exists():
+        command = ["cc", "-O3", "-fPIC"]
+        command.extend(["-dynamiclib"] if sys.platform == "darwin" else ["-shared"])
+        command.extend(["-o", str(library), str(source)])
+        subprocess.run(command, check=True)
+    encoder = ctypes.CDLL(str(library))
+    encode = encoder.fate_cmp_encode
+    encode.argtypes = [ctypes.c_void_p, ctypes.c_uint32,
+                       ctypes.POINTER(ctypes.POINTER(ctypes.c_uint8)),
+                       ctypes.POINTER(ctypes.c_uint32)]
+    encode.restype = ctypes.c_int
+    encoder.fate_cmp_free.argtypes = [ctypes.c_void_p]
+    _CMP_ENCODER = (encoder, encode)
+    return _CMP_ENCODER
+
+
 def encode_cmp(data: bytes) -> bytes:
-    """Encode the game's IECP LZSS stream using a 4 KiB match window."""
+    """Encode IECP LZSS with the native bounded-memory encoder."""
+    if len(data) <= 0xFFFFFFFF:
+        encoder, encode = _native_cmp_encoder()
+        output = ctypes.POINTER(ctypes.c_uint8)()
+        output_size = ctypes.c_uint32()
+        status = encode(ctypes.c_char_p(data), len(data), ctypes.byref(output),
+                        ctypes.byref(output_size))
+        if status:
+            raise MemoryError(f"native IECP encoder failed with status {status}")
+        try:
+            return ctypes.string_at(output, output_size.value)
+        finally:
+            encoder.fate_cmp_free(output)
+
+    """Fallback implementation for inputs beyond the native 32-bit limit."""
     import collections
 
     # A long chain of identical 3-byte sequences is common in background and

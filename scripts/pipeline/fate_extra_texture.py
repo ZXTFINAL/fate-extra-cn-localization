@@ -226,7 +226,16 @@ class Texture:
             struct.pack_into("<H", cct_header, 8, sum(v != -1 for v in new_table))
             struct.pack_into("<H", cct_header, 12, len(tiles))
             header = bytearray(self.source[:48]); struct.pack_into("<I", header, 0x1c, len(pixel_data))
-            return bytes(header) + pixel_data + palette + bytes(cct_header) + struct.pack(f"<{len(new_table)}h", *new_table) + self.source[self.cct_end:]
+            result = (bytes(header) + pixel_data + palette + bytes(cct_header)
+                      + struct.pack(f"<{len(new_table)}h", *new_table) + self.source[self.cct_end:])
+            # Native TEX members are 16-byte aligned, including their CCT
+            # trailers. Growing the logical table by one int16 otherwise
+            # shifts every following TEX/CLUT by 2 bytes. Host roundtrips can
+            # still pass, while PSP CLUT uploads use an aligned address and
+            # display broken colours and tiles from that member onwards.
+            if len(self.source) % 16 == 0:
+                result += b"\0" * (-len(result) % 16)
+            return result
         linear = a.tobytes() if self.format == 3 else pack_indices(a, self.bpp)
         data = swizzle(linear, self.storage_width * self.bpp // 8) if self.swizzled and self.width > 16 else linear
         return self.source[:48] + data + self.source[48 + self.data_size:]

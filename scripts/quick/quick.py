@@ -44,6 +44,7 @@ STATE = WORK / ".quick-state.json"
 PIPELINE = ROOT / "scripts" / "pipeline"
 REPO_TEXT = ROOT / "data" / "translation" / "text.jsonl"
 REPO_GLYPH = ROOT / "data" / "translation" / "glyph-map.json"
+REPO_POEM_GLYPH = ROOT / "data" / "translation" / "poem-glyph-map.json"
 
 ISO_MEMBER = "PSP_GAME/USRDIR/data.cpk"
 ISO_MEMBER_FALLBACKS = ("PSP_GAME/USRDIR/DATA.CPK", "PSP_GAME/USRDIR/data.CPK")
@@ -249,6 +250,9 @@ def ensure_translations() -> None:
     glyph = TRANS / "glyph-map.json"
     if not glyph.exists() and REPO_GLYPH.exists():
         shutil.copyfile(REPO_GLYPH, glyph)
+    poem = TRANS / "poem-glyph-map.json"
+    if not poem.exists() and REPO_POEM_GLYPH.exists():
+        shutil.copyfile(REPO_POEM_GLYPH, poem)
     refs = TRANS / "refs.jsonl"
     if not refs.exists():
         log("生成引用表 refs.jsonl（ID → 文件/偏移/指针），首次较慢")
@@ -348,19 +352,72 @@ def cmd_rebuild(args) -> None:
         log(f"已同步 {copied} 个文件到 {target}")
 
     output_cpk = BUILD / "data.cpk"
-    run([sys.executable, str(PIPELINE / "build_fate_extra.py"),
-         "--translations", str(TRANS / "text.jsonl"),
-         "--references", str(TRANS / "refs.jsonl"),
-         "--glyph-map", str(TRANS / "glyph-map.json"),
-         "--extract-root", str(EXTRACT),
+    build_cmd = [sys.executable, str(PIPELINE / "build_fate_extra.py"),
+                 "--translations", str(TRANS / "text.jsonl"),
+                 "--references", str(TRANS / "refs.jsonl"),
+                 "--glyph-map", str(TRANS / "glyph-map.json"),
+                 "--extract-root", str(EXTRACT),
+                 "--manifest", str(EXTRACT / "manifest.json"),
+                 "--source-cpk", str(SOURCE_CPK),
+                 "--output-cpk", str(output_cpk)]
+    poem = TRANS / "poem-glyph-map.json"
+    if poem.exists():
+        # 章节卡动画字与正文不是同一套字形别名，必须分开传
+        build_cmd += ["--motion-glyph-map", str(poem)]
+    run(build_cmd)
+
+    # 固定动作表（話す/調べる/前往…）不在 text.jsonl 里，按 24 槽表单独注入。
+    # 补丁脚本产出的是 DAT 覆盖层，不是 CPK；必须再用 revision 把覆盖层压进 CPK。
+    # 顺序不能反：先文本、后动作表，否则文本重建会把它覆盖回日文。
+    interaction_overlay = BUILD / "interaction-overlay"
+    interaction_report = BUILD / "interaction-report.json"
+    # 覆盖层原地重写：补丁每次都会扫描全部 field 包，写入的集合是确定的。
+    # 这里不清空目录——批量删除既慢又容易被安全策略拦截；改为写完核对文件数。
+    interaction_overlay.mkdir(parents=True, exist_ok=True)
+    run([sys.executable, str(PIPELINE / "patch_fate_extra_interaction.py"),
+         "--source-cpk", str(output_cpk),
          "--manifest", str(EXTRACT / "manifest.json"),
-         "--source-cpk", str(SOURCE_CPK),
-         "--output-cpk", str(output_cpk)])
+         "--glyph-map", str(TRANS / "glyph-map.json"),
+         "--out", str(interaction_overlay),
+         "--report", str(interaction_report)])
+
+    produced = sum(1 for path in interaction_overlay.rglob("*") if path.is_file())
+    expected = None
+    if interaction_report.exists():
+        try:
+            expected = json.loads(interaction_report.read_text(encoding="utf-8")).get("affected_dat_files")
+        except json.JSONDecodeError:
+            expected = None
+    if expected and produced != expected:
+        log(f"注意：动作表覆盖层有 {produced} 个文件，报告记录 {expected} 个；"
+            f"多出的可能来自旧版本，可手动清理 {interaction_overlay}")
+
+    final_dir = BUILD / "data.final"
+    final_cpk = final_dir / "data.cpk"
+    revision_args = [sys.executable, str(PIPELINE / "stage_fate_extra_revision.py"),
+                     "--source-cpk", str(output_cpk),
+                     "--previous-translations", str(TRANS / "text.jsonl"),
+                     "--translations", str(TRANS / "text.jsonl"),
+                     "--previous-glyph-map", str(TRANS / "glyph-map.json"),
+                     "--glyph-map", str(TRANS / "glyph-map.json"),
+                     "--references", str(TRANS / "refs.jsonl"),
+                     "--manifest", str(EXTRACT / "manifest.json"),
+                     "--overlay", str(interaction_overlay),
+                     "--out", str(final_dir)]
+    if poem.exists():
+        revision_args += ["--poem-glyph-map", str(poem)]
+    else:
+        revision_args += ["--poem-glyph-map", str(TRANS / "glyph-map.json")]
+    run(revision_args)
+    output_cpk = final_cpk
 
     report = {
         "built_at": time.strftime("%Y-%m-%dT%H:%M:%S"),
         "source_cpk": str(SOURCE_CPK),
         "source_cpk_sha256": sha256(SOURCE_CPK),
+        "text_stage_cpk": str(BUILD / "data.cpk"),
+        "interaction_report": str(interaction_report),
+        "revision_report": str(final_dir / "build-report.json"),
         "output_cpk": str(output_cpk),
         "output_cpk_bytes": output_cpk.stat().st_size,
         "output_cpk_sha256": sha256(output_cpk),

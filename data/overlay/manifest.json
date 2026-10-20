@@ -1,10 +1,10 @@
 {
- "version": "v0.15.0",
- "note": "变更集：只含被修改过的文件，不含任何未修改的原始游戏资源；必须配合自备正版 ISO 使用。",
+ "version": "v0.18.0",
+ "note": "变更集：只含被修改过的二进制资源（txb/bin），不含未修改的原始游戏资源，也不含 DAT 文本（文本由 data/translation/text.jsonl 重建）；必须配合自备正版 ISO 使用。",
  "root": "overlay",
  "layout": "overlay/<path> 直接对应 work/build/assets/<path>",
- "file_count": 375,
- "total_bytes": 71900512,
+ "file_count": 381,
+ "total_bytes": 72180368,
  "files": [
   {
    "path": "packages/pack/000001/interface/shop/shop_00.txb",
@@ -33,8 +33,8 @@
   },
   {
    "path": "packages/pack/000022/interface/dayresult/d_result.txb",
-   "size": 110162,
-   "sha256": "4841d6f1a58193af7c2d6f6a69d3108d7f2019d9b14317a015cfc2e7a22f192e"
+   "size": 110176,
+   "sha256": "3e28b3788032fed70c653eaac735a47d23ab26811279d541856522443e78d9c7"
   },
   {
    "path": "packages/pack/000023_0/interface/dungeon/shar_arena.txb",
@@ -868,8 +868,8 @@
   },
   {
    "path": "packages/pack/010007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/011001/interface/shop/shop_00.txb",
@@ -878,8 +878,8 @@
   },
   {
    "path": "packages/pack/011007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/012001/interface/shop/shop_00.txb",
@@ -888,8 +888,8 @@
   },
   {
    "path": "packages/pack/012007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/013001/interface/shop/shop_00.txb",
@@ -898,8 +898,8 @@
   },
   {
    "path": "packages/pack/013007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/014001/interface/shop/shop_00.txb",
@@ -908,8 +908,8 @@
   },
   {
    "path": "packages/pack/014007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/015001/interface/shop/shop_00.txb",
@@ -918,8 +918,8 @@
   },
   {
    "path": "packages/pack/015007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/016001/interface/shop/shop_00.txb",
@@ -928,8 +928,8 @@
   },
   {
    "path": "packages/pack/016007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/017001/interface/shop/shop_00.txb",
@@ -938,8 +938,8 @@
   },
   {
    "path": "packages/pack/017007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/018001/interface/shop/shop_00.txb",
@@ -948,8 +948,8 @@
   },
   {
    "path": "packages/pack/018007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/019001/interface/shop/shop_00.txb",
@@ -958,8 +958,8 @@
   },
   {
    "path": "packages/pack/019007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/020001/interface/shop/shop_00.txb",
@@ -968,8 +968,8 @@
   },
   {
    "path": "packages/pack/020007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/021001/interface/shop/shop_00.txb",
@@ -978,8 +978,8 @@
   },
   {
    "path": "packages/pack/021007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/022001/interface/shop/shop_00.txb",
@@ -988,8 +988,8 @@
   },
   {
    "path": "packages/pack/022007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/023001/interface/shop/shop_00.txb",
@@ -998,8 +998,8 @@
   },
   {
    "path": "packages/pack/023007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/024001/interface/shop/shop_00.txb",
@@ -1008,8 +1008,8 @@
   },
   {
    "path": "packages/pack/024007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/025001/interface/shop/shop_00.txb",
@@ -1018,8 +1018,8 @@
   },
   {
    "path": "packages/pack/025007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/026001/interface/shop/shop_00.txb",
@@ -1028,8 +1028,8 @@
   },
   {
    "path": "packages/pack/026007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/027001/interface/shop/shop_00.txb",
@@ -1038,8 +1038,8 @@
   },
   {
    "path": "packages/pack/027007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/028001/interface/shop/shop_00.txb",
@@ -1048,8 +1048,8 @@
   },
   {
    "path": "packages/pack/028007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/029001/interface/shop/shop_00.txb",
@@ -1058,8 +1058,8 @@
   },
   {
    "path": "packages/pack/029007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/030001/interface/shop/shop_00.txb",
@@ -1068,8 +1068,8 @@
   },
   {
    "path": "packages/pack/030007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/031001/interface/shop/shop_00.txb",
@@ -1078,8 +1078,8 @@
   },
   {
    "path": "packages/pack/031007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/032001/interface/shop/shop_00.txb",
@@ -1088,8 +1088,8 @@
   },
   {
    "path": "packages/pack/032007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/033001/interface/shop/shop_00.txb",
@@ -1098,8 +1098,8 @@
   },
   {
    "path": "packages/pack/033007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/034001/interface/shop/shop_00.txb",
@@ -1108,8 +1108,8 @@
   },
   {
    "path": "packages/pack/034007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/035001/interface/shop/shop_00.txb",
@@ -1118,8 +1118,8 @@
   },
   {
    "path": "packages/pack/035007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/036001/interface/shop/shop_00.txb",
@@ -1128,8 +1128,8 @@
   },
   {
    "path": "packages/pack/036007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/037001/interface/shop/shop_00.txb",
@@ -1138,8 +1138,8 @@
   },
   {
    "path": "packages/pack/037007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/038001/interface/shop/shop_00.txb",
@@ -1148,8 +1148,8 @@
   },
   {
    "path": "packages/pack/038007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/039001/interface/shop/shop_00.txb",
@@ -1158,8 +1158,8 @@
   },
   {
    "path": "packages/pack/039007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/040001/interface/shop/shop_00.txb",
@@ -1168,8 +1168,8 @@
   },
   {
    "path": "packages/pack/040007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/041001/interface/shop/shop_00.txb",
@@ -1178,8 +1178,8 @@
   },
   {
    "path": "packages/pack/041007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/042001/interface/shop/shop_00.txb",
@@ -1188,8 +1188,8 @@
   },
   {
    "path": "packages/pack/042007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/043001/interface/shop/shop_00.txb",
@@ -1198,8 +1198,8 @@
   },
   {
    "path": "packages/pack/043007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/044001/interface/shop/shop_00.txb",
@@ -1208,8 +1208,8 @@
   },
   {
    "path": "packages/pack/044007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/045001/interface/shop/shop_00.txb",
@@ -1218,8 +1218,8 @@
   },
   {
    "path": "packages/pack/045007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/046001/interface/shop/shop_00.txb",
@@ -1228,8 +1228,8 @@
   },
   {
    "path": "packages/pack/046007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/047001/interface/shop/shop_00.txb",
@@ -1238,8 +1238,8 @@
   },
   {
    "path": "packages/pack/047007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/048001/interface/shop/shop_00.txb",
@@ -1248,8 +1248,8 @@
   },
   {
    "path": "packages/pack/048007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/049001/interface/shop/shop_00.txb",
@@ -1258,8 +1258,8 @@
   },
   {
    "path": "packages/pack/049007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/050001/interface/shop/shop_00.txb",
@@ -1268,8 +1268,8 @@
   },
   {
    "path": "packages/pack/050007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/051001/interface/shop/shop_00.txb",
@@ -1278,8 +1278,8 @@
   },
   {
    "path": "packages/pack/051007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/052001/interface/shop/shop_00.txb",
@@ -1288,8 +1288,8 @@
   },
   {
    "path": "packages/pack/052007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/053001/interface/shop/shop_00.txb",
@@ -1298,8 +1298,8 @@
   },
   {
    "path": "packages/pack/053007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/054001/interface/shop/shop_00.txb",
@@ -1308,8 +1308,8 @@
   },
   {
    "path": "packages/pack/054007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/056001/interface/shop/shop_00.txb",
@@ -1318,8 +1318,8 @@
   },
   {
    "path": "packages/pack/056007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/057001/interface/shop/shop_00.txb",
@@ -1328,8 +1328,8 @@
   },
   {
    "path": "packages/pack/057007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/058001/interface/shop/shop_00.txb",
@@ -1338,8 +1338,8 @@
   },
   {
    "path": "packages/pack/058007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/059001/interface/shop/shop_00.txb",
@@ -1348,8 +1348,8 @@
   },
   {
    "path": "packages/pack/059007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/060001/interface/shop/shop_00.txb",
@@ -1358,8 +1358,8 @@
   },
   {
    "path": "packages/pack/060007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/061001/interface/shop/shop_00.txb",
@@ -1368,8 +1368,8 @@
   },
   {
    "path": "packages/pack/061007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/062001/interface/shop/shop_00.txb",
@@ -1378,8 +1378,8 @@
   },
   {
    "path": "packages/pack/062007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/063001/interface/shop/shop_00.txb",
@@ -1388,13 +1388,13 @@
   },
   {
    "path": "packages/pack/063007/interface/gradationair/ga.txb",
-   "size": 211458,
-   "sha256": "d07ddcb9909d19e8f8a67371488dfbaea105d2b377e3db06bbf0922721310194"
+   "size": 211472,
+   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
   },
   {
    "path": "packages/pack/PRELOAD/font.txb",
    "size": 526416,
-   "sha256": "01d3683991f48feb23955162a2d050ec5f37b7e3570eabb2df12be59fba18e90"
+   "sha256": "d44adb8cfd84a7deb8e8335a8e3373304f4fbe24c32c17b75ad0920e27819210"
   },
   {
    "path": "packages/pack/PRELOAD/interface/calendar/pgst_000.txb",
@@ -1424,22 +1424,22 @@
   {
    "path": "packages/pack/PRELOAD/kanzi.bin",
    "size": 24592,
-   "sha256": "a3b17abcf7dc1a2ac64434cd578046cdb1e75b69b2dfc21cf9bdef2b50070b00"
+   "sha256": "9efee6fed0249217ba358e1bbe159af0e598e692e58cb19b259247aa76b3d3bb"
   },
   {
    "path": "packages/pack/PRELOAD/ruby.bin",
-   "size": 3120,
-   "sha256": "323175d3993bc3d82cc682644dc2cdb0c4686ef7e7640a030215d60f1854e897"
+   "size": 3744,
+   "sha256": "b406b233501b5672cc3f1287fa9479751d5be8e3da946ee5904d99c6facff9b5"
   },
   {
    "path": "packages/pack/PRELOAD/ruby.txb",
-   "size": 25680,
-   "sha256": "53f131ff27c853c7739639c733266c2cc147e84663cb2e4f1e1cfa82785e959e"
+   "size": 34080,
+   "sha256": "0481dc7b60e9abd8233cb8379c5e8361e2c6bd20fad246717ba1d9aec08ae1d6"
   },
   {
    "path": "packages/pack/advice/interface/advice/0000.txb",
-   "size": 35378,
-   "sha256": "6b0d150406e7a317781a992c06cbc51890eaee405a884f32e31b4a4312f090a0"
+   "size": 35392,
+   "sha256": "a36d6959be5369e217f9d21eb7816e7ab8794232d317dbbc99a071e7dcf6ac7a"
   },
   {
    "path": "packages/pack/beginning/interface/beginning/0000.txb",
@@ -1455,6 +1455,16 @@
    "path": "packages/pack/charsel/interface/charsel/svt_select.txb",
    "size": 243744,
    "sha256": "fffa2cc35ffa4320ceafde0d4306014edc682bb0b4ba8f2da433f1775a16d157"
+  },
+  {
+   "path": "packages/pack/charsel/interface/poem/poem.bin",
+   "size": 2736,
+   "sha256": "10201528fa2622f908232ad4ddd42c5ed88dfd5f6d0e7a4f4378049440eb06a9"
+  },
+  {
+   "path": "packages/pack/charsel/interface/poem/poem_font.txb",
+   "size": 65808,
+   "sha256": "8ae7207aa4dc14186fb7ed8cbc48191ff2f08892f3d1750ab4c9cbe6c1b5f345"
   },
   {
    "path": "packages/pack/equip/interface/equip/equip_00.txb",
@@ -1473,8 +1483,8 @@
   },
   {
    "path": "packages/pack/infomatrixex/interface/infomatrixex/0000.txb",
-   "size": 514146,
-   "sha256": "ece221abd6ff8dbd39838dfc58d367bf9770700f618153903d4173d385733e3f"
+   "size": 514160,
+   "sha256": "cfd5582c4df87cf52c254dfea37295d2165d0c6fb9f7f865be581e72b5fdaa29"
   },
   {
    "path": "packages/pack/itemmenu/interface/item/item_00.txb",
@@ -1487,9 +1497,29 @@
    "sha256": "429278fc5b2b583c18dc89c1154a59f6c5d2b2bb0364d2afbf47c1fe13526c11"
   },
   {
+   "path": "packages/pack/modeselect/interface/modeselect/modeselect.bin",
+   "size": 352,
+   "sha256": "342bdcb1386e8fb796b5e387e67d402520d79ffb0ff4c3b553b64597b936fa26"
+  },
+  {
+   "path": "packages/pack/modeselect/interface/modeselect/modeselect.txb",
+   "size": 132608,
+   "sha256": "9bc36a44f24ee682984b4764365657de86ece6a38a98706fcb09f474e121e407"
+  },
+  {
    "path": "packages/pack/optionmenu/interface/option/option_00.txb",
    "size": 49664,
    "sha256": "90209fcee6ff1f92cd9c9031c8c6301c43417d22c159bc91e29652057a9e23d9"
+  },
+  {
+   "path": "packages/pack/poem/interface/poem/poem.bin",
+   "size": 2736,
+   "sha256": "10201528fa2622f908232ad4ddd42c5ed88dfd5f6d0e7a4f4378049440eb06a9"
+  },
+  {
+   "path": "packages/pack/poem/interface/poem/poem_font.txb",
+   "size": 65808,
+   "sha256": "8ae7207aa4dc14186fb7ed8cbc48191ff2f08892f3d1750ab4c9cbe6c1b5f345"
   },
   {
    "path": "packages/pack/reizyu/interface/reizyu/rei_00.txb",

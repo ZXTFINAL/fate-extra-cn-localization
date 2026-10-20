@@ -14,15 +14,20 @@ from pathlib import Path
 
 TOKEN_RE = re.compile(
     r"#RUBS.*?#REND"
-    r"|#SVT\[[^\]]*\]\[[^\]]*\]\[[^\]]*\]##CDEF"
+    # One runtime-substituted servant class is an indivisible unit. Some
+    # translations have an optional #CDEF immediately after its closing #.
+    r"|#SVT\[[^\]]*\]\[[^\]]*\]\[[^\]]*\]#(?:#CDEF)?"
     r"|#\[[^\]]*\]\[[^\]]*\]#"
+    # Keep colored names/terms together so a line break cannot split a name
+    # such as 部長 between its characters.
+    r"|#C\d{9}[^#]*#CDEF"
     r"|##CDEF"
     r"|#C\d{9}|#CDEF|#SP\d{2}|#FAMILY|#GIVEN"
     r"|#[A-Z][A-Z0-9_]*"
 )
 BREAK_AFTER = set("，。！？；：、…—,.!?;:")
 SENTENCE_BREAK_AFTER = set("。！？；!?;")
-NO_LINE_START = set("，。！？；：、）》】〕〉」』”’…,.!?;:)]}>")
+NO_LINE_START = set("，。！？；：、）》】〕〉」』”’…,.!?;:)\]}>")
 # 0x0126 DAT text uses the animated text-motion layout. Inserting dialogue
 # line breaks changes that motion and scatters the characters across the
 # loading/title card, so keep motion strings intact.
@@ -58,6 +63,9 @@ def token_width(token: str) -> float:
     if token.startswith("#SVT["):
         # The runtime substitutes one of the three servant classes here.
         return 6.0
+    if token.startswith("#C"):
+        text = re.sub(r"^#C\d{9}|#CDEF$", "", token)
+        return visible_width(text)
     if token.startswith("#["):
         options = re.findall(r"\[([^\]]*)\]", token)
         return max((visible_width(option) for option in options), default=0.0)
@@ -76,7 +84,20 @@ def split_units(line: str) -> list[tuple[str, float, bool, bool]]:
         for char in line[pos:match.start()]:
             units.append((char, visible_width(char), char in BREAK_AFTER, char in NO_LINE_START))
         token = match.group(0)
-        units.append((token, token_width(token), False, False))
+        if token.startswith("#C") and token.endswith("#CDEF"):
+            color_open = re.match(r"#C\d{9}", token)
+            body = token[color_open.end():-len("#CDEF")] if color_open else token
+            # Keep short colored names intact, but allow long colored sentences
+            # to wrap. The game color controls are zero-width state changes.
+            if color_open and visible_width(body) > 8:
+                units.append((color_open.group(0), 0.0, False, False))
+                units.extend((char, visible_width(char), char in BREAK_AFTER,
+                              char in NO_LINE_START) for char in body)
+                units.append(("#CDEF", 0.0, False, False))
+            else:
+                units.append((token, token_width(token), False, False))
+        else:
+            units.append((token, token_width(token), False, False))
         pos = match.end()
     for char in line[pos:]:
         units.append((char, visible_width(char), char in BREAK_AFTER, char in NO_LINE_START))
@@ -89,16 +110,13 @@ def wrap_line(line: str, max_width: float) -> tuple[str, int]:
         return line, 0
     output: list[str] = []
     breaks = 0
+    active_color: str | None = None
     while units:
         used = 0.0
         fit = 0
         for index, unit in enumerate(units):
             next_width = used + unit[1]
             if next_width > max_width:
-                # Keep a closing punctuation mark with the preceding phrase.
-                if unit[2] and next_width <= max_width + 1.0:
-                    used = next_width
-                    fit = index + 1
                 break
             used = next_width
             fit = index + 1
@@ -124,8 +142,15 @@ def wrap_line(line: str, max_width: float) -> tuple[str, int]:
         )
         while end > 1 and end < len(units) and units[end][3]:
             end -= 1
-        output.extend(unit[0] for unit in units[:end])
-        output.append("\n")
+        for raw, _, _, _ in units[:end]:
+            output.append(raw)
+            if re.fullmatch(r"#C\d{9}", raw):
+                active_color = raw
+            elif raw == "#CDEF":
+                active_color = None
+        # Each wrapped line has a balanced color span, so the next line
+        # renders identically even if the game's line renderer resets state.
+        output.append(("#CDEF\n" + active_color) if active_color else "\n")
         breaks += 1
         units = units[end:]
     return "".join(output), breaks
@@ -135,7 +160,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--translations", type=Path, default=Path("work/translation/text.jsonl"))
     parser.add_argument("--references", type=Path, default=Path("work/translation/refs.jsonl"))
-    parser.add_argument("--max-width", type=float, default=24.0)
+    parser.add_argument("--max-width", type=float, default=23.0)
     parser.add_argument("--backup", type=Path, default=Path("work/translation/text.pre-layout-fix.jsonl"))
     args = parser.parse_args()
 

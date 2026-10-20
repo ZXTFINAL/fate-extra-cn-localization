@@ -1,0 +1,232 @@
+{
+  "v16": {
+    "remapped_existing_count": 33,
+    "remapped_existing": [
+      {
+        "character": "高",
+        "old": "",
+        "new": ""
+      },
+      {
+        "character": "满",
+        "old": "食",
+        "new": ""
+      },
+      {
+        "character": "轮",
+        "old": "流",
+        "new": ""
+      },
+      {
+        "character": "降",
+        "old": "",
+        "new": ""
+      },
+      {
+        "character": "钟",
+        "old": "",
+        "new": ""
+      },
+      {
+        "character": "邻",
+        "old": "",
+        "new": ""
+      },
+      {
+        "character": "露",
+        "old": "",
+        "new": ""
+      },
+      {
+        "character": "陆",
+        "old": "",
+        "new": ""
+      },
+      {
+        "character": "锤",
+        "old": "",
+        "new": ""
+      },
+      {
+        "character": "现",
+        "old": "全",
+        "new": ""
+      },
+      {
+        "character": "醒",
+        "old": "",
+        "new": ""
+      },
+      {
+        "character": "饿",
+        "old": "",
+        "new": ""
+      },
+      {
+        "character": "里",
+        "old": "",
+        "new": ""
+      },
+      {
+        "character": "那",
+        "old": "",
+        "new": ""
+      },
+      {
+        "character": "遥",
+        "old": "",
+        "new": ""
+      },
+      {
+        "character": "静",
+        "old": "",
+        "new": ""
+      },
+      {
+        "character": "连",
+        "old": "",
+        "new": ""
+      },
+      {
+        "character": "黑",
+        "old": "",
+        "new": ""
+      },
+      {
+        "character": "闭",
+        "old": "",
+        "new": ""
+      },
+      {
+        "character": "随",
+        "old": "",
+        "new": ""
+      },
+      {
+        "character": "途",
+        "old": "",
+        "new": ""
+      },
+      {
+        "character": "远",
+        "old": "",
+        "new": ""
+      },
+      {
+        "character": "都",
+        "old": "",
+        "new": ""
+      },
+      {
+        "character": "鱼",
+        "old": "",
+        "new": ""
+      },
+      {
+        "character": "预",
+        "old": "",
+        "new": ""
+      },
+      {
+        "character": "需",
+        "old": "",
+        "new": ""
+      },
+      {
+        "character": "间",
+        "old": "",
+        "new": ""
+      },
+      {
+        "character": "量",
+        "old": "",
+        "new": ""
+      },
+      {
+        "character": "闪",
+        "old": "",
+        "new": ""
+      },
+      {
+        "character": "长",
+        "old": "",
+        "new": ""
+      },
+      {
+        "character": "面",
+        "old": "",
+        "new": ""
+      },
+      {
+        "character": "，",
+        "old": "",
+        "new": ""
+      },
+      {
+        "character": "通",
+        "old": "",
+        "new": ""
+      }
+    ],
+    "added_chars": [
+      "全",
+      "具",
+      "剩",
+      "又",
+      "各",
+      "字",
+      "它",
+      "昔",
+      "流",
+      "理",
+      "砺",
+      "磨",
+      "线",
+      "超",
+      "逝",
+      "食",
+      "驶",
+      "："
+    ]
+  },
+  "fixed_allocator": {
+    "remapped_existing_count": 3,
+    "remapped_existing": [
+      {
+        "character": "轮",
+        "old": "流",
+        "new": ""
+      },
+      {
+        "character": "满",
+        "old": "食",
+        "new": ""
+      },
+      {
+        "character": "现",
+        "old": "全",
+        "new": ""
+      }
+    ],
+    "added_chars": [
+      "全",
+      "具",
+      "剩",
+      "又",
+      "各",
+      "字",
+      "它",
+      "昔",
+      "流",
+      "理",
+      "砺",
+      "磨",
+      "线",
+      "超",
+      "逝",
+      "食",
+      "驶",
+      "："
+    ]
+  }
+}

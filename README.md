@@ -1,6 +1,6 @@
 # Fate/Extra 简体中文汉化工程
 
-《Fate/Extra》（PSP 日版，`NPJH-50247`）的简体中文汉化工程记录。本仓库保存**全过程文档、方法论、可复现脚本、翻译主表、术语表、变更集与审计证据**。除 `data/overlay/` 下 375 个改动文件与 `data/evidence/poem/` 下的最小审计切片外，不包含游戏本体、ISO 或未修改的原始资源。
+《Fate/Extra》（PSP 日版，`NPJH-50247`）的简体中文汉化工程记录。本仓库保存**全过程文档、方法论、可复现脚本、翻译主表、术语表、变更集与审计证据**。除 `data/overlay/` 下 381 个改动文件与 `data/evidence/` 下的最小审计切片外，不包含游戏本体、ISO 或未修改的原始资源。
 
 > 目标不是"能跑就行"的补丁，而是可审计、可复现、可迭代的汉化流水线：每一条改动都能追溯到源字节、脚本和验证记录。
 
@@ -11,18 +11,19 @@
 | 模块 | 状态 | 关键数字 |
 |---|---|---|
 | 文本提取 | 完成 | CPK 5,824 条目 → 处理 2,297 条 → 解包 2,240 个包 |
-| 文本翻译 | 完成 | 19,711 条唯一文本，19,709 条非空译文（其余 2 条原文仅为全角空白） |
-| 正文补字 | 完成 | 1,571 个生僻字/标点分配 CP932 用户区别名；字库压缩回 4,096 字 / 16 页 |
-| 诗文（poem）字库 | 完成 | 14×14 格、324 字/页；396 个中文字形，修正 16px 网格错位 |
+| 文本翻译 | 完成 | 19,711 条唯一文本，19,709 条非空译文（余 2 条原文本身是全角空白） |
+| 正文补字 | 完成 | 1,613 个生僻字/标点分配 CP932 用户区别名；字库压缩回 4,096 字 / 16 页 |
+| 诗文（poem）字库 | 完成 | 14×14 格、324 字/页；396 个中文字形，修正 16px 网格错位；v17 补分配器回归审计 |
 | 注释小字（ruby） | 完成并入 v15 | 1,133 条文本修正；小字表 219 → 518 字 / 3 页 |
 | UI 图片 | 完成并入 v15 | 371 个 TXB、2,598 个 TEX 变更；191 页教程 + 274 个小图 |
-| 完整 ISO | v14 已构建 | `Fate_Extra_CN-v14.iso`，1,386,442,752 字节 |
-| v15 资源 | 已整合进重建产物 | 1,186 条文本、743 个 DAT、375 个覆盖资源；`quick rebuild` 已产出完整镜像，**未做实机验证** |
-| 可重建工程 | 完成 | 375 个变更文件 / 15,962 条解包清单 / `bootstrap` + `rebuild` 两条命令 |
-| 全量语境校对 | 进行中 | 开场 641 / 19,711 ID；lane 1 已读 1,452 / 6,356 |
+| 现场动作表 | v18 修复 | 807 个场景 DAT / 851 条包条目；24 槽固定动作表（对话/调查/前往…）汉化 |
+| 完整 ISO | v18 已构建 | `Fate_Extra_CN-v18.iso`，1,461,848,064 字节；内嵌 CPK 1,348,403,600 字节 |
+| 变更集 | 完成 | 381 个改动文件 / 68.8 MB（486 个 TXB + 16 个 BIN 包内条目） |
+| 可重建工程 | 完成 | 381 个变更文件 / 15,962 条解包清单 / `bootstrap` + `rebuild` 两条命令 |
+| 全量语境校对 | 进行中 | 19,070 / 25,172 ID（75.8%），4 条 lane 并行 |
 
-**结论边界**：v14 ISO 是上一版可运行基线；v15 的资源层（ruby 字库、UI 覆盖、增量文本）已随
-`quick rebuild` 整合进新的完整镜像，但只做了字节级校验，**尚未 PPSSPP/实机回归**。
+**结论边界**：v18 ISO 是当前可运行基线，含 v16 语境修订、v16 排版（23 宽）、v17 诗文回归修复、
+v18 现场动作表修复与 XMB 图标；校验只做到字节级与静态回读，**未做 PPSSPP/实机全流程回归**。
 本仓库不声称"全部日文图片/文本已逐字校对完成"，未完成项见 [ROADMAP.md](ROADMAP.md)。
 
 ---
@@ -52,16 +53,16 @@ fate-extra-cn/
 ├── iso/                      放自备正版 ISO（不入库）
 ├── scripts/
 │   ├── quick/                一键重建与快速编辑（quick.py）
-│   ├── pipeline/             20 个生产脚本（含 2 个 Swift 渲染器）
+│   ├── pipeline/             25 个生产脚本（含 2 个 Swift 渲染器、1 个 C 参考编码器）
 │   └── audit/                14 个审计/审校辅助脚本
 ├── data/
-│   ├── overlay/              变更集：375 个改过的二进制资源 + 清单
+│   ├── overlay/              变更集：381 个改过的二进制资源 + 清单
 │   ├── inventory/            解包树清单（15,962 个文件的路径/大小/校验和）
 │   ├── glossary-GLOSSARY.md  术语表
 │   ├── translation/          主翻译表、字库映射、批次清单
 │   ├── review/               ruby 与语境修正结果
-│   ├── evidence/             诗文/UI/ruby/语境审计证据
-│   └── build/                v15 构建报告
+│   ├── evidence/             诗文/UI/ruby/语境/构建审计证据
+│   └── build/                v15–v18 构建报告与静态校验
 └── releases/                 各版本发布说明
 ```
 
@@ -80,15 +81,20 @@ fate-extra-cn/
 
 ### 两条命令重建（推荐）
 
-仓库已经带好译文主表、字库映射和 375 个改过的二进制资源，**不需要重跑补字和图片重排**：
+仓库已经带好译文主表、两套字库映射和 381 个改过的二进制资源，**不需要重跑补字和图片重排**：
 
 ```sh
 # 1. 把正版日版 ISO 放到 iso/（或 --iso 指定），从零展开工作区
 python3 scripts/quick/quick.py bootstrap --iso iso/original.iso
 
-# 2. 应用变更集 + 重建 CPK + 写回 ISO
+# 2. 重建 CPK（文本 → 动作表 → 打包）并写回 ISO
 python3 scripts/quick/quick.py rebuild
 ```
+
+`rebuild` 内部是四段：套用变更集 → `build_fate_extra.py` 把 `text.jsonl` 写进 1,245 个 DAT →
+`patch_fate_extra_interaction.py` 生成动作表覆盖层、再用 `stage_fate_extra_revision.py` 压进 CPK
+（807 个场景包的 24 槽固定动作表）→ `embed_fate_extra_cpk.py` 写回 ISO。
+动作表必须在文本之后，否则会被重建覆盖回日文。
 
 产物：`work/build/Fate_Extra_CN.iso`，附 `work/build/quick-build-report.json`（含各阶段 SHA-256）。
 
@@ -141,8 +147,9 @@ python3 scripts/pipeline/embed_fate_extra_cpk.py \
 ### 数据文件说明
 
 - `data/translation/text.jsonl`：19,711 行，每行 `id / jp / jp_bytes_hex / zh_cn / reference_count`。`id` 是源字符串 SHA-256 前 16 位，稳定、与文件位置无关。
-- `data/translation/glyph-map.json`：1,571 个无法用原生 CP932 表示的字符 → 私有区别名。
-- `data/overlay/`：375 个改过的二进制资源（字库表、小字表、UI 纹理），71.9 MB，带逐文件校验和。
+- `data/translation/glyph-map.json`：1,613 个无法用原生 CP932 表示的字符 → 私有区别名（正文）。
+- `data/translation/poem-glyph-map.json`：诗文与章节卡动画字专用别名表，与正文不是同一套。
+- `data/overlay/`：381 个改过的二进制资源（字库表、小字表、UI 纹理、诗文包），68.8 MB，带逐文件校验和；不含 DAT。
 - `data/inventory/extracted-tree.jsonl.gz`：15,962 行解包树清单，用来核对自备 ISO 解出的树是否与工程基准一致。
 - `refs.jsonl`（70 MB）**不入库**，由 `bootstrap` 或第 2 步重新生成；它是 ID 到文件、偏移、指针位置的映射，属于可复现中间产物。
 
@@ -179,7 +186,7 @@ python3 scripts/pipeline/embed_fate_extra_cpk.py \
 ## 版权与致谢
 
 - 游戏《Fate/Extra》及其全部素材版权归 Marvelous / TYPE-MOON 等原权利人所有。
-- 本仓库包含自行编写的脚本、文档、翻译文本、审计数据，以及 `data/overlay/` 中 **375 个改动过的补丁文件**；**不提供 ISO、CPK 或未修改的原始资源**。使用者需自备正版游戏。
+- 本仓库包含自行编写的脚本、文档、翻译文本、审计数据，以及 `data/overlay/` 中 **381 个改动过的补丁文件**；**不提供 ISO、CPK 或未修改的原始资源**。使用者需自备正版游戏。
 - 本项目为非商业同人汉化，禁止用于任何商业用途。
 - 文件格式与工具链研究参考了 [ccc-tl/translation-tools](https://github.com/ccc-tl/translation-tools)（CPK/PAK/CMP 读取与 Extra 脚本转储思路）。本项目以其格式发现为基础，目标平台保持日版，未套用其面向美版的 MIPS 偏移。
 - 代码采用 MIT 许可；文档与翻译文本采用 CC BY-NC-SA 4.0。详见 [LICENSE](LICENSE)。

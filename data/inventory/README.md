@@ -44,5 +44,5 @@ python3 scripts/quick/quick.py inventory verify
 ## 为什么不全传
 
 - 1.67 GB 里 99% 是未修改的原版资源，传上去既超仓库限制，也没有信息增量；
-- 汉化只改了 375 个文件（见 `data/overlay/`），其余都可以从正版 ISO 精确重现；
+- 汉化只改了 381 个二进制资源（见 `data/overlay/`），DAT 文本由 `text.jsonl` 重建，其余都可以从正版 ISO 精确重现；
 - 清单 + 构建脚本 = 同等可复现性，体积从 GB 级降到几百 KB。

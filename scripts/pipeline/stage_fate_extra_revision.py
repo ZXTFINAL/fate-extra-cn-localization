@@ -2,7 +2,8 @@
 """Patch reviewed strings against actual bytes of a previously working CPK.
 
 Unchanged PAK members always come from that CPK, never a stale extraction.
-Every pointer is checked against the prior encoded translation before edits.
+Translation and glyph-alias changes both trigger string updates. Every pointer
+is checked against the prior encoded translation before edits.
 """
 from __future__ import annotations
 
@@ -69,6 +70,8 @@ def main() -> None:
     ap.add_argument('--translations', type=Path, required=True)
     ap.add_argument('--previous-glyph-map', type=Path, required=True)
     ap.add_argument('--glyph-map', type=Path, required=True)
+    ap.add_argument('--previous-poem-glyph-map', type=Path, action='append',
+                    help='poem map used to encode the source CPK; repeat for a verified mixed-map recovery; defaults to --poem-glyph-map')
     ap.add_argument('--poem-glyph-map', type=Path, required=True)
     ap.add_argument('--references', type=Path, default=Path('work/translation/refs.jsonl'))
     ap.add_argument('--manifest', type=Path, default=Path('work/extracted/manifest.json'))
@@ -82,13 +85,52 @@ def main() -> None:
     old_map = json.loads(args.previous_glyph_map.read_text(encoding='utf-8'))
     new_map = json.loads(args.glyph_map.read_text(encoding='utf-8'))
     poem_map = json.loads(args.poem_glyph_map.read_text(encoding='utf-8'))
+    old_poem_paths = args.previous_poem_glyph_map or [args.poem_glyph_map]
+    old_poem_maps = [json.loads(p.read_text(encoding='utf-8')) for p in old_poem_paths]
     changed = {i for i, t in new.items() if old.get(i) != t}
     overrides = {(r['file'], r['id'], r['text_offset']): r['zh_cn'] for r in jsonl(args.overrides)} if args.overrides else {}
     refs_by_file = defaultdict(list)
+    encoded_cache = {}
+    encoding_only_ids = set()
+    encoding_only_references = 0
+
+    def encoded_versions(ref):
+        file = ref['file']
+        poem = file.startswith('day/') and bool({'motion', 'poem'} & set(ref.get('kinds', [])))
+        override_key = (file, ref['id'], ref['text_offset'])
+        cache_key = (ref['id'], poem, override_key if override_key in overrides else None)
+        if cache_key not in encoded_cache:
+            before = old[ref['id']]
+            after = overrides.get(override_key, new[ref['id']])
+            if poem:
+                before = before.replace('\n', '').replace('\r', '')
+                after = after.replace('\n', '').replace('\r', '')
+            prior_maps = old_poem_maps if poem else [old_map]
+            encoded_prior = []
+            for mapping in prior_maps:
+                try:
+                    encoded_prior.append(encode_game_text(before, mapping))
+                except ValueError:
+                    # A mixed-map recovery can include a newer caption whose
+                    # characters did not yet exist in the oldest font map.
+                    if not poem or len(prior_maps) == 1:
+                        raise
+            if not encoded_prior:
+                raise ValueError(f'no declared prior map can encode {file} {ref["id"]}')
+            expected = tuple(dict.fromkeys(encoded_prior))
+            wanted = encode_game_text(after, poem_map if poem else new_map)
+            encoded_cache[cache_key] = (expected, wanted, poem)
+        return encoded_cache[cache_key]
+
     for ref in jsonl(args.references):
         override_key = (ref['file'], ref['id'], ref['text_offset'])
-        if ref['id'] in changed or override_key in overrides:
+        expected, wanted, _poem = encoded_versions(ref)
+        encoding_changed = any(prior != wanted for prior in expected)
+        if ref['id'] in changed or override_key in overrides or encoding_changed:
             refs_by_file[ref['file']].append(ref)
+            if ref['id'] not in changed and override_key not in overrides and encoding_changed:
+                encoding_only_ids.add(ref['id'])
+                encoding_only_references += 1
     manifest = json.loads(args.manifest.read_text(encoding='utf-8'))
     package_manifest = {Path(m['path']).with_suffix('').as_posix(): m for m in manifest['packages']}
     _, cpk_rows = parse_cpk(args.source_cpk)
@@ -119,12 +161,7 @@ def main() -> None:
         pending = []
         # Read all current pointers before changing shared strings/pointers.
         for ref in refs:
-            poem = file.startswith('day/') and bool({'motion', 'poem'} & set(ref.get('kinds', [])))
-            before, after = old[ref['id']], overrides.get((file, ref['id'], ref['text_offset']), new[ref['id']])
-            if poem:
-                before, after = before.replace('\n', '').replace('\r', ''), after.replace('\n', '').replace('\r', '')
-            expected = encode_game_text(before, poem_map if poem else old_map)
-            wanted = encode_game_text(after, poem_map if poem else new_map)
+            expected, wanted, poem = encoded_versions(ref)
             ptrs = {struct.unpack_from('<I', original, p)[0] for p in ref['pointer_offsets']}
             if len(ptrs) != 1:
                 raise ValueError(f'pointer disagreement: {file} {ref["id"]}')
@@ -133,11 +170,12 @@ def main() -> None:
             if at >= len(original) or end < at:
                 raise ValueError(f'invalid current string offset: {file} {ref["id"]}')
             existing = original[at:end]
-            if existing != expected:
-                raise ValueError(f'prior text mismatch: {file} {ref["id"]}: current={existing.hex()} expected={expected.hex()}')
-            pending.append((ref, at, existing, wanted))
+            if existing not in expected:
+                alternatives = ','.join(v.hex() for v in expected)
+                raise ValueError(f'prior text mismatch: {file} {ref["id"]}: current={existing.hex()} expected={alternatives}')
+            pending.append((ref, at, existing, wanted, poem))
         new_offsets = {}
-        for ref, at, existing, wanted in pending:
+        for ref, at, existing, wanted, poem in pending:
             # Always append changes. This also separates context-dependent
             # translations whose current pointers share the same old string.
             if wanted != existing:
@@ -152,7 +190,8 @@ def main() -> None:
                 if data[ptr:data.find(b'\0', ptr)] != wanted:
                     raise ValueError('post-patch pointer validation failed')
             records.append({'id': ref['id'], 'file': file, 'text_offset': at,
-                            'pointer_offsets': ref['pointer_offsets'], 'bytes_hex': wanted.hex()})
+                            'pointer_offsets': ref['pointer_offsets'], 'bytes_hex': wanted.hex(),
+                            'is_poem': poem, 'bytes_changed': existing != wanted})
         data.extend(b'\0' * (-len(data) % 16))
         if data != original:
             out = dat_root / rel
@@ -178,8 +217,12 @@ def main() -> None:
         if rebuilt != p.raw:
             replacements[m['path']] = encode_cmp(rebuilt) if m['path'].endswith('.cmp') else rebuilt
     report = {'changed_ids': len(changed), 'changed_dat_files': len(refs_by_file), 'applied_references': len(records),
+              'encoding_only_ids': len(encoding_only_ids), 'encoding_only_references': encoding_only_references,
+              'rewritten_poem_references': sum(r['is_poem'] and r['bytes_changed'] for r in records),
               'overlay_resources': overlay_count, 'cpk_paths': len(replacements), 'prepared_only': args.prepare_only,
               'translation_sha256': hashlib.sha256(args.translations.read_bytes()).hexdigest(),
+              'poem_glyph_map_sha256': hashlib.sha256(args.poem_glyph_map.read_bytes()).hexdigest(),
+              'source_poem_glyph_maps_sha256': [hashlib.sha256(p.read_bytes()).hexdigest() for p in old_poem_paths],
               'replacement_sha256': {k: hashlib.sha256(v).hexdigest() for k, v in replacements.items()}}
     (args.out / 'applied-references.jsonl').write_text(''.join(json.dumps(r, ensure_ascii=False) + '\n' for r in records), encoding='utf-8')
     if not args.prepare_only:

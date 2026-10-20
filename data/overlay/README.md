@@ -6,7 +6,7 @@
 
 ```
 data/overlay/
-├── manifest.json          375 个文件的路径 / 大小 / SHA-256
+├── manifest.json          381 个文件的路径 / 大小 / SHA-256
 └── packages/              目录结构与 work/build/assets/packages 一一对应
     └── pack/
         ├── PRELOAD/       kanzi.bin、font.txb、ruby.bin、ruby.txb

@@ -1,6 +1,57 @@
 # Changelog
 
-格式参考 Keep a Changelog。版本号采用 `0.x`：工程迭代中的 `v14` / `v15` 对应发布标签 `v0.14.0` / `v0.15.0`；正式完成时另发 `v1.0.0`。
+格式参考 Keep a Changelog。版本号采用 `0.x`：工程迭代中的 `v14` / `v15` 对应发布标签 `v0.14.0` / `v0.15.0`；从本版起标签跟工程构建号走（`v18` → `v0.18.0`；`v0.17.0` 未单独发版）。
+
+---
+
+## [v0.18.0] — 2026-10-20
+
+**同步到 v18 工程状态：动作表修复、诗文回归、变更集扩容**
+
+### Added
+
+- 新脚本 5 个：`assemble_fate_extra_v15.py`、`audit_fate_extra_poems.py`、
+  `patch_fate_extra_interaction.py`（现场动作表）、`patch_fate_extra_xmb.py`（PSP 菜单图）、
+  `cmp_lzss_encoder.c`（C 参考编码器）。
+- `data/translation/poem-glyph-map.json`：诗文/章节卡动画字专用别名表（与正文不是同一套）。
+- `data/review/`：`merged-initial-fixes.jsonl`（1,186）、`context-lane-4-fixes.jsonl`、
+  `control-restoration-fixes.jsonl`（6）、`root-manual-fixes.jsonl`（105）、
+  `structural-candidates.jsonl`、v15/v16 装配报告、`v16-layout-report.txt`。
+- `data/evidence/build/`：v16/v17 静态校验、v18 XMB 资源报告、v18 动作表补丁报告。
+- `data/evidence/poem/`：v17 分配器增量、非诗文别名审计、修复前后对照图。
+
+### Changed
+
+- `data/translation/text.jsonl` → `text.v16-reviewed.post-layout.jsonl`
+  （SHA-256 `9967396a…`，19,709 条非空译文；含 10 份补丁合并 4,364 处改动、
+  23 宽排版 1,285 行对话 / 1,359 个换行）。
+- `data/translation/glyph-map.json`：1,571 → 1,613 条别名（v16 表；2 条重分配）。
+- `data/overlay/`：375 → **381 个文件**，71,900,512 → 72,180,368 字节。
+  新增 6 个诗文资源（`charsel` / `modeselect` / `poem` 三个包的 `poem.bin`、`poem_font.txb`），
+  4 个文件内容更新（字库与 UI 纹理）。变更集**只含 txb/bin，不含 DAT**。
+- `scripts/quick/quick.py rebuild` 由两段变三段：文本重建 → 动作表注入 → 写回 ISO；
+  新增 `--motion-glyph-map` 与 `data/translation/poem-glyph-map.json` 的同步。
+- `scripts/validate_repo.py` 常量改为 19,711 译文 / 1,613 别名 / 381 变更文件 / 72,180,368 字节。
+
+### Fixed
+
+- **现场动作表仍是日文**：`話す` / `調べる` / `校舎　B1Fへ` 等 24 槽固定动作表不在文本提取范围内，
+  且 v17 字库缺原生「話」字，界面只剩「す」。v18 从实际 CPK 读出 808 个场景包，
+  改写 807 个非空 DAT（851 条包装条目），只替换固定哨兵后的 280 字节共用表，
+  其余字节、指针与脚本不变。
+- **诗文分配器回归**：v17 补分配器差量校验与非诗文别名审计，修正 16px 网格错位后的别名漂移。
+- **TEX 成员对齐**：`fate_extra_texture.py` 在逻辑表增长后补齐 16 字节对齐，避免后续 TEX/CLUT
+  整体偏移 2 字节导致 PSP 上花屏（宿主回环测不出来）。
+- **PSP 菜单图**：`ICON0.PNG` / `PIC0.PNG` / `PIC1.PNG` 汉化并写回 ISO 外资源区。
+
+### Notes
+
+- 本版基线：`Fate_Extra_CN-v18.iso` 1,461,848,064 字节，内嵌 `data.cpk` 1,348,403,600 字节。
+- 仓库侧已做过一次完整重建复核：4 分 24 秒产出 `data.cpk` 1,342,282,128 字节，
+  与工程 v18 CPK 逐成员比对 16,961 相同 / 851 不同（差在历次增量重建留下的死字节），
+  按指针解引用抽检 20,522 处可见文本 **0 差异**。详见 `data/evidence/build/v18-repro-verification.md`。
+- 仍**未做 PPSSPP/实机全流程回归**；静态校验与字节回读通过不等同于可玩性验证。
+- 仓库不发布 ISO；变更集 + 清单 + 脚本保证同一张原盘可重建同一份产物。
 
 ---
 

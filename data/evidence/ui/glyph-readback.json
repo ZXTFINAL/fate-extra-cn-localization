@@ -1,0 +1,69 @@
+{
+  "source": "actual v17 PRELOAD from CPK",
+  "note": "Resource-level reproduction, not emulator capture. Missing 話 in the v17 compact font explains the screenshot showing only す. No font assets were edited.",
+  "glyphs": [
+    {
+      "character": "話",
+      "alias": "話",
+      "cp932_hex": "9862",
+      "glyph_index": null,
+      "found": false
+    },
+    {
+      "character": "す",
+      "alias": "す",
+      "cp932_hex": "82b7",
+      "glyph_index": 237,
+      "found": true
+    },
+    {
+      "character": "对",
+      "alias": "",
+      "cp932_hex": "f248",
+      "glyph_index": 2909,
+      "found": true
+    },
+    {
+      "character": "话",
+      "alias": "",
+      "cp932_hex": "f68b",
+      "glyph_index": 3727,
+      "found": true
+    },
+    {
+      "character": "調",
+      "alias": "調",
+      "cp932_hex": "92b2",
+      "glyph_index": 1872,
+      "found": true
+    },
+    {
+      "character": "べ",
+      "alias": "べ",
+      "cp932_hex": "82d7",
+      "glyph_index": 269,
+      "found": true
+    },
+    {
+      "character": "る",
+      "alias": "る",
+      "cp932_hex": "82e9",
+      "glyph_index": 287,
+      "found": true
+    },
+    {
+      "character": "调",
+      "alias": "",
+      "cp932_hex": "f69f",
+      "glyph_index": 3747,
+      "found": true
+    },
+    {
+      "character": "查",
+      "alias": "",
+      "cp932_hex": "f399",
+      "glyph_index": 3177,
+      "found": true
+    }
+  ]
+}

@@ -155,11 +155,15 @@ def main() -> None:
     if len(old_index_by_key) != old_count:
         raise ValueError("poem.bin contains duplicate original character keys")
 
-    poem_aliases: dict[str, str] = {}
-    translated_rows_by_key: dict[bytes, bytes] = {}
+    source_keys = set(old_index_by_key)
+    # Prefer aliases from the existing poem map, but reserve direct CP932 keys
+    # first. An older translated glyph can have borrowed the key of a Japanese
+    # character (for example, 现 -> 全); if a later caption also needs that
+    # Japanese character, keep its native key and move the borrowed alias to
+    # an unused CP932 user-defined key. This avoids silent glyph substitution.
+    preferred_aliases: dict[str, str] = {}
+    preferred_keys: dict[str, bytes] = {}
     for char in sorted(needed_chars):
-        # A map saved with the current poem atlas takes precedence. The main
-        # dialogue map may have been reallocated since that atlas was built.
         alias = existing_poem_map.get(char, glyph_map.get(char, char))
         try:
             encoded = alias.encode("cp932")
@@ -169,14 +173,58 @@ def main() -> None:
             raise ValueError(
                 f"shared poem aliases must be two-byte CP932 characters: {char!r} -> {alias!r}"
             )
-        key = encoded
+        preferred_aliases[char] = alias
+        preferred_keys[char] = encoded
+
+    poem_aliases: dict[str, str] = {}
+    alias_keys: dict[str, bytes] = {}
+    direct_keys = {
+        preferred_keys[char]
+        for char, alias in preferred_aliases.items()
+        if alias == char
+    }
+    alias_keys.update({char: preferred_keys[char] for char, alias in preferred_aliases.items() if alias == char})
+    used_keys = set(direct_keys)
+    # A new conflicting character must not take a private alias belonging to a
+    # later character in the loop. Reserve all preferred keys before allocating
+    # replacements, otherwise one added glyph can shift many working aliases.
+    reserved_preferred_keys = set(preferred_keys.values())
+
+    def unused_private_alias() -> tuple[str, bytes]:
+        # CP932 maps the user-defined F040-F9FC byte range to U+E000-U+E757.
+        # Avoid native source keys so their original Japanese glyphs survive.
+        for codepoint in range(0xE000, 0xE758):
+            candidate = chr(codepoint)
+            try:
+                key = candidate.encode("cp932")
+            except UnicodeEncodeError:
+                continue
+            if (len(key) == 2 and key.decode("cp932") == candidate
+                    and key not in source_keys and key not in used_keys
+                    and key not in reserved_preferred_keys):
+                used_keys.add(key)
+                return candidate, key
+        raise ValueError("no unused CP932 private key remains for poem glyph aliases")
+
+    for char in sorted(needed_chars):
+        if char in alias_keys:
+            poem_aliases[char] = preferred_aliases[char]
+            continue
+        alias, key = preferred_aliases[char], preferred_keys[char]
+        if key in used_keys:
+            alias, key = unused_private_alias()
+        else:
+            used_keys.add(key)
+        poem_aliases[char] = alias
+        alias_keys[char] = key
+
+    translated_rows_by_key: dict[bytes, bytes] = {}
+    for char, key in alias_keys.items():
         if key in translated_rows_by_key:
             other = row_char(translated_rows_by_key[key])
             raise ValueError(f"shared font key collision: {char!r} and {other!r} -> {key.hex()}")
-        poem_aliases[char] = alias
         translated_rows_by_key[key] = make_row(key, char)
 
-    source_keys = set(old_index_by_key)
     translated_keys = set(translated_rows_by_key)
 
     # Preserve source rows and their glyphs unless a translated alias uses

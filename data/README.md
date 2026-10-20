@@ -1,6 +1,6 @@
 # 数据说明
 
-本目录保存**可公开的翻译数据、审计证据、变更集与解包清单**。除 `overlay/` 下 375 个
+本目录保存**可公开的翻译数据、审计证据、变更集与解包清单**。除 `overlay/` 下 381 个
 改动过的资源外，不含任何游戏本体或未修改的原始资源。
 
 | 目录 | 作用 |
@@ -8,9 +8,9 @@
 | `translation/` | 主翻译表、字库映射、批次清单 |
 | `review/` | ruby 与语境修正结果 |
 | `evidence/` | 诗文/UI/ruby/语境审计证据 |
-| `overlay/` | 变更集：375 个改过的二进制资源 + 逐文件校验和 |
+| `overlay/` | 变更集：381 个改过的二进制资源 + 逐文件校验和 |
 | `inventory/` | 解包树清单：15,962 个文件的路径/大小/校验和 |
-| `build/` | v15 构建报告 |
+| `build/` | v15–v18 构建报告与静态校验 |
 
 ---
 
@@ -19,7 +19,8 @@
 | 文件 | 说明 |
 |---|---|
 | `text.jsonl` | 主翻译表，19,711 行。字段：`id / jp / jp_bytes_hex / zh_cn / reference_count` |
-| `glyph-map.json` | 1,571 个"汉字 → CP932 用户区别名"映射 |
+| `glyph-map.json` | 1,613 个"汉字 → CP932 用户区别名"映射（正文用） |
+| `poem-glyph-map.json` | 诗文/章节卡动画字专用别名表（与正文不同套） |
 | `glyph-allocations.jsonl` | 别名分配流水（目标字、索引、时间） |
 | `batches-manifest.json` | 211 个翻译批次的文件、条数、首尾 ID |
 | `batch-001.sample.jsonl` | 批次格式样例 |
@@ -46,8 +47,9 @@ id = sha256(原始 Shift-JIS 字节).hexdigest()[:16]
 
 ## overlay/
 
-汉化补丁负载。375 个文件 / 71,900,512 字节，全部是**被修改过**的资源：
-`pack/PRELOAD` 的 4 个字库/小字文件、5 个公共界面包、266 个 interface 包、100 个 battle 包。
+汉化补丁负载。381 个文件 / 72,180,368 字节，全部是**被修改过**的二进制资源（486 个 TXB + 16 个 BIN 包内条目，含别名重复行）：
+`pack/PRELOAD` 的 4 个字库/小字文件、公共界面包、`charsel`/`modeselect`/`poem` 三个诗文包、大量 interface 与 battle 包。
+**不含 DAT**：剧情文本由 `translation/text.jsonl` 重建，现场动作表由 `patch_fate_extra_interaction.py` 单独注入。
 
 重建时由 `quick.py rebuild` 同步到 `work/build/assets/packages/`，再随 CPK 一起打包。
 详见 [overlay/README.md](overlay/README.md)。
@@ -141,7 +143,7 @@ id = sha256(原始 Shift-JIS 字节).hexdigest()[:16]
 | `text.jsonl` 行数 | 19,711 |
 | 非空译文 | 19,709 |
 | 唯一 ID | 19,711 |
-| `glyph-map.json` 条目 | 1,571 |
+| `glyph-map.json` 条目 | 1,613 |
 | ruby 修正 | 1,133 |
 | v15 翻译表 SHA-256 | `2494980a54c895c9bf75a6d424bc86ade73b81f303f208d1459f1d8a6ac64fcf` |
 

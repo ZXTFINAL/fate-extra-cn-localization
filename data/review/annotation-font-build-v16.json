@@ -1,0 +1,115 @@
+{
+  "ruby_original_rows": 528,
+  "ruby_rows": 622,
+  "ruby_pages": 4,
+  "ruby_new_characters": "-ABCDEFGHILMOPRSTWYabcdefghiklmnopqrstuvwyz不优传俊俏假儿关写劣卑双叨嗡太嬉子存孩宜少布强戏打改敌明暗暴械残渣潜理由男的眼絮者苍蝇行说辨退遗镜难鸣",
+  "ruby_new_count": 94,
+  "ruby_bin_sha256": "b406b233501b5672cc3f1287fa9479751d5be8e3da946ee5904d99c6facff9b5",
+  "ruby_txb_sha256": "0481dc7b60e9abd8233cb8379c5e8361e2c6bd20fad246717ba1d9aec08ae1d6",
+  "main_changes": [
+    {
+      "char": "亢",
+      "index": 3938,
+      "old_row_hex": "a2f7e994a600",
+      "new_key": ""
+    },
+    {
+      "char": "亦",
+      "index": 3523,
+      "old_row_hex": "7af5e7bc8000",
+      "new_key": ""
+    },
+    {
+      "char": "叙",
+      "index": 3345,
+      "old_row_hex": "85f4e78f8000",
+      "new_key": ""
+    },
+    {
+      "char": "嗡",
+      "index": 3320,
+      "old_row_hex": "6bf4e7868f00",
+      "new_key": ""
+    },
+    {
+      "char": "嵌",
+      "index": 3292,
+      "old_row_hex": "4ff4e780a300",
+      "new_key": ""
+    },
+    {
+      "char": "慷",
+      "index": 3232,
+      "old_row_hex": "d0f3e6b28600",
+      "new_key": ""
+    },
+    {
+      "char": "棉",
+      "index": 2800,
+      "old_row_hex": "98f1e597a600",
+      "new_key": ""
+    },
+    {
+      "char": "涛",
+      "index": 2784,
+      "old_row_hex": "88f1e595b000",
+      "new_key": ""
+    },
+    {
+      "char": "煌",
+      "index": 2716,
+      "old_row_hex": "43f1e58fbc00",
+      "new_key": ""
+    },
+    {
+      "char": "砺",
+      "index": 2523,
+      "old_row_hex": "da97e791a000",
+      "new_key": ""
+    },
+    {
+      "char": "竿",
+      "index": 2466,
+      "old_row_hex": "e1e5e8a39400",
+      "new_key": ""
+    },
+    {
+      "char": "絮",
+      "index": 2429,
+      "old_row_hex": "759fe6aeb700",
+      "new_key": ""
+    },
+    {
+      "char": "绵",
+      "index": 2409,
+      "old_row_hex": "949ce6818300",
+      "new_key": ""
+    },
+    {
+      "char": "霭",
+      "index": 2374,
+      "old_row_hex": "4e99e5848200",
+      "new_key": ""
+    },
+    {
+      "char": "颓",
+      "index": 2373,
+      "old_row_hex": "4699e583a500",
+      "new_key": ""
+    },
+    {
+      "char": "鼎",
+      "index": 2367,
+      "old_row_hex": "6c98e8a9ab00",
+      "new_key": ""
+    }
+  ],
+  "existing_aliases_changed": true,
+  "runtime_page_boundary_indices": [
+    195,
+    196,
+    391,
+    392
+  ],
+  "original_ruby_cells_preserved": 528
+}

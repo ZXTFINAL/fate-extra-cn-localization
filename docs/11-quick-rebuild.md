@@ -30,14 +30,20 @@ python3 scripts/quick/quick.py rebuild        # 约 11 分钟
 
 1. 解析 ISO9660，直接从镜像里取出 `PSP_GAME/USRDIR/data.cpk`（不挂载、不写原盘）；
 2. 解包 2,297 个 DAT/PAK/CMP 到 `work/extracted/`；
-3. 铺好 `work/translation/text.jsonl` 与 `glyph-map.json`，生成 `refs.jsonl`；
+3. 铺好 `work/translation/text.jsonl`、`glyph-map.json` 与 `poem-glyph-map.json`，生成 `refs.jsonl`；
 4. 用 `data/inventory/` 的清单逐文件核对解包树。
 
-`rebuild` 的三步：
+`rebuild` 的四步：
 
 1. 把 `data/overlay/packages/**` 同步到 `work/build/assets/packages/**`；
-2. 用主翻译表重写 DAT 文本，并把变更集涉及的包重新打包成新的 `data.cpk`；
-3. 把新 CPK 写回 ISO（必要时扩展卷大小），输出 `work/build/Fate_Extra_CN.iso`。
+2. 用主翻译表重写 DAT 文本（864 个 DAT / 40 万条引用），与变更集一起打包成 `work/build/data.cpk`；
+3. 注入现场动作表（`patch_fate_extra_interaction.py`，807 个场景 DAT 的 24 槽固定表），
+   产出 `work/build/data.interaction.cpk`；
+4. 把最终 CPK 写回 ISO（必要时扩展卷大小），输出 `work/build/Fate_Extra_CN.iso`。
+
+> 第 3 步不能省。动作表（「話す」「調べる」「校舎　B1Fへ」…）不在 `text.jsonl` 的提取范围里，
+> 它藏在每个场景 DAT 尾部固定哨兵之后的 280 字节共用表；文本重建会把它当普通字节保留原样，
+> 所以必须在这之后再覆盖一次，否则界面里仍是日文。
 
 > **重建不需要 macOS，也不需要 Swift**。字形渲染只在新增生僻字时用到。
 

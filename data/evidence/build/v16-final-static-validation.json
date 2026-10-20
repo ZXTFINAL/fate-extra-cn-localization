@@ -1,0 +1,20 @@
+{
+  "verification_type": "static ISO/CPK/resource readback; no emulator or gameplay run",
+  "iso": "work/build/Fate_Extra_CN-v16.iso",
+  "iso_bytes": 1461848064,
+  "iso_sha256": "4208d4c85b5ebee10bc231b2f096acce5fc127dc0e23bb47a9f30fb7c2d04e3c",
+  "data_cpk_bytes": 1348403600,
+  "data_cpk_sha256": "3acf8b39701d7fa2fb2542f7ecf17f3a96b821484a0a01e2f7f9240311f6ac26",
+  "iso_data_cpk_extent_sector": 55392,
+  "iso_volume_sectors": 713793,
+  "cpk_entries": 5824,
+  "poem_resources_readback": [
+    "pack/poem.pak:interface/poem/poem.bin",
+    "pack/poem.pak:interface/poem/poem_font.txb",
+    "pack/charsel.pak:interface/poem/poem.bin",
+    "pack/charsel.pak:interface/poem/poem_font.txb"
+  ],
+  "translation_sha256": "9967396aaea045202d7035d0021a16be35b65c9f6a1b4af82665454a634d32df",
+  "poem_font_pages": 2,
+  "poem_font_final_rows": 453
+}

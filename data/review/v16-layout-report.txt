@@ -1,0 +1,2 @@
+Wrapped 1285 dialogue rows with 1359 new line breaks (maximum display width 23; 62.5 -> 23).
+Original translation table backed up to work/translation/review-20261019/text.v16-reviewed.pre-layout.jsonl.

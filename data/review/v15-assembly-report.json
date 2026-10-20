@@ -1,0 +1,1115 @@
+{
+  "source": "/Users/zhaoxiangting/Documents/projects/common/fate:extra/work/translation/text.jsonl",
+  "output": "/Users/zhaoxiangting/Documents/projects/common/fate:extra/work/translation/review-20261019/text.v15-reviewed.pre-layout.jsonl",
+  "translation_rows": 19711,
+  "patches": {
+    "merged-initial-fixes.jsonl": 1186,
+    "context-opening-fixes.jsonl": 59,
+    "context-extra-fixes.jsonl": 15,
+    "context-lane-1-fixes.jsonl": 488,
+    "context-lane-2-fixes.jsonl": 520,
+    "lane2-noise-fixes.json": 2,
+    "context-lane-3-fixes.jsonl": 699,
+    "control-restoration-fixes.jsonl": 6,
+    "root-manual-fixes.jsonl": 6
+  },
+  "patch_changes": 2918,
+  "patch_conflicts": [
+    {
+      "id": "db79504d22bd208c",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-opening-fixes.jsonl",
+      "earlier_text": "一大早就这么不客气，\n不过这就是#C120200255间桐慎二#CDEF，也没办法。",
+      "later_text": "一大早就这么不客气，\n不过这就是#C120200255#RUBS间桐#RUBE间桐#REND#RUBS慎二#RUBE慎二#REND#CDEF，也没办法。"
+    },
+    {
+      "id": "824e10788377e09d",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-opening-fixes.jsonl",
+      "earlier_text": "#C120200255慎二#CDEF天真地笑着。\n虽然这份信赖的理由有些问题，\n但他似乎也算是喜欢我这个朋友的。",
+      "later_text": "#C120200255#RUBS慎二#RUBE慎二#REND#CDEF天真地笑着。\n虽然这份信赖的理由有些问题，\n但他似乎也算是喜欢我这个朋友的。"
+    },
+    {
+      "id": "bb5bd4a0fe4e6cb6",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-opening-fixes.jsonl",
+      "earlier_text": "无论怎么看，你都是一名无可挑剔、\n堪称完美的#C255120120月海原学园#CDEF学生。",
+      "later_text": "无论怎么看，你都是一名无可挑剔、\n堪称完美的#C255120120#RUBS月海原#RUBE月海原#REND学园#CDEF学生。"
+    },
+    {
+      "id": "b1f5179f285b3bba",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-opening-fixes.jsonl",
+      "earlier_text": "#C080080080那一天，我被一阵强烈的麻痹感惊醒，\n比#RUBS日常程序#RUBE平时#REND早了两分钟。#CDEF",
+      "later_text": "#C080080080那一天，我被一阵强烈的麻痹感惊醒，\n比#RUBS日常#RUBE平时#REND早了两分钟。#CDEF"
+    },
+    {
+      "id": "3b93461c3f43d725",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-opening-fixes.jsonl",
+      "earlier_text": "希望他能让开。\n希望他别再重复这一套。\n我推开那个穿黑色制服的人，继续往前走。",
+      "later_text": "希望他能#RUBS让#RUBE退#REND开。\n希望他别再重复这一套。\n我推开那个穿黑色制服的人，继续往前走。"
+    },
+    {
+      "id": "ce7dcae120d2497b",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-opening-fixes.jsonl",
+      "earlier_text": "无论怎么看，你都是一名无可挑剔、\n堪称完美的月海原学园学生！",
+      "later_text": "无论怎么看，你都是一名无可挑剔、\n堪称完美的#RUBS月海原#RUBE月海原#REND学园学生！"
+    },
+    {
+      "id": "ea2694b47c03f892",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-extra-fixes.jsonl",
+      "earlier_text": "那声音里有着课堂上从未见过的、\n符合她年龄的天真无邪。\n看来她很喜欢刚才#C120200255葛木#CDEF说的话。",
+      "later_text": "那声音里有着课堂上从未见过的、\n符合他年龄的天真无邪。\n看来他很喜欢刚才#C120200255葛木#CDEF说的话。"
+    },
+    {
+      "id": "98a83121122ef0fb",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-1-fixes.jsonl",
+      "earlier_text": "只要跟着他，\n就会在不知不觉间得到“#RUBS终焉#RUBE结局#REND”。",
+      "later_text": "只要跟着他，\n不管愿不愿意，我都会迎来某个“#RUBS终焉#RUBE结局#REND”。"
+    },
+    {
+      "id": "3f846d00feb3d7f7",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-1-fixes.jsonl",
+      "earlier_text": "无论等待着我们的将会以何种#RUBS形态#RUBE言语#REND出现，\n那都必然是一个#RUBS终焉#RUBE结局#REND。",
+      "later_text": "无论里面等待着的东西会以何种#RUBS形态#RUBE言语#REND呈现，\n那都必然是一个#RUBS终焉#RUBE结局#REND。"
+    },
+    {
+      "id": "8514afd014afaa7c",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-1-fixes.jsonl",
+      "earlier_text": "希望你能有身为传统#C255120120月海原#CDEF学园学生的自觉。",
+      "later_text": "真希望他们能有点自觉，\n明白自己可是有着悠久传统的#C255120120月海原#CDEF学园的学生。"
+    },
+    {
+      "id": "9f55567c04672a4d",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-1-fixes.jsonl",
+      "earlier_text": "别以为只有#C120200255尤利乌斯#CDEF带了#RUBSＲｕｌｅ　Ｂｒｅａｋｅｒ#RUBE破戒符#REND。",
+      "later_text": "别以为只有尤利乌斯带了#RUBSＲｕｌｅ　Ｂｒｅａｋｅｒ#RUBE违规咒文#REND。"
+    },
+    {
+      "id": "b7f2a7e5dd593985",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-1-fixes.jsonl",
+      "earlier_text": "哎呀，是#C255120120#RUBS系统方#RUBE学生会#REND#CDEF发来的警告吗？\n辛苦你们了。",
+      "later_text": "哎呀，是#C255120120#RUBS系统方#RUBE学生会#REND#CDEF发来的警告吗？\n辛苦你了。"
+    },
+    {
+      "id": "503ae7cce0c310bb",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-1-fixes.jsonl",
+      "earlier_text": "居然来了个毫无关系的#C255120120#RUBSＮＰＣ#RUBE普通学生#REND#CDEF……\n这么说，这里果然不是我们要找的地方吗？",
+      "later_text": "居然来了个毫无关系的#C255120120#RUBSＮＰＣ#RUBE普通学生#REND#CDEF……\n这么说，这里果然不是我要找的地方吗？"
+    },
+    {
+      "id": "f26a631350400ad6",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-1-fixes.jsonl",
+      "earlier_text": "那个男人并没有什么特别想要的东西。\n真要说的话，他大概只是无法忍受\n那些追求实利的人吧。",
+      "later_text": "那个男人并没有特别想要什么。\n真要说的话，\n他只是个总也无法无动于衷的人吧。"
+    },
+    {
+      "id": "c8ddcbbe8a4cab76",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-1-fixes.jsonl",
+      "earlier_text": "靶场另一端能看见安土和箭靶。靶子距离这里28米。",
+      "later_text": "箭道另一端能看见靶后土堤和箭靶。\n到箭靶的距离是28米。"
+    },
+    {
+      "id": "6ebd0cb512c539e1",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-1-fixes.jsonl",
+      "earlier_text": "无论如何，这都是最贴切的#RUBS名字#RUBE冠冕#REND。\n即使余不愿如此，余也只能是余。\n余不允许自己以一个普通人的身份自报名号。",
+      "later_text": "不论如何，都没有比这更贴切的#RUBS名字#RUBE冠冕#REND。\n纵使余不愿如此，余也只能是余。\n余不被允许只以一个人的身份自报名号。"
+    },
+    {
+      "id": "eb0cce5e6d71ed57",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-1-fixes.jsonl",
+      "earlier_text": "她一边讲述，\n一边仿佛在献出自己的生命，\n为自己的一生感到自豪。",
+      "later_text": "她一边这样说着，\n仿佛在为自己始终奉献于某物的一生感到自豪。"
+    },
+    {
+      "id": "991e3d8887655a19",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-1-fixes.jsonl",
+      "earlier_text": "啊，不，在余看来，\n余已经把你引领到极致了哦！？\n你一直处于#RUBSＨｅａｖｅｎ#RUBE天上#REND状态！",
+      "later_text": "啊，不，依余之见，\n余可是出色地引领了人民啊！？\n大家始终都处在#RUBSＨｅａｖｅｎ#RUBE天上#REND状态！"
+    },
+    {
+      "id": "defcf697da84d25d",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-1-fixes.jsonl",
+      "earlier_text": "回答得好。\n那么，余一定会让你知道那真相。\n在那之前，你就先相信余说的话吧。",
+      "later_text": "回答得好。\n那么，余一定会证明自己所言属实。\n在那之前，就先相信余说的话吧。"
+    },
+    {
+      "id": "dc81ba7fc6d72395",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-1-fixes.jsonl",
+      "earlier_text": "不过——天上的星辰自有定数。\n届时余也不会掺杂个人感情。",
+      "later_text": "不过——天上的星辰，注定会流逝。\n到那时，余也不会掺杂私情。"
+    },
+    {
+      "id": "3a566f7dbc20d02c",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-1-fixes.jsonl",
+      "earlier_text": "这副身体是偏颇正义的化身。\n要斩倒那个少女，\n对我来说轻而易举。",
+      "later_text": "这副身体，是偏颇正义的化身。\n就算斩倒那个少女，\n对我来说也不算什么。"
+    },
+    {
+      "id": "e060a56053125f31",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-1-fixes.jsonl",
+      "earlier_text": "她浅淡的笑容转眼变成了惯常的恭敬而讽刺的神情。\n……糟了。\n我在最后关头说错话了。\n根本不用问她现在运气好不好。",
+      "later_text": "他浅淡的笑容，变成惯常那副礼貌又讥讽的神情。\n……糟了。\n最后关头还是问错了。\n他如今是否幸福，根本不必问。"
+    },
+    {
+      "id": "08bc236b44d02d26",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-1-fixes.jsonl",
+      "earlier_text": "好了，烦恼时间到此为止！\n主人现在还很虚弱，\n再怎么烦恼也不会有任何#RUBS这件事#RUBE结论#REND！",
+      "later_text": "好了，烦恼时间到此为止！\n主人现在还很虚弱，\n再怎么烦恼也想不出什么好#RUBS这件事#RUBE结论#REND！"
+    },
+    {
+      "id": "b5bc6d603dc2804a",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-1-fixes.jsonl",
+      "earlier_text": "我请网友好友#C120200255清姬#CDEF帮了忙，\n连同#RUBS虫笼#RUBE钟楼#REND一起烧了个精光。",
+      "later_text": "我请网友好友#C120200255清姬#CDEF帮了忙，\n连同#RUBS虫笼#RUBE钟楼#REND一起烧个精光。"
+    },
+    {
+      "id": "151ff21c9c74e3c2",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-1-fixes.jsonl",
+      "earlier_text": "围棋的中心点就是宇宙深处，\n麻将则是从卜卓俯瞰整个世界。",
+      "later_text": "围棋的中心点，象征宇宙深处。\n麻将则是将世界倒转着俯瞰的占卜桌。"
+    },
+    {
+      "id": "1abf7b4b8bbb5600",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-1-fixes.jsonl",
+      "earlier_text": "她的名字是“#RUBSＫａｚｉｋｌｉ　Ｂｅｙ#RUBE串刺城塞#REND”。",
+      "later_text": "那件宝具的名字是“#RUBSＫａｚｉｋｌｉ　Ｂｅｙ#RUBE串刺城塞#REND”。"
+    },
+    {
+      "id": "a60ec886306993e6",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-1-fixes.jsonl",
+      "earlier_text": "没错，它的名字是#C255120120#RUBSＧａｅ　Ｂｏｌｇ#RUBE刺穿死棘之枪#REND#CDEF。\n那是一柄受人畏惧的诅咒赤枪，据说只要投出，\n必定贯穿对手的心脏。\n它的主人绝不会认错。",
+      "later_text": "没错，它的名字是#C255120120#RUBSＧａｅ　Ｂｏｌｇ#RUBE刺穿死棘之枪#REND#CDEF。\n那是一柄受人畏惧的诅咒赤枪，据说只要刺出，\n必定贯穿对手的心脏。\n它的主人绝不会认错。"
+    },
+    {
+      "id": "2ebcdc8a59a8e2cf",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-1-fixes.jsonl",
+      "earlier_text": "总之，先和那位奇怪的#C255120120#RUBSＤｏｌｌ#RUBE人偶#REND#CDEF从者一起继续前进吧。",
+      "later_text": "总之，先和那位奇怪的#C255120120#RUBSＤｏｌｌ#RUBE人偶#REND#CDEF随从一起继续前进吧。"
+    },
+    {
+      "id": "93cda1326c690871",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-1-fixes.jsonl",
+      "earlier_text": "——我和那位奇怪的#RUBSＤｏｌｌ#RUBE人偶#REND从者一起，\n朝着前方的黑暗走去。",
+      "later_text": "——我和那位奇怪的#RUBSＤｏｌｌ#RUBE人偶#REND随从一起，\n朝着前方的黑暗走去。"
+    },
+    {
+      "id": "43f4ae208d44d1f4",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-1-fixes.jsonl",
+      "earlier_text": "——总之，先和那位奇怪的#RUBSＤｏｌｌ#RUBE人偶#REND从者一起继续前进吧。",
+      "later_text": "——总之，先和那位奇怪的#RUBSＤｏｌｌ#RUBE人偶#REND随从一起继续前进吧。"
+    },
+    {
+      "id": "fbda6c5ce65e3c2e",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-1-fixes.jsonl",
+      "earlier_text": "那股压倒性的力量在体内沸腾，\n仿佛一碰就会蒸发。\n我能清楚地感觉到它正在身体里旋转。",
+      "later_text": "那是仿佛只要触及，就会让我蒸发的，\n压倒性的力量奔流。\n它在眼前之人体内翻涌，令我不想感知也不行。"
+    },
+    {
+      "id": "36f7ad15d6bbe58c",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-1-fixes.jsonl",
+      "earlier_text": "自古以来，\n地上曾存在着能够实现一切愿望的\n万能许愿机。",
+      "later_text": "正是如此。\n过去，地上曾存在着能够实现一切愿望的，\n万能许愿机。"
+    },
+    {
+      "id": "5a1245fe0ebfabce",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-1-fixes.jsonl",
+      "earlier_text": "无论处于哪个时代，\n无论岁月如何流转，\n通过战斗来决定顶点，都是人类的定理。",
+      "later_text": "无论处于哪个时代，\n无论岁月如何流转，\n通过战斗来决定顶点，都是人类的法则。"
+    },
+    {
+      "id": "83a92ae4db747d11",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-1-fixes.jsonl",
+      "earlier_text": "不痛吗！？\n不觉得恶心吗！？\n身体该有的部分都还能#RUBS动作#RUBE运作#REND吗！？",
+      "later_text": "不痛吗！？\n不觉得恶心吗！？\n身体的那个部位还能#RUBS动作#RUBE运作#REND吗！？"
+    },
+    {
+      "id": "716de127b5355919",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-1-fixes.jsonl",
+      "earlier_text": "那个小孩说过，\n他在竞技场深处准备了什么东西。",
+      "later_text": "那个小孩说过，\n她在竞技场深处准备了什么东西。"
+    },
+    {
+      "id": "ecac0fa2fe53b11a",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "竟然背叛埃尔特南，\nAtlas的#RUBSＨｏｍｕｎｃｕｌｕｓ#RUBE人偶#REND也堕落了啊——。",
+      "later_text": "竟然背叛埃尔特南，\n阿特拉斯院的#RUBSＨｏｍｕｎｃｕｌｕｓ#RUBE人偶#REND\n也堕落了啊——。"
+    },
+    {
+      "id": "15290bf66c47fb20",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "这么说来，刚才他们提前回来，\n是因为先挡住了我们的去路，\n以此阻止我们拿到#RUBS触发器#RUBE暗号键#REND吗……？",
+      "later_text": "这么说，刚才对方之所以回去，\n是因为已提前封住我们的去路，\n达成了阻止我们获取#RUBS触发器#RUBE暗号键#REND的目的……？"
+    },
+    {
+      "id": "f70360556cdbffe9",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "虽然没有什么基础可言，\n不过勉强及格。\n好了，这样就能去拿#C255120120#RUBS触发器#RUBE暗号键#REND#CDEF了。",
+      "later_text": "虽然毫无章法可言，不过算是及格了。\n好了，这样就能去取\n#C255120120#RUBS触发器#RUBE暗号键#REND#CDEF了吧。"
+    },
+    {
+      "id": "1bb5480cf7a1b812",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "他大概是#RUBS复制#RUBE模造#REND了从者的能力，\n借此取得#C255120120#RUBS触发器#RUBE暗号键#REND#CDEF吧。",
+      "later_text": "对方大概是#RUBS复制#RUBE模造#REND了从者的能力，\n借此取得#C255120120#RUBS触发器#RUBE暗号键#REND#CDEF吧。"
+    },
+    {
+      "id": "10a1c5a7ad79af99",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "嗯，他大概是#RUBS复制#RUBE模造#REND了从者的能力，\n让他们去寻找#C255120120#RUBS触发器#RUBE暗号键#REND#CDEF吧。",
+      "later_text": "嗯，对方大概是#RUBS复制#RUBE模造#REND了从者的能力，\n让人偶们去寻找#C255120120#RUBS触发器#RUBE暗号键#REND#CDEF吧。"
+    },
+    {
+      "id": "f656a0717110a895",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "他不仅篡改了布告栏，\n甚至还用#C255120120#RUBSＤｏｌｌ#RUBE人偶#REND#CDEF探索竞技场……。",
+      "later_text": "对方不仅篡改了布告栏，\n甚至连探索竞技场都要动用#C255120120#RUBSＤｏｌｌ#RUBE人偶#REND#CDEF……。"
+    },
+    {
+      "id": "347a83db79afb0de",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "#C255120120#RUBSＤｏｌｌ#RUBE人偶#REND#CDEF发动了暴风般的攻击，\n#C120200255#SVT[Saber][Archer][Caster]##CDEF在千钧一发之际将其击退。",
+      "later_text": "#C255120120#RUBSＤｏｌｌ#RUBE人偶#REND#CDEF放出暴风般的攻击，\n#C120200255#SVT[Saber][Archer][Caster]##CDEF千钧一发地将攻击挡了回去。"
+    },
+    {
+      "id": "eb5719d2d47f6722",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "#C255120120#RUBSＤｏｌｌ#RUBE人偶#REND#CDEF如疾风般发动攻击，\n#C120200255#SVT[剑士][弓兵][术士]##CDEF千钧一发地将其击退。",
+      "later_text": "#C255120120#RUBSＤｏｌｌ#RUBE人偶#REND#CDEF放出疾风般的攻击，\n#C120200255#SVT[剑士][弓兵][术士]##CDEF千钧一发地将攻击挡了回去。"
+    },
+    {
+      "id": "036e61a92699ca28",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "哎呀，总算打倒了。那个#C255120120#RUBS那东西#RUBE礼装#REND的反应#CDEF怎么样？",
+      "later_text": "呼，总算打倒了。\n#C255120120#RUBS那东西#RUBE礼装#REND的反应#CDEF怎么样？"
+    },
+    {
+      "id": "0f62746910ddb60f",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "遗憾真是可怕啊。不过，死者终究无法阻止生者。\n这样一来，\n#RUBS触发器#RUBE暗号键#REND也到手了。",
+      "later_text": "遗恨实在可怕。\n不过，死者终究无法阻止生者。\n这样一来，#RUBS触发器#RUBE暗号键#REND也到手了。"
+    },
+    {
+      "id": "551be240deeddc3a",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "面对#RUBSＡｓｓａｓｓｉｎ#RUBE暗杀者#REND时，\n不知为何……\n你现在似乎感到了恐惧。",
+      "later_text": "面对那个#RUBSＡｓｓａｓｓｉｎ#RUBE暗杀者#REND，\n不知为何……\n余此刻似乎感到了恐惧。"
+    },
+    {
+      "id": "b7b152a3a0c4994b",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "那就是#C255120120#RUBSＧａｌａｔｉｎｅ#RUBE转轮胜利之剑#REND#CDEF吗。\n原来如此，真是把令人移不开目光的名剑。\n不过，它只为王挥舞，是吗。",
+      "later_text": "那就是#C255120120#RUBSＧａｌａｔｉｎｅ#RUBE轮转胜利之剑#REND#CDEF吗。\n原来如此，真是把令人移不开目光的名剑。\n不过，它只为王挥舞，是吗。"
+    },
+    {
+      "id": "e8d9fa4f32330a25",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "那就是#C255120120#RUBSＧａｌａｔｉｎｅ#RUBE转轮胜利之剑#REND#CDEF……！",
+      "later_text": "那就是#C255120120#RUBSＧａｌａｔｉｎｅ#RUBE轮转胜利之剑#REND#CDEF……！"
+    },
+    {
+      "id": "76809a2a114bda2d",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "走吧，#RUBS御主#RUBE奏者#REND。\n我们去给那个少年王一个惊喜。",
+      "later_text": "走吧，#RUBS御主#RUBE奏者#REND。\n我们去给那个少年王一点厉害瞧瞧。"
+    },
+    {
+      "id": "5149c3b52c059875",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "你可真是把一切都召唤出来了啊，太阳骑士。\n不过，错误的骑士道\n只会让圣剑也一并折断。",
+      "later_text": "“焚尽地上一切”——真敢夸口啊，太阳骑士。\n可若骑士道有误，\n再强的圣剑也终究会折断。"
+    },
+    {
+      "id": "db1b7072da8b2ec1",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "那就是我的生存方式，也是唯一的道路。\n你没有理由否定我的所言。",
+      "later_text": "那就是我的生存方式，唯一的道路。\n你没有理由加以否定。"
+    },
+    {
+      "id": "0ba86bd3e828e6a3",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "正因为人会为了他人而活，那份无欲无求才会让人觉得\n格外耀眼。",
+      "later_text": "不，正因为只为他人而活，\n那份无欲无求才会让人觉得古怪。"
+    },
+    {
+      "id": "60886aa891477c20",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "别担心，#RUBS・#RUBE我#REND很冷静，Master。\n再这么下去，恐怕也很难继续靠争论拖延时间了。",
+      "later_text": "别担心，#RUBS・#RUBE我#REND很冷静，御主。\n再这么下去，恐怕也很难继续靠争论拖延时间了。"
+    },
+    {
+      "id": "526085fbcc90eb83",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "说完这句话，\n#C120200255雷欧#CDEF便从竞技场#RUBS登出#RUBE注销#REND了。",
+      "later_text": "说完这句话，\n#C120200255雷欧#CDEF便从竞技场#RUBS登出#RUBE退出#REND了。"
+    },
+    {
+      "id": "d2b76dd5c52d2ef2",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "对方的御主有点教条啊。\n论临机应变，他们总是比我们快半步。\n哪怕只有半步，这种程度的差距也很关键……",
+      "later_text": "那边的御主有点死板呢。\n临机应变上，被对方领先了半步。\n哪怕只有半步，在这种水平的较量中也足以致命……"
+    },
+    {
+      "id": "dc252e3e8db4d414",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "你说的到底是什么年代的事啊！\n先把后话收起来吧，#C120200255Lancer#CDEF！\n既然对方认真了，我们也全力以赴！",
+      "later_text": "你说的到底是什么年代的事啊！\n玩笑留到以后再说，#C120200255Lancer#CDEF！\n既然对方认真了，我们也全力以赴！"
+    },
+    {
+      "id": "92e92ba80f1adca7",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "糟了，要被卷进去了……！\n还没等赛拉夫#RUBS登出#RUBE强制退出#REND，\n#C120200255拉尼#CDEF就开始融化了……！",
+      "later_text": "糟了，要被卷进去了……！\n还没等SE.RA.PH#RUBS登出#RUBE强制退出#REND，\n#C120200255拉妮#CDEF引发的融解就要开始了……！"
+    },
+    {
+      "id": "5947b081bf60d5e7",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "宛如一道蓝色流星。\n它突破了敌方从者之间的屏障，\n即使被挥下的巨矛斩成两截，\n仍然迅捷地行动。",
+      "later_text": "宛如一道蓝色流星。\n他突破了与敌方从者之间的屏障，\n即使被挥下的巨矛斩去半身，\n仍然迅捷无比。"
+    },
+    {
+      "id": "16798e3ca54a911b",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "为了让每个人都成为生存竞争的当事者，\n我们必须引导#RUBS我们#RUBE人类#REND的意识，走向另一条道路。",
+      "later_text": "必须通过一场人人都成为当事者的生存竞争，\n让#RUBS我们#RUBE人类#REND的意识\n走向另一条道路。"
+    },
+    {
+      "id": "f6759c2dd458e82e",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "你明白吧。月灵晶的所有者只要#RUBS・・#RUBE想要#REND\n#RUBS・・・・・・・・・・#RUBE事情就会照着所想发展#REND。",
+      "later_text": "你明白吧。月灵晶的所有者#RUBS・・・#RUBE想看到#REND什么，\n#RUBS・・・・・・・・・・・#RUBE事情就会如其所想发展#REND。"
+    },
+    {
+      "id": "caf33aaa79c59efe",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "试图将月灵晶的选拔制度改造成圣杯战争，\n并企图让战火席卷整个现实世界的#C120200255特怀斯#CDEF。",
+      "later_text": "将月灵晶的选拔改造成圣杯战争，\n还试图让战火席卷整个现实世界的#C120200255特怀斯#CDEF。"
+    },
+    {
+      "id": "734a9c1aff5a5f5f",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "奏者，现在也该让你证明，\n自己是#RUBS东西#RUBE更强的存在#REND。",
+      "later_text": "还有，奏者。也该由你证明，\n自己是胜过那个男人的#RUBS个体#RUBE存在#REND了。"
+    },
+    {
+      "id": "ea43c6a4eb4fc0ee",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "我希望你亲自看看。\n请用自己的眼睛做出判断。",
+      "later_text": "这一切究竟是对是错，\n我希望你能亲眼判断。"
+    },
+    {
+      "id": "532d5cf48b12c09a",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "封印月灵晶自动机——神明的大脑。\n这是危险至极的圣遗物，\n绝不能让#RUBSＷｉｚａｒｄ#RUBE魔术师#REND接触到它。",
+      "later_text": "月灵晶自动机，神明的大脑。\n将这件过于危险的遗物封印起来，\n让#RUBSＷｉｚａｒｄ#RUBE魔术师#REND也无法再接触。"
+    },
+    {
+      "id": "a0017c761a749cf8",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "她如此坚信着，\n毫不犹豫，也不回头，迈步走向大门。",
+      "later_text": "我相信这一点，\n于是毫不犹豫，也不回头，迈步走向大门。"
+    },
+    {
+      "id": "f83e3604ea2ea05a",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "一旦身份揭晓，\n被#RUBSＦａｔｅ#RUBE命运#REND拆解的结果也不会改变。\n剩下的时间恐怕也不多了。",
+      "later_text": "一旦查明这一点，\n我依然逃不过被分解的#RUBSＦａｔｅ#RUBE命运#REND。\n剩下的时间恐怕也不多了。"
+    },
+    {
+      "id": "d7729810813485ac",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "至少也该#C255120120#RUBS・#RUBE女#REND#RUBS・#RUBE帝#REND#CDEF般地赞颂余吧，愚人！\n别把余当小孩子！\n要是连我的#RUBS御主#RUBE奏者#REND也学你那样怎么办！",
+      "later_text": "至少也该尊称余为#C255120120#RUBS・#RUBE女#REND#RUBS・#RUBE帝#REND#CDEF吧，愚人！\n别把余当小孩子！\n要是连余的#RUBS御主#RUBE奏者#REND也跟着学怎么办！"
+    },
+    {
+      "id": "f9f28ee3a9bc7fd8",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "来吧，森林里的猎人。\n这片邪的舍伍德森林，\n我就在这里将它烧个精光！",
+      "later_text": "来吧，森林里的猎人。\n邪恶的舍伍德森林，\n余就在这里将它烧个精光！"
+    },
+    {
+      "id": "b037255f2642f3e9",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "好啊！来吧，老兄。\n我会全力把那混蛋射杀！",
+      "later_text": "好啊！上吧，老爷，\n我会全力把那混蛋射杀！"
+    },
+    {
+      "id": "d718ef2a47b2801a",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "那样一个男人……竟然放弃了军人的身份，\n在今际之际，执着于个人的愿望。",
+      "later_text": "那样一个男人……竟舍弃军人的身份，\n在临终之际，执着于个人的愿望。"
+    },
+    {
+      "id": "af559e1ed5c13f28",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "这确实是一场意义非凡的战斗。\n哈哈，能成为未来年轻人的基础，\n这还是第一次。",
+      "later_text": "这确实是一场意义非凡的战斗。\n哈哈，能为拥有未来的年轻人奠基，\n这还是第一次。"
+    },
+    {
+      "id": "2b3e742764f85d3f",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "生命正因毁灭的短暂才显得可贵。\n就由余亲手将这件艺术品更加\n鲜明地完成吧！",
+      "later_text": "生命正因终将消逝而可贵。\n就由余亲手，更加绚烂地\n为这场艺术落下帷幕吧！"
+    },
+    {
+      "id": "1a837b57899def9f",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "“#RUBSＲａｇｎａｒｏｋ#RUBE神々の黄昏#REND”这个说法再合适不过了。\n那场战斗里没有任何神明\n幸存，狂信徒啊。",
+      "later_text": "“#RUBSＲａｇｎａｒｏｋ#RUBE诸神的黄昏#REND”这话说得好。\n在那场战斗中，没有一个神能活下来，\n狂信徒啊。"
+    },
+    {
+      "id": "fc55236608b60b41",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "——唉，总算解脱了。\n因为没见过这种#RUBSＴｙｐｅ#RUBE人#REND，我才陪你聊了几句，\n嗯，完全不行！",
+      "later_text": "——唉，总算解脱了。\n因为没见过这种#RUBSＴｙｐｅ#RUBE人#REND，才陪他玩了一阵，\n嗯，结果完全不行！"
+    },
+    {
+      "id": "c38c8c1544f1634c",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "那与只为活命而进食的野兽，其悲哀截然不同。\n与把爱人当作生存乐趣的人相比，情感浓度也大不相同。",
+      "later_text": "与只为活命而进食的野兽相比，悲哀截然不同。\n比起只把爱当作生活余兴的人，浓度也截然不同。"
+    },
+    {
+      "id": "410fbbdccedc55f4",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "你没有虚饰。\n只有凶猛的欲求，以及毫无虚假的求爱。\n——那份过于幼稚、已经破绽百出的恋慕。",
+      "later_text": "你没有虚饰。\n凶猛的欲求，毫无虚假的求爱。\n——那份过于幼稚、已然崩坏的恋慕。"
+    },
+    {
+      "id": "29e3d5c0edf0ddf0",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "初击最为重要，在交锋之前先将此人击倒——\n能不能打破这个称号呢……！",
+      "later_text": "初击才是关键，\n在交锋之前便将对方击倒——\n这个名号，你能打破吗……！"
+    },
+    {
+      "id": "24c50efa750ce5b1",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "可是，他跪倒在地，因痛苦而扭曲着脸，\n却仍然拒绝#RUBS删除#RUBE消除#REND。",
+      "later_text": "可是，他跪倒在地，因痛苦而扭曲着脸，\n却仍然拒绝#RUBS删除#RUBE死亡#REND。"
+    },
+    {
+      "id": "222008e58479780a",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "#C120200255兰瑠瑠君#CDEF突然消失了。就像有个看不见的人关掉了电视\n的#RUBSＳｗｉｔｃｈ#RUBE电源#REND一\n样。",
+      "later_text": "#C120200255兰璐君#CDEF突然消失了。\n就像有个看不见的人，\n关掉了电视的#RUBSＳｗｉｔｃｈ#RUBE电源#REND一样。"
+    },
+    {
+      "id": "668e603f3c420232",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "#RUBS御主#RUBE主人#REND，我会好好教你\n真正的魔术，以及魔术师究竟是什么样的人。",
+      "later_text": "#RUBS御主#RUBE主人#REND，\n我们就好好教教她，\n真正的魔术、真正的魔术师究竟是什么样的。"
+    },
+    {
+      "id": "c24c7bebfe0cfac0",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "我一直期待着你这句话。\n现在就将身体尽数化为剑，\n此刻为我开辟通往王座之路吧！",
+      "later_text": "我一直期待着这句话。\n将这副身躯尽数化为剑，\n此刻就开辟通往王座的道路！"
+    },
+    {
+      "id": "58d382f766e47c79",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "笨蛋！\n你们所有人都该向骑士\n低下头！",
+      "later_text": "蠢货！\n向所有骑士低下头吧！"
+    },
+    {
+      "id": "f43427a71e15182e",
+      "earlier_patch": "context-extra-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "似乎正在想事情。\n贸然打扰也不太好，还是先不搭话吧。",
+      "later_text": "似乎正在思考什么。\n还是不要打扰，暂且不搭话了。"
+    },
+    {
+      "id": "c5687f0b58403cc6",
+      "earlier_patch": "context-extra-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "我昨天和她聊过，\n但总觉得话不投机。\n也许是在我面前太紧张了吧。",
+      "later_text": "昨天我和她聊了聊，\n总觉得话不投机。\n也许是面对我，她太紧张了吧。"
+    },
+    {
+      "id": "fadb5dd96e08f9b3",
+      "earlier_patch": "context-extra-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "攻击性太强也要扣分吧。\n在我之前向她搭讪的家伙，可是挨了耳光，\n耳光啊。",
+      "later_text": "而且她太有攻击性了，也得扣分。\n在我之前向她搭讪的家伙，\n可是挨了耳光啊，耳光！"
+    },
+    {
+      "id": "45b11267eb26a7b0",
+      "earlier_patch": "context-extra-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "说着，她刚握住粉笔，\n就在惯常的地方又摔了一跤。",
+      "later_text": "可她刚拿起粉笔，\n就在老地方又摔了一跤。"
+    },
+    {
+      "id": "760cf05605ee550e",
+      "earlier_patch": "context-extra-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "为了平息这些冲突，人们尝试……",
+      "later_text": "作为平息这些冲突的尝试……"
+    },
+    {
+      "id": "d8a7109a93458f98",
+      "earlier_patch": "context-extra-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "他们的能力全都达到A级……\n最值得注意的，\n应该是很早就突破预选的那个女人。",
+      "later_text": "他们的能力全都达到A级……\n最值得注意的，\n恐怕是那个很早就突破束缚的女人。"
+    },
+    {
+      "id": "76f32c8214c0e0a3",
+      "earlier_patch": "context-extra-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "毕竟她出现在这所学园时，\n就已经摆脱了制服的束缚。",
+      "later_text": "毕竟她一出现在这所学园，\n就已经摆脱了制服的束缚。"
+    },
+    {
+      "id": "8ea3b4ad7acc051c",
+      "earlier_patch": "context-extra-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "不过，她本来可是名门望族的千金啊。\n竟然用野性来形容，看来您真是相当讨厌她呢。",
+      "later_text": "不过，她本来也是名门千金啊。\n竟用“野性”来形容她，\n您可真是相当讨厌她呢。"
+    },
+    {
+      "id": "a7bd8185042db391",
+      "earlier_patch": "context-extra-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "学校似乎雇了一位手艺相当不错的园丁。",
+      "later_text": "看来这里雇了一位\n手艺相当不错的园丁。"
+    },
+    {
+      "id": "6ec4a85c32ac64c7",
+      "earlier_patch": "context-extra-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "我们还是尽量避免彼此接触比较好。",
+      "later_text": "我们俩还是\n尽量减少接触为好。"
+    },
+    {
+      "id": "fa276a16c4a5a9bf",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "——不过。\n其中有一个人，连刺耳的敌意都毫不掩饰……。",
+      "later_text": "——不过。\n有一个人，连那尖锐的敌意都毫不掩饰……"
+    },
+    {
+      "id": "cb2c199f7b9b5103",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "他把双手以奇特的姿势交叠，\n仿佛在冥想一般，\n紧紧闭上了眼睑。",
+      "later_text": "她把双手以奇特的姿势交叠，\n仿佛在冥想一般，\n紧紧闭上了眼睑。"
+    },
+    {
+      "id": "cbec33549f76fb3c",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "才刚遇上第一个#RUBSＷｉｚａｒｄ#RUBE魔术师#REND，你就立刻被他评头论足了啊，\n御主。怎么，\n不回敬他几句吗？",
+      "later_text": "刚遇见第一个#RUBSＷｉｚａｒｄ#RUBE魔术师#REND，\n你就被她评头论足了啊，御主。\n怎么，不回敬她几句吗？"
+    },
+    {
+      "id": "3368b86db15a0952",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "每一回合战斗都持续七天。\n各位御主从第一天到第六天，\n都有与对手交战前的#C255120120#RUBSＭｏｒａｔｏｒｉｕｍ#RUBE宽限期间#REND#CDEF。",
+      "later_text": "每轮比赛历时7天。\n第1天到第6天，是各位御主\n为迎战对手作准备的#C255120120#RUBSＭｏｒａｔｏｒｉｕｍ#RUBE宽限期间#REND#CDEF。"
+    },
+    {
+      "id": "7c2d8486bcb7f1ec",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "接下来这六天的#RUBSＭｏｒａｔｏｒｉｕｍ#RUBE宽限期间#REND里，\n你只要想办法杀掉对手就行了。",
+      "later_text": "接下来的六天#RUBSＭｏｒａｔｏｒｉｕｍ#RUBE宽限期间#REND里，\n你只需做好杀死对手的准备。"
+    },
+    {
+      "id": "7f25bac997a3b7d6",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "你当初参加预选赛的班级隔壁，\n#C2551201202-B#CDEF就是入口。\n把这段认证码#RUBSＩｎｓｔａｌｌ#RUBE输入#REND到便携终端里，\n再拿着它去认证就行。",
+      "later_text": "预选赛时你所在班级的隔壁，\n#C2551201202-B#CDEF就是入口。\n将这段认证码#RUBSＩｎｓｔａｌｌ#RUBE输入#REND便携终端，\n再把终端靠近入口试试。"
+    },
+    {
+      "id": "3cb30684d74c65e3",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-2-fixes.jsonl",
+      "earlier_text": "光是照顾亲爱的，\n我就勉强来得及凑齐#C255120120#RUBS触发器#RUBE暗号键#REND#CDEF……。",
+      "later_text": "结果光顾着照顾亲爱的，\n能勉强凑齐#C255120120#RUBS触发器#RUBE暗号键#REND#CDEF，\n就已经拼尽全力了……"
+    },
+    {
+      "id": "3263618eeffa26fc",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "呵呵呵……我要从那个讨厌的帅哥手里\n抢走他的色彩，然后让他陷入\n#RUBS自我认同危机#RUBE失业无能毫无价值的存在#REND！",
+      "later_text": "呵呵呵……我要夺走那个讨厌帅哥的标志色，\n让他陷入#RUBS自我认同危机#RUBE失业无能毫无价值的存在#REND！"
+    },
+    {
+      "id": "61469fee084dd9f7",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "刚才她说了那么多吓人的话，结果#RUBS御主#RUBE主人#REND还是大获全胜呢。\n真不愧是#RUBS御主#RUBE主人#REND？",
+      "later_text": "对方说了那么多吓人的话，\n结果#RUBS御主#RUBE主人#REND还是大获全胜呢。\n真不愧是#RUBS御主#RUBE主人#REND呢？"
+    },
+    {
+      "id": "ccd151d19d1eeb84",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "那可会累坏你的。\n喜欢正面交锋当然没问题，\n不过也得小心别#RUBS・#RUBEま#REND#RUBS・#RUBEた#REND挨枪子。",
+      "later_text": "那可会很累哦。\n喜欢正面交锋当然没问题，\n不过小心别#RUBS・#RUBE再#REND#RUBS・#RUBE次#REND被人从背后射中。"
+    },
+    {
+      "id": "484ecb00f901ccbb",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "不，我的奏者不会做这种肮脏的勾当。\n更何况这里是决战之地，\n不该带来政事的毒害。",
+      "later_text": "不，余的奏者可做不来那种脏活。\n更何况这里是决战之地，\n不必把政治斗争中的毒药也带进来。"
+    },
+    {
+      "id": "24952f76924ce005",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "看来你真的很招人讨厌呢。不过，要是被打中，\n我可算#RUBSＬｕｃｋｙ#RUBE幸运#REND了。\n那胜利就等于唾手可得。",
+      "later_text": "看来你还真不想和我交手呢。\n不过，要是我们真的对上，我可就#RUBSＬｕｃｋｙ#RUBE幸运#REND了。\n那几乎等于已经赢定了。"
+    },
+    {
+      "id": "0f3232df3fd75134",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "我真的能亲手打倒那个孩子吗？",
+      "later_text": "我真的能亲手杀死那个孩子吗？"
+    },
+    {
+      "id": "0deb5494f98befd6",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "#C255120120原斩之剑#CDEF？我记得……那是对没有理性的怪物有效的\n#RUBSＬｏｇｉｃ　Ｃａｎｃｅｒ#RUBE概念武装#REND……对吧？",
+      "later_text": "#C255120120沃帕尔之剑#CDEF？我记得……那是对没有理性的怪物有效的\n#RUBSＬｏｇｉｃ　Ｃａｎｃｅｒ#RUBE概念武装#REND……对吧？"
+    },
+    {
+      "id": "c5e98468dd1bd8af",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "不过，要是确实有需要……\n嗯，那确实属于#C255120120#RUBSＡｌｃｈｅｍｙ#RUBE炼成术#REND#CDEF的范畴。\n可惜，我没法炼成出来。",
+      "later_text": "不过，要是确实有需要……\n嗯，那确实属于#C255120120#RUBSＡｌｃｈｅｍｙ#RUBE炼金术#REND#CDEF的范畴。\n可惜，我没法炼成出来。"
+    },
+    {
+      "id": "0e50392526f558aa",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "作为惩罚，我把#RUBS触发器#RUBE暗号键#REND放在前面，\n还叫来了#C255120120#RUBS爱丽丝#RUBE我#REND#CDEF最珍爱的朋友\n哦。",
+      "later_text": "作为惩罚，我在#RUBS触发器#RUBE暗号键#REND前面，\n叫来了#C255120120#RUBS爱丽丝#RUBE我#REND#CDEF珍藏的朋友哦。"
+    },
+    {
+      "id": "0f4d5424851494b0",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "首先，那块大石头打算怎么办？\n要是放着不管，就拿不到#RUBS触发器#RUBE暗号键#REND，\n肯定会输。",
+      "later_text": "首先，那只大块头你打算怎么办？\n放着不管就拿不到#RUBS触发器#RUBE暗号键#REND，\n到时可就输定了。"
+    },
+    {
+      "id": "3d065168908eadeb",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "在赛拉夫里，不会创造毫无意义的东西。\n那张便条应该是让#C255120120固有结界#CDEF成立的\n#RUBSＳｅｇｍｅｎｔ#RUBE片段#REND吧。",
+      "later_text": "在SE.RA.PH里，不会创造毫无意义的东西。\n那张便条应该是让#C255120120固有结界#CDEF成立的\n#RUBSＳｅｇｍｅｎｔ#RUBE片段#REND吧。"
+    },
+    {
+      "id": "9dbc518eb2b89b8d",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "那只兔子……你是不是把它看成#RUBSＭａｒｃｈ　Ｈａｒｅ#RUBE三月兔#REND了？",
+      "later_text": "你看到的那只兔子，\n会不会其实是#RUBSＭａｒｃｈ　Ｈａｒｅ#RUBE三月兔#REND？"
+    },
+    {
+      "id": "480e3b4520a4453f",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "看来你不是来找我改写的……\n怎么了？\n我也不是闲着没事做。",
+      "later_text": "看来你不是来做灵魂篡改的……\n怎么了？\n我也不是闲着没事。"
+    },
+    {
+      "id": "35160998d6e07c40",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "我告诉她这不是来办改写的事后，\n#C120200255苍崎橙子#CDEF一脸嫌麻烦地回答。",
+      "later_text": "我说明自己不是来做灵魂篡改后，\n#C120200255苍崎橙子#CDEF一脸嫌麻烦地应道。"
+    },
+    {
+      "id": "452869af56d75dcb",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "改造你们的灵体，\n让从者的力量能够更有效地具现化。\n这就是改写。",
+      "later_text": "改造你们的灵体，\n让从者的力量更有效地具现化。\n这就是灵魂篡改。"
+    },
+    {
+      "id": "9e6342adafc85e7a",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "真好笑。人类不就是为了娱乐才活着吗？\n我啊，你也看到了，是肉食动物。\n#RUBSＦａｒｍ#RUBE农场#REND生活不适合我。",
+      "later_text": "真好笑。人总得有点娱乐，才像个人吧？\n我啊，正如你所见，是肉食动物。\n#RUBSＦａｒｍ#RUBE农场#REND生活不适合我。"
+    },
+    {
+      "id": "3f9317b72607f595",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "嗯，游戏玩得不好的人\n就要被切成碎片。\n这就是#C255120120#RUBSＷｏｎｄｅｒｌａｎｄ#RUBE奇境#REND#CDEF的规则。",
+      "later_text": "嗯，游戏玩得不好的人，\n就要把脑袋砍下来。\n这就是#C255120120#RUBSＷｏｎｄｅｒｌａｎｄ#RUBE奇境#REND#CDEF的规则。"
+    },
+    {
+      "id": "34d8f9bd75f9846e",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "从#RUBS爱丽丝#RUBE我#REND一直想待在那里的时候起，\n已经过去很久很久了呢。",
+      "later_text": "从#C120200255#RUBS爱丽丝#RUBE我#REND#CDEF总是疼痛不已的那时候起，\n已经过去很久很久了呢。"
+    },
+    {
+      "id": "e62293461cd84504",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "竟然突破了那么强大的安全防护，\n居然还能活下来……\n他是如此厉害的#RUBSＷｉｚａｒｄ#RUBE魔术师#REND吗？",
+      "later_text": "突破了那么强大的安全防护，\n竟然还能活下来……\n你是如此厉害的#RUBSＷｉｚａｒｄ#RUBE魔术师#REND吗？"
+    },
+    {
+      "id": "b3bb9781b814788b",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "……看来我碰到了什么奇怪的东西。\n带有#C255120120#RUBS程序#RUBE诅咒#REND#CDEF冲入脑中翻搅，\n火花四溅。",
+      "later_text": "……看来我碰到了什么奇怪的东西。\n#C255120120攻击性的#RUBS程序#RUBE诅咒#REND#CDEF冲入脑中翻搅，\n火花四溅。"
+    },
+    {
+      "id": "6cab1e7d830d2647",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "……别露出那种表情。\n虽说连问出这样的问题都让人忌讳，\n但也没有别的办法。",
+      "later_text": "……别露出那种表情。\n虽然连问出这种问题都令人恼火，\n但也没办法。"
+    },
+    {
+      "id": "5fe321e75fba7b40",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "所谓#C255120120摇晃#CDEF，\n就是构成竞技场的区块与区块之间的缝隙。\n是赛拉夫被创造时留下的一道细微瑕疵。",
+      "later_text": "所谓#C255120120摇曳之处#CDEF，\n就是构成竞技场的区块与区块之间的缝隙。\n是SE.RA.PH被创造时留下的一道细微瑕疵。"
+    },
+    {
+      "id": "a85cc38323250bf4",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "毕竟，你甚至连是不是人类\n都可疑得很。",
+      "later_text": "毕竟，连对方究竟是不是人类，\n都可疑得很。"
+    },
+    {
+      "id": "6fd1769cc4862cff",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "听了刚才#C120200255远坂凛#CDEF说的话，我想到一个假设：\n#C120200255#FAMILY#CDEF先生/小姐是不是#RUBS・・・・#RUBE没有本体#REND？",
+      "later_text": "听了刚才你和#C120200255远坂凛#CDEF的谈话，\n我想到一个假设：\n#C120200255#FAMILY#CDEF是不是#RUBS・・・・#RUBE没有本体#REND？"
+    },
+    {
+      "id": "b8ad31d6bff81431",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "啊——果然不行。这点#RUBS片段#RUBE资料#REND，\n根本没法给瑟拉夫的#RUBS破坏规则#RUBE规则破坏#REND提供任何\n线索。",
+      "later_text": "啊——果然不行。这点#RUBS片段#RUBE资料#REND，\n根本没法给SE.RA.PH的#RUBS破坏规则#RUBE规则破坏#REND提供任何\n线索。"
+    },
+    {
+      "id": "9b852165e05c7fc5",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "#RUBS色彩#RUBE表情#REND略显腼腆。\n她的脸看起来依旧毫无表情，\n但明显和刚才不一样了。",
+      "later_text": "略带腼腆的#RUBS色彩#RUBE表情#REND。\n她的脸看起来仍旧没有表情，\n却已明显不同于以往。"
+    },
+    {
+      "id": "bf300ab3ab471e64",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "嗯，余知道哦。\n这男人就是那个叫“马戏团”的家伙吧。\n专唱些傻歌、逗人热闹的那种。",
+      "later_text": "嗯，余知道哦。\n这男人是马戏班的家伙吧。\n唱些傻歌，给人助兴的那种。"
+    },
+    {
+      "id": "7abaab0ffb858b98",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "……已经不只是狂信徒，\n简直快要变成那种东西了。\n居然还有“黑暗火锅教义”，真是毫无节操。",
+      "later_text": "……已经不只是狂信徒，\n距离那种人只差一步了。\n把教义煮成大杂烩，真是毫无节操。"
+    },
+    {
+      "id": "d8348b86e3bfd865",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "御主，给她打个分吧。\n以她这种扭曲的嗜好，\n连一颗#RUBS・・#RUBE轮胎#REND那么大的星星都不配。",
+      "later_text": "御主，给她打个分吧。\n凭她那扭曲的嗜好，连那家#RUBS・・#RUBE轮胎#REND公司\n的一颗星都拿不到。"
+    },
+    {
+      "id": "d477820d644c6d98",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "那是#RUBS旁路#RUBE插入回路#REND。利用它，就能在迷宫和我之间建立魔力流。",
+      "later_text": "那是#RUBS旁路#RUBE插入回路#REND。\n利用它，就能建立从竞技场\n流向我的魔力通路。"
+    },
+    {
+      "id": "740295d6ec6b5135",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "不，师父对我而言至今仍是至高无上的存在。\n不过，#C120200255#GIVEN#CDEF先生是我自己找到的、\n属于我自己的#RUBS内在#RUBE感情#REND。",
+      "later_text": "不，师父对我而言至今仍是至高无上的存在。\n不过，#C120200255#GIVEN#CDEF是我自己找到的、\n属于我自己的#RUBS内在#RUBE感情#REND。"
+    },
+    {
+      "id": "a5cbf4f76809cf21",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "不过，称呼你为主人让我难为情。\n叫你“#C255120120朋友#CDEF”，可以吗？",
+      "later_text": "不过，被称作主人，实在让我有些难为情。\n做“#C255120120朋友#CDEF”，不行吗？"
+    },
+    {
+      "id": "cafa39812c9e564d",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "所以，我的从者就交给你来治好。\n我也不喜欢对手状态不佳，\n那样打起来可没意思。",
+      "later_text": "所以，你的从者，\n就由你亲手治好。\n老夫也只有面对全盛的对手，才打得尽兴。"
+    },
+    {
+      "id": "060112c21d46257f",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "御主，不知道的话就算了。她的术式基于古老的魔术概\n念，\n对你们这些#RUBSＷｉｚａｒｄ#RUBE魔术师#REND而言可是有害无益。",
+      "later_text": "御主，不知道就好。\n她的术式源于古老的魔术概念，\n你们这些#RUBSＷｉｚａｒｄ#RUBE魔术师#REND可不能随便看。"
+    },
+    {
+      "id": "1beb98687981fabc",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "又来啦……主人家的#RUBS御主#RUBE主人#REND#C255120120Lancer好色哦～！#CDEF",
+      "later_text": "又来啦……\n#RUBS御主#RUBE主人#REND真是个\n#C255120120大色狼～！#CDEF"
+    },
+    {
+      "id": "0fbb26877f87f677",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "呵呵，真是戳到痛处了！唔，确实，\n余走错了很长一段路。",
+      "later_text": "呵呵，真是戳到了痛处！\n唔，老夫确实大大偏离了正道。"
+    },
+    {
+      "id": "184851194f00b12a",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "虽然做法有些粗暴，但我会把你和我连接起来，\n把两个人的魔力叠加，再为#C120200255#SVT[セイバー][アーチャー][キャスター]##CDEF构筑#RUBSＣｉｒｃｕｉｔ#RUBE魔力路径#REND。",
+      "later_text": "虽然做法有些粗暴，但我会把你和我连接起来，\n把两个人的魔力叠加，再为#C120200255#SVT[Saber][Archer][Caster]##CDEF构筑#RUBSＣｉｒｃｕｉｔ#RUBE魔力路径#REND。"
+    },
+    {
+      "id": "bae37fc7fc0a224d",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "虽然做法有些粗暴，但我会把我和#C120200255#GIVEN#CDEF先生/小姐\n连接起来，\n把我的魔力叠加进去，为#C120200255#SVT[セイバー][アーチャー][キャスター]##CDEF构筑#RUBSＣｉｒｃｕｉｔ#RUBE魔力路径#REND。",
+      "later_text": "虽然做法有些粗暴，但我会把我和#C120200255#GIVEN#CDEF\n连接起来，\n把我的魔力叠加进去，为#C120200255#SVT[Saber][Archer][Caster]##CDEF构筑#RUBSＣｉｒｃｕｉｔ#RUBE魔力路径#REND。"
+    },
+    {
+      "id": "2bd8b62f406e7b4f",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "不……不是那样。#RUBS旁路#RUBE插入回路#REND运作正常，#C120200255Saber#CDEF的魔力应该已\n经恢复了。",
+      "later_text": "不……不是那样。#RUBS旁路#RUBE插入回路#REND运作正常，#C120200255Archer#CDEF的魔力应该已\n经恢复了。"
+    },
+    {
+      "id": "0f06a1ab8060e0d9",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "……要是说另一个时代里只有数据的存在突然冒出来的\n话，\n#RUBS・#RUBE俺#REND也没资格说别人。",
+      "later_text": "……要是说另一个时代里只有数据的存在突然冒出来的\n话，\n#RUBS・#RUBE我#REND也没资格说别人。"
+    },
+    {
+      "id": "c568a4e54cef7766",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "起初，那道阴暗如#RUBS那里#RUBE渊#REND般的视线\n光是看着就让人浑身僵硬。",
+      "later_text": "那道阴暗如#RUBS深处#RUBE深渊#REND般的视线，\n最初光是落在我身上，就令我浑身僵硬。"
+    },
+    {
+      "id": "946c88bd30c43634",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "这是……\n一个以狮子为形象的#C255120120校徽#CDEF吗？",
+      "later_text": "这是……\n一个以狮子为形象的#C255120120领章#CDEF吗？"
+    },
+    {
+      "id": "2e07ee62d45d0d6e",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "那正是我对你的印象。我原以为你是个更加理性、\n更加优化的#RUBSＷｉｚａｒｄ#RUBE魔术师#REND。",
+      "later_text": "那也是我想对你说的。\n我原以为你是个更理性、\n更能采取最优行动的#RUBSＷｉｚａｒｄ#RUBE魔术师#REND。"
+    },
+    {
+      "id": "56af9024e05437cd",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "如果不承认主人的力量，\n自己反而可能会被#C255120120礼装#CDEF吞噬。\n可以说这是一种#C255120120#RUBSＰｒｏｔｅｃｔ#RUBE防壁#REND#CDEF。",
+      "later_text": "如果礼装不认可主人的力量，\n使用者反而可能会被它吞噬。\n可以说，这是一种#RUBSＰｒｏｔｅｃｔ#RUBE防壁#REND。"
+    },
+    {
+      "id": "5e8fa259ef00b2d5",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "不知道它是否还存在，\n不过这是种防止被奇怪的人使用的\n#C255120120#RUBSＰｒｏｔｅｃｔ#RUBE防壁#REND#CDEF吧。",
+      "later_text": "不知道它算不算活着，\n不过这是种防止被奇怪的人使用的\n#C255120120#RUBSＰｒｏｔｅｃｔ#RUBE防壁#REND#CDEF吧。"
+    },
+    {
+      "id": "35a384cabdaab04a",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "context-lane-3-fixes.jsonl",
+      "earlier_text": "我……看来其他人也是如此，\n是为了获得圣杯而前往圣杯内部的#RUBSＷｉｚａｒｄ#RUBE魔术师#REND。\n他们的目的，是为了世界——",
+      "later_text": "我……看来其他人也是如此，\n是为了获得圣杯而前往圣杯内部的#RUBSＷｉｚａｒｄ#RUBE魔术师#REND。\n我的目的，是要让世界——"
+    },
+    {
+      "id": "da01d583a018b1fe",
+      "earlier_patch": "context-opening-fixes.jsonl",
+      "later_patch": "root-manual-fixes.jsonl",
+      "earlier_text": "当然，就算是多年的老朋友也不能例外。\n虽然有些麻烦，还是请你配合一下。",
+      "later_text": "当然，就算是多年的老朋友也不能例外。\n虽然有些麻烦，还是请你配合检查。"
+    },
+    {
+      "id": "bb5bd4a0fe4e6cb6",
+      "earlier_patch": "context-opening-fixes.jsonl",
+      "later_patch": "root-manual-fixes.jsonl",
+      "earlier_text": "无论怎么看，你都是一名无可挑剔、\n堪称完美的#C255120120#RUBS月海原#RUBE月海原#REND学园#CDEF学生。",
+      "later_text": "无论怎么看，你都是一名无可挑剔、\n堪称完美的#C255120120#RUBSつくみはら#RUBE月海原#REND学园#CDEF学生。"
+    },
+    {
+      "id": "a9eda1c8106726bf",
+      "earlier_patch": "merged-initial-fixes.jsonl",
+      "later_patch": "root-manual-fixes.jsonl",
+      "earlier_text": "探头一看，人群中央站着学生会长，\n也是我朋友的#C120200255柳洞一成#CDEF。",
+      "later_text": "探头一看，人群中央站着学生会长，\n也是我朋友的#C120200255#RUBSりゅうどういっせい#RUBE柳洞一成#REND#CDEF。"
+    },
+    {
+      "id": "0f06a1ab8060e0d9",
+      "earlier_patch": "context-lane-3-fixes.jsonl",
+      "later_patch": "root-manual-fixes.jsonl",
+      "earlier_text": "……要是说另一个时代里只有数据的存在突然冒出来的\n话，\n#RUBS・#RUBE我#REND也没资格说别人。",
+      "later_text": "……要说另一个时代里，只有数据构成的存在突然冒出来，\n那我也没资格说别人。"
+    }
+  ],
+  "missing_patch_ids": {},
+  "ordinary_ruby": {
+    "added": 79,
+    "already-ruby": 6,
+    "missing-or-ambiguous": 1
+  },
+  "ordinary_ruby_skips": [
+    {
+      "id": "bb5bd4a0fe4e6cb6",
+      "jp_upper": "つくみはら",
+      "anchor": "月海原",
+      "reason": "already-ruby"
+    },
+    {
+      "id": "ce7dcae120d2497b",
+      "jp_upper": "つくみはら",
+      "anchor": "月海原",
+      "reason": "already-ruby"
+    },
+    {
+      "id": "db79504d22bd208c",
+      "jp_upper": "まとう",
+      "anchor": "间桐",
+      "reason": "already-ruby"
+    },
+    {
+      "id": "db79504d22bd208c",
+      "jp_upper": "しんじ",
+      "anchor": "慎二",
+      "reason": "already-ruby"
+    },
+    {
+      "id": "824e10788377e09d",
+      "jp_upper": "しんじ",
+      "anchor": "慎二",
+      "reason": "already-ruby"
+    },
+    {
+      "id": "a9eda1c8106726bf",
+      "jp_upper": "りゅうどういっせい",
+      "anchor": "柳洞一成",
+      "reason": "already-ruby"
+    },
+    {
+      "id": "64786993ad3e7e7f",
+      "jp_upper": "Ｔｗｉｃｅ",
+      "anchor": "特怀斯",
+      "reason": "missing-or-ambiguous"
+    }
+  ],
+  "final_overrides": [
+    "root-manual-fixes.jsonl is applied after all review ledgers"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "verification_type": "static ISO/CPK readback, no emulator or gameplay run",
+  "iso": "work/build/Fate_Extra_CN-v17.iso",
+  "iso_bytes": 1461848064,
+  "iso_sha256": "254c6ab6ff285bec46d43fec095573b3e4590fbb0104e48db520d9533b092989",
+  "data_cpk_bytes": 1348403600,
+  "data_cpk_sha256": "cbeab1f0b519a27c4d8a04e44dbbf7b489910e850b600ad75e2c46b31cfea5d5",
+  "iso_data_cpk_extent_sector": 55392,
+  "iso_volume_sectors": 713793,
+  "poem_reference_checks": 90,
+  "poem_mismatches": 0,
+  "identical_poem_font_copies": 13,
+  "non_cpk_iso_file_checks": [
+    {
+      "path": "PSP_GAME/ICON0.PNG",
+      "bytes": 18854,
+      "sha256": "8129c556477630af4bc950389eab7610766ca7b5e9c456af6e494f6a9293e0bd"
+    },
+    {
+      "path": "PSP_GAME/PARAM.SFO",
+      "bytes": 560,
+      "sha256": "b740c79381754d6bc6c1e58573278e9a13c2ba511f533e0d0e0814140314c867"
+    },
+    {
+      "path": "PSP_GAME/PIC0.PNG",
+      "bytes": 33558,
+      "sha256": "11f101b03cd48282797e327b2eb0df77b329c690c4edc2b247b807775d820256"
+    },
+    {
+      "path": "PSP_GAME/PIC1.PNG",
+      "bytes": 212889,
+      "sha256": "6862c061fe9540161a1fa36cabec01374db860206bf6c39b98bdf9e2efcd9d74"
+    },
+    {
+      "path": "PSP_GAME/SYSDIR/BOOT.BIN",
+      "bytes": 1936369,
+      "sha256": "b14c170e085b80d83754141d5abdd01c0de5f2eeffae360a58e60ce7ad6aed12"
+    },
+    {
+      "path": "PSP_GAME/SYSDIR/EBOOT.BIN",
+      "bytes": 1936720,
+      "sha256": "5a0a6b5904e50b11d74fdaa9e0e3107836bb0925f699d6245f7405903f991408"
+    },
+    {
+      "path": "PSP_GAME/SYSDIR/OPNSSMP.BIN",
+      "bytes": 880,
+      "sha256": "c4ebace3c757b984b8ed90a45de19e9ef8531d4cde4c6078e6e8a468b91b37e9"
+    },
+    {
+      "path": "PSP_GAME/SYSDIR/UPDATE/DATA.BIN",
+      "bytes": 23372384,
+      "sha256": "2b6e53ff02f6136e0490b1b6b2769b29245b9236d27b833060918070fbd9f3c6"
+    },
+    {
+      "path": "PSP_GAME/SYSDIR/UPDATE/EBOOT.BIN",
+      "bytes": 5545568,
+      "sha256": "5449747a9e699e4a67b1db2e588e1ee3ebdbe7597402a59d1e325f24a48f24fa"
+    },
+    {
+      "path": "PSP_GAME/SYSDIR/UPDATE/PARAM.SFO",
+      "bytes": 2080,
+      "sha256": "f0f1360138e34c96954df057da3bc8726894045b7e8280f1d5f4b51de3ded5fa"
+    },
+    {
+      "path": "UMD_DATA.BIN",
+      "bytes": 48,
+      "sha256": "3eb600944e6af3884c2863fb78ac9dd4eee358ecbe110a81fdb460fa5024e629"
+    }
+  ]
+}
