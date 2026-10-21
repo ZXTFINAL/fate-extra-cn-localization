@@ -1,6 +1,29 @@
 # Changelog
 
-格式参考 Keep a Changelog。版本号采用 `0.x`：工程迭代中的 `v14` / `v15` 对应发布标签 `v0.14.0` / `v0.15.0`；从本版起标签跟工程构建号走（`v18` → `v0.18.0`；`v0.17.0` 未单独发版）。
+格式参考 Keep a Changelog。工程迭代版历史上使用 `0.x`；正式补丁发布从 `v1.0` 开始。
+
+---
+
+## [v1.0] — 2026-10-21
+
+**首个简体中文补丁包版本**
+
+### Changed
+
+- 将 `data/translation/text.jsonl` 同步到 v1.0 构建所用版本（19,711 条，19,709 条非空；SHA-256 `e203c3285da88d219d4e6977ad337ea0358c54db2ec9b6f6fc4399bab7c35865`）。
+- 更新正文/菜单字形映射至 1,640 个别名（SHA-256 `f2c197c8954a51bf6fe6d1194a24bb60b33d300fb3f46777657293a0c388217f`）。
+- 将 v1.0 的资源补丁并入变更集：580 个文件 / 72,883,600 字节；包含物品、技能、情报矩阵、额外 UI 与新版字体资源。
+- 更新 `scripts/validate_repo.py`、README、路线图与变更集 manifest 的统计值。
+
+### Fixed
+
+- 修正 5 条会在词语中间断行的对话；涉及 14 处实际文本引用，CPK 回读校验通过。证据见 `data/evidence/build/v1.0-dialogue-wrap-fixes.json`。
+- 记录最终 ISO 静态校验数据：1,467,498,496 字节，SHA-256 `72ce1e06ecc55734a5f964cfaac80e66f19a43f6a114bc97e78772f8ebaca3d8`；内嵌 CPK SHA-256 `d80e36aecf9da40cd594916af44b3a8ec11761f37645c2166d30337e5bac1871`。
+
+### Release notes
+
+- Release 附件为补丁数据包，不包含 ISO、CPK 或未修改的游戏资源；使用者需自备日版 `NPJH-50247` ISO 并按 README 重建。
+- 构建通过 ISO 结构、字体/诗文、目标资源与文本指针静态校验；本次构建**未做 PPSSPP 或 PSP 实机全流程回归**。语境复核与部分游戏内图片文字盘点仍在进行，详见 `ROADMAP.md`。
 
 ---
 

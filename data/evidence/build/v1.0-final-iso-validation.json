@@ -1,0 +1,14 @@
+{
+  "iso": "Fate_Extra_CN-v1.0.iso (local build artifact; not included in source/release package)",
+  "bytes": 1467498496,
+  "sha256": "72ce1e06ecc55734a5f964cfaac80e66f19a43f6a114bc97e78772f8ebaca3d8",
+  "embedded_cpk_sha256": "d80e36aecf9da40cd594916af44b3a8ec11761f37645c2166d30337e5bac1871",
+  "title": "Fate/EXTRA 中文汉化版",
+  "iso_paths_preserved": true,
+  "only_payload_changed": "PSP_GAME/USRDIR/data.cpk",
+  "confirmed_wrap_fixes": 5,
+  "applied_references": 14,
+  "all_changed_text_pointers_read_back": true,
+  "poem_audit": true,
+  "emulator_test": false
+}

@@ -6,7 +6,7 @@
 
 ```
 data/overlay/
-├── manifest.json          381 个文件的路径 / 大小 / SHA-256
+├── manifest.json          580 个文件的路径 / 大小 / SHA-256
 └── packages/              目录结构与 work/build/assets/packages 一一对应
     └── pack/
         ├── PRELOAD/       kanzi.bin、font.txb、ruby.bin、ruby.txb
@@ -14,15 +14,14 @@ data/overlay/
         └── …/            100 个 battle 包
 ```
 
-## 清单（v0.15.0）
+## 清单（v1.0）
 
 | 类别 | 文件数 | 说明 |
 |---|---|---|
-| `pack/PRELOAD` 字库与小字 | 4 | `kanzi.bin` 4,096 字位表、`font.txb` 16 页正文图集、`ruby.bin`/`ruby.txb` 518 字小字表 |
-| `pack/PRELOAD` 公共界面 | 5 | 日历、通用图标、信息弹窗、主菜单、选择框 |
-| `pack/*/interface` | 266 | 教程 191 页、存档/读档、装备栏、难度说明等 |
-| `pack/*/battle` | 100 | 战斗界面、指令与状态文字 |
-| **合计** | **375** | **71,900,512 字节** |
+| `pack/PRELOAD` | 26 | 正文字库、小字库及菜单/技能/角色参数资源 |
+| `pack/*/interface` | 421 | 教程、菜单、物品、情报矩阵与其他界面资源 |
+| `pack/*/battle` | 133 | 战斗界面、指令与状态文字 |
+| **合计** | **580** | **72,883,600 字节** |
 
 ## 每个文件的来源
 
@@ -33,6 +32,8 @@ data/overlay/
 | `pack/PRELOAD/kanzi.bin`、`font.txb` | `scripts/pipeline/patch_fate_extra_font.py`（补字 + 压缩回 4,096 字） |
 | `pack/PRELOAD/ruby.bin`、`ruby.txb` | `scripts/pipeline/patch_fate_extra_annotation_fonts.py`（9×9 格、518 字 / 3 页） |
 | `pack/*/interface`、`battle` | `scripts/pipeline/patch_fate_extra_image_text.py` + `data/evidence/ui/*-text-patches.json` |
+
+v1.0 增补的参数、技能、物品和情报矩阵资源由相应定长字段补丁生成；最终逐文件 SHA-256 记录在 `manifest.json`。
 
 因此变更集是**可再生的**：删掉整个目录，按 `docs/01-pipeline.md` 重跑对应脚本即可复原。
 把它纳入版本管理的意义是省掉这条路——接手者不必先有 macOS 渲染环境，也能直接构建。

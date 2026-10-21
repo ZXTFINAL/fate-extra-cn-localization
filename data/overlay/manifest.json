@@ -1,1915 +1,2910 @@
 {
- "version": "v0.18.0",
- "note": "变更集：只含被修改过的二进制资源（txb/bin），不含未修改的原始游戏资源，也不含 DAT 文本（文本由 data/translation/text.jsonl 重建）；必须配合自备正版 ISO 使用。",
- "root": "overlay",
- "layout": "overlay/<path> 直接对应 work/build/assets/<path>",
- "file_count": 381,
- "total_bytes": 72180368,
- "files": [
-  {
-   "path": "packages/pack/000001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/000021_0/interface/dungeon/shar_arena.txb",
-   "size": 33488,
-   "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
-  },
-  {
-   "path": "packages/pack/000021_1/battle/interface/btl_menu.txb",
-   "size": 303056,
-   "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
-  },
-  {
-   "path": "packages/pack/000021_1/battle/interface/btl_warning_00.txb",
-   "size": 39744,
-   "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
-  },
-  {
-   "path": "packages/pack/000021_1/battle/interface/result_00.txb",
-   "size": 264192,
-   "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
-  },
-  {
-   "path": "packages/pack/000022/interface/dayresult/d_result.txb",
-   "size": 110176,
-   "sha256": "3e28b3788032fed70c653eaac735a47d23ab26811279d541856522443e78d9c7"
-  },
-  {
-   "path": "packages/pack/000023_0/interface/dungeon/shar_arena.txb",
-   "size": 33488,
-   "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
-  },
-  {
-   "path": "packages/pack/000023_1/battle/interface/btl_menu.txb",
-   "size": 303056,
-   "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
-  },
-  {
-   "path": "packages/pack/000023_1/battle/interface/btl_warning_00.txb",
-   "size": 39744,
-   "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
-  },
-  {
-   "path": "packages/pack/000023_1/battle/interface/result_00.txb",
-   "size": 264192,
-   "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
-  },
-  {
-   "path": "packages/pack/000100_0/interface/dungeon/i_dun.txb",
-   "size": 59536,
-   "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
-  },
-  {
-   "path": "packages/pack/000100_0/interface/dungeon/shar_arena.txb",
-   "size": 33488,
-   "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
-  },
-  {
-   "path": "packages/pack/000100_1/battle/interface/btl_menu.txb",
-   "size": 303056,
-   "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
-  },
-  {
-   "path": "packages/pack/000100_1/battle/interface/btl_warning_00.txb",
-   "size": 39744,
-   "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
-  },
-  {
-   "path": "packages/pack/000100_1/battle/interface/result_00.txb",
-   "size": 264192,
-   "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
-  },
-  {
-   "path": "packages/pack/000110_0/interface/dungeon/are_title_01.txb",
-   "size": 20768,
-   "sha256": "62aefa724958001c92b5adde292de479df5634b5c5df235eef8b96deea3f9854"
-  },
-  {
-   "path": "packages/pack/000110_0/interface/dungeon/i_dun.txb",
-   "size": 59536,
-   "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
-  },
-  {
-   "path": "packages/pack/000110_0/interface/dungeon/shar_arena.txb",
-   "size": 33488,
-   "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
-  },
-  {
-   "path": "packages/pack/000110_1/battle/interface/btl_menu.txb",
-   "size": 303056,
-   "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
-  },
-  {
-   "path": "packages/pack/000110_1/battle/interface/btl_warning_00.txb",
-   "size": 39744,
-   "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
-  },
-  {
-   "path": "packages/pack/000110_1/battle/interface/result_00.txb",
-   "size": 264192,
-   "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
-  },
-  {
-   "path": "packages/pack/000111_0/interface/dungeon/are_title_01.txb",
-   "size": 20768,
-   "sha256": "62aefa724958001c92b5adde292de479df5634b5c5df235eef8b96deea3f9854"
-  },
-  {
-   "path": "packages/pack/000111_0/interface/dungeon/i_dun.txb",
-   "size": 59536,
-   "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
-  },
-  {
-   "path": "packages/pack/000111_0/interface/dungeon/shar_arena.txb",
-   "size": 33488,
-   "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
-  },
-  {
-   "path": "packages/pack/000111_1/battle/interface/btl_menu.txb",
-   "size": 303056,
-   "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
-  },
-  {
-   "path": "packages/pack/000111_1/battle/interface/btl_warning_00.txb",
-   "size": 39744,
-   "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
-  },
-  {
-   "path": "packages/pack/000111_1/battle/interface/result_00.txb",
-   "size": 264192,
-   "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
-  },
-  {
-   "path": "packages/pack/000120_0/interface/dungeon/are_title_02.txb",
-   "size": 20768,
-   "sha256": "cabb6c7c1edc98eddef48749df3690623bccbee0acc813ad31b40ff20ccaeb7d"
-  },
-  {
-   "path": "packages/pack/000120_0/interface/dungeon/i_dun.txb",
-   "size": 59536,
-   "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
-  },
-  {
-   "path": "packages/pack/000120_0/interface/dungeon/shar_arena.txb",
-   "size": 33488,
-   "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
-  },
-  {
-   "path": "packages/pack/000120_1/battle/interface/btl_menu.txb",
-   "size": 303056,
-   "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
-  },
-  {
-   "path": "packages/pack/000120_1/battle/interface/btl_warning_00.txb",
-   "size": 39744,
-   "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
-  },
-  {
-   "path": "packages/pack/000120_1/battle/interface/result_00.txb",
-   "size": 264192,
-   "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
-  },
-  {
-   "path": "packages/pack/000121_0/interface/dungeon/are_title_02.txb",
-   "size": 20768,
-   "sha256": "cabb6c7c1edc98eddef48749df3690623bccbee0acc813ad31b40ff20ccaeb7d"
-  },
-  {
-   "path": "packages/pack/000121_0/interface/dungeon/i_dun.txb",
-   "size": 59536,
-   "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
-  },
-  {
-   "path": "packages/pack/000121_0/interface/dungeon/shar_arena.txb",
-   "size": 33488,
-   "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
-  },
-  {
-   "path": "packages/pack/000121_1/battle/interface/btl_menu.txb",
-   "size": 303056,
-   "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
-  },
-  {
-   "path": "packages/pack/000121_1/battle/interface/btl_warning_00.txb",
-   "size": 39744,
-   "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
-  },
-  {
-   "path": "packages/pack/000121_1/battle/interface/result_00.txb",
-   "size": 264192,
-   "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
-  },
-  {
-   "path": "packages/pack/000130_0/interface/dungeon/are_title_03.txb",
-   "size": 21280,
-   "sha256": "cf8f535d78b70165de038744e75f1ed2808124ecf587b9e6ef874f9f53f47905"
-  },
-  {
-   "path": "packages/pack/000130_0/interface/dungeon/i_dun.txb",
-   "size": 59536,
-   "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
-  },
-  {
-   "path": "packages/pack/000130_0/interface/dungeon/shar_arena.txb",
-   "size": 33488,
-   "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
-  },
-  {
-   "path": "packages/pack/000130_1/battle/interface/btl_menu.txb",
-   "size": 303056,
-   "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
-  },
-  {
-   "path": "packages/pack/000130_1/battle/interface/btl_warning_00.txb",
-   "size": 39744,
-   "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
-  },
-  {
-   "path": "packages/pack/000130_1/battle/interface/result_00.txb",
-   "size": 264192,
-   "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
-  },
-  {
-   "path": "packages/pack/000131_0/interface/dungeon/are_title_03.txb",
-   "size": 21280,
-   "sha256": "cf8f535d78b70165de038744e75f1ed2808124ecf587b9e6ef874f9f53f47905"
-  },
-  {
-   "path": "packages/pack/000131_0/interface/dungeon/i_dun.txb",
-   "size": 59536,
-   "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
-  },
-  {
-   "path": "packages/pack/000131_0/interface/dungeon/shar_arena.txb",
-   "size": 33488,
-   "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
-  },
-  {
-   "path": "packages/pack/000131_1/battle/interface/btl_menu.txb",
-   "size": 303056,
-   "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
-  },
-  {
-   "path": "packages/pack/000131_1/battle/interface/btl_warning_00.txb",
-   "size": 39744,
-   "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
-  },
-  {
-   "path": "packages/pack/000131_1/battle/interface/result_00.txb",
-   "size": 264192,
-   "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
-  },
-  {
-   "path": "packages/pack/000140_0/interface/dungeon/are_title_04.txb",
-   "size": 21280,
-   "sha256": "c15e33e250bcdc9449543054c2053e87b47138ce5fef27646032c3e97d8398cb"
-  },
-  {
-   "path": "packages/pack/000140_0/interface/dungeon/i_dun.txb",
-   "size": 59536,
-   "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
-  },
-  {
-   "path": "packages/pack/000140_0/interface/dungeon/shar_arena.txb",
-   "size": 33488,
-   "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
-  },
-  {
-   "path": "packages/pack/000140_1/battle/interface/btl_menu.txb",
-   "size": 303056,
-   "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
-  },
-  {
-   "path": "packages/pack/000140_1/battle/interface/btl_warning_00.txb",
-   "size": 39744,
-   "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
-  },
-  {
-   "path": "packages/pack/000140_1/battle/interface/result_00.txb",
-   "size": 264192,
-   "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
-  },
-  {
-   "path": "packages/pack/000141_0/interface/dungeon/are_title_04.txb",
-   "size": 21280,
-   "sha256": "c15e33e250bcdc9449543054c2053e87b47138ce5fef27646032c3e97d8398cb"
-  },
-  {
-   "path": "packages/pack/000141_0/interface/dungeon/i_dun.txb",
-   "size": 59536,
-   "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
-  },
-  {
-   "path": "packages/pack/000141_0/interface/dungeon/shar_arena.txb",
-   "size": 33488,
-   "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
-  },
-  {
-   "path": "packages/pack/000141_1/battle/interface/btl_menu.txb",
-   "size": 303056,
-   "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
-  },
-  {
-   "path": "packages/pack/000141_1/battle/interface/btl_warning_00.txb",
-   "size": 39744,
-   "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
-  },
-  {
-   "path": "packages/pack/000141_1/battle/interface/result_00.txb",
-   "size": 264192,
-   "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
-  },
-  {
-   "path": "packages/pack/000150_0/interface/dungeon/are_title_05.txb",
-   "size": 21280,
-   "sha256": "85ded18a00fe5e661f7b31282e529d69e28c915dc3c252f804233c289de9fee1"
-  },
-  {
-   "path": "packages/pack/000150_0/interface/dungeon/i_dun.txb",
-   "size": 59536,
-   "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
-  },
-  {
-   "path": "packages/pack/000150_0/interface/dungeon/shar_arena.txb",
-   "size": 33488,
-   "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
-  },
-  {
-   "path": "packages/pack/000150_1/battle/interface/btl_menu.txb",
-   "size": 303056,
-   "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
-  },
-  {
-   "path": "packages/pack/000150_1/battle/interface/btl_warning_00.txb",
-   "size": 39744,
-   "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
-  },
-  {
-   "path": "packages/pack/000150_1/battle/interface/result_00.txb",
-   "size": 264192,
-   "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
-  },
-  {
-   "path": "packages/pack/000151_0/interface/dungeon/are_title_05.txb",
-   "size": 21280,
-   "sha256": "85ded18a00fe5e661f7b31282e529d69e28c915dc3c252f804233c289de9fee1"
-  },
-  {
-   "path": "packages/pack/000151_0/interface/dungeon/i_dun.txb",
-   "size": 59536,
-   "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
-  },
-  {
-   "path": "packages/pack/000151_0/interface/dungeon/shar_arena.txb",
-   "size": 33488,
-   "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
-  },
-  {
-   "path": "packages/pack/000151_1/battle/interface/btl_menu.txb",
-   "size": 303056,
-   "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
-  },
-  {
-   "path": "packages/pack/000151_1/battle/interface/btl_warning_00.txb",
-   "size": 39744,
-   "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
-  },
-  {
-   "path": "packages/pack/000151_1/battle/interface/result_00.txb",
-   "size": 264192,
-   "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
-  },
-  {
-   "path": "packages/pack/000160_0/interface/dungeon/are_title_06.txb",
-   "size": 21792,
-   "sha256": "a1299382e949a2fb1da6d9706e2c6c7ab02466e2e4740d7736c758f3369d03c7"
-  },
-  {
-   "path": "packages/pack/000160_0/interface/dungeon/i_dun.txb",
-   "size": 59536,
-   "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
-  },
-  {
-   "path": "packages/pack/000160_0/interface/dungeon/shar_arena.txb",
-   "size": 33488,
-   "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
-  },
-  {
-   "path": "packages/pack/000160_1/battle/interface/btl_menu.txb",
-   "size": 303056,
-   "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
-  },
-  {
-   "path": "packages/pack/000160_1/battle/interface/btl_warning_00.txb",
-   "size": 39744,
-   "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
-  },
-  {
-   "path": "packages/pack/000160_1/battle/interface/result_00.txb",
-   "size": 264192,
-   "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
-  },
-  {
-   "path": "packages/pack/000161_0/interface/dungeon/are_title_06.txb",
-   "size": 21792,
-   "sha256": "a1299382e949a2fb1da6d9706e2c6c7ab02466e2e4740d7736c758f3369d03c7"
-  },
-  {
-   "path": "packages/pack/000161_0/interface/dungeon/i_dun.txb",
-   "size": 59536,
-   "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
-  },
-  {
-   "path": "packages/pack/000161_0/interface/dungeon/shar_arena.txb",
-   "size": 33488,
-   "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
-  },
-  {
-   "path": "packages/pack/000161_1/battle/interface/btl_menu.txb",
-   "size": 303056,
-   "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
-  },
-  {
-   "path": "packages/pack/000161_1/battle/interface/btl_warning_00.txb",
-   "size": 39744,
-   "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
-  },
-  {
-   "path": "packages/pack/000161_1/battle/interface/result_00.txb",
-   "size": 264192,
-   "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
-  },
-  {
-   "path": "packages/pack/000170_0/interface/dungeon/are_title_07.txb",
-   "size": 21792,
-   "sha256": "2ff2efacf615ab6facc873d67df864f78fc3207c57e687d607e6828be2e4aa67"
-  },
-  {
-   "path": "packages/pack/000170_0/interface/dungeon/i_dun.txb",
-   "size": 59536,
-   "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
-  },
-  {
-   "path": "packages/pack/000170_0/interface/dungeon/shar_arena.txb",
-   "size": 33488,
-   "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
-  },
-  {
-   "path": "packages/pack/000170_1/battle/interface/btl_menu.txb",
-   "size": 303056,
-   "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
-  },
-  {
-   "path": "packages/pack/000170_1/battle/interface/btl_warning_00.txb",
-   "size": 39744,
-   "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
-  },
-  {
-   "path": "packages/pack/000170_1/battle/interface/result_00.txb",
-   "size": 264192,
-   "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
-  },
-  {
-   "path": "packages/pack/000171_0/interface/dungeon/are_title_07.txb",
-   "size": 21792,
-   "sha256": "2ff2efacf615ab6facc873d67df864f78fc3207c57e687d607e6828be2e4aa67"
-  },
-  {
-   "path": "packages/pack/000171_0/interface/dungeon/i_dun.txb",
-   "size": 59536,
-   "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
-  },
-  {
-   "path": "packages/pack/000171_0/interface/dungeon/shar_arena.txb",
-   "size": 33488,
-   "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
-  },
-  {
-   "path": "packages/pack/000171_1/battle/interface/btl_menu.txb",
-   "size": 303056,
-   "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
-  },
-  {
-   "path": "packages/pack/000171_1/battle/interface/btl_warning_00.txb",
-   "size": 39744,
-   "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
-  },
-  {
-   "path": "packages/pack/000171_1/battle/interface/result_00.txb",
-   "size": 264192,
-   "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
-  },
-  {
-   "path": "packages/pack/000180_0/interface/dungeon/are_title_08.txb",
-   "size": 21792,
-   "sha256": "be4210729afa3d3eb5987810c5bd86d46921c45a1027414427d4f6376c4d6798"
-  },
-  {
-   "path": "packages/pack/000180_0/interface/dungeon/i_dun.txb",
-   "size": 59536,
-   "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
-  },
-  {
-   "path": "packages/pack/000180_0/interface/dungeon/shar_arena.txb",
-   "size": 33488,
-   "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
-  },
-  {
-   "path": "packages/pack/000180_1/battle/interface/btl_menu.txb",
-   "size": 303056,
-   "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
-  },
-  {
-   "path": "packages/pack/000180_1/battle/interface/btl_warning_00.txb",
-   "size": 39744,
-   "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
-  },
-  {
-   "path": "packages/pack/000180_1/battle/interface/result_00.txb",
-   "size": 264192,
-   "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
-  },
-  {
-   "path": "packages/pack/000181_0/interface/dungeon/are_title_08.txb",
-   "size": 21792,
-   "sha256": "be4210729afa3d3eb5987810c5bd86d46921c45a1027414427d4f6376c4d6798"
-  },
-  {
-   "path": "packages/pack/000181_0/interface/dungeon/i_dun.txb",
-   "size": 59536,
-   "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
-  },
-  {
-   "path": "packages/pack/000181_0/interface/dungeon/shar_arena.txb",
-   "size": 33488,
-   "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
-  },
-  {
-   "path": "packages/pack/000181_1/battle/interface/btl_menu.txb",
-   "size": 303056,
-   "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
-  },
-  {
-   "path": "packages/pack/000181_1/battle/interface/btl_warning_00.txb",
-   "size": 39744,
-   "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
-  },
-  {
-   "path": "packages/pack/000181_1/battle/interface/result_00.txb",
-   "size": 264192,
-   "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
-  },
-  {
-   "path": "packages/pack/000190_0/interface/dungeon/shar_arena.txb",
-   "size": 33488,
-   "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
-  },
-  {
-   "path": "packages/pack/000190_1/battle/interface/btl_menu.txb",
-   "size": 303056,
-   "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
-  },
-  {
-   "path": "packages/pack/000190_1/battle/interface/btl_warning_00.txb",
-   "size": 39744,
-   "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
-  },
-  {
-   "path": "packages/pack/000190_1/battle/interface/result_00.txb",
-   "size": 264192,
-   "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
-  },
-  {
-   "path": "packages/pack/000308_0/interface/dungeon/shar_arena.txb",
-   "size": 33488,
-   "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
-  },
-  {
-   "path": "packages/pack/000308_1/battle/interface/btl_menu.txb",
-   "size": 303056,
-   "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
-  },
-  {
-   "path": "packages/pack/000308_1/battle/interface/btl_warning_00.txb",
-   "size": 39744,
-   "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
-  },
-  {
-   "path": "packages/pack/000308_1/battle/interface/result_00.txb",
-   "size": 264192,
-   "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
-  },
-  {
-   "path": "packages/pack/000310_0/interface/dungeon/shar_arena.txb",
-   "size": 33488,
-   "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
-  },
-  {
-   "path": "packages/pack/000310_1/battle/interface/btl_menu.txb",
-   "size": 303056,
-   "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
-  },
-  {
-   "path": "packages/pack/000310_1/battle/interface/btl_warning_00.txb",
-   "size": 39744,
-   "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
-  },
-  {
-   "path": "packages/pack/000310_1/battle/interface/result_00.txb",
-   "size": 264192,
-   "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
-  },
-  {
-   "path": "packages/pack/000311_0/interface/dungeon/shar_arena.txb",
-   "size": 33488,
-   "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
-  },
-  {
-   "path": "packages/pack/000311_1/battle/interface/btl_menu.txb",
-   "size": 303056,
-   "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
-  },
-  {
-   "path": "packages/pack/000311_1/battle/interface/btl_warning_00.txb",
-   "size": 39744,
-   "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
-  },
-  {
-   "path": "packages/pack/000311_1/battle/interface/result_00.txb",
-   "size": 264192,
-   "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
-  },
-  {
-   "path": "packages/pack/000314_0/interface/dungeon/shar_arena.txb",
-   "size": 33488,
-   "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
-  },
-  {
-   "path": "packages/pack/000314_1/battle/interface/btl_menu.txb",
-   "size": 303056,
-   "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
-  },
-  {
-   "path": "packages/pack/000314_1/battle/interface/btl_warning_00.txb",
-   "size": 39744,
-   "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
-  },
-  {
-   "path": "packages/pack/000314_1/battle/interface/result_00.txb",
-   "size": 264192,
-   "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
-  },
-  {
-   "path": "packages/pack/000317_0/interface/dungeon/shar_arena.txb",
-   "size": 33488,
-   "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
-  },
-  {
-   "path": "packages/pack/000317_1/battle/interface/btl_menu.txb",
-   "size": 303056,
-   "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
-  },
-  {
-   "path": "packages/pack/000317_1/battle/interface/btl_warning_00.txb",
-   "size": 39744,
-   "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
-  },
-  {
-   "path": "packages/pack/000317_1/battle/interface/result_00.txb",
-   "size": 264192,
-   "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
-  },
-  {
-   "path": "packages/pack/000318_0/interface/dungeon/shar_arena.txb",
-   "size": 33488,
-   "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
-  },
-  {
-   "path": "packages/pack/000318_1/battle/interface/btl_menu.txb",
-   "size": 303056,
-   "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
-  },
-  {
-   "path": "packages/pack/000318_1/battle/interface/btl_warning_00.txb",
-   "size": 39744,
-   "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
-  },
-  {
-   "path": "packages/pack/000318_1/battle/interface/result_00.txb",
-   "size": 264192,
-   "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
-  },
-  {
-   "path": "packages/pack/000321_0/interface/dungeon/shar_arena.txb",
-   "size": 33488,
-   "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
-  },
-  {
-   "path": "packages/pack/000321_1/battle/interface/btl_menu.txb",
-   "size": 303056,
-   "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
-  },
-  {
-   "path": "packages/pack/000321_1/battle/interface/btl_warning_00.txb",
-   "size": 39744,
-   "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
-  },
-  {
-   "path": "packages/pack/000321_1/battle/interface/result_00.txb",
-   "size": 264192,
-   "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
-  },
-  {
-   "path": "packages/pack/000322_0/interface/dungeon/shar_arena.txb",
-   "size": 33488,
-   "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
-  },
-  {
-   "path": "packages/pack/000322_1/battle/interface/btl_menu.txb",
-   "size": 303056,
-   "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
-  },
-  {
-   "path": "packages/pack/000322_1/battle/interface/btl_warning_00.txb",
-   "size": 39744,
-   "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
-  },
-  {
-   "path": "packages/pack/000322_1/battle/interface/result_00.txb",
-   "size": 264192,
-   "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
-  },
-  {
-   "path": "packages/pack/000323_0/interface/dungeon/shar_arena.txb",
-   "size": 33488,
-   "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
-  },
-  {
-   "path": "packages/pack/000323_1/battle/interface/btl_menu.txb",
-   "size": 303056,
-   "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
-  },
-  {
-   "path": "packages/pack/000323_1/battle/interface/btl_warning_00.txb",
-   "size": 39744,
-   "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
-  },
-  {
-   "path": "packages/pack/000323_1/battle/interface/result_00.txb",
-   "size": 264192,
-   "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
-  },
-  {
-   "path": "packages/pack/000324_0/interface/dungeon/shar_arena.txb",
-   "size": 33488,
-   "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
-  },
-  {
-   "path": "packages/pack/000324_1/battle/interface/btl_menu.txb",
-   "size": 303056,
-   "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
-  },
-  {
-   "path": "packages/pack/000324_1/battle/interface/btl_warning_00.txb",
-   "size": 39744,
-   "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
-  },
-  {
-   "path": "packages/pack/000324_1/battle/interface/result_00.txb",
-   "size": 264192,
-   "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
-  },
-  {
-   "path": "packages/pack/000325_0/interface/dungeon/shar_arena.txb",
-   "size": 33488,
-   "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
-  },
-  {
-   "path": "packages/pack/000325_1/battle/interface/btl_menu.txb",
-   "size": 303056,
-   "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
-  },
-  {
-   "path": "packages/pack/000325_1/battle/interface/btl_warning_00.txb",
-   "size": 39744,
-   "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
-  },
-  {
-   "path": "packages/pack/000325_1/battle/interface/result_00.txb",
-   "size": 264192,
-   "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
-  },
-  {
-   "path": "packages/pack/000326_0/interface/dungeon/shar_arena.txb",
-   "size": 33488,
-   "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
-  },
-  {
-   "path": "packages/pack/000326_1/battle/interface/btl_menu.txb",
-   "size": 303056,
-   "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
-  },
-  {
-   "path": "packages/pack/000326_1/battle/interface/btl_warning_00.txb",
-   "size": 39744,
-   "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
-  },
-  {
-   "path": "packages/pack/000326_1/battle/interface/result_00.txb",
-   "size": 264192,
-   "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
-  },
-  {
-   "path": "packages/pack/000327_0/interface/dungeon/shar_arena.txb",
-   "size": 33488,
-   "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
-  },
-  {
-   "path": "packages/pack/000327_1/battle/interface/btl_menu.txb",
-   "size": 303056,
-   "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
-  },
-  {
-   "path": "packages/pack/000327_1/battle/interface/btl_warning_00.txb",
-   "size": 39744,
-   "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
-  },
-  {
-   "path": "packages/pack/000327_1/battle/interface/result_00.txb",
-   "size": 264192,
-   "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
-  },
-  {
-   "path": "packages/pack/001001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/002001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/003001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/003016/interface/nameentry/0000.txb",
-   "size": 150464,
-   "sha256": "8740ffd87b810d576cb7a86d4830c1e5c061df3a37940e383ff8448ce45d6aa1"
-  },
-  {
-   "path": "packages/pack/010001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/010007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/011001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/011007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/012001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/012007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/013001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/013007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/014001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/014007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/015001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/015007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/016001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/016007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/017001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/017007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/018001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/018007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/019001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/019007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/020001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/020007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/021001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/021007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/022001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/022007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/023001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/023007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/024001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/024007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/025001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/025007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/026001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/026007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/027001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/027007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/028001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/028007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/029001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/029007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/030001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/030007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/031001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/031007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/032001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/032007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/033001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/033007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/034001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/034007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/035001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/035007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/036001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/036007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/037001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/037007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/038001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/038007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/039001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/039007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/040001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/040007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/041001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/041007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/042001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/042007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/043001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/043007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/044001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/044007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/045001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/045007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/046001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/046007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/047001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/047007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/048001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/048007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/049001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/049007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/050001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/050007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/051001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/051007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/052001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/052007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/053001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/053007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/054001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/054007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/056001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/056007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/057001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/057007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/058001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/058007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/059001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/059007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/060001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/060007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/061001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/061007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/062001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/062007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/063001/interface/shop/shop_00.txb",
-   "size": 103312,
-   "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
-  },
-  {
-   "path": "packages/pack/063007/interface/gradationair/ga.txb",
-   "size": 211472,
-   "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
-  },
-  {
-   "path": "packages/pack/PRELOAD/font.txb",
-   "size": 526416,
-   "sha256": "d44adb8cfd84a7deb8e8335a8e3373304f4fbe24c32c17b75ad0920e27819210"
-  },
-  {
-   "path": "packages/pack/PRELOAD/interface/calendar/pgst_000.txb",
-   "size": 48448,
-   "sha256": "34d2648b7b8bd9c638f24ccceae02a20dcddba86d9edeba70e1c5c1d22e79c21"
-  },
-  {
-   "path": "packages/pack/PRELOAD/interface/cmn/i_con.txb",
-   "size": 58160,
-   "sha256": "fa6cf34e567055a035dc3a85a66c3a711828b9339ef877cf1b12256aa9525bb2"
-  },
-  {
-   "path": "packages/pack/PRELOAD/interface/infomatpop/0000.txb",
-   "size": 43584,
-   "sha256": "3046f827a9de9163a6455576f05f4a39e2ab425501ec4e12b34e4d30e5938fb6"
-  },
-  {
-   "path": "packages/pack/PRELOAD/interface/mainmenu/0000.txb",
-   "size": 39392,
-   "sha256": "06d171b23245f6c5fdeefd9fcfeafa62065dde2fdd7861d5c456554dd1ead44c"
-  },
-  {
-   "path": "packages/pack/PRELOAD/interface/select/i_select.txb",
-   "size": 27600,
-   "sha256": "cfff04ec707a6035e01b48bf1a8f8c9a1142edc9be45b0eb4860b2694851387c"
-  },
-  {
-   "path": "packages/pack/PRELOAD/kanzi.bin",
-   "size": 24592,
-   "sha256": "9efee6fed0249217ba358e1bbe159af0e598e692e58cb19b259247aa76b3d3bb"
-  },
-  {
-   "path": "packages/pack/PRELOAD/ruby.bin",
-   "size": 3744,
-   "sha256": "b406b233501b5672cc3f1287fa9479751d5be8e3da946ee5904d99c6facff9b5"
-  },
-  {
-   "path": "packages/pack/PRELOAD/ruby.txb",
-   "size": 34080,
-   "sha256": "0481dc7b60e9abd8233cb8379c5e8361e2c6bd20fad246717ba1d9aec08ae1d6"
-  },
-  {
-   "path": "packages/pack/advice/interface/advice/0000.txb",
-   "size": 35392,
-   "sha256": "a36d6959be5369e217f9d21eb7816e7ab8794232d317dbbc99a071e7dcf6ac7a"
-  },
-  {
-   "path": "packages/pack/beginning/interface/beginning/0000.txb",
-   "size": 887728,
-   "sha256": "5534ec60de3d2561bf97fe0c15cd1d579b48416cde86c57a2e6a7fcf1f59a3b7"
-  },
-  {
-   "path": "packages/pack/btl_emi_hougu/battle/interface/emi/0001.txb",
-   "size": 120496,
-   "sha256": "678f98664ada85e2d34914abcf90293dfb1adee194284f3bc115dd07a47c75d4"
-  },
-  {
-   "path": "packages/pack/charsel/interface/charsel/svt_select.txb",
-   "size": 243744,
-   "sha256": "fffa2cc35ffa4320ceafde0d4306014edc682bb0b4ba8f2da433f1775a16d157"
-  },
-  {
-   "path": "packages/pack/charsel/interface/poem/poem.bin",
-   "size": 2736,
-   "sha256": "10201528fa2622f908232ad4ddd42c5ed88dfd5f6d0e7a4f4378049440eb06a9"
-  },
-  {
-   "path": "packages/pack/charsel/interface/poem/poem_font.txb",
-   "size": 65808,
-   "sha256": "8ae7207aa4dc14186fb7ed8cbc48191ff2f08892f3d1750ab4c9cbe6c1b5f345"
-  },
-  {
-   "path": "packages/pack/equip/interface/equip/equip_00.txb",
-   "size": 44656,
-   "sha256": "e86f5d415ce66dfaa0f4f049f180bc5e59f6689343084c69cfd239f8f16e998a"
-  },
-  {
-   "path": "packages/pack/gameover/interface/gameover/gov_00.txb",
-   "size": 155984,
-   "sha256": "526d69c07e05b940a3926bb4987178279ea93fd423214dd845c279c7bd161fe4"
-  },
-  {
-   "path": "packages/pack/hunting_get/interface/hunting/hunting_get.txb",
-   "size": 68448,
-   "sha256": "85157f4a11c0f63ee28fb64f2811a9deb99f86944e087a6e4bfaa1efe0bf3522"
-  },
-  {
-   "path": "packages/pack/infomatrixex/interface/infomatrixex/0000.txb",
-   "size": 514160,
-   "sha256": "cfd5582c4df87cf52c254dfea37295d2165d0c6fb9f7f865be581e72b5fdaa29"
-  },
-  {
-   "path": "packages/pack/itemmenu/interface/item/item_00.txb",
-   "size": 35168,
-   "sha256": "42ee43874a5b8949023f116a201aff01572279a6ee823c66bf800ea88f172aa0"
-  },
-  {
-   "path": "packages/pack/modeselect/interface/modeselect/fiction.txb",
-   "size": 57744,
-   "sha256": "429278fc5b2b583c18dc89c1154a59f6c5d2b2bb0364d2afbf47c1fe13526c11"
-  },
-  {
-   "path": "packages/pack/modeselect/interface/modeselect/modeselect.bin",
-   "size": 352,
-   "sha256": "342bdcb1386e8fb796b5e387e67d402520d79ffb0ff4c3b553b64597b936fa26"
-  },
-  {
-   "path": "packages/pack/modeselect/interface/modeselect/modeselect.txb",
-   "size": 132608,
-   "sha256": "9bc36a44f24ee682984b4764365657de86ece6a38a98706fcb09f474e121e407"
-  },
-  {
-   "path": "packages/pack/optionmenu/interface/option/option_00.txb",
-   "size": 49664,
-   "sha256": "90209fcee6ff1f92cd9c9031c8c6301c43417d22c159bc91e29652057a9e23d9"
-  },
-  {
-   "path": "packages/pack/poem/interface/poem/poem.bin",
-   "size": 2736,
-   "sha256": "10201528fa2622f908232ad4ddd42c5ed88dfd5f6d0e7a4f4378049440eb06a9"
-  },
-  {
-   "path": "packages/pack/poem/interface/poem/poem_font.txb",
-   "size": 65808,
-   "sha256": "8ae7207aa4dc14186fb7ed8cbc48191ff2f08892f3d1750ab4c9cbe6c1b5f345"
-  },
-  {
-   "path": "packages/pack/reizyu/interface/reizyu/rei_00.txb",
-   "size": 31808,
-   "sha256": "dbdec173b232ee03ce6743fedec742a46df50769c0b08e004e88133fef0bcf11"
-  },
-  {
-   "path": "packages/pack/savemenu/interface/save/0000.txb",
-   "size": 43936,
-   "sha256": "f88fc28373699433e7e8fd0ee5312d8726cd14f7c12289c9f5c693ead34dbe79"
-  },
-  {
-   "path": "packages/pack/savemenu/interface/save/0001.txb",
-   "size": 25664,
-   "sha256": "891a96fd8d8f7e0b95e1b8e75d69ae7001ceb1aec1e37edeb60a5fb80d1d5f55"
-  },
-  {
-   "path": "packages/pack/statusmenu/interface/status/0000.txb",
-   "size": 548720,
-   "sha256": "b5a6a2686ab5305150b3e5639f2577a296e9effdf23bebdddcc28cf1c876b594"
-  },
-  {
-   "path": "packages/pack/statusmenu/interface/status/0001.txb",
-   "size": 31104,
-   "sha256": "cd960c6b1c789e0a2648ca1ab43f7e9897627a62b69f31c9972c93ff7274ecdc"
-  },
-  {
-   "path": "packages/pack/triggerget/interface/triggerget/trigger_00.txb",
-   "size": 20672,
-   "sha256": "ea056f45724b5759e76c919ad568453ce9cb1d7186dcb68425867ddba8bf8554"
-  },
-  {
-   "path": "packages/pack/tutorial_other_00/interface/tutorial/tutorial_other_00.txb",
-   "size": 175568,
-   "sha256": "ed62afd11865949eb303b3a49d85b756878a31cf7cd73717d86b2b2e78031b74"
-  },
-  {
-   "path": "packages/pack/tutorial_other_01/interface/tutorial/tutorial_other_01.txb",
-   "size": 175568,
-   "sha256": "38e9f244c7e8fba1a0de0d29b97c7c8ae2394a14dd4bd1ee56af33c3d0da6bf9"
-  },
-  {
-   "path": "packages/pack/tutorial_other_02/interface/tutorial/tutorial_other_02.txb",
-   "size": 880288,
-   "sha256": "0c1a50f3dd5c5cfb57628bbf5f72c9d6a2dcdb5df44047ab1f26ffa120b39a20"
-  },
-  {
-   "path": "packages/pack/tutorial_other_03/interface/tutorial/tutorial_other_03.txb",
-   "size": 880288,
-   "sha256": "f9f3e65b0dec5b1cea3bfc4819e27163bbd162558439f3fa64e07a24062af1b4"
-  },
-  {
-   "path": "packages/pack/tutorial_other_04/interface/tutorial/tutorial_other_04.txb",
-   "size": 880288,
-   "sha256": "9795d93b1d8c3fe09adfc2cce1a814192d4fa74862ebfd2e7c31ef562a3bb482"
-  },
-  {
-   "path": "packages/pack/tutorial_other_05/interface/tutorial/tutorial_other_05.txb",
-   "size": 590624,
-   "sha256": "8a5c28df2bdf8c3737ff4ed5ce0f32d970cbcc59be9dda346008677eccd6699b"
-  },
-  {
-   "path": "packages/pack/tutorial_other_06/interface/tutorial/tutorial_other_06.txb",
-   "size": 439632,
-   "sha256": "8a1a1a85ca3728d127e9b324db0ca558c929b025cabe2430c9b07f7b0f327450"
-  },
-  {
-   "path": "packages/pack/tutorial_other_07/interface/tutorial/tutorial_other_07.txb",
-   "size": 439632,
-   "sha256": "64408cb9d0ba7531e01a2a9cd1880d045469483574775a0cf9ea3891823b1288"
-  },
-  {
-   "path": "packages/pack/tutorial_other_08/interface/tutorial/tutorial_other_08.txb",
-   "size": 439632,
-   "sha256": "4d89ed16fbea66564767f9601517cd3ea9bf9295f6cc0c1458fb03454a29522a"
-  },
-  {
-   "path": "packages/pack/tutorial_other_09/interface/tutorial/tutorial_other_09.txb",
-   "size": 298896,
-   "sha256": "91f172d874b4a08f1384e33d664ab6f155f673e003055b175a947a4097a52c0f"
-  },
-  {
-   "path": "packages/pack/tutorial_other_10/interface/tutorial/tutorial_other_10.txb",
-   "size": 148944,
-   "sha256": "434906e398daa3a6b7c62ba9f5d51c2e3598efceec01964566be3a05478e4e67"
-  },
-  {
-   "path": "packages/pack/tutorial_other_11/interface/tutorial/tutorial_other_11.txb",
-   "size": 289680,
-   "sha256": "1593971b613dcc51379c96b37ac404f2b17422b113a9e1ff23f7b9863d7c00bf"
-  },
-  {
-   "path": "packages/pack/tutorial_other_12/interface/tutorial/tutorial_other_12.txb",
-   "size": 289680,
-   "sha256": "aaafdddeb5f1e554075b674dfe3d58133d79b52417fd12fc31e0e4777180bc13"
-  },
-  {
-   "path": "packages/pack/tutorial_other_13/interface/tutorial/tutorial_other_13.txb",
-   "size": 288656,
-   "sha256": "cf6e33aee605730f4e330722fba61c5499e5aff935649040682e2780435063fc"
-  },
-  {
-   "path": "packages/pack/tutorial_other_14/interface/tutorial/tutorial_other_14.txb",
-   "size": 152016,
-   "sha256": "142273bb1f1d745c369d13c7e3f6269351db58a1431d07e0921a8a61b765ceac"
-  },
-  {
-   "path": "packages/pack/tutorial_other_15/interface/tutorial/tutorial_other_15.txb",
-   "size": 149968,
-   "sha256": "1dd8e97b7774c6b3421d2fdc0b3ddc985c1b3d71f9dad22fb44c4a5c6cb03d1f"
-  },
-  {
-   "path": "packages/pack/tutorial_other_16/interface/tutorial/tutorial_other_16.txb",
-   "size": 166352,
-   "sha256": "ba72a0b23c0ea88062bc4c2d8c2af4a60b0cd79e0e61ff73619aa5aa5aa7d88a"
-  },
-  {
-   "path": "packages/pack/tutorial_other_17/interface/tutorial/tutorial_other_17.txb",
-   "size": 166352,
-   "sha256": "bf553ed569084d786a2926b04e641542f3109ca653e03834dc22ae369122064b"
-  },
-  {
-   "path": "packages/pack/tutorial_other_18/interface/tutorial/tutorial_other_18.txb",
-   "size": 166352,
-   "sha256": "7c37dab576e7f1c50b6934672bc98cf0fce4967779b818fea7e5d8d8c9a35872"
-  },
-  {
-   "path": "packages/pack/tutorial_other_19/interface/tutorial/tutorial_other_19.txb",
-   "size": 172496,
-   "sha256": "867d7e449faa5d523723d9fdb7219cef5bd4500e30ba89fc5029348ebc196aa3"
-  },
-  {
-   "path": "packages/pack/tutorial_other_20/interface/tutorial/tutorial_other_20.txb",
-   "size": 602912,
-   "sha256": "92ec56b9907e5966984b160ad0d10d9f5fbf16febf387f1fdd6fed0f5326c33f"
-  },
-  {
-   "path": "packages/pack/tutorial_other_21/interface/tutorial/tutorial_other_21.txb",
-   "size": 603936,
-   "sha256": "b431ed33e0ed43c1acdec883db1912fce575668937bbafa0fd9508630c2770b7"
-  },
-  {
-   "path": "packages/pack/tutorial_other_22/interface/tutorial/tutorial_other_22.txb",
-   "size": 600864,
-   "sha256": "dd37caddc2385fe9d27ba285a2eb16ea77154a8daa044b9165c994e167a4979f"
-  },
-  {
-   "path": "packages/pack/tutorial_other_23/interface/tutorial/tutorial_other_23.txb",
-   "size": 599840,
-   "sha256": "1d17f2f4f4cf0972e790045d77bee317df41c42244892dca667064ebe4b7d927"
-  },
-  {
-   "path": "packages/pack/tutorial_other_24/interface/tutorial/tutorial_other_24.txb",
-   "size": 602912,
-   "sha256": "e3de4ab9c578a58343b1b42e933b3ba2c4cd53a3ebd5d1a768fbae1168f6a30a"
-  },
-  {
-   "path": "packages/pack/tutorial_other_25/interface/tutorial/tutorial_other_25.txb",
-   "size": 602912,
-   "sha256": "afc51467d7fe3e9a99b2264b29707923ff295a77296a41f724a254566fece568"
-  },
-  {
-   "path": "packages/pack/tutorial_other_26/interface/tutorial/tutorial_other_26.txb",
-   "size": 293776,
-   "sha256": "ed49e462e9c1d53ddf8fc4ee5ad7218a084ad256807958d493f2e5b4bb48a554"
-  },
-  {
-   "path": "packages/pack/tutorial_other_27/interface/tutorial/tutorial_other_27.txb",
-   "size": 293776,
-   "sha256": "089ec5c726cb8d0448dddaa5a19b55a9b3128e0b2d0b0f9dd24e7f2b4766c8d6"
-  },
-  {
-   "path": "packages/pack/tutorial_other_28/interface/tutorial/tutorial_other_28.txb",
-   "size": 297872,
-   "sha256": "2d1fb1ec2b8d46ca5902bf5bef8a2b9abdbef54b42fc6384a2025e94bba41e04"
-  },
-  {
-   "path": "packages/pack/tutorial_other_29/interface/tutorial/tutorial_other_29.txb",
-   "size": 294800,
-   "sha256": "b0fadb1fafb5b3188d5474341c5cb994309979d9dbf170928d0e3724f6cd3235"
-  },
-  {
-   "path": "packages/pack/tutorial_other_30/interface/tutorial/tutorial_other_30.txb",
-   "size": 298896,
-   "sha256": "ef34d4fcf48bcdd593db2bc788829b897ced026376b7f2f716bb44ae185f444a"
-  },
-  {
-   "path": "packages/pack/tutorial_other_31/interface/tutorial/tutorial_other_31.txb",
-   "size": 298896,
-   "sha256": "ffe85ce7b72affd0da61d51652c62b445070aca69ef3e5129d11b705f0560483"
-  },
-  {
-   "path": "packages/pack/tutorial_other_32/interface/tutorial/tutorial_other_32.txb",
-   "size": 296848,
-   "sha256": "11d9673aa6b5e927803c7055eb7f2f0e07ddd596d9a8cc171e9773cd1fcf30be"
-  },
-  {
-   "path": "packages/pack/tutorial_other_33/interface/tutorial/tutorial_other_33.txb",
-   "size": 298896,
-   "sha256": "a9fae4684614eda2e0078040d6eb15672775f971f01ff247ca03e6368badde6c"
-  },
-  {
-   "path": "packages/pack/tutorial_other_34/interface/tutorial/tutorial_other_34.txb",
-   "size": 600864,
-   "sha256": "2d23fee4ca994356dfaf7c89f5fd4d1b6ea27d5a20f7c75fa43e0353a627b1f6"
-  },
-  {
-   "path": "packages/pack/tutorial_other_35/interface/tutorial/tutorial_other_35.txb",
-   "size": 599840,
-   "sha256": "7ecb1eb538079a50737a8bae67d615da9885d5005ea343b4d42b76b5f93e9b3d"
-  },
-  {
-   "path": "packages/pack/tutorial_other_36/interface/tutorial/tutorial_other_36.txb",
-   "size": 419152,
-   "sha256": "f26c8d4f5c48ca626a1fdac6544bd35fc8381eb49298185b3634bb93884edc0f"
-  },
-  {
-   "path": "packages/pack/tutorial_other_37/interface/tutorial/tutorial_other_37.txb",
-   "size": 416080,
-   "sha256": "0d716194ac3d1a074b6fab410cf5954126e1f561982f2710d3c50da78828aa6d"
-  },
-  {
-   "path": "packages/pack/tutorial_other_38/interface/tutorial/tutorial_other_38.txb",
-   "size": 451920,
-   "sha256": "d6539db492cd1be32a243349c16c86be0e119a692351fb7deda38adf32e413bd"
-  },
-  {
-   "path": "packages/pack/tutorial_other_39/interface/tutorial/tutorial_other_39.txb",
-   "size": 451920,
-   "sha256": "e5ed415a829772c7f1de96f9cd1ba6886084e085e61819516f2a0c723fdee267"
-  },
-  {
-   "path": "packages/pack/tutorial_other_40/interface/tutorial/tutorial_other_40.txb",
-   "size": 451920,
-   "sha256": "3516d78e4bdc9ab2c7d05df6a43009efc816b2178814f2f2478da0725b616931"
-  },
-  {
-   "path": "packages/pack/tutorial_other_41/interface/tutorial/tutorial_other_41.txb",
-   "size": 297872,
-   "sha256": "467a8e59cb25644db295d6957a22a8a1608b8015f88f904b184695d6ad1ea43c"
-  },
-  {
-   "path": "packages/pack/tutorial_other_42/interface/tutorial/tutorial_other_42.txb",
-   "size": 148944,
-   "sha256": "81cbabf1e1a223e9db296a4018ff197cffa468bc76d0ee6692c284a2955de745"
-  },
-  {
-   "path": "packages/pack/tutorial_other_43/interface/tutorial/tutorial_other_43.txb",
-   "size": 288656,
-   "sha256": "69d19ea6696f0843b5ff4072e91f3944fdbf8d504e4242a186901398808ef486"
-  },
-  {
-   "path": "packages/pack/tutorial_other_44/interface/tutorial/tutorial_other_44.txb",
-   "size": 288656,
-   "sha256": "8ae9287a5e11ec3a6d91265438882ce1c7071b9de7bb5de3f0adee8911c29cc2"
-  },
-  {
-   "path": "packages/pack/tutorial_other_45/interface/tutorial/tutorial_other_45.txb",
-   "size": 290704,
-   "sha256": "92b18d200bafe60bae463b979a2ed39c626a759d95a054bc9c0aae0b6c201bd8"
-  },
-  {
-   "path": "packages/pack/tutorial_other_46/interface/tutorial/tutorial_other_46.txb",
-   "size": 148944,
-   "sha256": "036a58b09b0d42931be95fd0903c08d1f2c2d78f62e3eac707d15ddf91f1a51c"
-  },
-  {
-   "path": "packages/pack/tutorial_other_47/interface/tutorial/tutorial_other_47.txb",
-   "size": 149968,
-   "sha256": "f2b546feaef9829bff05b9ce5f86d8d73814ac94252d4b25e302f4e7f574e12a"
-  },
-  {
-   "path": "packages/pack/tutorial_other_48/interface/tutorial/tutorial_other_48.txb",
-   "size": 149968,
-   "sha256": "04077d381c786509e9d4e2a0527572053c160c93459030900f5510030b8fd55f"
-  },
-  {
-   "path": "packages/pack/tutorial_other_49/interface/tutorial/tutorial_other_49.txb",
-   "size": 148944,
-   "sha256": "8621c470fca009f16dc568f7cd067623ca971b73b364949848f554bca3d02de4"
-  },
-  {
-   "path": "packages/pack/tutorial_other_50/interface/tutorial/tutorial_other_50.txb",
-   "size": 599840,
-   "sha256": "5e430896958ce1fc1926d2ef8b4e786af32ff34f3e4b2821cf5364d6035ff5cb"
-  },
-  {
-   "path": "packages/pack/tutorial_other_51/interface/tutorial/tutorial_other_51.txb",
-   "size": 599840,
-   "sha256": "ebcb57cc3a780d4d7fc1d3683a5a1c9eefdb9ccad40a0af7c6e2601553a157ae"
-  },
-  {
-   "path": "packages/pack/tutorial_other_52/interface/tutorial/tutorial_other_52.txb",
-   "size": 598816,
-   "sha256": "d9cd5c3c9afbab35a118ca0259906d5dbddc0c2fcba39e9e432e39c1dc6dd033"
-  },
-  {
-   "path": "packages/pack/tutorial_other_53/interface/tutorial/tutorial_other_53.txb",
-   "size": 598816,
-   "sha256": "1278fe6dc77282243beddbecd841d26a7d553cf027c32ed30ef9d08aaed4bb5c"
-  },
-  {
-   "path": "packages/pack/tutorial_other_54/interface/tutorial/tutorial_other_54.txb",
-   "size": 600864,
-   "sha256": "d9bcf0ad385920825c0655c0e53d3046d146fc62697e5842ee4f7786123049fd"
-  },
-  {
-   "path": "packages/pack/tutorial_other_55/interface/tutorial/tutorial_other_55.txb",
-   "size": 600864,
-   "sha256": "a05a9a8a01242e8fcea32a0b80cfd4fd85fadca8ba34d3f03eb0b019700a8e90"
-  },
-  {
-   "path": "packages/pack/tutorial_other_56/interface/tutorial/tutorial_other_56.txb",
-   "size": 419152,
-   "sha256": "dcc10b05fdcd08104e5e7d3abe0ae88e04a7c80737cf8b07327fc9235bc18f30"
-  },
-  {
-   "path": "packages/pack/tutorial_other_57/interface/tutorial/tutorial_other_57.txb",
-   "size": 419152,
-   "sha256": "cd9afabf1e51da816f45287e418941e8172f9935f49eb6bc3d8ab4be70094904"
-  },
-  {
-   "path": "packages/pack/tutorial_other_58/interface/tutorial/tutorial_other_58.txb",
-   "size": 416080,
-   "sha256": "6c01e68b7c5f3bad5ca8555823c1ccd36ebcc811c382c003a7aa70419357702e"
-  },
-  {
-   "path": "packages/pack/tutorial_other_59/interface/tutorial/tutorial_other_59.txb",
-   "size": 416080,
-   "sha256": "7a1eff066a85713e64a63a6dfbaaa0799092a38a775165c31a5618c7ca20da17"
-  },
-  {
-   "path": "packages/pack/tutorial_other_60/interface/tutorial/tutorial_other_60.txb",
-   "size": 153040,
-   "sha256": "cbc6b40d860df316c0872f59a4bc6c3048d5c9472624b563636b250fcb096d1e"
-  },
-  {
-   "path": "packages/pack/tutorial_other_61/interface/tutorial/tutorial_other_61.txb",
-   "size": 148944,
-   "sha256": "ae95fea9edb278013015602e04d5fe3b03b9881b9aed7ad5a02ad4301b12410a"
-  },
-  {
-   "path": "packages/pack/tutorial_other_62/interface/tutorial/tutorial_other_62.txb",
-   "size": 292752,
-   "sha256": "a9fd614f41edb9b55ee3ca05cd94128172ff994ff2763cd467c9f63b512c8b50"
-  },
-  {
-   "path": "packages/pack/tutorial_other_63/interface/tutorial/tutorial_other_63.txb",
-   "size": 149968,
-   "sha256": "d65514e8384284c8896292e6a06034758ae7335d2cadc314281d9627ea1544c3"
-  },
-  {
-   "path": "packages/pack/tutorial_other_64/interface/tutorial/tutorial_other_64.txb",
-   "size": 292752,
-   "sha256": "08cd1eabb25d6251ba9c7fdda7182a613f0c5426e8f86d55bbc022b04f8dcfe6"
-  },
-  {
-   "path": "packages/pack/tutorial_other_65/interface/tutorial/tutorial_other_65.txb",
-   "size": 149968,
-   "sha256": "e01b2ccf23c00c0121f20a0dff0eeca17ae1c9ec2bbc03b063aa52b47a1b8663"
-  },
-  {
-   "path": "packages/pack/tutorial_other_66/interface/tutorial/tutorial_other_66.txb",
-   "size": 449872,
-   "sha256": "a9983dedd1be838e0ed7a8ff1763425abce79085d5b079c13c52796854ec990e"
-  },
-  {
-   "path": "packages/pack/tutorial_other_67/interface/tutorial/tutorial_other_67.txb",
-   "size": 590624,
-   "sha256": "b3959a1fb2639634e243bcdbcb699f4c42884ec7b49862367147593c6764535f"
-  },
-  {
-   "path": "packages/pack/tutorial_other_68/interface/tutorial/tutorial_other_68.txb",
-   "size": 590624,
-   "sha256": "b069b0bd5fa1c560debc86a673d701eddfd9f764e0b3eb183248a178deaf329a"
-  },
-  {
-   "path": "packages/pack/tutorial_other_69/interface/tutorial/tutorial_other_69.txb",
-   "size": 590624,
-   "sha256": "f94ccf006b75d9bae783b97360945881a9dad33615e03ea0f2e898148342da0a"
-  },
-  {
-   "path": "packages/pack/tutorial_other_70/interface/tutorial/tutorial_other_70.txb",
-   "size": 590624,
-   "sha256": "eb86358b0c75658571008fb7a7d39ec12cd87f2ba12268ede6e5265b6bad9f94"
-  },
-  {
-   "path": "packages/pack/tutorial_other_71/interface/tutorial/tutorial_other_71.txb",
-   "size": 590624,
-   "sha256": "046852826e832284abc72c75dce2b2599f4dda3fd59b2df850a47ef0f7a99289"
-  }
- ]
+  "version": "v1.0",
+  "note": "汉化变更集：仅含改动过的二进制资源，不含 ISO、CPK、未修改的原始资源或 DAT 文本；文本由 data/translation/text.jsonl 重建，需配合自备正版 ISO。",
+  "root": "overlay",
+  "layout": "overlay/<path> 直接对应 work/build/assets/<path>",
+  "file_count": 580,
+  "total_bytes": 72883600,
+  "files": [
+    {
+      "path": "packages/pack/000001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/000001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/000021_0/interface/dungeon/shar_arena.txb",
+      "size": 33488,
+      "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
+    },
+    {
+      "path": "packages/pack/000021_1/battle/interface/btl_menu.txb",
+      "size": 303056,
+      "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
+    },
+    {
+      "path": "packages/pack/000021_1/battle/interface/btl_msg.bin",
+      "size": 144,
+      "sha256": "dfa2400a6442ba7f0287cc73a18b3f6907b9d8592fa7c05cdf7fafecb656080c"
+    },
+    {
+      "path": "packages/pack/000021_1/battle/interface/btl_warning_00.txb",
+      "size": 39744,
+      "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
+    },
+    {
+      "path": "packages/pack/000021_1/battle/interface/result_00.txb",
+      "size": 264192,
+      "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
+    },
+    {
+      "path": "packages/pack/000022/interface/dayresult/d_result.bin",
+      "size": 32,
+      "sha256": "5ec857703cae1d033e680b5efb7a722c16a0d7efd11c9f89d534d70e6d960a91"
+    },
+    {
+      "path": "packages/pack/000022/interface/dayresult/d_result.txb",
+      "size": 110176,
+      "sha256": "3e28b3788032fed70c653eaac735a47d23ab26811279d541856522443e78d9c7"
+    },
+    {
+      "path": "packages/pack/000023_0/interface/dungeon/shar_arena.txb",
+      "size": 33488,
+      "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
+    },
+    {
+      "path": "packages/pack/000023_1/battle/interface/btl_menu.txb",
+      "size": 303056,
+      "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
+    },
+    {
+      "path": "packages/pack/000023_1/battle/interface/btl_msg.bin",
+      "size": 144,
+      "sha256": "dfa2400a6442ba7f0287cc73a18b3f6907b9d8592fa7c05cdf7fafecb656080c"
+    },
+    {
+      "path": "packages/pack/000023_1/battle/interface/btl_warning_00.txb",
+      "size": 39744,
+      "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
+    },
+    {
+      "path": "packages/pack/000023_1/battle/interface/result_00.txb",
+      "size": 264192,
+      "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
+    },
+    {
+      "path": "packages/pack/000100_0/interface/dungeon/i_dun.txb",
+      "size": 59536,
+      "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
+    },
+    {
+      "path": "packages/pack/000100_0/interface/dungeon/i_dun_sysmsg.bin",
+      "size": 32,
+      "sha256": "80bd4c8ffcf94283d4f5537ddddd49bf4f9f68cbb6324c1fa0e627cb98a4364b"
+    },
+    {
+      "path": "packages/pack/000100_0/interface/dungeon/shar_arena.txb",
+      "size": 33488,
+      "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
+    },
+    {
+      "path": "packages/pack/000100_1/battle/interface/btl_menu.txb",
+      "size": 303056,
+      "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
+    },
+    {
+      "path": "packages/pack/000100_1/battle/interface/btl_msg.bin",
+      "size": 144,
+      "sha256": "dfa2400a6442ba7f0287cc73a18b3f6907b9d8592fa7c05cdf7fafecb656080c"
+    },
+    {
+      "path": "packages/pack/000100_1/battle/interface/btl_warning_00.txb",
+      "size": 39744,
+      "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
+    },
+    {
+      "path": "packages/pack/000100_1/battle/interface/result_00.txb",
+      "size": 264192,
+      "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
+    },
+    {
+      "path": "packages/pack/000110_0/interface/dungeon/are_title_01.txb",
+      "size": 20768,
+      "sha256": "62aefa724958001c92b5adde292de479df5634b5c5df235eef8b96deea3f9854"
+    },
+    {
+      "path": "packages/pack/000110_0/interface/dungeon/i_dun.txb",
+      "size": 59536,
+      "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
+    },
+    {
+      "path": "packages/pack/000110_0/interface/dungeon/i_dun_sysmsg.bin",
+      "size": 32,
+      "sha256": "80bd4c8ffcf94283d4f5537ddddd49bf4f9f68cbb6324c1fa0e627cb98a4364b"
+    },
+    {
+      "path": "packages/pack/000110_0/interface/dungeon/shar_arena.txb",
+      "size": 33488,
+      "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
+    },
+    {
+      "path": "packages/pack/000110_1/battle/interface/btl_menu.txb",
+      "size": 303056,
+      "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
+    },
+    {
+      "path": "packages/pack/000110_1/battle/interface/btl_msg.bin",
+      "size": 144,
+      "sha256": "dfa2400a6442ba7f0287cc73a18b3f6907b9d8592fa7c05cdf7fafecb656080c"
+    },
+    {
+      "path": "packages/pack/000110_1/battle/interface/btl_warning_00.txb",
+      "size": 39744,
+      "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
+    },
+    {
+      "path": "packages/pack/000110_1/battle/interface/result_00.txb",
+      "size": 264192,
+      "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
+    },
+    {
+      "path": "packages/pack/000111_0/interface/dungeon/are_title_01.txb",
+      "size": 20768,
+      "sha256": "62aefa724958001c92b5adde292de479df5634b5c5df235eef8b96deea3f9854"
+    },
+    {
+      "path": "packages/pack/000111_0/interface/dungeon/i_dun.txb",
+      "size": 59536,
+      "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
+    },
+    {
+      "path": "packages/pack/000111_0/interface/dungeon/i_dun_sysmsg.bin",
+      "size": 32,
+      "sha256": "80bd4c8ffcf94283d4f5537ddddd49bf4f9f68cbb6324c1fa0e627cb98a4364b"
+    },
+    {
+      "path": "packages/pack/000111_0/interface/dungeon/shar_arena.txb",
+      "size": 33488,
+      "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
+    },
+    {
+      "path": "packages/pack/000111_1/battle/interface/btl_menu.txb",
+      "size": 303056,
+      "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
+    },
+    {
+      "path": "packages/pack/000111_1/battle/interface/btl_msg.bin",
+      "size": 144,
+      "sha256": "dfa2400a6442ba7f0287cc73a18b3f6907b9d8592fa7c05cdf7fafecb656080c"
+    },
+    {
+      "path": "packages/pack/000111_1/battle/interface/btl_warning_00.txb",
+      "size": 39744,
+      "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
+    },
+    {
+      "path": "packages/pack/000111_1/battle/interface/result_00.txb",
+      "size": 264192,
+      "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
+    },
+    {
+      "path": "packages/pack/000120_0/interface/dungeon/are_title_02.txb",
+      "size": 20768,
+      "sha256": "cabb6c7c1edc98eddef48749df3690623bccbee0acc813ad31b40ff20ccaeb7d"
+    },
+    {
+      "path": "packages/pack/000120_0/interface/dungeon/i_dun.txb",
+      "size": 59536,
+      "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
+    },
+    {
+      "path": "packages/pack/000120_0/interface/dungeon/i_dun_sysmsg.bin",
+      "size": 32,
+      "sha256": "80bd4c8ffcf94283d4f5537ddddd49bf4f9f68cbb6324c1fa0e627cb98a4364b"
+    },
+    {
+      "path": "packages/pack/000120_0/interface/dungeon/shar_arena.txb",
+      "size": 33488,
+      "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
+    },
+    {
+      "path": "packages/pack/000120_1/battle/interface/btl_menu.txb",
+      "size": 303056,
+      "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
+    },
+    {
+      "path": "packages/pack/000120_1/battle/interface/btl_msg.bin",
+      "size": 144,
+      "sha256": "dfa2400a6442ba7f0287cc73a18b3f6907b9d8592fa7c05cdf7fafecb656080c"
+    },
+    {
+      "path": "packages/pack/000120_1/battle/interface/btl_warning_00.txb",
+      "size": 39744,
+      "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
+    },
+    {
+      "path": "packages/pack/000120_1/battle/interface/result_00.txb",
+      "size": 264192,
+      "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
+    },
+    {
+      "path": "packages/pack/000121_0/interface/dungeon/are_title_02.txb",
+      "size": 20768,
+      "sha256": "cabb6c7c1edc98eddef48749df3690623bccbee0acc813ad31b40ff20ccaeb7d"
+    },
+    {
+      "path": "packages/pack/000121_0/interface/dungeon/i_dun.txb",
+      "size": 59536,
+      "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
+    },
+    {
+      "path": "packages/pack/000121_0/interface/dungeon/i_dun_sysmsg.bin",
+      "size": 32,
+      "sha256": "80bd4c8ffcf94283d4f5537ddddd49bf4f9f68cbb6324c1fa0e627cb98a4364b"
+    },
+    {
+      "path": "packages/pack/000121_0/interface/dungeon/shar_arena.txb",
+      "size": 33488,
+      "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
+    },
+    {
+      "path": "packages/pack/000121_1/battle/interface/btl_menu.txb",
+      "size": 303056,
+      "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
+    },
+    {
+      "path": "packages/pack/000121_1/battle/interface/btl_msg.bin",
+      "size": 144,
+      "sha256": "dfa2400a6442ba7f0287cc73a18b3f6907b9d8592fa7c05cdf7fafecb656080c"
+    },
+    {
+      "path": "packages/pack/000121_1/battle/interface/btl_warning_00.txb",
+      "size": 39744,
+      "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
+    },
+    {
+      "path": "packages/pack/000121_1/battle/interface/result_00.txb",
+      "size": 264192,
+      "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
+    },
+    {
+      "path": "packages/pack/000130_0/interface/dungeon/are_title_03.txb",
+      "size": 21280,
+      "sha256": "cf8f535d78b70165de038744e75f1ed2808124ecf587b9e6ef874f9f53f47905"
+    },
+    {
+      "path": "packages/pack/000130_0/interface/dungeon/i_dun.txb",
+      "size": 59536,
+      "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
+    },
+    {
+      "path": "packages/pack/000130_0/interface/dungeon/i_dun_sysmsg.bin",
+      "size": 32,
+      "sha256": "80bd4c8ffcf94283d4f5537ddddd49bf4f9f68cbb6324c1fa0e627cb98a4364b"
+    },
+    {
+      "path": "packages/pack/000130_0/interface/dungeon/shar_arena.txb",
+      "size": 33488,
+      "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
+    },
+    {
+      "path": "packages/pack/000130_1/battle/interface/btl_menu.txb",
+      "size": 303056,
+      "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
+    },
+    {
+      "path": "packages/pack/000130_1/battle/interface/btl_msg.bin",
+      "size": 144,
+      "sha256": "dfa2400a6442ba7f0287cc73a18b3f6907b9d8592fa7c05cdf7fafecb656080c"
+    },
+    {
+      "path": "packages/pack/000130_1/battle/interface/btl_warning_00.txb",
+      "size": 39744,
+      "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
+    },
+    {
+      "path": "packages/pack/000130_1/battle/interface/result_00.txb",
+      "size": 264192,
+      "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
+    },
+    {
+      "path": "packages/pack/000131_0/interface/dungeon/are_title_03.txb",
+      "size": 21280,
+      "sha256": "cf8f535d78b70165de038744e75f1ed2808124ecf587b9e6ef874f9f53f47905"
+    },
+    {
+      "path": "packages/pack/000131_0/interface/dungeon/i_dun.txb",
+      "size": 59536,
+      "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
+    },
+    {
+      "path": "packages/pack/000131_0/interface/dungeon/i_dun_sysmsg.bin",
+      "size": 32,
+      "sha256": "80bd4c8ffcf94283d4f5537ddddd49bf4f9f68cbb6324c1fa0e627cb98a4364b"
+    },
+    {
+      "path": "packages/pack/000131_0/interface/dungeon/shar_arena.txb",
+      "size": 33488,
+      "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
+    },
+    {
+      "path": "packages/pack/000131_1/battle/interface/btl_menu.txb",
+      "size": 303056,
+      "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
+    },
+    {
+      "path": "packages/pack/000131_1/battle/interface/btl_msg.bin",
+      "size": 144,
+      "sha256": "dfa2400a6442ba7f0287cc73a18b3f6907b9d8592fa7c05cdf7fafecb656080c"
+    },
+    {
+      "path": "packages/pack/000131_1/battle/interface/btl_warning_00.txb",
+      "size": 39744,
+      "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
+    },
+    {
+      "path": "packages/pack/000131_1/battle/interface/result_00.txb",
+      "size": 264192,
+      "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
+    },
+    {
+      "path": "packages/pack/000140_0/interface/dungeon/are_title_04.txb",
+      "size": 21280,
+      "sha256": "c15e33e250bcdc9449543054c2053e87b47138ce5fef27646032c3e97d8398cb"
+    },
+    {
+      "path": "packages/pack/000140_0/interface/dungeon/i_dun.txb",
+      "size": 59536,
+      "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
+    },
+    {
+      "path": "packages/pack/000140_0/interface/dungeon/i_dun_sysmsg.bin",
+      "size": 32,
+      "sha256": "80bd4c8ffcf94283d4f5537ddddd49bf4f9f68cbb6324c1fa0e627cb98a4364b"
+    },
+    {
+      "path": "packages/pack/000140_0/interface/dungeon/shar_arena.txb",
+      "size": 33488,
+      "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
+    },
+    {
+      "path": "packages/pack/000140_1/battle/interface/btl_menu.txb",
+      "size": 303056,
+      "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
+    },
+    {
+      "path": "packages/pack/000140_1/battle/interface/btl_msg.bin",
+      "size": 144,
+      "sha256": "dfa2400a6442ba7f0287cc73a18b3f6907b9d8592fa7c05cdf7fafecb656080c"
+    },
+    {
+      "path": "packages/pack/000140_1/battle/interface/btl_warning_00.txb",
+      "size": 39744,
+      "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
+    },
+    {
+      "path": "packages/pack/000140_1/battle/interface/result_00.txb",
+      "size": 264192,
+      "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
+    },
+    {
+      "path": "packages/pack/000141_0/interface/dungeon/are_title_04.txb",
+      "size": 21280,
+      "sha256": "c15e33e250bcdc9449543054c2053e87b47138ce5fef27646032c3e97d8398cb"
+    },
+    {
+      "path": "packages/pack/000141_0/interface/dungeon/i_dun.txb",
+      "size": 59536,
+      "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
+    },
+    {
+      "path": "packages/pack/000141_0/interface/dungeon/i_dun_sysmsg.bin",
+      "size": 32,
+      "sha256": "80bd4c8ffcf94283d4f5537ddddd49bf4f9f68cbb6324c1fa0e627cb98a4364b"
+    },
+    {
+      "path": "packages/pack/000141_0/interface/dungeon/shar_arena.txb",
+      "size": 33488,
+      "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
+    },
+    {
+      "path": "packages/pack/000141_1/battle/interface/btl_menu.txb",
+      "size": 303056,
+      "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
+    },
+    {
+      "path": "packages/pack/000141_1/battle/interface/btl_msg.bin",
+      "size": 144,
+      "sha256": "dfa2400a6442ba7f0287cc73a18b3f6907b9d8592fa7c05cdf7fafecb656080c"
+    },
+    {
+      "path": "packages/pack/000141_1/battle/interface/btl_warning_00.txb",
+      "size": 39744,
+      "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
+    },
+    {
+      "path": "packages/pack/000141_1/battle/interface/result_00.txb",
+      "size": 264192,
+      "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
+    },
+    {
+      "path": "packages/pack/000150_0/interface/dungeon/are_title_05.txb",
+      "size": 21280,
+      "sha256": "85ded18a00fe5e661f7b31282e529d69e28c915dc3c252f804233c289de9fee1"
+    },
+    {
+      "path": "packages/pack/000150_0/interface/dungeon/i_dun.txb",
+      "size": 59536,
+      "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
+    },
+    {
+      "path": "packages/pack/000150_0/interface/dungeon/i_dun_sysmsg.bin",
+      "size": 32,
+      "sha256": "80bd4c8ffcf94283d4f5537ddddd49bf4f9f68cbb6324c1fa0e627cb98a4364b"
+    },
+    {
+      "path": "packages/pack/000150_0/interface/dungeon/shar_arena.txb",
+      "size": 33488,
+      "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
+    },
+    {
+      "path": "packages/pack/000150_1/battle/interface/btl_menu.txb",
+      "size": 303056,
+      "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
+    },
+    {
+      "path": "packages/pack/000150_1/battle/interface/btl_msg.bin",
+      "size": 144,
+      "sha256": "dfa2400a6442ba7f0287cc73a18b3f6907b9d8592fa7c05cdf7fafecb656080c"
+    },
+    {
+      "path": "packages/pack/000150_1/battle/interface/btl_warning_00.txb",
+      "size": 39744,
+      "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
+    },
+    {
+      "path": "packages/pack/000150_1/battle/interface/result_00.txb",
+      "size": 264192,
+      "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
+    },
+    {
+      "path": "packages/pack/000151_0/interface/dungeon/are_title_05.txb",
+      "size": 21280,
+      "sha256": "85ded18a00fe5e661f7b31282e529d69e28c915dc3c252f804233c289de9fee1"
+    },
+    {
+      "path": "packages/pack/000151_0/interface/dungeon/i_dun.txb",
+      "size": 59536,
+      "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
+    },
+    {
+      "path": "packages/pack/000151_0/interface/dungeon/i_dun_sysmsg.bin",
+      "size": 32,
+      "sha256": "80bd4c8ffcf94283d4f5537ddddd49bf4f9f68cbb6324c1fa0e627cb98a4364b"
+    },
+    {
+      "path": "packages/pack/000151_0/interface/dungeon/shar_arena.txb",
+      "size": 33488,
+      "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
+    },
+    {
+      "path": "packages/pack/000151_1/battle/interface/btl_menu.txb",
+      "size": 303056,
+      "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
+    },
+    {
+      "path": "packages/pack/000151_1/battle/interface/btl_msg.bin",
+      "size": 144,
+      "sha256": "dfa2400a6442ba7f0287cc73a18b3f6907b9d8592fa7c05cdf7fafecb656080c"
+    },
+    {
+      "path": "packages/pack/000151_1/battle/interface/btl_warning_00.txb",
+      "size": 39744,
+      "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
+    },
+    {
+      "path": "packages/pack/000151_1/battle/interface/result_00.txb",
+      "size": 264192,
+      "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
+    },
+    {
+      "path": "packages/pack/000160_0/interface/dungeon/are_title_06.txb",
+      "size": 21792,
+      "sha256": "a1299382e949a2fb1da6d9706e2c6c7ab02466e2e4740d7736c758f3369d03c7"
+    },
+    {
+      "path": "packages/pack/000160_0/interface/dungeon/i_dun.txb",
+      "size": 59536,
+      "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
+    },
+    {
+      "path": "packages/pack/000160_0/interface/dungeon/i_dun_sysmsg.bin",
+      "size": 32,
+      "sha256": "80bd4c8ffcf94283d4f5537ddddd49bf4f9f68cbb6324c1fa0e627cb98a4364b"
+    },
+    {
+      "path": "packages/pack/000160_0/interface/dungeon/shar_arena.txb",
+      "size": 33488,
+      "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
+    },
+    {
+      "path": "packages/pack/000160_1/battle/interface/btl_menu.txb",
+      "size": 303056,
+      "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
+    },
+    {
+      "path": "packages/pack/000160_1/battle/interface/btl_msg.bin",
+      "size": 144,
+      "sha256": "dfa2400a6442ba7f0287cc73a18b3f6907b9d8592fa7c05cdf7fafecb656080c"
+    },
+    {
+      "path": "packages/pack/000160_1/battle/interface/btl_warning_00.txb",
+      "size": 39744,
+      "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
+    },
+    {
+      "path": "packages/pack/000160_1/battle/interface/result_00.txb",
+      "size": 264192,
+      "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
+    },
+    {
+      "path": "packages/pack/000161_0/interface/dungeon/are_title_06.txb",
+      "size": 21792,
+      "sha256": "a1299382e949a2fb1da6d9706e2c6c7ab02466e2e4740d7736c758f3369d03c7"
+    },
+    {
+      "path": "packages/pack/000161_0/interface/dungeon/i_dun.txb",
+      "size": 59536,
+      "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
+    },
+    {
+      "path": "packages/pack/000161_0/interface/dungeon/i_dun_sysmsg.bin",
+      "size": 32,
+      "sha256": "80bd4c8ffcf94283d4f5537ddddd49bf4f9f68cbb6324c1fa0e627cb98a4364b"
+    },
+    {
+      "path": "packages/pack/000161_0/interface/dungeon/shar_arena.txb",
+      "size": 33488,
+      "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
+    },
+    {
+      "path": "packages/pack/000161_1/battle/interface/btl_menu.txb",
+      "size": 303056,
+      "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
+    },
+    {
+      "path": "packages/pack/000161_1/battle/interface/btl_msg.bin",
+      "size": 144,
+      "sha256": "dfa2400a6442ba7f0287cc73a18b3f6907b9d8592fa7c05cdf7fafecb656080c"
+    },
+    {
+      "path": "packages/pack/000161_1/battle/interface/btl_warning_00.txb",
+      "size": 39744,
+      "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
+    },
+    {
+      "path": "packages/pack/000161_1/battle/interface/result_00.txb",
+      "size": 264192,
+      "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
+    },
+    {
+      "path": "packages/pack/000170_0/interface/dungeon/are_title_07.txb",
+      "size": 21792,
+      "sha256": "2ff2efacf615ab6facc873d67df864f78fc3207c57e687d607e6828be2e4aa67"
+    },
+    {
+      "path": "packages/pack/000170_0/interface/dungeon/i_dun.txb",
+      "size": 59536,
+      "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
+    },
+    {
+      "path": "packages/pack/000170_0/interface/dungeon/i_dun_sysmsg.bin",
+      "size": 32,
+      "sha256": "80bd4c8ffcf94283d4f5537ddddd49bf4f9f68cbb6324c1fa0e627cb98a4364b"
+    },
+    {
+      "path": "packages/pack/000170_0/interface/dungeon/shar_arena.txb",
+      "size": 33488,
+      "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
+    },
+    {
+      "path": "packages/pack/000170_1/battle/interface/btl_menu.txb",
+      "size": 303056,
+      "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
+    },
+    {
+      "path": "packages/pack/000170_1/battle/interface/btl_msg.bin",
+      "size": 144,
+      "sha256": "dfa2400a6442ba7f0287cc73a18b3f6907b9d8592fa7c05cdf7fafecb656080c"
+    },
+    {
+      "path": "packages/pack/000170_1/battle/interface/btl_warning_00.txb",
+      "size": 39744,
+      "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
+    },
+    {
+      "path": "packages/pack/000170_1/battle/interface/result_00.txb",
+      "size": 264192,
+      "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
+    },
+    {
+      "path": "packages/pack/000171_0/interface/dungeon/are_title_07.txb",
+      "size": 21792,
+      "sha256": "2ff2efacf615ab6facc873d67df864f78fc3207c57e687d607e6828be2e4aa67"
+    },
+    {
+      "path": "packages/pack/000171_0/interface/dungeon/i_dun.txb",
+      "size": 59536,
+      "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
+    },
+    {
+      "path": "packages/pack/000171_0/interface/dungeon/i_dun_sysmsg.bin",
+      "size": 32,
+      "sha256": "80bd4c8ffcf94283d4f5537ddddd49bf4f9f68cbb6324c1fa0e627cb98a4364b"
+    },
+    {
+      "path": "packages/pack/000171_0/interface/dungeon/shar_arena.txb",
+      "size": 33488,
+      "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
+    },
+    {
+      "path": "packages/pack/000171_1/battle/interface/btl_menu.txb",
+      "size": 303056,
+      "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
+    },
+    {
+      "path": "packages/pack/000171_1/battle/interface/btl_msg.bin",
+      "size": 144,
+      "sha256": "dfa2400a6442ba7f0287cc73a18b3f6907b9d8592fa7c05cdf7fafecb656080c"
+    },
+    {
+      "path": "packages/pack/000171_1/battle/interface/btl_warning_00.txb",
+      "size": 39744,
+      "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
+    },
+    {
+      "path": "packages/pack/000171_1/battle/interface/result_00.txb",
+      "size": 264192,
+      "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
+    },
+    {
+      "path": "packages/pack/000180_0/interface/dungeon/are_title_08.txb",
+      "size": 21792,
+      "sha256": "be4210729afa3d3eb5987810c5bd86d46921c45a1027414427d4f6376c4d6798"
+    },
+    {
+      "path": "packages/pack/000180_0/interface/dungeon/i_dun.txb",
+      "size": 59536,
+      "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
+    },
+    {
+      "path": "packages/pack/000180_0/interface/dungeon/i_dun_sysmsg.bin",
+      "size": 32,
+      "sha256": "80bd4c8ffcf94283d4f5537ddddd49bf4f9f68cbb6324c1fa0e627cb98a4364b"
+    },
+    {
+      "path": "packages/pack/000180_0/interface/dungeon/shar_arena.txb",
+      "size": 33488,
+      "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
+    },
+    {
+      "path": "packages/pack/000180_1/battle/interface/btl_menu.txb",
+      "size": 303056,
+      "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
+    },
+    {
+      "path": "packages/pack/000180_1/battle/interface/btl_msg.bin",
+      "size": 144,
+      "sha256": "dfa2400a6442ba7f0287cc73a18b3f6907b9d8592fa7c05cdf7fafecb656080c"
+    },
+    {
+      "path": "packages/pack/000180_1/battle/interface/btl_warning_00.txb",
+      "size": 39744,
+      "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
+    },
+    {
+      "path": "packages/pack/000180_1/battle/interface/result_00.txb",
+      "size": 264192,
+      "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
+    },
+    {
+      "path": "packages/pack/000181_0/interface/dungeon/are_title_08.txb",
+      "size": 21792,
+      "sha256": "be4210729afa3d3eb5987810c5bd86d46921c45a1027414427d4f6376c4d6798"
+    },
+    {
+      "path": "packages/pack/000181_0/interface/dungeon/i_dun.txb",
+      "size": 59536,
+      "sha256": "4f70ca49a166c60eb18cea45882cc278ed9fc9f4c761d0e259f38c41e828c842"
+    },
+    {
+      "path": "packages/pack/000181_0/interface/dungeon/i_dun_sysmsg.bin",
+      "size": 32,
+      "sha256": "80bd4c8ffcf94283d4f5537ddddd49bf4f9f68cbb6324c1fa0e627cb98a4364b"
+    },
+    {
+      "path": "packages/pack/000181_0/interface/dungeon/shar_arena.txb",
+      "size": 33488,
+      "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
+    },
+    {
+      "path": "packages/pack/000181_1/battle/interface/btl_menu.txb",
+      "size": 303056,
+      "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
+    },
+    {
+      "path": "packages/pack/000181_1/battle/interface/btl_msg.bin",
+      "size": 144,
+      "sha256": "dfa2400a6442ba7f0287cc73a18b3f6907b9d8592fa7c05cdf7fafecb656080c"
+    },
+    {
+      "path": "packages/pack/000181_1/battle/interface/btl_warning_00.txb",
+      "size": 39744,
+      "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
+    },
+    {
+      "path": "packages/pack/000181_1/battle/interface/result_00.txb",
+      "size": 264192,
+      "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
+    },
+    {
+      "path": "packages/pack/000190_0/interface/dungeon/shar_arena.txb",
+      "size": 33488,
+      "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
+    },
+    {
+      "path": "packages/pack/000190_1/battle/interface/btl_menu.txb",
+      "size": 303056,
+      "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
+    },
+    {
+      "path": "packages/pack/000190_1/battle/interface/btl_msg.bin",
+      "size": 144,
+      "sha256": "dfa2400a6442ba7f0287cc73a18b3f6907b9d8592fa7c05cdf7fafecb656080c"
+    },
+    {
+      "path": "packages/pack/000190_1/battle/interface/btl_warning_00.txb",
+      "size": 39744,
+      "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
+    },
+    {
+      "path": "packages/pack/000190_1/battle/interface/result_00.txb",
+      "size": 264192,
+      "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
+    },
+    {
+      "path": "packages/pack/000308_0/interface/dungeon/shar_arena.txb",
+      "size": 33488,
+      "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
+    },
+    {
+      "path": "packages/pack/000308_1/battle/interface/btl_menu.txb",
+      "size": 303056,
+      "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
+    },
+    {
+      "path": "packages/pack/000308_1/battle/interface/btl_msg.bin",
+      "size": 144,
+      "sha256": "dfa2400a6442ba7f0287cc73a18b3f6907b9d8592fa7c05cdf7fafecb656080c"
+    },
+    {
+      "path": "packages/pack/000308_1/battle/interface/btl_warning_00.txb",
+      "size": 39744,
+      "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
+    },
+    {
+      "path": "packages/pack/000308_1/battle/interface/result_00.txb",
+      "size": 264192,
+      "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
+    },
+    {
+      "path": "packages/pack/000310_0/interface/dungeon/shar_arena.txb",
+      "size": 33488,
+      "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
+    },
+    {
+      "path": "packages/pack/000310_1/battle/interface/btl_menu.txb",
+      "size": 303056,
+      "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
+    },
+    {
+      "path": "packages/pack/000310_1/battle/interface/btl_msg.bin",
+      "size": 144,
+      "sha256": "dfa2400a6442ba7f0287cc73a18b3f6907b9d8592fa7c05cdf7fafecb656080c"
+    },
+    {
+      "path": "packages/pack/000310_1/battle/interface/btl_warning_00.txb",
+      "size": 39744,
+      "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
+    },
+    {
+      "path": "packages/pack/000310_1/battle/interface/result_00.txb",
+      "size": 264192,
+      "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
+    },
+    {
+      "path": "packages/pack/000311_0/interface/dungeon/shar_arena.txb",
+      "size": 33488,
+      "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
+    },
+    {
+      "path": "packages/pack/000311_1/battle/interface/btl_menu.txb",
+      "size": 303056,
+      "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
+    },
+    {
+      "path": "packages/pack/000311_1/battle/interface/btl_msg.bin",
+      "size": 144,
+      "sha256": "dfa2400a6442ba7f0287cc73a18b3f6907b9d8592fa7c05cdf7fafecb656080c"
+    },
+    {
+      "path": "packages/pack/000311_1/battle/interface/btl_warning_00.txb",
+      "size": 39744,
+      "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
+    },
+    {
+      "path": "packages/pack/000311_1/battle/interface/result_00.txb",
+      "size": 264192,
+      "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
+    },
+    {
+      "path": "packages/pack/000314_0/interface/dungeon/shar_arena.txb",
+      "size": 33488,
+      "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
+    },
+    {
+      "path": "packages/pack/000314_1/battle/interface/btl_menu.txb",
+      "size": 303056,
+      "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
+    },
+    {
+      "path": "packages/pack/000314_1/battle/interface/btl_msg.bin",
+      "size": 144,
+      "sha256": "dfa2400a6442ba7f0287cc73a18b3f6907b9d8592fa7c05cdf7fafecb656080c"
+    },
+    {
+      "path": "packages/pack/000314_1/battle/interface/btl_warning_00.txb",
+      "size": 39744,
+      "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
+    },
+    {
+      "path": "packages/pack/000314_1/battle/interface/result_00.txb",
+      "size": 264192,
+      "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
+    },
+    {
+      "path": "packages/pack/000317_0/interface/dungeon/shar_arena.txb",
+      "size": 33488,
+      "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
+    },
+    {
+      "path": "packages/pack/000317_1/battle/interface/btl_menu.txb",
+      "size": 303056,
+      "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
+    },
+    {
+      "path": "packages/pack/000317_1/battle/interface/btl_msg.bin",
+      "size": 144,
+      "sha256": "dfa2400a6442ba7f0287cc73a18b3f6907b9d8592fa7c05cdf7fafecb656080c"
+    },
+    {
+      "path": "packages/pack/000317_1/battle/interface/btl_warning_00.txb",
+      "size": 39744,
+      "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
+    },
+    {
+      "path": "packages/pack/000317_1/battle/interface/result_00.txb",
+      "size": 264192,
+      "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
+    },
+    {
+      "path": "packages/pack/000318_0/interface/dungeon/shar_arena.txb",
+      "size": 33488,
+      "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
+    },
+    {
+      "path": "packages/pack/000318_1/battle/interface/btl_menu.txb",
+      "size": 303056,
+      "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
+    },
+    {
+      "path": "packages/pack/000318_1/battle/interface/btl_msg.bin",
+      "size": 144,
+      "sha256": "dfa2400a6442ba7f0287cc73a18b3f6907b9d8592fa7c05cdf7fafecb656080c"
+    },
+    {
+      "path": "packages/pack/000318_1/battle/interface/btl_warning_00.txb",
+      "size": 39744,
+      "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
+    },
+    {
+      "path": "packages/pack/000318_1/battle/interface/result_00.txb",
+      "size": 264192,
+      "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
+    },
+    {
+      "path": "packages/pack/000321_0/interface/dungeon/shar_arena.txb",
+      "size": 33488,
+      "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
+    },
+    {
+      "path": "packages/pack/000321_1/battle/interface/btl_menu.txb",
+      "size": 303056,
+      "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
+    },
+    {
+      "path": "packages/pack/000321_1/battle/interface/btl_msg.bin",
+      "size": 144,
+      "sha256": "dfa2400a6442ba7f0287cc73a18b3f6907b9d8592fa7c05cdf7fafecb656080c"
+    },
+    {
+      "path": "packages/pack/000321_1/battle/interface/btl_warning_00.txb",
+      "size": 39744,
+      "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
+    },
+    {
+      "path": "packages/pack/000321_1/battle/interface/result_00.txb",
+      "size": 264192,
+      "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
+    },
+    {
+      "path": "packages/pack/000322_0/interface/dungeon/shar_arena.txb",
+      "size": 33488,
+      "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
+    },
+    {
+      "path": "packages/pack/000322_1/battle/interface/btl_menu.txb",
+      "size": 303056,
+      "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
+    },
+    {
+      "path": "packages/pack/000322_1/battle/interface/btl_msg.bin",
+      "size": 144,
+      "sha256": "dfa2400a6442ba7f0287cc73a18b3f6907b9d8592fa7c05cdf7fafecb656080c"
+    },
+    {
+      "path": "packages/pack/000322_1/battle/interface/btl_warning_00.txb",
+      "size": 39744,
+      "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
+    },
+    {
+      "path": "packages/pack/000322_1/battle/interface/result_00.txb",
+      "size": 264192,
+      "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
+    },
+    {
+      "path": "packages/pack/000323_0/interface/dungeon/shar_arena.txb",
+      "size": 33488,
+      "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
+    },
+    {
+      "path": "packages/pack/000323_1/battle/interface/btl_menu.txb",
+      "size": 303056,
+      "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
+    },
+    {
+      "path": "packages/pack/000323_1/battle/interface/btl_msg.bin",
+      "size": 144,
+      "sha256": "dfa2400a6442ba7f0287cc73a18b3f6907b9d8592fa7c05cdf7fafecb656080c"
+    },
+    {
+      "path": "packages/pack/000323_1/battle/interface/btl_warning_00.txb",
+      "size": 39744,
+      "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
+    },
+    {
+      "path": "packages/pack/000323_1/battle/interface/result_00.txb",
+      "size": 264192,
+      "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
+    },
+    {
+      "path": "packages/pack/000324_0/interface/dungeon/shar_arena.txb",
+      "size": 33488,
+      "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
+    },
+    {
+      "path": "packages/pack/000324_1/battle/interface/btl_menu.txb",
+      "size": 303056,
+      "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
+    },
+    {
+      "path": "packages/pack/000324_1/battle/interface/btl_msg.bin",
+      "size": 144,
+      "sha256": "dfa2400a6442ba7f0287cc73a18b3f6907b9d8592fa7c05cdf7fafecb656080c"
+    },
+    {
+      "path": "packages/pack/000324_1/battle/interface/btl_warning_00.txb",
+      "size": 39744,
+      "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
+    },
+    {
+      "path": "packages/pack/000324_1/battle/interface/result_00.txb",
+      "size": 264192,
+      "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
+    },
+    {
+      "path": "packages/pack/000325_0/interface/dungeon/shar_arena.txb",
+      "size": 33488,
+      "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
+    },
+    {
+      "path": "packages/pack/000325_1/battle/interface/btl_menu.txb",
+      "size": 303056,
+      "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
+    },
+    {
+      "path": "packages/pack/000325_1/battle/interface/btl_msg.bin",
+      "size": 144,
+      "sha256": "dfa2400a6442ba7f0287cc73a18b3f6907b9d8592fa7c05cdf7fafecb656080c"
+    },
+    {
+      "path": "packages/pack/000325_1/battle/interface/btl_warning_00.txb",
+      "size": 39744,
+      "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
+    },
+    {
+      "path": "packages/pack/000325_1/battle/interface/result_00.txb",
+      "size": 264192,
+      "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
+    },
+    {
+      "path": "packages/pack/000326_0/interface/dungeon/shar_arena.txb",
+      "size": 33488,
+      "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
+    },
+    {
+      "path": "packages/pack/000326_1/battle/interface/btl_menu.txb",
+      "size": 303056,
+      "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
+    },
+    {
+      "path": "packages/pack/000326_1/battle/interface/btl_msg.bin",
+      "size": 144,
+      "sha256": "dfa2400a6442ba7f0287cc73a18b3f6907b9d8592fa7c05cdf7fafecb656080c"
+    },
+    {
+      "path": "packages/pack/000326_1/battle/interface/btl_warning_00.txb",
+      "size": 39744,
+      "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
+    },
+    {
+      "path": "packages/pack/000326_1/battle/interface/result_00.txb",
+      "size": 264192,
+      "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
+    },
+    {
+      "path": "packages/pack/000327_0/interface/dungeon/shar_arena.txb",
+      "size": 33488,
+      "sha256": "9e1ad614dacebe2694ce3904f1462f122554ae9511d8408ecf78b844f31b8e19"
+    },
+    {
+      "path": "packages/pack/000327_1/battle/interface/btl_menu.txb",
+      "size": 303056,
+      "sha256": "765c980fc0c37fa47af5fa225c1f9f7271618c0c91c863abe6689dad61f6e19f"
+    },
+    {
+      "path": "packages/pack/000327_1/battle/interface/btl_msg.bin",
+      "size": 144,
+      "sha256": "dfa2400a6442ba7f0287cc73a18b3f6907b9d8592fa7c05cdf7fafecb656080c"
+    },
+    {
+      "path": "packages/pack/000327_1/battle/interface/btl_warning_00.txb",
+      "size": 39744,
+      "sha256": "06c7df6c40f234ada3d8f79d3c4d7d2310c0d3d1e932fa31b76e2f371addbcea"
+    },
+    {
+      "path": "packages/pack/000327_1/battle/interface/result_00.txb",
+      "size": 264192,
+      "sha256": "ba8799683c006d6dd635a72b317effb874675ad796438e5b55f8a534add99f58"
+    },
+    {
+      "path": "packages/pack/001001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/001001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/002001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/002001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/003001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/003001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/003016/interface/nameentry/0000.txb",
+      "size": 150464,
+      "sha256": "8740ffd87b810d576cb7a86d4830c1e5c061df3a37940e383ff8448ce45d6aa1"
+    },
+    {
+      "path": "packages/pack/003016/interface/nameentry/msg.bin",
+      "size": 4496,
+      "sha256": "cd6aca5b42942cbbbde4405e0bde4ed048c35aee14a27a013c0edace08dfb608"
+    },
+    {
+      "path": "packages/pack/010001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/010001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/010007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/010007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/011001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/011001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/011007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/011007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/012001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/012001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/012007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/012007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/013001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/013001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/013007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/013007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/014001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/014001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/014007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/014007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/015001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/015001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/015007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/015007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/016001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/016001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/016007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/016007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/017001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/017001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/017007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/017007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/018001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/018001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/018007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/018007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/019001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/019001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/019007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/019007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/020001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/020001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/020007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/020007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/021001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/021001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/021007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/021007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/022001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/022001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/022007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/022007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/023001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/023001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/023007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/023007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/024001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/024001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/024007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/024007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/025001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/025001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/025007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/025007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/026001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/026001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/026007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/026007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/027001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/027001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/027007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/027007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/028001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/028001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/028007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/028007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/029001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/029001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/029007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/029007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/030001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/030001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/030007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/030007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/031001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/031001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/031007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/031007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/032001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/032001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/032007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/032007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/033001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/033001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/033007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/033007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/034001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/034001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/034007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/034007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/035001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/035001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/035007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/035007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/036001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/036001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/036007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/036007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/037001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/037001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/037007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/037007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/038001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/038001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/038007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/038007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/039001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/039001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/039007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/039007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/040001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/040001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/040007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/040007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/041001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/041001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/041007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/041007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/042001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/042001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/042007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/042007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/043001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/043001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/043007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/043007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/044001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/044001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/044007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/044007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/045001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/045001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/045007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/045007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/046001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/046001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/046007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/046007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/047001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/047001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/047007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/047007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/048001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/048001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/048007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/048007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/049001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/049001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/049007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/049007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/050001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/050001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/050007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/050007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/051001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/051001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/051007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/051007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/052001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/052001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/052007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/052007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/053001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/053001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/053007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/053007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/054001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/054001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/054007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/054007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/056001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/056001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/056007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/056007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/057001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/057001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/057007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/057007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/058001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/058001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/058007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/058007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/059001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/059001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/059007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/059007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/060001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/060001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/060007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/060007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/061001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/061001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/061007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/061007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/062001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/062001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/062007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/062007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/063001/interface/shop/msg.bin",
+      "size": 304,
+      "sha256": "80650a575a2911b663aff02a1d773040618f97f893e186d7a80a7ab5b9aaa14c"
+    },
+    {
+      "path": "packages/pack/063001/interface/shop/shop_00.txb",
+      "size": 103312,
+      "sha256": "a025ecc8c6c58ebbae153041fb790987120602e46107a72d0ce62e2b6bd213d8"
+    },
+    {
+      "path": "packages/pack/063007/interface/gradationair/ga.txb",
+      "size": 211472,
+      "sha256": "0932060263522a05d25dd9dc2db5c3d5af77e4659c9cd7bd6d5fe49ac33dfddc"
+    },
+    {
+      "path": "packages/pack/063007/interface/gradationair/i_ga.bin",
+      "size": 512,
+      "sha256": "058a16082a918d8d2614c76cc582748d902f1b3fbb2a47efb73085515801a87d"
+    },
+    {
+      "path": "packages/pack/PRELOAD/cmn/cmn_name.bin",
+      "size": 2384,
+      "sha256": "a38294de8fbf739219570a0484edc61ee124f59e364e3c61beca85ddb85480ca"
+    },
+    {
+      "path": "packages/pack/PRELOAD/cmn/item_param_01.bin",
+      "size": 29200,
+      "sha256": "fb0d9ba526712b7222dd2717b9de35337631b2f852465cdf7247bc20e6f70515"
+    },
+    {
+      "path": "packages/pack/PRELOAD/cmn/item_param_04.bin",
+      "size": 19888,
+      "sha256": "f7623ff6070a774544d87344f923b6ff2d91db84f5a2a1692231026706404e97"
+    },
+    {
+      "path": "packages/pack/PRELOAD/font.txb",
+      "size": 526416,
+      "sha256": "31bb2b8c0d45e11477272db76bbfe9a59d7161839467478d67206d4aafa8823e"
+    },
+    {
+      "path": "packages/pack/PRELOAD/interface/calendar/pgst_000.txb",
+      "size": 48448,
+      "sha256": "34d2648b7b8bd9c638f24ccceae02a20dcddba86d9edeba70e1c5c1d22e79c21"
+    },
+    {
+      "path": "packages/pack/PRELOAD/interface/cmn/i_con.txb",
+      "size": 58160,
+      "sha256": "fa6cf34e567055a035dc3a85a66c3a711828b9339ef877cf1b12256aa9525bb2"
+    },
+    {
+      "path": "packages/pack/PRELOAD/interface/infomatpop/0000.txb",
+      "size": 43584,
+      "sha256": "3046f827a9de9163a6455576f05f4a39e2ab425501ec4e12b34e4d30e5938fb6"
+    },
+    {
+      "path": "packages/pack/PRELOAD/interface/infomatrixex/infomatrix_alc_d_04.bin",
+      "size": 960,
+      "sha256": "29a07e1820e0ca49d9dc857d757dfcdfcc08d54e53f4d97118c7ff505ca96789"
+    },
+    {
+      "path": "packages/pack/PRELOAD/interface/infomatrixex/infomatrix_ali_d_03.bin",
+      "size": 960,
+      "sha256": "b8faa0767ada6ad8ebaa8ab905949a8d678cd7bd9e74733b00f3fe05c5efe6cd"
+    },
+    {
+      "path": "packages/pack/PRELOAD/interface/infomatrixex/infomatrix_eld_d_01.bin",
+      "size": 960,
+      "sha256": "1ac8bb20d2f21d487bf4ed58ee9cc025bc356b3b8a6c7c6cd1e17f97a7de278b"
+    },
+    {
+      "path": "packages/pack/PRELOAD/interface/infomatrixex/infomatrix_emi_d_00.bin",
+      "size": 960,
+      "sha256": "84d7e423b637fa447309425d5c2c465d7e45736aa8a260393aacf54446b7df2c"
+    },
+    {
+      "path": "packages/pack/PRELOAD/interface/infomatrixex/infomatrix_fun_d_05.bin",
+      "size": 960,
+      "sha256": "b054ab9fc9d50d78ed37e8faf65990ffbddfcaabe17d08bbc4e8ffb814b5bf1d"
+    },
+    {
+      "path": "packages/pack/PRELOAD/interface/infomatrixex/infomatrix_gaw_d_07.bin",
+      "size": 960,
+      "sha256": "c5470444d5e371d26ffb0fb99a216d6b7e67dbe5ae3bf89191258c2ea155be99"
+    },
+    {
+      "path": "packages/pack/PRELOAD/interface/infomatrixex/infomatrix_koo_d_06.bin",
+      "size": 960,
+      "sha256": "81e9db9e701c27fc7dc55c23ea1457323b65f9ac30cdb4fef1e7ce731b222ebe"
+    },
+    {
+      "path": "packages/pack/PRELOAD/interface/infomatrixex/infomatrix_ner_d_00.bin",
+      "size": 960,
+      "sha256": "8bf3e8f58252ad65a68959a3d483fd8574b5f0f9434d3bd406f77ca23365a876"
+    },
+    {
+      "path": "packages/pack/PRELOAD/interface/infomatrixex/infomatrix_rob_d_02.bin",
+      "size": 960,
+      "sha256": "7835b2d7b3377883b33a6855eb9fc59e7e8c1ac9e86634e75047ae060ac837b5"
+    },
+    {
+      "path": "packages/pack/PRELOAD/interface/infomatrixex/infomatrix_ryo_d_06.bin",
+      "size": 960,
+      "sha256": "065003b322f09b5d3817e7f1c2ddeb242808441801e3996d9216755ed10dc3c2"
+    },
+    {
+      "path": "packages/pack/PRELOAD/interface/infomatrixex/infomatrix_tam_d_00.bin",
+      "size": 960,
+      "sha256": "fa63182aec2b0a73f28fc2d874dc20c7761038c3215c5b77d1bfb67111928604"
+    },
+    {
+      "path": "packages/pack/PRELOAD/interface/infomatrixex/infomatrix_war_d_04.bin",
+      "size": 960,
+      "sha256": "7d1337370b26c4df0b0e25c8f27ce7c20221789466959ae24c54ba922c003bab"
+    },
+    {
+      "path": "packages/pack/PRELOAD/interface/mainmenu/0000.txb",
+      "size": 39392,
+      "sha256": "06d171b23245f6c5fdeefd9fcfeafa62065dde2fdd7861d5c456554dd1ead44c"
+    },
+    {
+      "path": "packages/pack/PRELOAD/interface/select/i_move.bin",
+      "size": 496,
+      "sha256": "3f4a0657e61ab1d36b1cc346b2e62b1b07b16ede35e44bb3075549f2b6d88c78"
+    },
+    {
+      "path": "packages/pack/PRELOAD/interface/select/i_select.txb",
+      "size": 27600,
+      "sha256": "cfff04ec707a6035e01b48bf1a8f8c9a1142edc9be45b0eb4860b2694851387c"
+    },
+    {
+      "path": "packages/pack/PRELOAD/kanzi.bin",
+      "size": 24592,
+      "sha256": "7a61018266641232c59e3c99d9b47c4df2ee0bc01c7a4df44fbe8ef7cdb984c0"
+    },
+    {
+      "path": "packages/pack/PRELOAD/paramData/chaDataTbl.sjis",
+      "size": 22416,
+      "sha256": "4d3f636dc7bf05ccd49283d46d504b118499060885d98ad7c7b58a60b6c3052e"
+    },
+    {
+      "path": "packages/pack/PRELOAD/ruby.bin",
+      "size": 4080,
+      "sha256": "327c8dd64deccc8be67acc0021ab83758744b9412dfa3259d298eaf730dee662"
+    },
+    {
+      "path": "packages/pack/PRELOAD/ruby.txb",
+      "size": 34080,
+      "sha256": "199f62d555ab0c48c32ed152f77ee2a202ab6b8111913ad19a78719598768e04"
+    },
+    {
+      "path": "packages/pack/advice/interface/advice/0000.txb",
+      "size": 35392,
+      "sha256": "a36d6959be5369e217f9d21eb7816e7ab8794232d317dbbc99a071e7dcf6ac7a"
+    },
+    {
+      "path": "packages/pack/beginning/interface/beginning/0000.txb",
+      "size": 887728,
+      "sha256": "5534ec60de3d2561bf97fe0c15cd1d579b48416cde86c57a2e6a7fcf1f59a3b7"
+    },
+    {
+      "path": "packages/pack/btl_emi_hougu/battle/interface/emi/0001.txb",
+      "size": 120496,
+      "sha256": "678f98664ada85e2d34914abcf90293dfb1adee194284f3bc115dd07a47c75d4"
+    },
+    {
+      "path": "packages/pack/charsel/interface/charsel/svt_select.bin",
+      "size": 48,
+      "sha256": "3a11c2ca806510e2b54ea1f641df0526d983037e6ad877c221f2b5e3e13701d2"
+    },
+    {
+      "path": "packages/pack/charsel/interface/charsel/svt_select.txb",
+      "size": 243744,
+      "sha256": "fffa2cc35ffa4320ceafde0d4306014edc682bb0b4ba8f2da433f1775a16d157"
+    },
+    {
+      "path": "packages/pack/charsel/interface/poem/poem.bin",
+      "size": 2736,
+      "sha256": "10201528fa2622f908232ad4ddd42c5ed88dfd5f6d0e7a4f4378049440eb06a9"
+    },
+    {
+      "path": "packages/pack/charsel/interface/poem/poem_font.txb",
+      "size": 65808,
+      "sha256": "8ae7207aa4dc14186fb7ed8cbc48191ff2f08892f3d1750ab4c9cbe6c1b5f345"
+    },
+    {
+      "path": "packages/pack/equip/interface/equip/equip_00.txb",
+      "size": 44656,
+      "sha256": "e86f5d415ce66dfaa0f4f049f180bc5e59f6689343084c69cfd239f8f16e998a"
+    },
+    {
+      "path": "packages/pack/equip/interface/equip/msg.bin",
+      "size": 96,
+      "sha256": "e01f572bb824015976901520b1fb58f7316269ae5bda811bf9cf71545e3ea74e"
+    },
+    {
+      "path": "packages/pack/gameover/interface/gameover/gov.bin",
+      "size": 32,
+      "sha256": "99143b2229f2d03642cf5d8813785d89fe9605e2d68aa0854d7f3e409c5571a2"
+    },
+    {
+      "path": "packages/pack/gameover/interface/gameover/gov_00.txb",
+      "size": 155984,
+      "sha256": "526d69c07e05b940a3926bb4987178279ea93fd423214dd845c279c7bd161fe4"
+    },
+    {
+      "path": "packages/pack/hunting_get/interface/hunting/hunting_get.txb",
+      "size": 68448,
+      "sha256": "85157f4a11c0f63ee28fb64f2811a9deb99f86944e087a6e4bfaa1efe0bf3522"
+    },
+    {
+      "path": "packages/pack/infomatrixex/interface/infomatrixex/0000.txb",
+      "size": 514160,
+      "sha256": "cfd5582c4df87cf52c254dfea37295d2165d0c6fb9f7f865be581e72b5fdaa29"
+    },
+    {
+      "path": "packages/pack/infomatrixex/interface/infomatrixex/msg.bin",
+      "size": 1360,
+      "sha256": "a1a3f81407dd27fc9798b6aaebf4e5c51945f14b7589a2642c39abaa250fce61"
+    },
+    {
+      "path": "packages/pack/infomatrixex_text_alc/interface/infomatrixex/infomatrix_alc_t_04.bin",
+      "size": 46704,
+      "sha256": "cc496231047b38a3e2395a1936d553059a2534247469d02e40d2f955463a87b4"
+    },
+    {
+      "path": "packages/pack/infomatrixex_text_ali/interface/infomatrixex/infomatrix_ali_t_03.bin",
+      "size": 46704,
+      "sha256": "646ea81add33b35f76b3b9385c1e71466eb426da06f9b8f4826cfe9d70613479"
+    },
+    {
+      "path": "packages/pack/infomatrixex_text_eld/interface/infomatrixex/infomatrix_eld_t_01.bin",
+      "size": 46704,
+      "sha256": "2cc03558fe3a92e28ed7853b02f2b264debfefa7db82311e4c3bd15c9fe52d97"
+    },
+    {
+      "path": "packages/pack/infomatrixex_text_emi/interface/infomatrixex/infomatrix_emi_t_00.bin",
+      "size": 46704,
+      "sha256": "1d0786a35db24efa82de7a8cb1a6913b4a03757eab56b3dba271142edef47d43"
+    },
+    {
+      "path": "packages/pack/infomatrixex_text_fun/interface/infomatrixex/infomatrix_fun_t_05.bin",
+      "size": 46704,
+      "sha256": "9a327bc8435419bb4a0b97a970af3d365e9f96c389800e271e9cfd55ba758281"
+    },
+    {
+      "path": "packages/pack/infomatrixex_text_gaw/interface/infomatrixex/infomatrix_gaw_t_07.bin",
+      "size": 46704,
+      "sha256": "9e7c6f9b572d2cbe4930c1683927c90810e84bdb9a4cf777f493ad2461b9e02c"
+    },
+    {
+      "path": "packages/pack/infomatrixex_text_koo/interface/infomatrixex/infomatrix_koo_t_06.bin",
+      "size": 46704,
+      "sha256": "ee063ece9f7b2c2907443f0d6a857b6b8bf29b83b4f5062d0b300b81f9e23a81"
+    },
+    {
+      "path": "packages/pack/infomatrixex_text_ner/interface/infomatrixex/infomatrix_ner_t_00.bin",
+      "size": 46704,
+      "sha256": "61099a20b3d4f265acb6a3c7cd618efd7da97af3d40046ad592eaeba3f5b50b7"
+    },
+    {
+      "path": "packages/pack/infomatrixex_text_rob/interface/infomatrixex/infomatrix_rob_t_02.bin",
+      "size": 46704,
+      "sha256": "edfb07629353691e15ac3a2ddcb1142c53e573d7103603f495ae1998fe57d675"
+    },
+    {
+      "path": "packages/pack/infomatrixex_text_ryo/interface/infomatrixex/infomatrix_ryo_t_06.bin",
+      "size": 46704,
+      "sha256": "36158dcbd127394a2be91b1ecd4ed26562ba36c73276b99616c9495340d53945"
+    },
+    {
+      "path": "packages/pack/infomatrixex_text_tam/interface/infomatrixex/infomatrix_tam_t_00.bin",
+      "size": 46704,
+      "sha256": "898b32ef3bf92080cfb071b320ca83b60681c525812881301c136cb40288fe5a"
+    },
+    {
+      "path": "packages/pack/infomatrixex_text_war/interface/infomatrixex/infomatrix_war_t_04.bin",
+      "size": 46704,
+      "sha256": "159ea5dfefd70efe7a2a715cf9ed91d36cdc6c992153fbbe994d1597826a3ef0"
+    },
+    {
+      "path": "packages/pack/itemmenu/interface/item/item_00.txb",
+      "size": 35168,
+      "sha256": "42ee43874a5b8949023f116a201aff01572279a6ee823c66bf800ea88f172aa0"
+    },
+    {
+      "path": "packages/pack/itemmenu/interface/item/msg.bin",
+      "size": 16,
+      "sha256": "835283cd7a91444de0120b023c1bce53890d2d426151e7ef8dfb25afd9fe2c19"
+    },
+    {
+      "path": "packages/pack/modeselect/interface/modeselect/fiction.txb",
+      "size": 57744,
+      "sha256": "429278fc5b2b583c18dc89c1154a59f6c5d2b2bb0364d2afbf47c1fe13526c11"
+    },
+    {
+      "path": "packages/pack/modeselect/interface/modeselect/modeselect.bin",
+      "size": 352,
+      "sha256": "342bdcb1386e8fb796b5e387e67d402520d79ffb0ff4c3b553b64597b936fa26"
+    },
+    {
+      "path": "packages/pack/modeselect/interface/modeselect/modeselect.txb",
+      "size": 132608,
+      "sha256": "9bc36a44f24ee682984b4764365657de86ece6a38a98706fcb09f474e121e407"
+    },
+    {
+      "path": "packages/pack/optionmenu/interface/option/msg.bin",
+      "size": 320,
+      "sha256": "6d8dcf95dfc24e3e75cf15fc668219f6202854c04d18667d9834d36860d903a7"
+    },
+    {
+      "path": "packages/pack/optionmenu/interface/option/option_00.txb",
+      "size": 49664,
+      "sha256": "90209fcee6ff1f92cd9c9031c8c6301c43417d22c159bc91e29652057a9e23d9"
+    },
+    {
+      "path": "packages/pack/poem/interface/poem/poem.bin",
+      "size": 2736,
+      "sha256": "10201528fa2622f908232ad4ddd42c5ed88dfd5f6d0e7a4f4378049440eb06a9"
+    },
+    {
+      "path": "packages/pack/poem/interface/poem/poem_font.txb",
+      "size": 65808,
+      "sha256": "8ae7207aa4dc14186fb7ed8cbc48191ff2f08892f3d1750ab4c9cbe6c1b5f345"
+    },
+    {
+      "path": "packages/pack/reizyu/interface/reizyu/rei_00.txb",
+      "size": 31808,
+      "sha256": "dbdec173b232ee03ce6743fedec742a46df50769c0b08e004e88133fef0bcf11"
+    },
+    {
+      "path": "packages/pack/savemenu/interface/save/0000.txb",
+      "size": 43936,
+      "sha256": "f88fc28373699433e7e8fd0ee5312d8726cd14f7c12289c9f5c693ead34dbe79"
+    },
+    {
+      "path": "packages/pack/savemenu/interface/save/0001.txb",
+      "size": 25664,
+      "sha256": "891a96fd8d8f7e0b95e1b8e75d69ae7001ceb1aec1e37edeb60a5fb80d1d5f55"
+    },
+    {
+      "path": "packages/pack/savemenu/interface/save/msg.bin",
+      "size": 368,
+      "sha256": "dc7498faf4576163ad2db336e50416636a22ad9ab07b279ade581642e492282d"
+    },
+    {
+      "path": "packages/pack/statusmenu/interface/status/0000.txb",
+      "size": 548720,
+      "sha256": "b5a6a2686ab5305150b3e5639f2577a296e9effdf23bebdddcc28cf1c876b594"
+    },
+    {
+      "path": "packages/pack/statusmenu/interface/status/0001.txb",
+      "size": 31104,
+      "sha256": "cd960c6b1c789e0a2648ca1ab43f7e9897627a62b69f31c9972c93ff7274ecdc"
+    },
+    {
+      "path": "packages/pack/statusmenu/interface/status/msg.bin",
+      "size": 16,
+      "sha256": "25fbd67866f23a56e22a6b8d0e79054fd2be787dba1eb3fe146221aeee2e2f80"
+    },
+    {
+      "path": "packages/pack/triggerget/interface/triggerget/trigger_00.txb",
+      "size": 20672,
+      "sha256": "ea056f45724b5759e76c919ad568453ce9cb1d7186dcb68425867ddba8bf8554"
+    },
+    {
+      "path": "packages/pack/tutorial_other_00/interface/tutorial/tutorial_other_00.txb",
+      "size": 175568,
+      "sha256": "ed62afd11865949eb303b3a49d85b756878a31cf7cd73717d86b2b2e78031b74"
+    },
+    {
+      "path": "packages/pack/tutorial_other_01/interface/tutorial/tutorial_other_01.txb",
+      "size": 175568,
+      "sha256": "38e9f244c7e8fba1a0de0d29b97c7c8ae2394a14dd4bd1ee56af33c3d0da6bf9"
+    },
+    {
+      "path": "packages/pack/tutorial_other_02/interface/tutorial/tutorial_other_02.txb",
+      "size": 880288,
+      "sha256": "0c1a50f3dd5c5cfb57628bbf5f72c9d6a2dcdb5df44047ab1f26ffa120b39a20"
+    },
+    {
+      "path": "packages/pack/tutorial_other_03/interface/tutorial/tutorial_other_03.txb",
+      "size": 880288,
+      "sha256": "f9f3e65b0dec5b1cea3bfc4819e27163bbd162558439f3fa64e07a24062af1b4"
+    },
+    {
+      "path": "packages/pack/tutorial_other_04/interface/tutorial/tutorial_other_04.txb",
+      "size": 880288,
+      "sha256": "9795d93b1d8c3fe09adfc2cce1a814192d4fa74862ebfd2e7c31ef562a3bb482"
+    },
+    {
+      "path": "packages/pack/tutorial_other_05/interface/tutorial/tutorial_other_05.txb",
+      "size": 590624,
+      "sha256": "8a5c28df2bdf8c3737ff4ed5ce0f32d970cbcc59be9dda346008677eccd6699b"
+    },
+    {
+      "path": "packages/pack/tutorial_other_06/interface/tutorial/tutorial_other_06.txb",
+      "size": 439632,
+      "sha256": "8a1a1a85ca3728d127e9b324db0ca558c929b025cabe2430c9b07f7b0f327450"
+    },
+    {
+      "path": "packages/pack/tutorial_other_07/interface/tutorial/tutorial_other_07.txb",
+      "size": 439632,
+      "sha256": "64408cb9d0ba7531e01a2a9cd1880d045469483574775a0cf9ea3891823b1288"
+    },
+    {
+      "path": "packages/pack/tutorial_other_08/interface/tutorial/tutorial_other_08.txb",
+      "size": 439632,
+      "sha256": "4d89ed16fbea66564767f9601517cd3ea9bf9295f6cc0c1458fb03454a29522a"
+    },
+    {
+      "path": "packages/pack/tutorial_other_09/interface/tutorial/tutorial_other_09.txb",
+      "size": 298896,
+      "sha256": "91f172d874b4a08f1384e33d664ab6f155f673e003055b175a947a4097a52c0f"
+    },
+    {
+      "path": "packages/pack/tutorial_other_10/interface/tutorial/tutorial_other_10.txb",
+      "size": 148944,
+      "sha256": "434906e398daa3a6b7c62ba9f5d51c2e3598efceec01964566be3a05478e4e67"
+    },
+    {
+      "path": "packages/pack/tutorial_other_11/interface/tutorial/tutorial_other_11.txb",
+      "size": 289680,
+      "sha256": "1593971b613dcc51379c96b37ac404f2b17422b113a9e1ff23f7b9863d7c00bf"
+    },
+    {
+      "path": "packages/pack/tutorial_other_12/interface/tutorial/tutorial_other_12.txb",
+      "size": 289680,
+      "sha256": "aaafdddeb5f1e554075b674dfe3d58133d79b52417fd12fc31e0e4777180bc13"
+    },
+    {
+      "path": "packages/pack/tutorial_other_13/interface/tutorial/tutorial_other_13.txb",
+      "size": 288656,
+      "sha256": "cf6e33aee605730f4e330722fba61c5499e5aff935649040682e2780435063fc"
+    },
+    {
+      "path": "packages/pack/tutorial_other_14/interface/tutorial/tutorial_other_14.txb",
+      "size": 152016,
+      "sha256": "142273bb1f1d745c369d13c7e3f6269351db58a1431d07e0921a8a61b765ceac"
+    },
+    {
+      "path": "packages/pack/tutorial_other_15/interface/tutorial/tutorial_other_15.txb",
+      "size": 149968,
+      "sha256": "1dd8e97b7774c6b3421d2fdc0b3ddc985c1b3d71f9dad22fb44c4a5c6cb03d1f"
+    },
+    {
+      "path": "packages/pack/tutorial_other_16/interface/tutorial/tutorial_other_16.txb",
+      "size": 166352,
+      "sha256": "ba72a0b23c0ea88062bc4c2d8c2af4a60b0cd79e0e61ff73619aa5aa5aa7d88a"
+    },
+    {
+      "path": "packages/pack/tutorial_other_17/interface/tutorial/tutorial_other_17.txb",
+      "size": 166352,
+      "sha256": "bf553ed569084d786a2926b04e641542f3109ca653e03834dc22ae369122064b"
+    },
+    {
+      "path": "packages/pack/tutorial_other_18/interface/tutorial/tutorial_other_18.txb",
+      "size": 166352,
+      "sha256": "7c37dab576e7f1c50b6934672bc98cf0fce4967779b818fea7e5d8d8c9a35872"
+    },
+    {
+      "path": "packages/pack/tutorial_other_19/interface/tutorial/tutorial_other_19.txb",
+      "size": 172496,
+      "sha256": "867d7e449faa5d523723d9fdb7219cef5bd4500e30ba89fc5029348ebc196aa3"
+    },
+    {
+      "path": "packages/pack/tutorial_other_20/interface/tutorial/tutorial_other_20.txb",
+      "size": 602912,
+      "sha256": "92ec56b9907e5966984b160ad0d10d9f5fbf16febf387f1fdd6fed0f5326c33f"
+    },
+    {
+      "path": "packages/pack/tutorial_other_21/interface/tutorial/tutorial_other_21.txb",
+      "size": 603936,
+      "sha256": "b431ed33e0ed43c1acdec883db1912fce575668937bbafa0fd9508630c2770b7"
+    },
+    {
+      "path": "packages/pack/tutorial_other_22/interface/tutorial/tutorial_other_22.txb",
+      "size": 600864,
+      "sha256": "dd37caddc2385fe9d27ba285a2eb16ea77154a8daa044b9165c994e167a4979f"
+    },
+    {
+      "path": "packages/pack/tutorial_other_23/interface/tutorial/tutorial_other_23.txb",
+      "size": 599840,
+      "sha256": "1d17f2f4f4cf0972e790045d77bee317df41c42244892dca667064ebe4b7d927"
+    },
+    {
+      "path": "packages/pack/tutorial_other_24/interface/tutorial/tutorial_other_24.txb",
+      "size": 602912,
+      "sha256": "e3de4ab9c578a58343b1b42e933b3ba2c4cd53a3ebd5d1a768fbae1168f6a30a"
+    },
+    {
+      "path": "packages/pack/tutorial_other_25/interface/tutorial/tutorial_other_25.txb",
+      "size": 602912,
+      "sha256": "afc51467d7fe3e9a99b2264b29707923ff295a77296a41f724a254566fece568"
+    },
+    {
+      "path": "packages/pack/tutorial_other_26/interface/tutorial/tutorial_other_26.txb",
+      "size": 293776,
+      "sha256": "ed49e462e9c1d53ddf8fc4ee5ad7218a084ad256807958d493f2e5b4bb48a554"
+    },
+    {
+      "path": "packages/pack/tutorial_other_27/interface/tutorial/tutorial_other_27.txb",
+      "size": 293776,
+      "sha256": "089ec5c726cb8d0448dddaa5a19b55a9b3128e0b2d0b0f9dd24e7f2b4766c8d6"
+    },
+    {
+      "path": "packages/pack/tutorial_other_28/interface/tutorial/tutorial_other_28.txb",
+      "size": 297872,
+      "sha256": "2d1fb1ec2b8d46ca5902bf5bef8a2b9abdbef54b42fc6384a2025e94bba41e04"
+    },
+    {
+      "path": "packages/pack/tutorial_other_29/interface/tutorial/tutorial_other_29.txb",
+      "size": 294800,
+      "sha256": "b0fadb1fafb5b3188d5474341c5cb994309979d9dbf170928d0e3724f6cd3235"
+    },
+    {
+      "path": "packages/pack/tutorial_other_30/interface/tutorial/tutorial_other_30.txb",
+      "size": 298896,
+      "sha256": "ef34d4fcf48bcdd593db2bc788829b897ced026376b7f2f716bb44ae185f444a"
+    },
+    {
+      "path": "packages/pack/tutorial_other_31/interface/tutorial/tutorial_other_31.txb",
+      "size": 298896,
+      "sha256": "ffe85ce7b72affd0da61d51652c62b445070aca69ef3e5129d11b705f0560483"
+    },
+    {
+      "path": "packages/pack/tutorial_other_32/interface/tutorial/tutorial_other_32.txb",
+      "size": 296848,
+      "sha256": "11d9673aa6b5e927803c7055eb7f2f0e07ddd596d9a8cc171e9773cd1fcf30be"
+    },
+    {
+      "path": "packages/pack/tutorial_other_33/interface/tutorial/tutorial_other_33.txb",
+      "size": 298896,
+      "sha256": "a9fae4684614eda2e0078040d6eb15672775f971f01ff247ca03e6368badde6c"
+    },
+    {
+      "path": "packages/pack/tutorial_other_34/interface/tutorial/tutorial_other_34.txb",
+      "size": 600864,
+      "sha256": "2d23fee4ca994356dfaf7c89f5fd4d1b6ea27d5a20f7c75fa43e0353a627b1f6"
+    },
+    {
+      "path": "packages/pack/tutorial_other_35/interface/tutorial/tutorial_other_35.txb",
+      "size": 599840,
+      "sha256": "7ecb1eb538079a50737a8bae67d615da9885d5005ea343b4d42b76b5f93e9b3d"
+    },
+    {
+      "path": "packages/pack/tutorial_other_36/interface/tutorial/tutorial_other_36.txb",
+      "size": 419152,
+      "sha256": "f26c8d4f5c48ca626a1fdac6544bd35fc8381eb49298185b3634bb93884edc0f"
+    },
+    {
+      "path": "packages/pack/tutorial_other_37/interface/tutorial/tutorial_other_37.txb",
+      "size": 416080,
+      "sha256": "0d716194ac3d1a074b6fab410cf5954126e1f561982f2710d3c50da78828aa6d"
+    },
+    {
+      "path": "packages/pack/tutorial_other_38/interface/tutorial/tutorial_other_38.txb",
+      "size": 451920,
+      "sha256": "d6539db492cd1be32a243349c16c86be0e119a692351fb7deda38adf32e413bd"
+    },
+    {
+      "path": "packages/pack/tutorial_other_39/interface/tutorial/tutorial_other_39.txb",
+      "size": 451920,
+      "sha256": "e5ed415a829772c7f1de96f9cd1ba6886084e085e61819516f2a0c723fdee267"
+    },
+    {
+      "path": "packages/pack/tutorial_other_40/interface/tutorial/tutorial_other_40.txb",
+      "size": 451920,
+      "sha256": "3516d78e4bdc9ab2c7d05df6a43009efc816b2178814f2f2478da0725b616931"
+    },
+    {
+      "path": "packages/pack/tutorial_other_41/interface/tutorial/tutorial_other_41.txb",
+      "size": 297872,
+      "sha256": "467a8e59cb25644db295d6957a22a8a1608b8015f88f904b184695d6ad1ea43c"
+    },
+    {
+      "path": "packages/pack/tutorial_other_42/interface/tutorial/tutorial_other_42.txb",
+      "size": 148944,
+      "sha256": "81cbabf1e1a223e9db296a4018ff197cffa468bc76d0ee6692c284a2955de745"
+    },
+    {
+      "path": "packages/pack/tutorial_other_43/interface/tutorial/tutorial_other_43.txb",
+      "size": 288656,
+      "sha256": "69d19ea6696f0843b5ff4072e91f3944fdbf8d504e4242a186901398808ef486"
+    },
+    {
+      "path": "packages/pack/tutorial_other_44/interface/tutorial/tutorial_other_44.txb",
+      "size": 288656,
+      "sha256": "8ae9287a5e11ec3a6d91265438882ce1c7071b9de7bb5de3f0adee8911c29cc2"
+    },
+    {
+      "path": "packages/pack/tutorial_other_45/interface/tutorial/tutorial_other_45.txb",
+      "size": 290704,
+      "sha256": "92b18d200bafe60bae463b979a2ed39c626a759d95a054bc9c0aae0b6c201bd8"
+    },
+    {
+      "path": "packages/pack/tutorial_other_46/interface/tutorial/tutorial_other_46.txb",
+      "size": 148944,
+      "sha256": "036a58b09b0d42931be95fd0903c08d1f2c2d78f62e3eac707d15ddf91f1a51c"
+    },
+    {
+      "path": "packages/pack/tutorial_other_47/interface/tutorial/tutorial_other_47.txb",
+      "size": 149968,
+      "sha256": "f2b546feaef9829bff05b9ce5f86d8d73814ac94252d4b25e302f4e7f574e12a"
+    },
+    {
+      "path": "packages/pack/tutorial_other_48/interface/tutorial/tutorial_other_48.txb",
+      "size": 149968,
+      "sha256": "04077d381c786509e9d4e2a0527572053c160c93459030900f5510030b8fd55f"
+    },
+    {
+      "path": "packages/pack/tutorial_other_49/interface/tutorial/tutorial_other_49.txb",
+      "size": 148944,
+      "sha256": "8621c470fca009f16dc568f7cd067623ca971b73b364949848f554bca3d02de4"
+    },
+    {
+      "path": "packages/pack/tutorial_other_50/interface/tutorial/tutorial_other_50.txb",
+      "size": 599840,
+      "sha256": "5e430896958ce1fc1926d2ef8b4e786af32ff34f3e4b2821cf5364d6035ff5cb"
+    },
+    {
+      "path": "packages/pack/tutorial_other_51/interface/tutorial/tutorial_other_51.txb",
+      "size": 599840,
+      "sha256": "ebcb57cc3a780d4d7fc1d3683a5a1c9eefdb9ccad40a0af7c6e2601553a157ae"
+    },
+    {
+      "path": "packages/pack/tutorial_other_52/interface/tutorial/tutorial_other_52.txb",
+      "size": 598816,
+      "sha256": "d9cd5c3c9afbab35a118ca0259906d5dbddc0c2fcba39e9e432e39c1dc6dd033"
+    },
+    {
+      "path": "packages/pack/tutorial_other_53/interface/tutorial/tutorial_other_53.txb",
+      "size": 598816,
+      "sha256": "1278fe6dc77282243beddbecd841d26a7d553cf027c32ed30ef9d08aaed4bb5c"
+    },
+    {
+      "path": "packages/pack/tutorial_other_54/interface/tutorial/tutorial_other_54.txb",
+      "size": 600864,
+      "sha256": "d9bcf0ad385920825c0655c0e53d3046d146fc62697e5842ee4f7786123049fd"
+    },
+    {
+      "path": "packages/pack/tutorial_other_55/interface/tutorial/tutorial_other_55.txb",
+      "size": 600864,
+      "sha256": "a05a9a8a01242e8fcea32a0b80cfd4fd85fadca8ba34d3f03eb0b019700a8e90"
+    },
+    {
+      "path": "packages/pack/tutorial_other_56/interface/tutorial/tutorial_other_56.txb",
+      "size": 419152,
+      "sha256": "dcc10b05fdcd08104e5e7d3abe0ae88e04a7c80737cf8b07327fc9235bc18f30"
+    },
+    {
+      "path": "packages/pack/tutorial_other_57/interface/tutorial/tutorial_other_57.txb",
+      "size": 419152,
+      "sha256": "cd9afabf1e51da816f45287e418941e8172f9935f49eb6bc3d8ab4be70094904"
+    },
+    {
+      "path": "packages/pack/tutorial_other_58/interface/tutorial/tutorial_other_58.txb",
+      "size": 416080,
+      "sha256": "6c01e68b7c5f3bad5ca8555823c1ccd36ebcc811c382c003a7aa70419357702e"
+    },
+    {
+      "path": "packages/pack/tutorial_other_59/interface/tutorial/tutorial_other_59.txb",
+      "size": 416080,
+      "sha256": "7a1eff066a85713e64a63a6dfbaaa0799092a38a775165c31a5618c7ca20da17"
+    },
+    {
+      "path": "packages/pack/tutorial_other_60/interface/tutorial/tutorial_other_60.txb",
+      "size": 153040,
+      "sha256": "cbc6b40d860df316c0872f59a4bc6c3048d5c9472624b563636b250fcb096d1e"
+    },
+    {
+      "path": "packages/pack/tutorial_other_61/interface/tutorial/tutorial_other_61.txb",
+      "size": 148944,
+      "sha256": "ae95fea9edb278013015602e04d5fe3b03b9881b9aed7ad5a02ad4301b12410a"
+    },
+    {
+      "path": "packages/pack/tutorial_other_62/interface/tutorial/tutorial_other_62.txb",
+      "size": 292752,
+      "sha256": "a9fd614f41edb9b55ee3ca05cd94128172ff994ff2763cd467c9f63b512c8b50"
+    },
+    {
+      "path": "packages/pack/tutorial_other_63/interface/tutorial/tutorial_other_63.txb",
+      "size": 149968,
+      "sha256": "d65514e8384284c8896292e6a06034758ae7335d2cadc314281d9627ea1544c3"
+    },
+    {
+      "path": "packages/pack/tutorial_other_64/interface/tutorial/tutorial_other_64.txb",
+      "size": 292752,
+      "sha256": "08cd1eabb25d6251ba9c7fdda7182a613f0c5426e8f86d55bbc022b04f8dcfe6"
+    },
+    {
+      "path": "packages/pack/tutorial_other_65/interface/tutorial/tutorial_other_65.txb",
+      "size": 149968,
+      "sha256": "e01b2ccf23c00c0121f20a0dff0eeca17ae1c9ec2bbc03b063aa52b47a1b8663"
+    },
+    {
+      "path": "packages/pack/tutorial_other_66/interface/tutorial/tutorial_other_66.txb",
+      "size": 449872,
+      "sha256": "a9983dedd1be838e0ed7a8ff1763425abce79085d5b079c13c52796854ec990e"
+    },
+    {
+      "path": "packages/pack/tutorial_other_67/interface/tutorial/tutorial_other_67.txb",
+      "size": 590624,
+      "sha256": "b3959a1fb2639634e243bcdbcb699f4c42884ec7b49862367147593c6764535f"
+    },
+    {
+      "path": "packages/pack/tutorial_other_68/interface/tutorial/tutorial_other_68.txb",
+      "size": 590624,
+      "sha256": "b069b0bd5fa1c560debc86a673d701eddfd9f764e0b3eb183248a178deaf329a"
+    },
+    {
+      "path": "packages/pack/tutorial_other_69/interface/tutorial/tutorial_other_69.txb",
+      "size": 590624,
+      "sha256": "f94ccf006b75d9bae783b97360945881a9dad33615e03ea0f2e898148342da0a"
+    },
+    {
+      "path": "packages/pack/tutorial_other_70/interface/tutorial/tutorial_other_70.txb",
+      "size": 590624,
+      "sha256": "eb86358b0c75658571008fb7a7d39ec12cd87f2ba12268ede6e5265b6bad9f94"
+    },
+    {
+      "path": "packages/pack/tutorial_other_71/interface/tutorial/tutorial_other_71.txb",
+      "size": 590624,
+      "sha256": "046852826e832284abc72c75dce2b2599f4dda3fd59b2df850a47ef0f7a99289"
+    }
+  ]
 }
