@@ -2,12 +2,12 @@
   "version": "v1.2",
   "iso": "/Users/zhaoxiangting/Documents/projects/common/fate:extra/work/release-v1.2/final/Fate_Extra_CN-v1.2.iso",
   "iso_bytes": 1473841152,
-  "iso_sha256": "b3cc328cfe8abf2a25e65df02e2ab50c499b5aa13d3204707fd05f3715e4d21e",
+  "iso_sha256": "5c04686594b094b431c9acce0f76dd4ff647022db7be9cc115a9fc5ac6a79a57",
   "cpk": "/Users/zhaoxiangting/Documents/projects/common/fate:extra/work/github/fate-extra-cn-localization-retry/work/build/data.final/data.cpk",
   "cpk_bytes": 1360396688,
-  "cpk_sha256": "b2912da37a016ff7e33233e6fc9553d40ec68bf1ab313ff5d1c71b9c2f8068d2",
+  "cpk_sha256": "de615b0fc29d30e5f1bbe2e869f358bdedead07350e819500b992913f2426786",
   "iso_embedded_cpk_size": 1360396688,
-  "iso_embedded_cpk_sha256": "b2912da37a016ff7e33233e6fc9553d40ec68bf1ab313ff5d1c71b9c2f8068d2",
+  "iso_embedded_cpk_sha256": "de615b0fc29d30e5f1bbe2e869f358bdedead07350e819500b992913f2426786",
   "iso_cpk_hash_matches_build": true,
   "reviewed_texture_readbacks": [
     {
@@ -46,7 +46,7 @@
       "embedded_member_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5"
     }
   ],
-  "static_checks": "2026-10-25 rebuild: CPK hash and embedded CPK verified; all nine complete EI Drago mentions use upper EI Drago over base 大航海的恶魔; all four partial/uncertain mentions use EI; no old 艾尔/El translation remains in the effective build text. Sampled TXB and static item tables match overlays; XMB assets read back correctly. PPSSPP EBOOT includes translated dynamic MP strings. No visual check of the new build was completed.",
+  "static_checks": "Rebuilt after correcting the separate static Drake information-matrix field to EI Drago / 大航海的恶魔; the 9 complete dialogue records and 4 partial references retain the agreed forms. Per user request, no new emulator visual verification was run for this packaging pass.",
   "source_iso": "/Users/zhaoxiangting/Documents/projects/common/fate:extra/2287/2287/2287 - 命运之夜 最初的开始 Fate Extra (Marvelous)(JP).iso",
   "overlay_file_count": 588,
   "overlay_bytes": 73011816,
@@ -55,13 +55,13 @@
   "ppsspp_variant": {
     "iso": "/Users/zhaoxiangting/Documents/projects/common/fate:extra/work/release-v1.2/final/Fate_Extra_CN-v1.2-PPSSPP.iso",
     "bytes": 1473841152,
-    "sha256": "2618deec26363b0ad7d07426b7f32cdf0c9ce7724cc18b007771e5bd0faac66b",
+    "sha256": "a187dc0879cfae4aa3b7ba2ae2653ee4527a882e065cfc22cb709a94a37a416f",
     "decrypted_eboot_sha256": "5179e70d31aba70a5887e515c5d6412b4c6ac1ae4f03f83acbc40551c51371ac",
     "runtime_string_patch_offsets": [
       "0x14e3e4",
       "0x14e41c"
     ],
-    "data_cpk_sha256_unchanged": "b2912da37a016ff7e33233e6fc9553d40ec68bf1ab313ff5d1c71b9c2f8068d2",
+    "data_cpk_sha256_unchanged": "de615b0fc29d30e5f1bbe2e869f358bdedead07350e819500b992913f2426786",
     "runtime_strings_readback": true,
     "xmb_assets_readback": true,
     "boot_note": "This ISO contains a decrypted EBOOT ELF for PPSSPP/CFW; retail PSP firmware compatibility is not implied."
@@ -86,5 +86,6 @@
       "Fate_Extra_CN-v1.2.iso",
       "Fate_Extra_CN-v1.2-PPSSPP.iso"
     ]
-  }
+  },
+  "output_cpk_sha256": "de615b0fc29d30e5f1bbe2e869f358bdedead07350e819500b992913f2426786"
 }

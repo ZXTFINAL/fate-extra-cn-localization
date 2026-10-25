@@ -1,0 +1,14 @@
+{
+  "asset": "data/overlay/packages/pack/PRELOAD/interface/infomatrixex/infomatrix_eld_d_01.bin",
+  "status": "patched",
+  "record_offset": "0x330",
+  "record_capacity_bytes": 128,
+  "source_text": "『#RUBSEl Drago#RUBE恶魔#REND』",
+  "translation": "『#RUBSEI Drago#RUBE大航海的恶魔#REND』",
+  "source_bytes": 31,
+  "translation_bytes": 39,
+  "asset_size_preserved": true,
+  "bytes_outside_record_preserved": true,
+  "sha256_before": "1ac8bb20d2f21d487bf4ed58ee9cc025bc356b3b8a6c7c6cd1e17f97a7de278b",
+  "sha256_after": "581a5f92da9fd0172726746f2a5fb44e08155f9da9836e3db3e7418bcdc90a21"
+}

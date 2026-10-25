@@ -19,11 +19,11 @@
     {
       "file": "Fate_Extra_CN-v1.2.iso",
       "path": "/Users/zhaoxiangting/Documents/projects/common/fate:extra/work/release-v1.2/final/Fate_Extra_CN-v1.2.iso",
-      "sha256": "b3cc328cfe8abf2a25e65df02e2ab50c499b5aa13d3204707fd05f3715e4d21e",
+      "sha256": "5c04686594b094b431c9acce0f76dd4ff647022db7be9cc115a9fc5ac6a79a57",
       "eboot_kind": "original_encrypted",
       "dynamic_effect_strings": [],
       "bytes": 1473841152,
-      "cpk_sha256": "b2912da37a016ff7e33233e6fc9553d40ec68bf1ab313ff5d1c71b9c2f8068d2",
+      "cpk_sha256": "de615b0fc29d30e5f1bbe2e869f358bdedead07350e819500b992913f2426786",
       "xmb": {
         "ICON0.PNG": {
           "matches_localized_source": true,
@@ -41,12 +41,13 @@
       "sfo_title": {
         "value": "Fate/EXTRA 中文汉化版",
         "readback_ok": true
-      }
+      },
+      "alias_fix": "static Drake information-matrix alias now reads EI Drago / 大航海的恶魔"
     },
     {
       "file": "Fate_Extra_CN-v1.2-PPSSPP.iso",
       "path": "/Users/zhaoxiangting/Documents/projects/common/fate:extra/work/release-v1.2/final/Fate_Extra_CN-v1.2-PPSSPP.iso",
-      "sha256": "2618deec26363b0ad7d07426b7f32cdf0c9ce7724cc18b007771e5bd0faac66b",
+      "sha256": "a187dc0879cfae4aa3b7ba2ae2653ee4527a882e065cfc22cb709a94a37a416f",
       "eboot_kind": "decrypted_elf",
       "dynamic_effect_strings": [
         {
@@ -63,7 +64,7 @@
         }
       ],
       "bytes": 1473841152,
-      "cpk_sha256": "b2912da37a016ff7e33233e6fc9553d40ec68bf1ab313ff5d1c71b9c2f8068d2",
+      "cpk_sha256": "de615b0fc29d30e5f1bbe2e869f358bdedead07350e819500b992913f2426786",
       "xmb": {
         "ICON0.PNG": {
           "matches_localized_source": true,
@@ -81,9 +82,10 @@
       "sfo_title": {
         "value": "Fate/EXTRA 中文汉化版",
         "readback_ok": true
-      }
+      },
+      "alias_fix": "static Drake information-matrix alias now reads EI Drago / 大航海的恶魔"
     }
   ],
-  "output_cpk_sha256": "b2912da37a016ff7e33233e6fc9553d40ec68bf1ab313ff5d1c71b9c2f8068d2",
+  "output_cpk_sha256": "de615b0fc29d30e5f1bbe2e869f358bdedead07350e819500b992913f2426786",
   "translations_sha256": "a8a536e1865b388117078ec33bf5ce3ccb6a977749a6a3b2386de25b0110dac9"
 }
