@@ -57,6 +57,9 @@ def apply_dat_translations(
     )
     changed_files: set[Path] = set()
     applied = 0
+    has_pack_prefix = (extracted_packages / "pack").is_dir()
+    package_root = extracted_packages / "pack" if has_pack_prefix else extracted_packages
+    package_output_prefix = Path("pack") if has_pack_prefix else Path()
     by_file: dict[str, list[dict]] = {}
     for ref in refs:
         replacement = translations.get(ref["id"], "")
@@ -69,8 +72,8 @@ def apply_dat_translations(
             source = extracted_cpk / rel
             output = build_assets / "day" / Path(*rel.parts[1:])
         else:
-            source = extracted_packages / rel
-            output = build_assets / "packages" / rel
+            source = package_root / rel
+            output = build_assets / "packages" / package_output_prefix / rel
         if not source.is_file():
             raise FileNotFoundError(f"referenced DAT file missing: {source}")
         data = bytearray(source.read_bytes())

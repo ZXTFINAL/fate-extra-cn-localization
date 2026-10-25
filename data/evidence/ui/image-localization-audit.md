@@ -45,3 +45,23 @@
 - `ui-bundles-inventory.json`、`all-ui/decode-report.json`、`all-ui-ocr.json`、`ui-japanese-images.json`：完整资源清单、解码与OCR证据。
 
 使用bundled Python依次运行 `tools/patch_fate_extra_image_text.py` 并传上述三个配置即可重建对应覆盖文件；后两个可用 `--previews` 指定其独立PNG目录。两个 `make-*-config.py` 是生成配置的研究脚本，不属于游戏工具原逻辑。
+
+## v1.1 回归修正与残留复核（2026-10-21）
+
+- 用户截图 1 的底部说明来自 `PRELOAD/interface/mainmenu/help.bin`，不属于 TEX 图片。v1.1 为 5 条固定主菜单说明补译中文；截图中的“查看已收集的情报矩阵”对应记录 ID 1。
+- 通用确认框 `PRELOAD/interface/cmn/dialog.bin` 仍为日文 `はい / いいえ`，现改为“是 / 否”。存档菜单图片和存档问题句此前已是中文；商店确认按钮也已使用“是 / 否”。
+- 情报矩阵 `mtx_cgr_00.tex` 原日文字素的有效纵向范围约为 y=3–14，旧中文绘制框从 y=8 开始，导致标题下移并挤到状态条。v1.1 调整为 y=1；纹理回读框由 y=8–23 移到 y=1–16，TXB/调色板/原尺寸校验通过。
+- 固定 UI 表格回查了 `other-ui/audit.json` 中 171 个结构化表：170 个已进入 v1.1 overlay 的表解码检查后无日文假名；唯一未覆盖项 `003016/interface/nameentry/kanji.bin` 是姓名输入用字符键盘，保留日文字符供玩家输入。
+- 59 个未处理 OCR 候选均有分类：27 个制作名单与人名保留，18 个图标/数字/英文误报，4 个与中文相同的单字，2 个性别图标，4 个诗文字库/背景由独立流程处理，3 个难度选择图已在旧版处理。剩余 1 个待确认小图是 `PRELOAD/interface/cmn/i_exp.txb#11` 的“仮”，当前没有足够上下文判断它的实际游戏含义，因此暂不擅自替换。
+- 教程截图内部原版 UI、制作名单、模型贴图、场景看板与视频字幕仍不属于本次运行时 UI 覆盖范围；“游戏所有日文图片均已翻译”仍不是本版结论。
+
+回读与残留分类报告见 `../build/v1.1-fixed-ui-patch-report.json`、`../ui/v1.1-fixed-ui-residual-scan.json` 和 `../build/v1.1-final-iso-validation.json`。
+
+
+## v1.1 实机照片残留复核（2026-10-23）
+
+- 对照用户提供的难度选择、System 存档及商店照片，回读最终 ISO 中对应 `modeselect.pak`、`savemenu.pak`、`000001.cmp` 的 TXB。难度选择和商店纹理与 overlay 字节完全一致；“NORMAL / EASY”及 “Tukumihara Shop” 是单独保留的英文副标签，不是覆盖失败的日文像素。
+- 存档菜单的旧字体样式带深色描边，实机屏幕拍照后容易看成双重字形/日文残影。已将两个存档 TXB 的文字改为无描边明朝样式，重绘并写入 1.1 CPK。
+- 同一轮残留扫描发现开场计数标签“剩余”旁独立的“人”字块未用中文样式重绘，现清除后按同一中文字形重新绘制。
+- 输出 ISO 的 `data.cpk` SHA-256 与构建 CPK 一致；5 个相关纹理（存档2、开场1、难度1、商店1）均逐字节匹配 overlay。报告在 `../build/v1.1-residual-fix-validation.json`。
+- 这次验证是贴图/CPK/ISO 回读，没有在 PSP 实机上重新运行；拍屏中的网纹、像素色边仍可能来自 PSP 液晶拍摄与摩尔纹，需结合这份新 ISO 的实机画面确认。

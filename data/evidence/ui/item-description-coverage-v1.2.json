@@ -1,0 +1,259 @@
+{
+  "version": "v1.2",
+  "files": [
+    {
+      "member": "item_param_01.bin",
+      "records": 128,
+      "active_player_text_fields": 512,
+      "translated_fields": 253,
+      "byte_exact_translation_matches": 253,
+      "japanese_residuals_in_visible_fields": 0,
+      "source_sha256": "35cbbdc3de5e4d15426bd169fe84627b196b4ccf7a432666020909aeef21982a",
+      "overlay_sha256": "fb0d9ba526712b7222dd2717b9de35337631b2f852465cdf7247bc20e6f70515"
+    },
+    {
+      "member": "item_param_04.bin",
+      "records": 108,
+      "active_player_text_fields": 156,
+      "translated_fields": 100,
+      "byte_exact_translation_matches": 100,
+      "japanese_residuals_in_visible_fields": 0,
+      "source_sha256": "7e61511dfb9276f12615954003772471e9cdda6a7b7251bc6c9a1deb692f162c",
+      "overlay_sha256": "f7623ff6070a774544d87344f923b6ff2d91db84f5a2a1692231026706404e97"
+    }
+  ],
+  "gear_records": [
+    {
+      "index": 0,
+      "name": "女学生制服",
+      "description_1": "月海原学园指定的标准制服。",
+      "description_2": ""
+    },
+    {
+      "index": 1,
+      "name": "男学生制服",
+      "description_1": "月海原学园指定的标准制服。",
+      "description_2": ""
+    },
+    {
+      "index": 2,
+      "name": "强化运动服",
+      "description_1": "月海原学园指定的运动服。",
+      "description_2": "只要穿上就能强化精神。"
+    },
+    {
+      "index": 3,
+      "name": "远视水晶球",
+      "description_1": "散发诡异光芒、垒球大小的水晶球。",
+      "description_2": ""
+    },
+    {
+      "index": 4,
+      "name": "空击／第一太刀",
+      "description_1": "可使用场地技能“魔力放出C”。",
+      "description_2": ""
+    },
+    {
+      "index": 5,
+      "name": "护身短刀",
+      "description_1": "据说具有破魔效果的",
+      "description_2": "小巧短刀。"
+    },
+    {
+      "index": 6,
+      "name": "凤凰围巾",
+      "description_1": "丝围巾上装饰着凤凰羽毛，",
+      "description_2": "是一条时髦的围巾。"
+    },
+    {
+      "index": 7,
+      "name": "疗愈香木",
+      "description_1": "散发香气、据说能治愈疑难病症的香木。",
+      "description_2": ""
+    },
+    {
+      "index": 8,
+      "name": "圣者单片眼镜",
+      "description_1": "可以看出竞技场内敌人的能力",
+      "description_2": "黑客工具。"
+    },
+    {
+      "index": 9,
+      "name": "开运之钥",
+      "description_1": "佩戴后会带来好运",
+      "description_2": "令人感激的钥匙形护身符。"
+    },
+    {
+      "index": 10,
+      "name": "小恶魔腰带",
+      "description_1": "上面钉有许多钉子",
+      "description_2": "带点坏坏风格的腰带。"
+    },
+    {
+      "index": 11,
+      "name": "纯银耳饰",
+      "description_1": "将御主的魔力传送给从者",
+      "description_2": "不可思议的耳饰。"
+    },
+    {
+      "index": 12,
+      "name": "生锈的古刀",
+      "description_1": "散发暗淡光泽的古旧刀剑。",
+      "description_2": ""
+    },
+    {
+      "index": 13,
+      "name": "人鱼羽织",
+      "description_1": "缝有人鱼鳞片的",
+      "description_2": "古朴羽织。"
+    },
+    {
+      "index": 14,
+      "name": "福音八音盒",
+      "description_1": "奏响疗愈音乐的八音盒。",
+      "description_2": ""
+    },
+    {
+      "index": 15,
+      "name": "毅力棒",
+      "description_1": "为从者注入毅力与魔力的棒子。",
+      "description_2": ""
+    },
+    {
+      "index": 16,
+      "name": "守护符",
+      "description_1": "能够展开屏障、阻挡物理冲击的护符。",
+      "description_2": ""
+    },
+    {
+      "index": 17,
+      "name": "强化钉鞋",
+      "description_1": "以奔跑的猫为标志的",
+      "description_2": "特殊轻量钉鞋。"
+    },
+    {
+      "index": 18,
+      "name": "空击／第二太刀",
+      "description_1": "可使用场地技能“魔力放出B”。",
+      "description_2": ""
+    },
+    {
+      "index": 19,
+      "name": "麒麟披风",
+      "description_1": "将活了千年的麒麟皮精心处理后，",
+      "description_2": "制成的匠心之作。"
+    },
+    {
+      "index": 20,
+      "name": "恶魔黑衣",
+      "description_1": "上面布满无数尖刺",
+      "description_2": "一看就是坏人会穿的外套。"
+    },
+    {
+      "index": 21,
+      "name": "破戒警策",
+      "description_1": "只要敲一下，就会涌出毅力与魔力的咒具。",
+      "description_2": ""
+    },
+    {
+      "index": 22,
+      "name": "破邪刀",
+      "description_1": "传说曾斩杀恶鬼的名刀。",
+      "description_2": ""
+    },
+    {
+      "index": 23,
+      "name": "空击／第三太刀",
+      "description_1": "可使用场地技能“魔力放出A”。",
+      "description_2": ""
+    },
+    {
+      "index": 24,
+      "name": "天使号角",
+      "description_1": "据说由天使遗落的神圣号角。",
+      "description_2": ""
+    },
+    {
+      "index": 25,
+      "name": "古旧神刀",
+      "description_1": "据说是神击败怪物时得到的",
+      "description_2": "能够发挥巨大威力的古刀。"
+    },
+    {
+      "index": 26,
+      "name": "替身护符",
+      "description_1": "代替主人承受灾厄的护符。",
+      "description_2": ""
+    },
+    {
+      "index": 27,
+      "name": "纯银脚链",
+      "description_1": "将御主的魔力传送给从者",
+      "description_2": "施有魔术的脚链。"
+    },
+    {
+      "index": 28,
+      "name": "赤原礼装",
+      "description_1": "由某位圣人的裹尸布制成的概念武装。",
+      "description_2": "保护使用者免受外界影响，而非外敌侵害。"
+    },
+    {
+      "index": 29,
+      "name": "阿特拉斯之魔",
+      "description_1": "通过预测未来，瞬间展开绝对防壁。",
+      "description_2": ""
+    },
+    {
+      "index": 30,
+      "name": "赤色纹章",
+      "description_1": "象征王牌飞行员的红色纹章。",
+      "description_2": "挑战更高纪录吧。"
+    },
+    {
+      "index": 31,
+      "name": "妖狐之尾",
+      "description_1": "因承受过多攻击而残缺的狐尾。",
+      "description_2": "涌出的魔力深不可测。"
+    }
+  ],
+  "runtime_templates": [
+    {
+      "source": "boost_mp(%02d);",
+      "translation": "御主MP+%02d",
+      "verified_in_ppsspp_elf": true
+    },
+    {
+      "source": "マスターのＭＰが%s上昇",
+      "translation": "御主MP提升%s点",
+      "verified_in_ppsspp_elf": true
+    }
+  ],
+  "scope_note": "item_param_04 records 0-31 are the 32 effective equipment/CE records. The raw token 親 at record 3 offset 0x48 is outside the three localized player-visible strings and is retained as metadata; it is not an item description.",
+  "rebuilt_cpk": {
+    "path": "/Users/zhaoxiangting/Documents/projects/common/fate:extra/work/github/fate-extra-cn-localization-retry/work/build/data.final/data.cpk",
+    "bytes": 1360396688,
+    "sha256": "feda45962ab7075875dd02a2ff6f1b85cb5a34ca59bb9fe2e29653ceb1942263",
+    "package_member": "pack/PRELOAD.pak",
+    "package_member_count": 117,
+    "package_has_paths": true,
+    "item_parameter_readback_sha256": {
+      "cmn/item_param_01.bin": "fb0d9ba526712b7222dd2717b9de35337631b2f852465cdf7247bc20e6f70515",
+      "cmn/item_param_04.bin": "f7623ff6070a774544d87344f923b6ff2d91db84f5a2a1692231026706404e97"
+    },
+    "matches_overlay_byte_for_byte": true
+  },
+  "rebuilt_iso": {
+    "path": "/Users/zhaoxiangting/Documents/projects/common/fate:extra/work/github/fate-extra-cn-localization-retry/work/release-v1.2/final-20261025/Fate_Extra_CN-v1.2.iso",
+    "bytes": 1473841152,
+    "sha256": "d6a3e9a1e3a025bdab7db42de713090ec09825cc6b5ce15cf537142c934cc03c"
+  },
+  "ppsspp_iso": {
+    "path": "/Users/zhaoxiangting/Documents/projects/common/fate:extra/work/github/fate-extra-cn-localization-retry/work/release-v1.2/final-20261025/Fate_Extra_CN-v1.2-PPSSPP.iso",
+    "bytes": 1473841152,
+    "sha256": "c7914d6190fc0ebd893db4cd63164c2eb34335114300300953535f555e70cba6",
+    "decrypted_eboot_sha256": "5179e70d31aba70a5887e515c5d6412b4c6ac1ae4f03f83acbc40551c51371ac",
+    "dynamic_mp_strings": 2,
+    "dynamic_mp_strings_verified_by_readback": true,
+    "xmb_chinese_assets_restored": true
+  }
+}

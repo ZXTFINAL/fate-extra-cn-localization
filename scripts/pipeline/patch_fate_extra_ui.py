@@ -24,6 +24,9 @@ TEXTURES = {
     "mode_easy_01.tex": "新手模式",
 }
 TITLE = "难度选择"
+# The diamond occupies x=1..9. The original first Japanese glyph begins at
+# x=13; retaining a nominal 20px icon cell also retains half that glyph.
+MODE_HELP_ICON_WIDTH = 10
 
 
 def unpack_bundle(data: bytes) -> tuple[int, list[tuple[str, bytes]]]:
@@ -174,7 +177,8 @@ def replace_texture_text(
     replacement = bytearray(stride * padded_height)
     if preserve_icon:
         for y in range(min(16, height)):
-            replacement[y * stride:y * stride + min(20, width)] = image[y * stride:y * stride + min(20, width)]
+            icon_width = min(MODE_HELP_ICON_WIDTH, width)
+            replacement[y * stride:y * stride + icon_width] = image[y * stride:y * stride + icon_width]
 
     if title_bitmap is not None:
         if len(title_bitmap) != width * height:

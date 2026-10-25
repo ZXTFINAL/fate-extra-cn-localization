@@ -15,7 +15,7 @@
 | 命令 | 作用 |
 |---|---|
 | `quick.py bootstrap` | ISO → 取 `data.cpk` → 解包 → 铺译文 → 生成 `refs.jsonl` → 核对解包清单 |
-| `quick.py rebuild` | 同步变更集 → 重建 CPK → 写回 ISO，产出构建报告 |
+| `quick.py rebuild` | 应用语义审校与最终对话排版账本、合并 297 条从者对白 → 同步变更集 → 重建 CPK → 写回 ISO，产出构建报告 |
 | `quick.py text list/find/set/replace/check/diff` | 译文定位、改写、字库覆盖检查、相对主表 diff |
 | `quick.py image decode/apply/list` | 纹理预览、按配置回写 |
 | `quick.py overlay sync/verify` | 变更集清单重算与逐文件校验 |
@@ -41,6 +41,7 @@
 | `patch_fate_extra_poem_timing.py` | 延长章节卡停留 | DAT | 修改后的 DAT |
 | `patch_fate_extra_ui.py` | 难度选择页文本表 + 烘焙标签 | `modeselect` 包 | 覆盖资源 |
 | `patch_fate_extra_image_text.py` | 按配置替换 TEX 文字矩形 | 配置 JSON、TXB | 覆盖 TXB、预览 PNG |
+| `patch_fate_extra_fixed_ui.py` | 翻译固定槽位的主菜单说明与确认按钮 | `fixed-ui-text-patches.json`、源 BIN、`glyph-map.json` | 固定长度 UI BIN 覆盖、SHA-256 报告 |
 | `fate_extra_texture.py` | TXB/TEX 无损读写库 | TXB 字节 | `Bundle`/`Texture` 对象 |
 | `build_fate_extra.py` | 应用译文、重写指针、重建 CPK | 译文、引用、字库、源 CPK | `data.cpk` |
 | `refresh_fate_extra_font.py` | 只刷新字体与难度包 | 已有翻译 CPK | 新 CPK |
@@ -48,6 +49,14 @@
 | `stage_fate_extra_revision.py` | 对旧 CPK 定点替换，支持 `--prepare-only` | 旧 CPK、新旧文本/映射、覆盖层 | 覆盖层 + `build-report.json`（或新 CPK） |
 | `embed_fate_extra_cpk.py` | 把 CPK 写回 ISO9660 | 原 ISO、新 CPK | 新 ISO |
 | `patch_fate_extra_iso_case.py` | 恢复小写 `data.cpk` 标识 | ISO | 修改后的 ISO |
+| `build_fate_extra_scene_pack.py` | 从日版 PPSSPP 高清纹理目录整理非文字场景纹理 | NPJH50247 `textures.ini` 与映射图 | xxh64 场景包与清单 |
+| `install_fate_extra_scene_pack.py` | 将场景包安全合并进现有 NPJH50247 纹理目录 | 场景包 + PPSSPP 纹理目录 | 备份后的 `textures.ini` 与 `SceneHD/` |
+| `build_fate_extra_combined_hd_pack.py` | 将 v1.1 场景包与中文 UI 包映射合并为一份 `textures.ini`，UI 映射覆盖相同哈希 | 场景 ZIP + UI ZIP | 单一配置的 PPSSPP 合并纹理 ZIP、映射清单与校验报告 |
+| `install_fate_extra_hd_pack.py` | 安装简体中文高清字库/UI 覆盖层，兼容 quick 与 xxh64 | UI 包 + PPSSPP 纹理目录 | `CN_HD/` 与合并后的哈希表 |
+| `build_fate_extra_hd_pack.py` | 从纹理抓取、场景资源和 UI 构建 8 倍汉化纹理包 | TXB 纹理包、渲染配置、运行时抓取索引 | 8 倍 UI/正文图与 quick/xxh64 映射 |
+| `import_fate_extra_title_startup_hd.py` | 从 Fate-Extra-HD 日版纹理中按原始哈希导入标题页与开机厂商标志 8 倍图块；排除带韩文副标题的 3 个 logo 图块 | 原始 TXB + HD `NPJH50247` pack | UI 包中的 `OpeningHD/`、双哈希映射与导入报告 |
+| `render_hd_font_glyphs.swift` | 以矢量字体栅格化高清正文汉字页 | UTF-8 字符清单 | 2048×2048 正文字库页 |
+| `ui_glyph_styles.py` | 按组件保留日文字体风格、基线与字形宽度 | 字符、组件样式、字体配置 | 高分辨率 RGBA 字形 |
 
 ### 依赖关系
 
@@ -56,10 +65,12 @@ extract_fate_extra
    └─ dump_fate_extra_text
         └─ apply_translation_batches
              └─ fix_fate_extra_text_layout
-                  └─ patch_fate_extra_font
-                       └─ compact_fate_extra_font
-                            └─ build_fate_extra
-                                 └─ embed_fate_extra_cpk
+                  └─ prepare_build_translations
+                       └─ final dialogue layout ledger
+                            └─ patch_fate_extra_font
+                                 └─ compact_fate_extra_font
+                                      └─ build_fate_extra
+                                           └─ embed_fate_extra_cpk
 ```
 
 `fate_extra_texture` 被 `patch_fate_extra_image_text` 与 UI 配置脚本引用；`patch_fate_extra_annotation_fonts` 引用 `patch_fate_extra_ui` 的 PAK 读写函数。
@@ -100,6 +111,7 @@ python3 scripts/pipeline/patch_fate_extra_font.py \
 | `build-ruby-fixes.py` | 生成 ruby 候选修正 | 含 929 组合分类规则 |
 | `finalize-ruby-fixes.py` | 人工补丁 + 最终 1,133 条 | 依赖候选修正 |
 | `ruby-reading-manual.py` | 取消普通注音后的残词修复 | 逐句替换表 |
+| `audit-japanese-residuals.py` | 扫描主剧情、动态分支、从者角色包对白和 UI 译文中的日文假名 | 合并主剧情审校补丁；验证 297 条从者译文与来源清单 ID 对齐；输出 JSON 报告 |
 
 ### 运行审计脚本的前提
 

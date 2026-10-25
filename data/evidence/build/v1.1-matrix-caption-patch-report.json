@@ -1,0 +1,13 @@
+[
+  {
+    "file": "infomatrixex/interface/infomatrixex/0000.txb",
+    "index": 13,
+    "name": "mtx_cgr_00.tex",
+    "source_size": 2752,
+    "output_size": 3776,
+    "source_cct_unique": 5,
+    "output_cct_unique": 7,
+    "source_sha256": "8d26109496f92477766d2b8a9d23e9974f23af0a8673f924cc9e73533183258a",
+    "output_sha256": "bf7e65bfc60bc469141ba025d6c2d7f8cf5ccbb4c33b03414cdf37717a9e7203"
+  }
+]

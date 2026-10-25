@@ -1,0 +1,24 @@
+{
+  "entries": [
+    {
+      "file": "infomatrixex/interface/infomatrixex/0000.txb",
+      "index": 13,
+      "source_name": "mtx_cgr_00.tex",
+      "blocks": [
+        {
+          "box": [0, 0, 96, 32],
+          "background": [0, 0, 0, 0]
+        },
+        {
+          "box": [0, 1, 96, 16],
+          "background": null,
+          "text": "能力状态",
+          "size": 16,
+          "spacing": 2,
+          "color": "palette_ink",
+          "align": "left"
+        }
+      ]
+    }
+  ]
+}

@@ -15,14 +15,15 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
 from fate_extra_texture import Bundle, Texture
+from ui_glyph_styles import load_atlas, style_rich_text_bitmap, style_text_bitmap
 
 FONT = "/System/Library/Fonts/Hiragino Sans GB.ttc"
 
 
 def text_bitmap(text: str, width: int, height: int, size: int, color: tuple[int, ...],
                 align: str = "left", spacing: int = 3, font_path: str = FONT,
-                font_index: int = 2) -> Image.Image:
-    scale = 4
+                font_index: int = 2, output_scale: int = 1) -> Image.Image:
+    scale = max(4, output_scale)
     im = Image.new("RGBA", (width * scale, height * scale))
     draw = ImageDraw.Draw(im)
     font = ImageFont.truetype(font_path, size * scale, index=font_index)
@@ -36,7 +37,7 @@ def text_bitmap(text: str, width: int, height: int, size: int, color: tuple[int,
         y += (size + spacing) * scale
     if y - spacing * scale > height * scale:
         raise ValueError("text exceeds declared region height")
-    return im.resize((width, height), Image.Resampling.LANCZOS)
+    return im.resize((width * output_scale, height * output_scale), Image.Resampling.LANCZOS)
 
 
 def palette_indices(image: Image.Image, palette: np.ndarray) -> np.ndarray:
@@ -52,16 +53,30 @@ def palette_indices(image: Image.Image, palette: np.ndarray) -> np.ndarray:
     return result.reshape(image.height, image.width)
 
 
-def apply_blocks(tex: Texture, blocks: list[dict]) -> tuple[bytes, Image.Image]:
+def render_blocks(tex: Texture, blocks: list[dict], atlas: Image.Image | None = None,
+                  metadata: dict | None = None, output_scale: int = 1):
     image = tex.image()
+    if output_scale != 1:
+        image = image.resize((image.width * output_scale, image.height * output_scale), Image.Resampling.LANCZOS)
     original = image.copy()
     regions = []
     for block in blocks:
-        x, y, width, height = map(int, block["box"])
+        x, y, width, height = (int(v) * output_scale for v in block["box"])
         if min(x, y, width, height) < 0 or x + width > image.width or y + height > image.height:
             raise ValueError(f"region out of image: {block['box']}")
         background = block.get("background", [0, 0, 0, 255])
-        if background == "row_median":
+        if background == "row_median" and output_scale > 1:
+            # Derive backgrounds at the native palette precision first. Two
+            # identical native CCT background tiles must not get different HD
+            # RGB values merely because vector text is drawn elsewhere.
+            native, _ = render_blocks(tex, [{"box": block["box"], "background": "row_median"}],
+                                      atlas, metadata, output_scale=1)
+            nx,ny,nw,nh = block["box"]
+            bg = native.crop((nx,ny,nx+nw,ny+nh))
+            if tex.palette is not None:
+                bg = Image.fromarray(tex.palette[palette_indices(bg, tex.palette)], "RGBA")
+            bg = bg.resize((width,height), Image.Resampling.LANCZOS)
+        elif background == "row_median":
             # Restore a simple UI bar using its background-coloured pixels.
             data = np.asarray(original.crop((x, y, x + width, y + height))).copy()
             source = data[:, :, :3].astype(np.int16)
@@ -79,7 +94,7 @@ def apply_blocks(tex: Texture, blocks: list[dict]) -> tuple[bytes, Image.Image]:
             data[mask] = [0, 0, 0, 0]
             bg = Image.fromarray(data, "RGBA")
         elif isinstance(background, dict) and "copy_box" in background:
-            bx, by, bw, bh = map(int, background["copy_box"])
+            bx, by, bw, bh = (int(v) * output_scale for v in background["copy_box"])
             bg = original.crop((bx, by, bx + bw, by + bh)).resize((width, height), Image.Resampling.NEAREST)
         elif background is None:
             bg = image.crop((x, y, x + width, y + height))
@@ -95,13 +110,37 @@ def apply_blocks(tex: Texture, blocks: list[dict]) -> tuple[bytes, Image.Image]:
                     if not len(candidates):
                         candidates = tex.palette[tex.palette[:, 3] == tex.palette[:, 3].max()]
                     color = candidates[candidates[:, :3].astype(np.int32).sum(axis=1).argmax()].tolist()
-            bitmap = text_bitmap(block["text"], width, height, block.get("size", 14),
-                                 tuple(color),
-                                 block.get("align", "left"), block.get("spacing", 3),
-                                 block.get("font", FONT), block.get("font_index", 2))
+            if block.get("style"):
+                if atlas is None or metadata is None:
+                    raise ValueError("style-specific glyph atlas was not loaded")
+                if block.get("segments"):
+                    bitmap = style_rich_text_bitmap(
+                        block["segments"], width // output_scale, height // output_scale, block.get("size", 14), tuple(color),
+                        block.get("align", "left"), block.get("spacing", 3), block["style"],
+                        atlas, metadata, block.get("font", FONT), block.get("font_index", 2),
+                        block.get("width_scale", 1.0), output_scale=output_scale
+                    )
+                else:
+                    bitmap = style_text_bitmap(
+                        block["text"], width // output_scale, height // output_scale, block.get("size", 14), tuple(color),
+                        block.get("align", "left"), block.get("spacing", 3), block["style"],
+                        atlas, metadata, block.get("font", FONT), block.get("font_index", 2),
+                        block.get("width_scale", 1.0), output_scale=output_scale
+                    )
+            else:
+                bitmap = text_bitmap(block["text"], width // output_scale, height // output_scale, block.get("size", 14),
+                                     tuple(color),
+                                     block.get("align", "left"), block.get("spacing", 3),
+                                     block.get("font", FONT), block.get("font_index", 2), output_scale)
             bg = Image.alpha_composite(bg, bitmap)
         image.paste(bg, (x, y))
         regions.append((x, y, width, height))
+    return image, regions
+
+
+def apply_blocks(tex: Texture, blocks: list[dict], atlas: Image.Image | None = None,
+                 metadata: dict | None = None) -> tuple[bytes, Image.Image]:
+    image, regions = render_blocks(tex, blocks, atlas, metadata)
     pixels = tex.canvas.copy()
     for x, y, width, height in regions:
         im = image.crop((x, y, x + width, y + height))
@@ -124,8 +163,15 @@ def main() -> None:
     parser.add_argument("--source", type=Path, default=Path("work/extracted/packages/pack"))
     parser.add_argument("--out", type=Path, default=Path("work/build/localization-v15/assets/packages/pack"))
     parser.add_argument("--previews", type=Path, default=Path("work/research/ui-localization-audit/translated"))
+    parser.add_argument("--glyph-atlas", type=Path, default=Path("data/evidence/ui/ui-style-glyph-atlas.png"))
+    parser.add_argument("--glyph-metadata", type=Path, default=Path("data/evidence/ui/ui-style-glyph-atlas.json"))
     args = parser.parse_args()
     config = json.loads(args.config.read_text(encoding="utf8"))
+    styled = any(block.get("style") for entry in config.get("entries", []) for block in entry.get("blocks", []))
+    if styled:
+        atlas, metadata = load_atlas(args.glyph_atlas, args.glyph_metadata)
+    else:
+        atlas = metadata = None
     grouped: dict[str, list[dict]] = {}
     for entry in config["entries"]:
         grouped.setdefault(entry["file"], []).append(entry)
@@ -138,7 +184,7 @@ def main() -> None:
             if tex.encode() != payloads[i]:
                 raise ValueError(f"unmodified roundtrip mismatch: {file}#{i}")
             try:
-                payloads[i], preview = apply_blocks(tex, entry["blocks"])
+                payloads[i], preview = apply_blocks(tex, entry["blocks"], atlas, metadata)
             except Exception as e:
                 raise ValueError(f"{file}#{i} ({bundle.names[i]}): {e}") from e
             path = args.previews / file / f"{i:03d}-{Path(bundle.names[i]).stem}.png"

@@ -1,0 +1,5095 @@
+{
+  "bundles": 298,
+  "configured_textures": 274,
+  "all_other_payloads_preserved": true,
+  "records": [
+    {
+      "file": "000001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000021_0/interface/dungeon/shar_arena.txb",
+      "indices": [
+        1
+      ],
+      "source_sha256": "548390fd33831c1a516e053132b1109227046123691d6e3b6bb0a39b90866d17",
+      "output_sha256": "c3433d605bf80c4974b68480f8d52564d744e137fecabe522c6fc917dbfc23f6",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000021_1/battle/interface/btl_menu.txb",
+      "indices": [
+        112,
+        113,
+        114
+      ],
+      "source_sha256": "69fd30f5c4aabeebb4ac5792189149b27aa3eaa18454ee00248d397dde1cd1df",
+      "output_sha256": "468ef903d1b88fdaf517ffdb1c7f1fa013064cb455493a28e101db1da66606dd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000021_1/battle/interface/btl_warning_00.txb",
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "source_sha256": "2d067300adb6e45ff4bcecfa5d49deb77a50c33b6a08eb40aa7fa2f5abe85dbe",
+      "output_sha256": "7d75608f8981114d442e89417c266e92ad2208a24d9c74fdab08cbe70640c85b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000021_1/battle/interface/result_00.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "aebdebae125c3c48a7dc65990acc71c15886d289a26200060498dea3fd1838c6",
+      "output_sha256": "7df56d3a6e66e443c88ce281b1454e45bb277936a97a9aebf7c1caf053fc06a4",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000022/interface/dayresult/d_result.txb",
+      "indices": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        22,
+        23,
+        24,
+        25,
+        26,
+        28
+      ],
+      "source_sha256": "2039bb30e2dce05f3020e28a48ee496450f45c4c2b4e82fce0c078eddde03590",
+      "output_sha256": "e92191fca836963966cb524934881b57410c1805126be23c484658f13bc2f0f7",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000100_0/interface/dungeon/i_dun.txb",
+      "indices": [
+        156,
+        157
+      ],
+      "source_sha256": "994f708d57042e9c7c4cef4f53ea41702f19c3cec8044c2deb4555819bd96613",
+      "output_sha256": "5a2adcfd23738a99895c1138bd327fe7a4323a9e0ed6080fef4f14d69892ee99",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000110_0/interface/dungeon/are_title_01.txb",
+      "indices": [
+        1,
+        2,
+        3
+      ],
+      "source_sha256": "bb9f82c946c68a1b8447fac99a744db27798df59d4598dc04054c0dc0df35a16",
+      "output_sha256": "7514acbcebd4301d5a533b50daae37cb6bfbc4ca24704a73758074a4c72d071d",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000120_0/interface/dungeon/are_title_02.txb",
+      "indices": [
+        1,
+        2,
+        3
+      ],
+      "source_sha256": "4989d5e6c8f445552ea184c12417687d03583534aa35752515f01e799b6412b2",
+      "output_sha256": "517716675c589b63c84ddec896199c652cb9003a4cd50aa01050f3a93f86fc44",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000130_0/interface/dungeon/are_title_03.txb",
+      "indices": [
+        1,
+        2,
+        3
+      ],
+      "source_sha256": "a836e536e24bf9394ec017028a5b85170a67d4e7ced0b06f62331cd567869d31",
+      "output_sha256": "22c7e1fb6da50a94767e1d7bf5fce435ba27d44c71fefeaa44b8a6a9129f87e5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000140_0/interface/dungeon/are_title_04.txb",
+      "indices": [
+        1,
+        2,
+        3
+      ],
+      "source_sha256": "89a330f1eafcc09ca458c017e8d0f3ff6d0c669aa1519b7d0e36ae1a522b740f",
+      "output_sha256": "3d8e5c04082c713d4c6532da473eb85e00c24092a5a586ca9398043020124585",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000150_0/interface/dungeon/are_title_05.txb",
+      "indices": [
+        1,
+        2,
+        3
+      ],
+      "source_sha256": "722f3e719656e39ad72ba6e700a915438f99675394ab2771d7b5505d0667bd9d",
+      "output_sha256": "0ca0a4291a7eda4c419be794e098b04e76a6a398a3033f3e340bae1d8d305e74",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000160_0/interface/dungeon/are_title_06.txb",
+      "indices": [
+        1,
+        2,
+        3
+      ],
+      "source_sha256": "93aad24dcb63db56a8b7e7dd14439ae9586c5b64621a9858d199ae6317deabcb",
+      "output_sha256": "275f36afbd48681e16ac918f048efe7ed49fbf05dac64f289aa67ea5839e8b12",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000170_0/interface/dungeon/are_title_07.txb",
+      "indices": [
+        1,
+        2,
+        3
+      ],
+      "source_sha256": "076449e9133da2d6787c7a04da7235ca5c073e5c5faf327928f3d6c214b6a021",
+      "output_sha256": "67bd9db589421e9cae6389ad9a71c2f336d151e6e3a33242abf6f98db203ba41",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000180_0/interface/dungeon/are_title_08.txb",
+      "indices": [
+        1,
+        2,
+        3
+      ],
+      "source_sha256": "7d6e23979fcb933a516afed9bbe3f3095b09cdf5e8e30df1bf3e856eca3bae97",
+      "output_sha256": "f63104303239d10622d5ed5b624cdf6be226b435d77b61604434c77929123d5e",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "003016/interface/nameentry/0000.txb",
+      "indices": [
+        7,
+        8,
+        9,
+        16,
+        17,
+        21,
+        22,
+        23,
+        24
+      ],
+      "source_sha256": "a0478cff27a7268e6740089e3f79ba2ddfc49251a8f50eedb7f2877d1ac6384c",
+      "output_sha256": "d26e953410ba88ecacd95ca3b815ccfed33420185ed55cb54e625a3194ae065f",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "010007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "PRELOAD/interface/calendar/pgst_000.txb",
+      "indices": [
+        7,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "source_sha256": "19f1c1f8ea51ee16ea5181341d61fec31e4f17ae637767011a0078c8e32a587c",
+      "output_sha256": "920fc17747fe9fb294f39fdebb8abce5c10a2312544282eb77fb99bd54ec0b60",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "PRELOAD/interface/cmn/i_con.txb",
+      "indices": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "source_sha256": "0907f78bde245bb22b5a397f21d5eae0a9b4cfd2018ee1749ce1f258e96a2bb1",
+      "output_sha256": "f902582befbcedb6084423a73fee11a60f251044e5b518afaa4fadccafc021b1",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "PRELOAD/interface/infomatpop/0000.txb",
+      "indices": [
+        14,
+        16
+      ],
+      "source_sha256": "e84a662d6639b6272a07612be2c64f4691299c51d0ef7548318aa331cb9f8f70",
+      "output_sha256": "67a0dcb708a97c38239261c1fc51e423fd1804fd994cd135ddedb43346e6d16b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "PRELOAD/interface/mainmenu/0000.txb",
+      "indices": [
+        13
+      ],
+      "source_sha256": "69252fae07e313f1c3f78bc9cb0b7d8b3fa1769587666ea9488c766e0705ea01",
+      "output_sha256": "c0eb336631ef314fa79750e246ffe5f0fd9f243b8b1632b8dd9751ae8429ae2d",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "PRELOAD/interface/select/i_select.txb",
+      "indices": [
+        11,
+        12,
+        13
+      ],
+      "source_sha256": "d943ecfdda2c1e04dfd9d70b64fd811b66bcaf4799b63c64828fc479e0f866c4",
+      "output_sha256": "eef6e5e3b8df43d5bd285c7a19b4cde2e52fb9c8e4cdf2677a0a574f8c3f7855",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "advice/interface/advice/0000.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "source_sha256": "4bf6abdf93317113ed38ef514c6f3d5f07fbd1c32542a34f359aa9b481e0f366",
+      "output_sha256": "bdfae8fbf9ccd99c3f314086cbe5bd4b2122a9b1a065221b4b474512dcc38568",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "beginning/interface/beginning/0000.txb",
+      "indices": [
+        20,
+        24,
+        25,
+        27,
+        29,
+        37,
+        48
+      ],
+      "source_sha256": "6d5345acc1f285e4f769a920d898fb06bcb89057f4ca6c96a2f5de969f2b0a64",
+      "output_sha256": "7724ae2f9fbec68b315363618840fdfc3a073f4861cf36f5c87783843352f262",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "btl_emi_hougu/battle/interface/emi/0001.txb",
+      "indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "source_sha256": "8ec2ca1dfb659e572198fbd4b0e6425d0992446645eab1b5eca6c8d50c084d68",
+      "output_sha256": "67622979ff9db77a223f05820045be70546cbb8966bd02828c8e0b712eff5532",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "charsel/interface/charsel/svt_select.txb",
+      "indices": [
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "f02d508887d1b903e1cefc07912933c1882025b0cef7b8a94b8e42e5d85c55ff",
+      "output_sha256": "0efc2850a66b84a2df188730e18449df0ad0a67ecfe407c81d9750311e301e61",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "equip/interface/equip/equip_00.txb",
+      "indices": [
+        6,
+        7,
+        8,
+        9,
+        14,
+        15,
+        17
+      ],
+      "source_sha256": "922f1278986bec42d3d98aec1bec2bd33f2adcc18fbae7443a80deec699d4815",
+      "output_sha256": "0df9e12e14c2305afcc58f233d25aab474ab8e7ad1ef2f4904778e8ade91ad6e",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "gameover/interface/gameover/gov_00.txb",
+      "indices": [
+        3,
+        4
+      ],
+      "source_sha256": "54565656b5b537f1bc64f7946d326363fb3bd1025deaf50bef2cb0a480c635ff",
+      "output_sha256": "7d704001017624a05a1af463980f766ed8afc8437420799ece15c8090a3fc2bd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "hunting_get/interface/hunting/hunting_get.txb",
+      "indices": [
+        8
+      ],
+      "source_sha256": "3f63270284235d31e1536642e44ef9632fe8ff02bf82bc5bf2ac5243784bdff0",
+      "output_sha256": "6e6c9259aa5c0ea657769cf8caacb4c19096d7f5fc3f421994dd8ebd473fb255",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "infomatrixex/interface/infomatrixex/0000.txb",
+      "indices": [
+        13,
+        14,
+        15,
+        16,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        62,
+        63,
+        64,
+        65,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        114,
+        115,
+        116,
+        117,
+        118,
+        132
+      ],
+      "source_sha256": "ddbd76885c9f9d12d6b87ca2b01c30704ddb425207c36c729f44c56b0ba9ecae",
+      "output_sha256": "eda85e07aff3475ae7e735a7ad35b204cef288f338cf8309cc7f894ffc7b564c",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "itemmenu/interface/item/item_00.txb",
+      "indices": [
+        5,
+        6,
+        11,
+        12,
+        13,
+        20
+      ],
+      "source_sha256": "8ace627f8ce0e203e067a67f4c70ae6565f98aeddb3e1b8a44b0c892f63996f5",
+      "output_sha256": "a29ee72103216c3dff9a95ca70218ce7d2ee74a13ee2aa597a52bb2fc6a7d26d",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "optionmenu/interface/option/option_00.txb",
+      "indices": [
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        13,
+        14,
+        15,
+        16,
+        17,
+        20,
+        21
+      ],
+      "source_sha256": "9841f6ea583990cbaef9f53268a12eb41d2e65b2b7f41959589f68ebd122b888",
+      "output_sha256": "39c5900d59d7721010029a568c6f0bd1fbfe34465c966b09c0c4609cca068870",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "reizyu/interface/reizyu/rei_00.txb",
+      "indices": [
+        0,
+        1,
+        2
+      ],
+      "source_sha256": "8f72d55fdec060253079a8dc96653f95ad7afda122b2fb1c8843bd9abe801bfe",
+      "output_sha256": "6fa9e10873b2f2d0986b37f335c0f8e8fa9be81bd93e4e3b9bbc465f51b3a23d",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "savemenu/interface/save/0000.txb",
+      "indices": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        20
+      ],
+      "source_sha256": "c465da3adbcf23a8b875b1388f63330383bc1496b98c4b48ca90f745e7bbe0b7",
+      "output_sha256": "887494de4682ede2e7d9a8583a1a111f0b8adfa0d720de8a4b66ae5e034c373d",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "savemenu/interface/save/0001.txb",
+      "indices": [
+        7,
+        8,
+        12
+      ],
+      "source_sha256": "edbe015438d0fc7c2b8e5fa7157654019128cd6c5443a3bd57f4437d1f789fa9",
+      "output_sha256": "ac2fa13e838dec7c808dc47106923f52d7b32d10f773a9ac88a9bdcc18d258b3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "statusmenu/interface/status/0000.txb",
+      "indices": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        22,
+        23,
+        24,
+        28,
+        29,
+        30,
+        33,
+        34,
+        35,
+        36,
+        37,
+        71
+      ],
+      "source_sha256": "836181137d2e47132d2b662d5b9f29b28560af8bf9d59b1d5e8c8fbf7e9c3d8b",
+      "output_sha256": "9a9c5170f0a8ecb079c5755618ed46666185bcdfe3166f44da8b2b4df1e5634f",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "statusmenu/interface/status/0001.txb",
+      "indices": [
+        0,
+        1,
+        2
+      ],
+      "source_sha256": "8a7d6d09ce777842a02fd1e59100639ab63d84366e096e93792de380311b2013",
+      "output_sha256": "d2d2dc351d599e06cf7e4fb09ebd58f64fcd37387d19a5fcd51311f8b56e0328",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "triggerget/interface/triggerget/trigger_00.txb",
+      "indices": [
+        3
+      ],
+      "source_sha256": "9deec43ba7b77771f5477c0b6cfb2a310151af6c7c3774c2b994b6641d3738c4",
+      "output_sha256": "cca16acd03c6d3e712ed4ed3eeb1bb8d848bac316bd2d2b0357fda2dc1745289",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "001001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "002001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "003001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "010001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "011001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "012001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "013001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "014001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "015001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "016001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "017001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "018001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "019001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "020001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "021001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "022001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "023001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "024001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "025001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "026001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "027001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "028001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "029001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "030001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "031001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "032001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "033001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "034001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "035001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "036001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "037001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "038001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "039001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "040001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "041001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "042001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "043001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "044001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "045001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "046001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "047001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "048001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "049001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "050001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "051001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "052001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "053001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "054001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "056001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "057001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "058001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "059001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "060001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "061001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "062001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "063001/interface/shop/shop_00.txb",
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_sha256": "51e6faf161d9532b339052611ec981b260b5a8a9622a8f88879fe9b92288f6b0",
+      "output_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000023_0/interface/dungeon/shar_arena.txb",
+      "indices": [
+        1
+      ],
+      "source_sha256": "548390fd33831c1a516e053132b1109227046123691d6e3b6bb0a39b90866d17",
+      "output_sha256": "c3433d605bf80c4974b68480f8d52564d744e137fecabe522c6fc917dbfc23f6",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000100_0/interface/dungeon/shar_arena.txb",
+      "indices": [
+        1
+      ],
+      "source_sha256": "548390fd33831c1a516e053132b1109227046123691d6e3b6bb0a39b90866d17",
+      "output_sha256": "c3433d605bf80c4974b68480f8d52564d744e137fecabe522c6fc917dbfc23f6",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000110_0/interface/dungeon/shar_arena.txb",
+      "indices": [
+        1
+      ],
+      "source_sha256": "548390fd33831c1a516e053132b1109227046123691d6e3b6bb0a39b90866d17",
+      "output_sha256": "c3433d605bf80c4974b68480f8d52564d744e137fecabe522c6fc917dbfc23f6",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000111_0/interface/dungeon/shar_arena.txb",
+      "indices": [
+        1
+      ],
+      "source_sha256": "548390fd33831c1a516e053132b1109227046123691d6e3b6bb0a39b90866d17",
+      "output_sha256": "c3433d605bf80c4974b68480f8d52564d744e137fecabe522c6fc917dbfc23f6",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000120_0/interface/dungeon/shar_arena.txb",
+      "indices": [
+        1
+      ],
+      "source_sha256": "548390fd33831c1a516e053132b1109227046123691d6e3b6bb0a39b90866d17",
+      "output_sha256": "c3433d605bf80c4974b68480f8d52564d744e137fecabe522c6fc917dbfc23f6",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000121_0/interface/dungeon/shar_arena.txb",
+      "indices": [
+        1
+      ],
+      "source_sha256": "548390fd33831c1a516e053132b1109227046123691d6e3b6bb0a39b90866d17",
+      "output_sha256": "c3433d605bf80c4974b68480f8d52564d744e137fecabe522c6fc917dbfc23f6",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000130_0/interface/dungeon/shar_arena.txb",
+      "indices": [
+        1
+      ],
+      "source_sha256": "548390fd33831c1a516e053132b1109227046123691d6e3b6bb0a39b90866d17",
+      "output_sha256": "c3433d605bf80c4974b68480f8d52564d744e137fecabe522c6fc917dbfc23f6",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000131_0/interface/dungeon/shar_arena.txb",
+      "indices": [
+        1
+      ],
+      "source_sha256": "548390fd33831c1a516e053132b1109227046123691d6e3b6bb0a39b90866d17",
+      "output_sha256": "c3433d605bf80c4974b68480f8d52564d744e137fecabe522c6fc917dbfc23f6",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000140_0/interface/dungeon/shar_arena.txb",
+      "indices": [
+        1
+      ],
+      "source_sha256": "548390fd33831c1a516e053132b1109227046123691d6e3b6bb0a39b90866d17",
+      "output_sha256": "c3433d605bf80c4974b68480f8d52564d744e137fecabe522c6fc917dbfc23f6",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000141_0/interface/dungeon/shar_arena.txb",
+      "indices": [
+        1
+      ],
+      "source_sha256": "548390fd33831c1a516e053132b1109227046123691d6e3b6bb0a39b90866d17",
+      "output_sha256": "c3433d605bf80c4974b68480f8d52564d744e137fecabe522c6fc917dbfc23f6",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000150_0/interface/dungeon/shar_arena.txb",
+      "indices": [
+        1
+      ],
+      "source_sha256": "548390fd33831c1a516e053132b1109227046123691d6e3b6bb0a39b90866d17",
+      "output_sha256": "c3433d605bf80c4974b68480f8d52564d744e137fecabe522c6fc917dbfc23f6",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000151_0/interface/dungeon/shar_arena.txb",
+      "indices": [
+        1
+      ],
+      "source_sha256": "548390fd33831c1a516e053132b1109227046123691d6e3b6bb0a39b90866d17",
+      "output_sha256": "c3433d605bf80c4974b68480f8d52564d744e137fecabe522c6fc917dbfc23f6",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000160_0/interface/dungeon/shar_arena.txb",
+      "indices": [
+        1
+      ],
+      "source_sha256": "548390fd33831c1a516e053132b1109227046123691d6e3b6bb0a39b90866d17",
+      "output_sha256": "c3433d605bf80c4974b68480f8d52564d744e137fecabe522c6fc917dbfc23f6",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000161_0/interface/dungeon/shar_arena.txb",
+      "indices": [
+        1
+      ],
+      "source_sha256": "548390fd33831c1a516e053132b1109227046123691d6e3b6bb0a39b90866d17",
+      "output_sha256": "c3433d605bf80c4974b68480f8d52564d744e137fecabe522c6fc917dbfc23f6",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000170_0/interface/dungeon/shar_arena.txb",
+      "indices": [
+        1
+      ],
+      "source_sha256": "548390fd33831c1a516e053132b1109227046123691d6e3b6bb0a39b90866d17",
+      "output_sha256": "c3433d605bf80c4974b68480f8d52564d744e137fecabe522c6fc917dbfc23f6",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000171_0/interface/dungeon/shar_arena.txb",
+      "indices": [
+        1
+      ],
+      "source_sha256": "548390fd33831c1a516e053132b1109227046123691d6e3b6bb0a39b90866d17",
+      "output_sha256": "c3433d605bf80c4974b68480f8d52564d744e137fecabe522c6fc917dbfc23f6",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000180_0/interface/dungeon/shar_arena.txb",
+      "indices": [
+        1
+      ],
+      "source_sha256": "548390fd33831c1a516e053132b1109227046123691d6e3b6bb0a39b90866d17",
+      "output_sha256": "c3433d605bf80c4974b68480f8d52564d744e137fecabe522c6fc917dbfc23f6",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000181_0/interface/dungeon/shar_arena.txb",
+      "indices": [
+        1
+      ],
+      "source_sha256": "548390fd33831c1a516e053132b1109227046123691d6e3b6bb0a39b90866d17",
+      "output_sha256": "c3433d605bf80c4974b68480f8d52564d744e137fecabe522c6fc917dbfc23f6",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000190_0/interface/dungeon/shar_arena.txb",
+      "indices": [
+        1
+      ],
+      "source_sha256": "548390fd33831c1a516e053132b1109227046123691d6e3b6bb0a39b90866d17",
+      "output_sha256": "c3433d605bf80c4974b68480f8d52564d744e137fecabe522c6fc917dbfc23f6",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000308_0/interface/dungeon/shar_arena.txb",
+      "indices": [
+        1
+      ],
+      "source_sha256": "548390fd33831c1a516e053132b1109227046123691d6e3b6bb0a39b90866d17",
+      "output_sha256": "c3433d605bf80c4974b68480f8d52564d744e137fecabe522c6fc917dbfc23f6",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000310_0/interface/dungeon/shar_arena.txb",
+      "indices": [
+        1
+      ],
+      "source_sha256": "548390fd33831c1a516e053132b1109227046123691d6e3b6bb0a39b90866d17",
+      "output_sha256": "c3433d605bf80c4974b68480f8d52564d744e137fecabe522c6fc917dbfc23f6",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000311_0/interface/dungeon/shar_arena.txb",
+      "indices": [
+        1
+      ],
+      "source_sha256": "548390fd33831c1a516e053132b1109227046123691d6e3b6bb0a39b90866d17",
+      "output_sha256": "c3433d605bf80c4974b68480f8d52564d744e137fecabe522c6fc917dbfc23f6",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000314_0/interface/dungeon/shar_arena.txb",
+      "indices": [
+        1
+      ],
+      "source_sha256": "548390fd33831c1a516e053132b1109227046123691d6e3b6bb0a39b90866d17",
+      "output_sha256": "c3433d605bf80c4974b68480f8d52564d744e137fecabe522c6fc917dbfc23f6",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000317_0/interface/dungeon/shar_arena.txb",
+      "indices": [
+        1
+      ],
+      "source_sha256": "548390fd33831c1a516e053132b1109227046123691d6e3b6bb0a39b90866d17",
+      "output_sha256": "c3433d605bf80c4974b68480f8d52564d744e137fecabe522c6fc917dbfc23f6",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000318_0/interface/dungeon/shar_arena.txb",
+      "indices": [
+        1
+      ],
+      "source_sha256": "548390fd33831c1a516e053132b1109227046123691d6e3b6bb0a39b90866d17",
+      "output_sha256": "c3433d605bf80c4974b68480f8d52564d744e137fecabe522c6fc917dbfc23f6",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000321_0/interface/dungeon/shar_arena.txb",
+      "indices": [
+        1
+      ],
+      "source_sha256": "548390fd33831c1a516e053132b1109227046123691d6e3b6bb0a39b90866d17",
+      "output_sha256": "c3433d605bf80c4974b68480f8d52564d744e137fecabe522c6fc917dbfc23f6",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000322_0/interface/dungeon/shar_arena.txb",
+      "indices": [
+        1
+      ],
+      "source_sha256": "548390fd33831c1a516e053132b1109227046123691d6e3b6bb0a39b90866d17",
+      "output_sha256": "c3433d605bf80c4974b68480f8d52564d744e137fecabe522c6fc917dbfc23f6",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000323_0/interface/dungeon/shar_arena.txb",
+      "indices": [
+        1
+      ],
+      "source_sha256": "548390fd33831c1a516e053132b1109227046123691d6e3b6bb0a39b90866d17",
+      "output_sha256": "c3433d605bf80c4974b68480f8d52564d744e137fecabe522c6fc917dbfc23f6",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000324_0/interface/dungeon/shar_arena.txb",
+      "indices": [
+        1
+      ],
+      "source_sha256": "548390fd33831c1a516e053132b1109227046123691d6e3b6bb0a39b90866d17",
+      "output_sha256": "c3433d605bf80c4974b68480f8d52564d744e137fecabe522c6fc917dbfc23f6",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000325_0/interface/dungeon/shar_arena.txb",
+      "indices": [
+        1
+      ],
+      "source_sha256": "548390fd33831c1a516e053132b1109227046123691d6e3b6bb0a39b90866d17",
+      "output_sha256": "c3433d605bf80c4974b68480f8d52564d744e137fecabe522c6fc917dbfc23f6",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000326_0/interface/dungeon/shar_arena.txb",
+      "indices": [
+        1
+      ],
+      "source_sha256": "548390fd33831c1a516e053132b1109227046123691d6e3b6bb0a39b90866d17",
+      "output_sha256": "c3433d605bf80c4974b68480f8d52564d744e137fecabe522c6fc917dbfc23f6",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000327_0/interface/dungeon/shar_arena.txb",
+      "indices": [
+        1
+      ],
+      "source_sha256": "548390fd33831c1a516e053132b1109227046123691d6e3b6bb0a39b90866d17",
+      "output_sha256": "c3433d605bf80c4974b68480f8d52564d744e137fecabe522c6fc917dbfc23f6",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000023_1/battle/interface/btl_menu.txb",
+      "indices": [
+        112,
+        113,
+        114
+      ],
+      "source_sha256": "69fd30f5c4aabeebb4ac5792189149b27aa3eaa18454ee00248d397dde1cd1df",
+      "output_sha256": "468ef903d1b88fdaf517ffdb1c7f1fa013064cb455493a28e101db1da66606dd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000100_1/battle/interface/btl_menu.txb",
+      "indices": [
+        112,
+        113,
+        114
+      ],
+      "source_sha256": "69fd30f5c4aabeebb4ac5792189149b27aa3eaa18454ee00248d397dde1cd1df",
+      "output_sha256": "468ef903d1b88fdaf517ffdb1c7f1fa013064cb455493a28e101db1da66606dd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000110_1/battle/interface/btl_menu.txb",
+      "indices": [
+        112,
+        113,
+        114
+      ],
+      "source_sha256": "69fd30f5c4aabeebb4ac5792189149b27aa3eaa18454ee00248d397dde1cd1df",
+      "output_sha256": "468ef903d1b88fdaf517ffdb1c7f1fa013064cb455493a28e101db1da66606dd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000111_1/battle/interface/btl_menu.txb",
+      "indices": [
+        112,
+        113,
+        114
+      ],
+      "source_sha256": "69fd30f5c4aabeebb4ac5792189149b27aa3eaa18454ee00248d397dde1cd1df",
+      "output_sha256": "468ef903d1b88fdaf517ffdb1c7f1fa013064cb455493a28e101db1da66606dd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000120_1/battle/interface/btl_menu.txb",
+      "indices": [
+        112,
+        113,
+        114
+      ],
+      "source_sha256": "69fd30f5c4aabeebb4ac5792189149b27aa3eaa18454ee00248d397dde1cd1df",
+      "output_sha256": "468ef903d1b88fdaf517ffdb1c7f1fa013064cb455493a28e101db1da66606dd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000121_1/battle/interface/btl_menu.txb",
+      "indices": [
+        112,
+        113,
+        114
+      ],
+      "source_sha256": "69fd30f5c4aabeebb4ac5792189149b27aa3eaa18454ee00248d397dde1cd1df",
+      "output_sha256": "468ef903d1b88fdaf517ffdb1c7f1fa013064cb455493a28e101db1da66606dd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000130_1/battle/interface/btl_menu.txb",
+      "indices": [
+        112,
+        113,
+        114
+      ],
+      "source_sha256": "69fd30f5c4aabeebb4ac5792189149b27aa3eaa18454ee00248d397dde1cd1df",
+      "output_sha256": "468ef903d1b88fdaf517ffdb1c7f1fa013064cb455493a28e101db1da66606dd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000131_1/battle/interface/btl_menu.txb",
+      "indices": [
+        112,
+        113,
+        114
+      ],
+      "source_sha256": "69fd30f5c4aabeebb4ac5792189149b27aa3eaa18454ee00248d397dde1cd1df",
+      "output_sha256": "468ef903d1b88fdaf517ffdb1c7f1fa013064cb455493a28e101db1da66606dd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000140_1/battle/interface/btl_menu.txb",
+      "indices": [
+        112,
+        113,
+        114
+      ],
+      "source_sha256": "69fd30f5c4aabeebb4ac5792189149b27aa3eaa18454ee00248d397dde1cd1df",
+      "output_sha256": "468ef903d1b88fdaf517ffdb1c7f1fa013064cb455493a28e101db1da66606dd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000141_1/battle/interface/btl_menu.txb",
+      "indices": [
+        112,
+        113,
+        114
+      ],
+      "source_sha256": "69fd30f5c4aabeebb4ac5792189149b27aa3eaa18454ee00248d397dde1cd1df",
+      "output_sha256": "468ef903d1b88fdaf517ffdb1c7f1fa013064cb455493a28e101db1da66606dd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000150_1/battle/interface/btl_menu.txb",
+      "indices": [
+        112,
+        113,
+        114
+      ],
+      "source_sha256": "69fd30f5c4aabeebb4ac5792189149b27aa3eaa18454ee00248d397dde1cd1df",
+      "output_sha256": "468ef903d1b88fdaf517ffdb1c7f1fa013064cb455493a28e101db1da66606dd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000151_1/battle/interface/btl_menu.txb",
+      "indices": [
+        112,
+        113,
+        114
+      ],
+      "source_sha256": "69fd30f5c4aabeebb4ac5792189149b27aa3eaa18454ee00248d397dde1cd1df",
+      "output_sha256": "468ef903d1b88fdaf517ffdb1c7f1fa013064cb455493a28e101db1da66606dd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000160_1/battle/interface/btl_menu.txb",
+      "indices": [
+        112,
+        113,
+        114
+      ],
+      "source_sha256": "69fd30f5c4aabeebb4ac5792189149b27aa3eaa18454ee00248d397dde1cd1df",
+      "output_sha256": "468ef903d1b88fdaf517ffdb1c7f1fa013064cb455493a28e101db1da66606dd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000161_1/battle/interface/btl_menu.txb",
+      "indices": [
+        112,
+        113,
+        114
+      ],
+      "source_sha256": "69fd30f5c4aabeebb4ac5792189149b27aa3eaa18454ee00248d397dde1cd1df",
+      "output_sha256": "468ef903d1b88fdaf517ffdb1c7f1fa013064cb455493a28e101db1da66606dd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000170_1/battle/interface/btl_menu.txb",
+      "indices": [
+        112,
+        113,
+        114
+      ],
+      "source_sha256": "69fd30f5c4aabeebb4ac5792189149b27aa3eaa18454ee00248d397dde1cd1df",
+      "output_sha256": "468ef903d1b88fdaf517ffdb1c7f1fa013064cb455493a28e101db1da66606dd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000171_1/battle/interface/btl_menu.txb",
+      "indices": [
+        112,
+        113,
+        114
+      ],
+      "source_sha256": "69fd30f5c4aabeebb4ac5792189149b27aa3eaa18454ee00248d397dde1cd1df",
+      "output_sha256": "468ef903d1b88fdaf517ffdb1c7f1fa013064cb455493a28e101db1da66606dd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000180_1/battle/interface/btl_menu.txb",
+      "indices": [
+        112,
+        113,
+        114
+      ],
+      "source_sha256": "69fd30f5c4aabeebb4ac5792189149b27aa3eaa18454ee00248d397dde1cd1df",
+      "output_sha256": "468ef903d1b88fdaf517ffdb1c7f1fa013064cb455493a28e101db1da66606dd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000181_1/battle/interface/btl_menu.txb",
+      "indices": [
+        112,
+        113,
+        114
+      ],
+      "source_sha256": "69fd30f5c4aabeebb4ac5792189149b27aa3eaa18454ee00248d397dde1cd1df",
+      "output_sha256": "468ef903d1b88fdaf517ffdb1c7f1fa013064cb455493a28e101db1da66606dd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000190_1/battle/interface/btl_menu.txb",
+      "indices": [
+        112,
+        113,
+        114
+      ],
+      "source_sha256": "69fd30f5c4aabeebb4ac5792189149b27aa3eaa18454ee00248d397dde1cd1df",
+      "output_sha256": "468ef903d1b88fdaf517ffdb1c7f1fa013064cb455493a28e101db1da66606dd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000308_1/battle/interface/btl_menu.txb",
+      "indices": [
+        112,
+        113,
+        114
+      ],
+      "source_sha256": "69fd30f5c4aabeebb4ac5792189149b27aa3eaa18454ee00248d397dde1cd1df",
+      "output_sha256": "468ef903d1b88fdaf517ffdb1c7f1fa013064cb455493a28e101db1da66606dd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000310_1/battle/interface/btl_menu.txb",
+      "indices": [
+        112,
+        113,
+        114
+      ],
+      "source_sha256": "69fd30f5c4aabeebb4ac5792189149b27aa3eaa18454ee00248d397dde1cd1df",
+      "output_sha256": "468ef903d1b88fdaf517ffdb1c7f1fa013064cb455493a28e101db1da66606dd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000311_1/battle/interface/btl_menu.txb",
+      "indices": [
+        112,
+        113,
+        114
+      ],
+      "source_sha256": "69fd30f5c4aabeebb4ac5792189149b27aa3eaa18454ee00248d397dde1cd1df",
+      "output_sha256": "468ef903d1b88fdaf517ffdb1c7f1fa013064cb455493a28e101db1da66606dd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000314_1/battle/interface/btl_menu.txb",
+      "indices": [
+        112,
+        113,
+        114
+      ],
+      "source_sha256": "69fd30f5c4aabeebb4ac5792189149b27aa3eaa18454ee00248d397dde1cd1df",
+      "output_sha256": "468ef903d1b88fdaf517ffdb1c7f1fa013064cb455493a28e101db1da66606dd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000317_1/battle/interface/btl_menu.txb",
+      "indices": [
+        112,
+        113,
+        114
+      ],
+      "source_sha256": "69fd30f5c4aabeebb4ac5792189149b27aa3eaa18454ee00248d397dde1cd1df",
+      "output_sha256": "468ef903d1b88fdaf517ffdb1c7f1fa013064cb455493a28e101db1da66606dd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000318_1/battle/interface/btl_menu.txb",
+      "indices": [
+        112,
+        113,
+        114
+      ],
+      "source_sha256": "69fd30f5c4aabeebb4ac5792189149b27aa3eaa18454ee00248d397dde1cd1df",
+      "output_sha256": "468ef903d1b88fdaf517ffdb1c7f1fa013064cb455493a28e101db1da66606dd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000321_1/battle/interface/btl_menu.txb",
+      "indices": [
+        112,
+        113,
+        114
+      ],
+      "source_sha256": "69fd30f5c4aabeebb4ac5792189149b27aa3eaa18454ee00248d397dde1cd1df",
+      "output_sha256": "468ef903d1b88fdaf517ffdb1c7f1fa013064cb455493a28e101db1da66606dd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000322_1/battle/interface/btl_menu.txb",
+      "indices": [
+        112,
+        113,
+        114
+      ],
+      "source_sha256": "69fd30f5c4aabeebb4ac5792189149b27aa3eaa18454ee00248d397dde1cd1df",
+      "output_sha256": "468ef903d1b88fdaf517ffdb1c7f1fa013064cb455493a28e101db1da66606dd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000323_1/battle/interface/btl_menu.txb",
+      "indices": [
+        112,
+        113,
+        114
+      ],
+      "source_sha256": "69fd30f5c4aabeebb4ac5792189149b27aa3eaa18454ee00248d397dde1cd1df",
+      "output_sha256": "468ef903d1b88fdaf517ffdb1c7f1fa013064cb455493a28e101db1da66606dd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000324_1/battle/interface/btl_menu.txb",
+      "indices": [
+        112,
+        113,
+        114
+      ],
+      "source_sha256": "69fd30f5c4aabeebb4ac5792189149b27aa3eaa18454ee00248d397dde1cd1df",
+      "output_sha256": "468ef903d1b88fdaf517ffdb1c7f1fa013064cb455493a28e101db1da66606dd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000325_1/battle/interface/btl_menu.txb",
+      "indices": [
+        112,
+        113,
+        114
+      ],
+      "source_sha256": "69fd30f5c4aabeebb4ac5792189149b27aa3eaa18454ee00248d397dde1cd1df",
+      "output_sha256": "468ef903d1b88fdaf517ffdb1c7f1fa013064cb455493a28e101db1da66606dd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000326_1/battle/interface/btl_menu.txb",
+      "indices": [
+        112,
+        113,
+        114
+      ],
+      "source_sha256": "69fd30f5c4aabeebb4ac5792189149b27aa3eaa18454ee00248d397dde1cd1df",
+      "output_sha256": "468ef903d1b88fdaf517ffdb1c7f1fa013064cb455493a28e101db1da66606dd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000327_1/battle/interface/btl_menu.txb",
+      "indices": [
+        112,
+        113,
+        114
+      ],
+      "source_sha256": "69fd30f5c4aabeebb4ac5792189149b27aa3eaa18454ee00248d397dde1cd1df",
+      "output_sha256": "468ef903d1b88fdaf517ffdb1c7f1fa013064cb455493a28e101db1da66606dd",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000023_1/battle/interface/btl_warning_00.txb",
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "source_sha256": "2d067300adb6e45ff4bcecfa5d49deb77a50c33b6a08eb40aa7fa2f5abe85dbe",
+      "output_sha256": "7d75608f8981114d442e89417c266e92ad2208a24d9c74fdab08cbe70640c85b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000100_1/battle/interface/btl_warning_00.txb",
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "source_sha256": "2d067300adb6e45ff4bcecfa5d49deb77a50c33b6a08eb40aa7fa2f5abe85dbe",
+      "output_sha256": "7d75608f8981114d442e89417c266e92ad2208a24d9c74fdab08cbe70640c85b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000110_1/battle/interface/btl_warning_00.txb",
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "source_sha256": "2d067300adb6e45ff4bcecfa5d49deb77a50c33b6a08eb40aa7fa2f5abe85dbe",
+      "output_sha256": "7d75608f8981114d442e89417c266e92ad2208a24d9c74fdab08cbe70640c85b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000111_1/battle/interface/btl_warning_00.txb",
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "source_sha256": "2d067300adb6e45ff4bcecfa5d49deb77a50c33b6a08eb40aa7fa2f5abe85dbe",
+      "output_sha256": "7d75608f8981114d442e89417c266e92ad2208a24d9c74fdab08cbe70640c85b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000120_1/battle/interface/btl_warning_00.txb",
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "source_sha256": "2d067300adb6e45ff4bcecfa5d49deb77a50c33b6a08eb40aa7fa2f5abe85dbe",
+      "output_sha256": "7d75608f8981114d442e89417c266e92ad2208a24d9c74fdab08cbe70640c85b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000121_1/battle/interface/btl_warning_00.txb",
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "source_sha256": "2d067300adb6e45ff4bcecfa5d49deb77a50c33b6a08eb40aa7fa2f5abe85dbe",
+      "output_sha256": "7d75608f8981114d442e89417c266e92ad2208a24d9c74fdab08cbe70640c85b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000130_1/battle/interface/btl_warning_00.txb",
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "source_sha256": "2d067300adb6e45ff4bcecfa5d49deb77a50c33b6a08eb40aa7fa2f5abe85dbe",
+      "output_sha256": "7d75608f8981114d442e89417c266e92ad2208a24d9c74fdab08cbe70640c85b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000131_1/battle/interface/btl_warning_00.txb",
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "source_sha256": "2d067300adb6e45ff4bcecfa5d49deb77a50c33b6a08eb40aa7fa2f5abe85dbe",
+      "output_sha256": "7d75608f8981114d442e89417c266e92ad2208a24d9c74fdab08cbe70640c85b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000140_1/battle/interface/btl_warning_00.txb",
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "source_sha256": "2d067300adb6e45ff4bcecfa5d49deb77a50c33b6a08eb40aa7fa2f5abe85dbe",
+      "output_sha256": "7d75608f8981114d442e89417c266e92ad2208a24d9c74fdab08cbe70640c85b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000141_1/battle/interface/btl_warning_00.txb",
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "source_sha256": "2d067300adb6e45ff4bcecfa5d49deb77a50c33b6a08eb40aa7fa2f5abe85dbe",
+      "output_sha256": "7d75608f8981114d442e89417c266e92ad2208a24d9c74fdab08cbe70640c85b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000150_1/battle/interface/btl_warning_00.txb",
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "source_sha256": "2d067300adb6e45ff4bcecfa5d49deb77a50c33b6a08eb40aa7fa2f5abe85dbe",
+      "output_sha256": "7d75608f8981114d442e89417c266e92ad2208a24d9c74fdab08cbe70640c85b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000151_1/battle/interface/btl_warning_00.txb",
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "source_sha256": "2d067300adb6e45ff4bcecfa5d49deb77a50c33b6a08eb40aa7fa2f5abe85dbe",
+      "output_sha256": "7d75608f8981114d442e89417c266e92ad2208a24d9c74fdab08cbe70640c85b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000160_1/battle/interface/btl_warning_00.txb",
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "source_sha256": "2d067300adb6e45ff4bcecfa5d49deb77a50c33b6a08eb40aa7fa2f5abe85dbe",
+      "output_sha256": "7d75608f8981114d442e89417c266e92ad2208a24d9c74fdab08cbe70640c85b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000161_1/battle/interface/btl_warning_00.txb",
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "source_sha256": "2d067300adb6e45ff4bcecfa5d49deb77a50c33b6a08eb40aa7fa2f5abe85dbe",
+      "output_sha256": "7d75608f8981114d442e89417c266e92ad2208a24d9c74fdab08cbe70640c85b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000170_1/battle/interface/btl_warning_00.txb",
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "source_sha256": "2d067300adb6e45ff4bcecfa5d49deb77a50c33b6a08eb40aa7fa2f5abe85dbe",
+      "output_sha256": "7d75608f8981114d442e89417c266e92ad2208a24d9c74fdab08cbe70640c85b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000171_1/battle/interface/btl_warning_00.txb",
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "source_sha256": "2d067300adb6e45ff4bcecfa5d49deb77a50c33b6a08eb40aa7fa2f5abe85dbe",
+      "output_sha256": "7d75608f8981114d442e89417c266e92ad2208a24d9c74fdab08cbe70640c85b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000180_1/battle/interface/btl_warning_00.txb",
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "source_sha256": "2d067300adb6e45ff4bcecfa5d49deb77a50c33b6a08eb40aa7fa2f5abe85dbe",
+      "output_sha256": "7d75608f8981114d442e89417c266e92ad2208a24d9c74fdab08cbe70640c85b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000181_1/battle/interface/btl_warning_00.txb",
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "source_sha256": "2d067300adb6e45ff4bcecfa5d49deb77a50c33b6a08eb40aa7fa2f5abe85dbe",
+      "output_sha256": "7d75608f8981114d442e89417c266e92ad2208a24d9c74fdab08cbe70640c85b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000190_1/battle/interface/btl_warning_00.txb",
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "source_sha256": "2d067300adb6e45ff4bcecfa5d49deb77a50c33b6a08eb40aa7fa2f5abe85dbe",
+      "output_sha256": "7d75608f8981114d442e89417c266e92ad2208a24d9c74fdab08cbe70640c85b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000308_1/battle/interface/btl_warning_00.txb",
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "source_sha256": "2d067300adb6e45ff4bcecfa5d49deb77a50c33b6a08eb40aa7fa2f5abe85dbe",
+      "output_sha256": "7d75608f8981114d442e89417c266e92ad2208a24d9c74fdab08cbe70640c85b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000310_1/battle/interface/btl_warning_00.txb",
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "source_sha256": "2d067300adb6e45ff4bcecfa5d49deb77a50c33b6a08eb40aa7fa2f5abe85dbe",
+      "output_sha256": "7d75608f8981114d442e89417c266e92ad2208a24d9c74fdab08cbe70640c85b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000311_1/battle/interface/btl_warning_00.txb",
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "source_sha256": "2d067300adb6e45ff4bcecfa5d49deb77a50c33b6a08eb40aa7fa2f5abe85dbe",
+      "output_sha256": "7d75608f8981114d442e89417c266e92ad2208a24d9c74fdab08cbe70640c85b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000314_1/battle/interface/btl_warning_00.txb",
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "source_sha256": "2d067300adb6e45ff4bcecfa5d49deb77a50c33b6a08eb40aa7fa2f5abe85dbe",
+      "output_sha256": "7d75608f8981114d442e89417c266e92ad2208a24d9c74fdab08cbe70640c85b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000317_1/battle/interface/btl_warning_00.txb",
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "source_sha256": "2d067300adb6e45ff4bcecfa5d49deb77a50c33b6a08eb40aa7fa2f5abe85dbe",
+      "output_sha256": "7d75608f8981114d442e89417c266e92ad2208a24d9c74fdab08cbe70640c85b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000318_1/battle/interface/btl_warning_00.txb",
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "source_sha256": "2d067300adb6e45ff4bcecfa5d49deb77a50c33b6a08eb40aa7fa2f5abe85dbe",
+      "output_sha256": "7d75608f8981114d442e89417c266e92ad2208a24d9c74fdab08cbe70640c85b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000321_1/battle/interface/btl_warning_00.txb",
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "source_sha256": "2d067300adb6e45ff4bcecfa5d49deb77a50c33b6a08eb40aa7fa2f5abe85dbe",
+      "output_sha256": "7d75608f8981114d442e89417c266e92ad2208a24d9c74fdab08cbe70640c85b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000322_1/battle/interface/btl_warning_00.txb",
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "source_sha256": "2d067300adb6e45ff4bcecfa5d49deb77a50c33b6a08eb40aa7fa2f5abe85dbe",
+      "output_sha256": "7d75608f8981114d442e89417c266e92ad2208a24d9c74fdab08cbe70640c85b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000323_1/battle/interface/btl_warning_00.txb",
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "source_sha256": "2d067300adb6e45ff4bcecfa5d49deb77a50c33b6a08eb40aa7fa2f5abe85dbe",
+      "output_sha256": "7d75608f8981114d442e89417c266e92ad2208a24d9c74fdab08cbe70640c85b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000324_1/battle/interface/btl_warning_00.txb",
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "source_sha256": "2d067300adb6e45ff4bcecfa5d49deb77a50c33b6a08eb40aa7fa2f5abe85dbe",
+      "output_sha256": "7d75608f8981114d442e89417c266e92ad2208a24d9c74fdab08cbe70640c85b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000325_1/battle/interface/btl_warning_00.txb",
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "source_sha256": "2d067300adb6e45ff4bcecfa5d49deb77a50c33b6a08eb40aa7fa2f5abe85dbe",
+      "output_sha256": "7d75608f8981114d442e89417c266e92ad2208a24d9c74fdab08cbe70640c85b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000326_1/battle/interface/btl_warning_00.txb",
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "source_sha256": "2d067300adb6e45ff4bcecfa5d49deb77a50c33b6a08eb40aa7fa2f5abe85dbe",
+      "output_sha256": "7d75608f8981114d442e89417c266e92ad2208a24d9c74fdab08cbe70640c85b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000327_1/battle/interface/btl_warning_00.txb",
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "source_sha256": "2d067300adb6e45ff4bcecfa5d49deb77a50c33b6a08eb40aa7fa2f5abe85dbe",
+      "output_sha256": "7d75608f8981114d442e89417c266e92ad2208a24d9c74fdab08cbe70640c85b",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000023_1/battle/interface/result_00.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "aebdebae125c3c48a7dc65990acc71c15886d289a26200060498dea3fd1838c6",
+      "output_sha256": "7df56d3a6e66e443c88ce281b1454e45bb277936a97a9aebf7c1caf053fc06a4",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000100_1/battle/interface/result_00.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "aebdebae125c3c48a7dc65990acc71c15886d289a26200060498dea3fd1838c6",
+      "output_sha256": "7df56d3a6e66e443c88ce281b1454e45bb277936a97a9aebf7c1caf053fc06a4",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000110_1/battle/interface/result_00.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "aebdebae125c3c48a7dc65990acc71c15886d289a26200060498dea3fd1838c6",
+      "output_sha256": "7df56d3a6e66e443c88ce281b1454e45bb277936a97a9aebf7c1caf053fc06a4",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000111_1/battle/interface/result_00.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "aebdebae125c3c48a7dc65990acc71c15886d289a26200060498dea3fd1838c6",
+      "output_sha256": "7df56d3a6e66e443c88ce281b1454e45bb277936a97a9aebf7c1caf053fc06a4",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000120_1/battle/interface/result_00.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "aebdebae125c3c48a7dc65990acc71c15886d289a26200060498dea3fd1838c6",
+      "output_sha256": "7df56d3a6e66e443c88ce281b1454e45bb277936a97a9aebf7c1caf053fc06a4",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000121_1/battle/interface/result_00.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "aebdebae125c3c48a7dc65990acc71c15886d289a26200060498dea3fd1838c6",
+      "output_sha256": "7df56d3a6e66e443c88ce281b1454e45bb277936a97a9aebf7c1caf053fc06a4",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000130_1/battle/interface/result_00.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "aebdebae125c3c48a7dc65990acc71c15886d289a26200060498dea3fd1838c6",
+      "output_sha256": "7df56d3a6e66e443c88ce281b1454e45bb277936a97a9aebf7c1caf053fc06a4",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000131_1/battle/interface/result_00.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "aebdebae125c3c48a7dc65990acc71c15886d289a26200060498dea3fd1838c6",
+      "output_sha256": "7df56d3a6e66e443c88ce281b1454e45bb277936a97a9aebf7c1caf053fc06a4",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000140_1/battle/interface/result_00.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "aebdebae125c3c48a7dc65990acc71c15886d289a26200060498dea3fd1838c6",
+      "output_sha256": "7df56d3a6e66e443c88ce281b1454e45bb277936a97a9aebf7c1caf053fc06a4",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000141_1/battle/interface/result_00.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "aebdebae125c3c48a7dc65990acc71c15886d289a26200060498dea3fd1838c6",
+      "output_sha256": "7df56d3a6e66e443c88ce281b1454e45bb277936a97a9aebf7c1caf053fc06a4",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000150_1/battle/interface/result_00.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "aebdebae125c3c48a7dc65990acc71c15886d289a26200060498dea3fd1838c6",
+      "output_sha256": "7df56d3a6e66e443c88ce281b1454e45bb277936a97a9aebf7c1caf053fc06a4",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000151_1/battle/interface/result_00.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "aebdebae125c3c48a7dc65990acc71c15886d289a26200060498dea3fd1838c6",
+      "output_sha256": "7df56d3a6e66e443c88ce281b1454e45bb277936a97a9aebf7c1caf053fc06a4",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000160_1/battle/interface/result_00.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "aebdebae125c3c48a7dc65990acc71c15886d289a26200060498dea3fd1838c6",
+      "output_sha256": "7df56d3a6e66e443c88ce281b1454e45bb277936a97a9aebf7c1caf053fc06a4",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000161_1/battle/interface/result_00.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "aebdebae125c3c48a7dc65990acc71c15886d289a26200060498dea3fd1838c6",
+      "output_sha256": "7df56d3a6e66e443c88ce281b1454e45bb277936a97a9aebf7c1caf053fc06a4",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000170_1/battle/interface/result_00.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "aebdebae125c3c48a7dc65990acc71c15886d289a26200060498dea3fd1838c6",
+      "output_sha256": "7df56d3a6e66e443c88ce281b1454e45bb277936a97a9aebf7c1caf053fc06a4",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000171_1/battle/interface/result_00.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "aebdebae125c3c48a7dc65990acc71c15886d289a26200060498dea3fd1838c6",
+      "output_sha256": "7df56d3a6e66e443c88ce281b1454e45bb277936a97a9aebf7c1caf053fc06a4",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000180_1/battle/interface/result_00.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "aebdebae125c3c48a7dc65990acc71c15886d289a26200060498dea3fd1838c6",
+      "output_sha256": "7df56d3a6e66e443c88ce281b1454e45bb277936a97a9aebf7c1caf053fc06a4",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000181_1/battle/interface/result_00.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "aebdebae125c3c48a7dc65990acc71c15886d289a26200060498dea3fd1838c6",
+      "output_sha256": "7df56d3a6e66e443c88ce281b1454e45bb277936a97a9aebf7c1caf053fc06a4",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000190_1/battle/interface/result_00.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "aebdebae125c3c48a7dc65990acc71c15886d289a26200060498dea3fd1838c6",
+      "output_sha256": "7df56d3a6e66e443c88ce281b1454e45bb277936a97a9aebf7c1caf053fc06a4",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000308_1/battle/interface/result_00.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "aebdebae125c3c48a7dc65990acc71c15886d289a26200060498dea3fd1838c6",
+      "output_sha256": "7df56d3a6e66e443c88ce281b1454e45bb277936a97a9aebf7c1caf053fc06a4",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000310_1/battle/interface/result_00.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "aebdebae125c3c48a7dc65990acc71c15886d289a26200060498dea3fd1838c6",
+      "output_sha256": "7df56d3a6e66e443c88ce281b1454e45bb277936a97a9aebf7c1caf053fc06a4",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000311_1/battle/interface/result_00.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "aebdebae125c3c48a7dc65990acc71c15886d289a26200060498dea3fd1838c6",
+      "output_sha256": "7df56d3a6e66e443c88ce281b1454e45bb277936a97a9aebf7c1caf053fc06a4",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000314_1/battle/interface/result_00.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "aebdebae125c3c48a7dc65990acc71c15886d289a26200060498dea3fd1838c6",
+      "output_sha256": "7df56d3a6e66e443c88ce281b1454e45bb277936a97a9aebf7c1caf053fc06a4",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000317_1/battle/interface/result_00.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "aebdebae125c3c48a7dc65990acc71c15886d289a26200060498dea3fd1838c6",
+      "output_sha256": "7df56d3a6e66e443c88ce281b1454e45bb277936a97a9aebf7c1caf053fc06a4",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000318_1/battle/interface/result_00.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "aebdebae125c3c48a7dc65990acc71c15886d289a26200060498dea3fd1838c6",
+      "output_sha256": "7df56d3a6e66e443c88ce281b1454e45bb277936a97a9aebf7c1caf053fc06a4",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000321_1/battle/interface/result_00.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "aebdebae125c3c48a7dc65990acc71c15886d289a26200060498dea3fd1838c6",
+      "output_sha256": "7df56d3a6e66e443c88ce281b1454e45bb277936a97a9aebf7c1caf053fc06a4",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000322_1/battle/interface/result_00.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "aebdebae125c3c48a7dc65990acc71c15886d289a26200060498dea3fd1838c6",
+      "output_sha256": "7df56d3a6e66e443c88ce281b1454e45bb277936a97a9aebf7c1caf053fc06a4",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000323_1/battle/interface/result_00.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "aebdebae125c3c48a7dc65990acc71c15886d289a26200060498dea3fd1838c6",
+      "output_sha256": "7df56d3a6e66e443c88ce281b1454e45bb277936a97a9aebf7c1caf053fc06a4",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000324_1/battle/interface/result_00.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "aebdebae125c3c48a7dc65990acc71c15886d289a26200060498dea3fd1838c6",
+      "output_sha256": "7df56d3a6e66e443c88ce281b1454e45bb277936a97a9aebf7c1caf053fc06a4",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000325_1/battle/interface/result_00.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "aebdebae125c3c48a7dc65990acc71c15886d289a26200060498dea3fd1838c6",
+      "output_sha256": "7df56d3a6e66e443c88ce281b1454e45bb277936a97a9aebf7c1caf053fc06a4",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000326_1/battle/interface/result_00.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "aebdebae125c3c48a7dc65990acc71c15886d289a26200060498dea3fd1838c6",
+      "output_sha256": "7df56d3a6e66e443c88ce281b1454e45bb277936a97a9aebf7c1caf053fc06a4",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000327_1/battle/interface/result_00.txb",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_sha256": "aebdebae125c3c48a7dc65990acc71c15886d289a26200060498dea3fd1838c6",
+      "output_sha256": "7df56d3a6e66e443c88ce281b1454e45bb277936a97a9aebf7c1caf053fc06a4",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000110_0/interface/dungeon/i_dun.txb",
+      "indices": [
+        156,
+        157
+      ],
+      "source_sha256": "994f708d57042e9c7c4cef4f53ea41702f19c3cec8044c2deb4555819bd96613",
+      "output_sha256": "5a2adcfd23738a99895c1138bd327fe7a4323a9e0ed6080fef4f14d69892ee99",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000111_0/interface/dungeon/i_dun.txb",
+      "indices": [
+        156,
+        157
+      ],
+      "source_sha256": "994f708d57042e9c7c4cef4f53ea41702f19c3cec8044c2deb4555819bd96613",
+      "output_sha256": "5a2adcfd23738a99895c1138bd327fe7a4323a9e0ed6080fef4f14d69892ee99",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000120_0/interface/dungeon/i_dun.txb",
+      "indices": [
+        156,
+        157
+      ],
+      "source_sha256": "994f708d57042e9c7c4cef4f53ea41702f19c3cec8044c2deb4555819bd96613",
+      "output_sha256": "5a2adcfd23738a99895c1138bd327fe7a4323a9e0ed6080fef4f14d69892ee99",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000121_0/interface/dungeon/i_dun.txb",
+      "indices": [
+        156,
+        157
+      ],
+      "source_sha256": "994f708d57042e9c7c4cef4f53ea41702f19c3cec8044c2deb4555819bd96613",
+      "output_sha256": "5a2adcfd23738a99895c1138bd327fe7a4323a9e0ed6080fef4f14d69892ee99",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000130_0/interface/dungeon/i_dun.txb",
+      "indices": [
+        156,
+        157
+      ],
+      "source_sha256": "994f708d57042e9c7c4cef4f53ea41702f19c3cec8044c2deb4555819bd96613",
+      "output_sha256": "5a2adcfd23738a99895c1138bd327fe7a4323a9e0ed6080fef4f14d69892ee99",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000131_0/interface/dungeon/i_dun.txb",
+      "indices": [
+        156,
+        157
+      ],
+      "source_sha256": "994f708d57042e9c7c4cef4f53ea41702f19c3cec8044c2deb4555819bd96613",
+      "output_sha256": "5a2adcfd23738a99895c1138bd327fe7a4323a9e0ed6080fef4f14d69892ee99",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000140_0/interface/dungeon/i_dun.txb",
+      "indices": [
+        156,
+        157
+      ],
+      "source_sha256": "994f708d57042e9c7c4cef4f53ea41702f19c3cec8044c2deb4555819bd96613",
+      "output_sha256": "5a2adcfd23738a99895c1138bd327fe7a4323a9e0ed6080fef4f14d69892ee99",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000141_0/interface/dungeon/i_dun.txb",
+      "indices": [
+        156,
+        157
+      ],
+      "source_sha256": "994f708d57042e9c7c4cef4f53ea41702f19c3cec8044c2deb4555819bd96613",
+      "output_sha256": "5a2adcfd23738a99895c1138bd327fe7a4323a9e0ed6080fef4f14d69892ee99",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000150_0/interface/dungeon/i_dun.txb",
+      "indices": [
+        156,
+        157
+      ],
+      "source_sha256": "994f708d57042e9c7c4cef4f53ea41702f19c3cec8044c2deb4555819bd96613",
+      "output_sha256": "5a2adcfd23738a99895c1138bd327fe7a4323a9e0ed6080fef4f14d69892ee99",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000151_0/interface/dungeon/i_dun.txb",
+      "indices": [
+        156,
+        157
+      ],
+      "source_sha256": "994f708d57042e9c7c4cef4f53ea41702f19c3cec8044c2deb4555819bd96613",
+      "output_sha256": "5a2adcfd23738a99895c1138bd327fe7a4323a9e0ed6080fef4f14d69892ee99",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000160_0/interface/dungeon/i_dun.txb",
+      "indices": [
+        156,
+        157
+      ],
+      "source_sha256": "994f708d57042e9c7c4cef4f53ea41702f19c3cec8044c2deb4555819bd96613",
+      "output_sha256": "5a2adcfd23738a99895c1138bd327fe7a4323a9e0ed6080fef4f14d69892ee99",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000161_0/interface/dungeon/i_dun.txb",
+      "indices": [
+        156,
+        157
+      ],
+      "source_sha256": "994f708d57042e9c7c4cef4f53ea41702f19c3cec8044c2deb4555819bd96613",
+      "output_sha256": "5a2adcfd23738a99895c1138bd327fe7a4323a9e0ed6080fef4f14d69892ee99",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000170_0/interface/dungeon/i_dun.txb",
+      "indices": [
+        156,
+        157
+      ],
+      "source_sha256": "994f708d57042e9c7c4cef4f53ea41702f19c3cec8044c2deb4555819bd96613",
+      "output_sha256": "5a2adcfd23738a99895c1138bd327fe7a4323a9e0ed6080fef4f14d69892ee99",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000171_0/interface/dungeon/i_dun.txb",
+      "indices": [
+        156,
+        157
+      ],
+      "source_sha256": "994f708d57042e9c7c4cef4f53ea41702f19c3cec8044c2deb4555819bd96613",
+      "output_sha256": "5a2adcfd23738a99895c1138bd327fe7a4323a9e0ed6080fef4f14d69892ee99",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000180_0/interface/dungeon/i_dun.txb",
+      "indices": [
+        156,
+        157
+      ],
+      "source_sha256": "994f708d57042e9c7c4cef4f53ea41702f19c3cec8044c2deb4555819bd96613",
+      "output_sha256": "5a2adcfd23738a99895c1138bd327fe7a4323a9e0ed6080fef4f14d69892ee99",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000181_0/interface/dungeon/i_dun.txb",
+      "indices": [
+        156,
+        157
+      ],
+      "source_sha256": "994f708d57042e9c7c4cef4f53ea41702f19c3cec8044c2deb4555819bd96613",
+      "output_sha256": "5a2adcfd23738a99895c1138bd327fe7a4323a9e0ed6080fef4f14d69892ee99",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000111_0/interface/dungeon/are_title_01.txb",
+      "indices": [
+        1,
+        2,
+        3
+      ],
+      "source_sha256": "bb9f82c946c68a1b8447fac99a744db27798df59d4598dc04054c0dc0df35a16",
+      "output_sha256": "7514acbcebd4301d5a533b50daae37cb6bfbc4ca24704a73758074a4c72d071d",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000121_0/interface/dungeon/are_title_02.txb",
+      "indices": [
+        1,
+        2,
+        3
+      ],
+      "source_sha256": "4989d5e6c8f445552ea184c12417687d03583534aa35752515f01e799b6412b2",
+      "output_sha256": "517716675c589b63c84ddec896199c652cb9003a4cd50aa01050f3a93f86fc44",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000131_0/interface/dungeon/are_title_03.txb",
+      "indices": [
+        1,
+        2,
+        3
+      ],
+      "source_sha256": "a836e536e24bf9394ec017028a5b85170a67d4e7ced0b06f62331cd567869d31",
+      "output_sha256": "22c7e1fb6da50a94767e1d7bf5fce435ba27d44c71fefeaa44b8a6a9129f87e5",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000141_0/interface/dungeon/are_title_04.txb",
+      "indices": [
+        1,
+        2,
+        3
+      ],
+      "source_sha256": "89a330f1eafcc09ca458c017e8d0f3ff6d0c669aa1519b7d0e36ae1a522b740f",
+      "output_sha256": "3d8e5c04082c713d4c6532da473eb85e00c24092a5a586ca9398043020124585",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000151_0/interface/dungeon/are_title_05.txb",
+      "indices": [
+        1,
+        2,
+        3
+      ],
+      "source_sha256": "722f3e719656e39ad72ba6e700a915438f99675394ab2771d7b5505d0667bd9d",
+      "output_sha256": "0ca0a4291a7eda4c419be794e098b04e76a6a398a3033f3e340bae1d8d305e74",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000161_0/interface/dungeon/are_title_06.txb",
+      "indices": [
+        1,
+        2,
+        3
+      ],
+      "source_sha256": "93aad24dcb63db56a8b7e7dd14439ae9586c5b64621a9858d199ae6317deabcb",
+      "output_sha256": "275f36afbd48681e16ac918f048efe7ed49fbf05dac64f289aa67ea5839e8b12",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000171_0/interface/dungeon/are_title_07.txb",
+      "indices": [
+        1,
+        2,
+        3
+      ],
+      "source_sha256": "076449e9133da2d6787c7a04da7235ca5c073e5c5faf327928f3d6c214b6a021",
+      "output_sha256": "67bd9db589421e9cae6389ad9a71c2f336d151e6e3a33242abf6f98db203ba41",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "000181_0/interface/dungeon/are_title_08.txb",
+      "indices": [
+        1,
+        2,
+        3
+      ],
+      "source_sha256": "7d6e23979fcb933a516afed9bbe3f3095b09cdf5e8e30df1bf3e856eca3bae97",
+      "output_sha256": "f63104303239d10622d5ed5b624cdf6be226b435d77b61604434c77929123d5e",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "011007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "012007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "013007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "014007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "015007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "016007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "017007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "018007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "019007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "020007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "021007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "022007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "023007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "024007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "025007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "026007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "027007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "028007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "029007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "030007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "031007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "032007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "033007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "034007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "035007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "036007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "037007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "038007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "039007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "040007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "041007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "042007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "043007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "044007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "045007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "046007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "047007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "048007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "049007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "050007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "051007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "052007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "053007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "054007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "056007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "057007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "058007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "059007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "060007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "061007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "062007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    },
+    {
+      "file": "063007/interface/gradationair/ga.txb",
+      "indices": [
+        6,
+        13,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "source_sha256": "2e573e4eb725800b5c7090a556d83dddf53be8ff7397b1a3915c27e18f59c11a",
+      "output_sha256": "293b7a9b8f6a74cb74e787d0e75e862476bcb83814699d4bd6c88e6274fa7ac3",
+      "untargeted_payloads_preserved": true,
+      "roundtrip_palette_dimensions": true
+    }
+  ]
+}

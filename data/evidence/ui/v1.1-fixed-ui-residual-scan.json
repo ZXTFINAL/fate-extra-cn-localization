@@ -1,0 +1,50 @@
+{
+  "version": "v1.1",
+  "scope": {
+    "structured_display_tables_in_source_audit": 171,
+    "v1_1_overlay_tables_scanned": 170,
+    "scanned_tables_with_japanese_kana": 0,
+    "remaining_source_table": {
+      "path": "pack/003016.cmp/interface/nameentry/kanji.bin",
+      "reason": "姓名输入键盘，日文字符用于玩家输入，按设计保留"
+    },
+    "new_fixed_ui_tables": {
+      "count": 2,
+      "records": 7,
+      "japanese_kana_remaining": 0
+    }
+  },
+  "ocr_image_candidates": {
+    "total": 59,
+    "classification_counts": {
+      "credits_preserved": 27,
+      "gender_icon_same_han_in_chinese": 2,
+      "icon_digit_english_ocr_false_positive": 18,
+      "mode_screen_already_localized_in_v14": 3,
+      "poem_glyph_atlas_or_background_separate_pipeline": 4,
+      "single_glyph_same_in_chinese_or_digit_latin": 4,
+      "single_kanji_temporary_icon_review_needed": 1
+    },
+    "unresolved": [
+      {
+        "path": "PRELOAD/interface/cmn/i_exp.txb",
+        "tex_index": 11,
+        "tex_name": "exp_009_00.tex",
+        "recognized_glyph": "仮",
+        "reason": "缺少足够上下文，未推断替换"
+      }
+    ]
+  },
+  "known_out_of_scope": [
+    "教程截图内部原版 UI",
+    "制作名单与人名",
+    "模型贴图与场景看板",
+    "视频字幕"
+  ],
+  "evidence": [
+    "data/evidence/ui/remaining-ui-candidates.json",
+    "data/evidence/ui/image-localization-audit.md",
+    "work/research/japanese-remaining-v18/other-ui/audit.json"
+  ],
+  "note": "此报告覆盖结构化 UI 表和已分类的 OCR 图片候选，不等于对所有游戏资源中所有日文的全量扫描或实机回归。"
+}

@@ -1,0 +1,6 @@
+2be84ae31885ebd9e50639daa8ebe4686ebf7f65cb5ffa791e0505ffd1727f81  Fate_Extra_CN-v1.1-HD-Combined-Pack.zip
+65c63ad9be8730882ea3f981bed0f9b026d9aa7ef76ed1780f83fa1da1cf23bb  Fate_Extra_CN-v1.1-HD-Scene-Pack.zip
+6720d389f9bfa8c98965b7001b75edb943bd38ebf626aaf5a5160f7d4dae6b87  Fate_Extra_CN-v1.1-HD-UI-Pack.zip
+abfa842ff3dcbb8ef019d6d43d96ae53e924c48d8cd04f6da76b81a4b899e999  Fate_Extra_CN-v1.1-HD-Texture-Packs-Guide-zh-CN-No-Voice.mp4
+ffc0a4732de6d5883f38bd6f9fe504cdc33a9b1b968397c80af3149ccd231502  Fate_Extra_CN-v1.1-HD-Texture-Packs-Guide-zh-CN.srt
+361edfcfbdac87dc197b0bc3f86a9bf011ba960a466976ceeb115ed43f600e87  HD-Texture-Pack-Install-Guide.md

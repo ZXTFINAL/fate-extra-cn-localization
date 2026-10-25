@@ -1,0 +1,91 @@
+{
+  "config_sha256": "39a467ae3640002ba2834fd1fd7c8efbc3d46bda359be89f3d995626e8e7b507",
+  "glyph_map_sha256": "f2c197c8954a51bf6fe6d1194a24bb60b33d300fb3f46777657293a0c388217f",
+  "resources": [
+    {
+      "path": "PRELOAD/interface/mainmenu/help.bin",
+      "source_size": 224,
+      "output_size": 224,
+      "source_sha256": "fde263e3f668559846c8f65c8dd723fcae28ccbf9ae34c672bcce0725e51a120",
+      "output_sha256": "04ee15409806570b77cabd6859017fe6b2c651c48e065f43272764033c5cf091",
+      "records": [
+        {
+          "id": 0,
+          "offset": 8,
+          "capacity": 32,
+          "source": "現在の状態やスキルを確認します",
+          "target": "查看当前状态和技能",
+          "source_bytes": 30,
+          "target_bytes": 18
+        },
+        {
+          "id": 1,
+          "offset": 48,
+          "capacity": 36,
+          "source": "収集した情報マトリクスを確認します",
+          "target": "查看已收集的情报矩阵",
+          "source_bytes": 34,
+          "target_bytes": 20
+        },
+        {
+          "id": 2,
+          "offset": 92,
+          "capacity": 32,
+          "source": "装備している礼装を変更します",
+          "target": "更换当前装备的礼装",
+          "source_bytes": 28,
+          "target_bytes": 18
+        },
+        {
+          "id": 3,
+          "offset": 132,
+          "capacity": 36,
+          "source": "所持しているアイテムを確認します",
+          "target": "查看持有的道具",
+          "source_bytes": 32,
+          "target_bytes": 14
+        },
+        {
+          "id": 4,
+          "offset": 176,
+          "capacity": 44,
+          "source": "進行状況のセーブやゲームの設定を行います",
+          "target": "保存当前进度或调整游戏设置",
+          "source_bytes": 40,
+          "target_bytes": 26
+        }
+      ],
+      "fixed_size_preserved": true
+    },
+    {
+      "path": "PRELOAD/interface/cmn/dialog.bin",
+      "source_size": 32,
+      "output_size": 32,
+      "source_sha256": "5078e5e3923dcecc41fa9b863c4e31a4541a2c42c9bb047125b01416ceed47f6",
+      "output_sha256": "647205950e68df9b0e9a22f45f4e7964f27f7f9406cdd11eabedd09b1794070f",
+      "records": [
+        {
+          "id": 0,
+          "offset": 8,
+          "capacity": 8,
+          "source": "はい",
+          "target": "是",
+          "source_bytes": 4,
+          "target_bytes": 2
+        },
+        {
+          "id": 1,
+          "offset": 24,
+          "capacity": 8,
+          "source": "いいえ",
+          "target": "否",
+          "source_bytes": 6,
+          "target_bytes": 2
+        }
+      ],
+      "fixed_size_preserved": true
+    }
+  ],
+  "patched_strings": 7,
+  "fixed_sizes_preserved": true
+}

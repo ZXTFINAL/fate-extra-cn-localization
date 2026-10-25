@@ -1,0 +1,44 @@
+{
+  "iso": "/Users/zhaoxiangting/Documents/projects/common/fate:extra/work/release-v1.2/final/Fate_Extra_CN-v1.2.iso",
+  "title": "Fate/EXTRA 中文汉化版",
+  "files": [
+    {
+      "path": "PSP_GAME/ICON0.PNG",
+      "extent": 54384,
+      "old_bytes": 18854,
+      "bytes": 19488,
+      "old_sha256": "8129c556477630af4bc950389eab7610766ca7b5e9c456af6e494f6a9293e0bd",
+      "sha256": "87a4d70e2b384cf5f5cb6d0f119583a6f2db2388d2b5a9e7e2be4ba6de7bbbeb",
+      "readback_ok": true
+    },
+    {
+      "path": "PSP_GAME/PIC0.PNG",
+      "extent": 54400,
+      "old_bytes": 33558,
+      "bytes": 22331,
+      "old_sha256": "11f101b03cd48282797e327b2eb0df77b329c690c4edc2b247b807775d820256",
+      "sha256": "97e51c1c738a11141b8f403701fab6ebad5954ac31201a8a0bae903a623b801e",
+      "readback_ok": true
+    },
+    {
+      "path": "PSP_GAME/PIC1.PNG",
+      "extent": 54272,
+      "old_bytes": 212889,
+      "bytes": 212183,
+      "old_sha256": "6862c061fe9540161a1fa36cabec01374db860206bf6c39b98bdf9e2efcd9d74",
+      "sha256": "73e18620b2b83da6fba583216bfd90f225c5940a6fd1b5dea41582450ba6c81a",
+      "readback_ok": true
+    },
+    {
+      "path": "PSP_GAME/PARAM.SFO",
+      "extent": 54256,
+      "old_bytes": 560,
+      "bytes": 560,
+      "old_sha256": "b740c79381754d6bc6c1e58573278e9a13c2ba511f533e0d0e0814140314c867",
+      "sha256": "fda91ccb4fa8148076627c1720fb1ddc66e2e3be32799db06468235e131260c8",
+      "readback_ok": true
+    }
+  ],
+  "existing_sector_allocation_only": true,
+  "sfo_other_fields_unchanged": true
+}

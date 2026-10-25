@@ -1,6 +1,6 @@
 # 数据说明
 
-本目录保存**可公开的翻译数据、审计证据、变更集与解包清单**。除 `overlay/` 下 580 个
+本目录保存**可公开的翻译数据、审计证据、变更集与解包清单**。除 `overlay/` 下 584 个
 改动过的资源外，不含任何游戏本体或未修改的原始资源。
 
 | 目录 | 作用 |
@@ -8,9 +8,9 @@
 | `translation/` | 主翻译表、字库映射、批次清单 |
 | `review/` | ruby 与语境修正结果 |
 | `evidence/` | 诗文/UI/ruby/语境审计证据 |
-| `overlay/` | 变更集：580 个改过的二进制资源 + 逐文件校验和 |
+| `overlay/` | 变更集：584 个改过的二进制资源 + 逐文件校验和 |
 | `inventory/` | 解包树清单：15,962 个文件的路径/大小/校验和 |
-| `build/` | v15–v1.0 构建报告与静态校验 |
+| `build/` | v15–v1.1 构建报告与静态校验 |
 
 ---
 
@@ -47,9 +47,9 @@ id = sha256(原始 Shift-JIS 字节).hexdigest()[:16]
 
 ## overlay/
 
-汉化补丁负载。580 个文件 / 72,883,600 字节，全部是**被修改过**的资源（376 个 TXB、203 个 BIN、1 个 SJIS 文件；文件按包路径去重）：
+汉化补丁负载。584 个文件 / 72,892,544 字节，全部是**被修改过**的资源（376 个 TXB、205 个 BIN、1 个 SJIS 文件；文件按包路径去重）：
 `pack/PRELOAD` 的 4 个字库/小字文件、公共界面包、`charsel`/`modeselect`/`poem` 三个诗文包、大量 interface 与 battle 包。
-v1.0 还更新了字体/小字文件，并补入物品、技能、情报矩阵和额外界面资源。**不含 DAT**：剧情文本由 `translation/text.jsonl` 重建，现场动作表由 `patch_fate_extra_interaction.py` 单独注入。
+v1.0 还更新了字体/小字文件，并补入物品、技能、情报矩阵和额外界面资源。v1.1 增加了主菜单帮助表和通用确认框文案，并修正情报矩阵标题垂直位置。**不含 DAT**：剧情文本由 `translation/text.jsonl` 重建，现场动作表由 `patch_fate_extra_interaction.py` 单独注入。
 
 重建时由 `quick.py rebuild` 同步到 `work/build/assets/packages/`，再随 CPK 一起打包。
 详见 [overlay/README.md](overlay/README.md)。
@@ -73,6 +73,8 @@ v1.0 还更新了字体/小字文件，并补入物品、技能、情报矩阵�
 | `context-opening-review.md` | 开场三场景语境校对报告 |
 | `context-opening-fixes.jsonl` | 59 条开场修正 |
 | `context-lane-1-fixes.jsonl` | lane 1 的 138 条修正 |
+| `remaining-japanese-fixes.jsonl` | 主剧情 29 条日文残留/乱码修正，包括运行时从者职阶分支与动态称呼 |
+| `servant-dialogue-fixes.jsonl` | 独立角色包的 297 条从者对白译文，按 `id / zh_cn / reason` 记录 |
 
 ### 修正文件格式
 
@@ -111,6 +113,14 @@ v1.0 还更新了字体/小字文件，并补入物品、技能、情报矩阵�
 | `final-validation.json` | 回环与像素校验 |
 | `remaining-ui-candidates.json` | OCR 命中但未处理的条目与分类 |
 | `before-after-proof.png` | 修改前后对比 |
+
+### servant dialogue
+
+| 文件 | 说明 |
+|---|---|
+| `servant-dialogue-references.jsonl` | 297 条角色包日文字符串的 DAT 偏移、引用指针和原始字节证据；译文见 `data/review/servant-dialogue-fixes.jsonl` |
+
+运行 `python3 scripts/audit/audit-japanese-residuals.py` 会把主剧情修正叠加后扫描正文、动态分支、三个从者包字幕及 UI 配置中的日文假名，并输出构建目录中的 JSON 报告。`#RUBS` 上标读音被当作注音排除，中文正文仍会检查。v1.1 审计记录 19,711 条主剧情、297 条从者字幕、345 个从者对白指针和 755 项 UI 文本，玩家可见日文假名残留为 0。
 
 ### ruby/
 

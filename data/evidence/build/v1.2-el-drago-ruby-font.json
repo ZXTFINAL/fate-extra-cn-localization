@@ -1,0 +1,18 @@
+{
+  "ruby_original_rows": 681,
+  "ruby_rows": 681,
+  "ruby_pages": 4,
+  "ruby_new_characters": "",
+  "ruby_new_count": 0,
+  "ruby_bin_sha256": "da222fbed6d54fb44299bc722638d43237690594fa67ab884f915ddf6519c605",
+  "ruby_txb_sha256": "3bd12a49a05d52238272ff0c6c87afb2897c2191a2f601fc08d9bacaa0fe9fdc",
+  "main_changes": [],
+  "existing_aliases_changed": false,
+  "runtime_page_boundary_indices": [
+    195,
+    196,
+    391,
+    392
+  ],
+  "original_ruby_cells_preserved": 681
+}

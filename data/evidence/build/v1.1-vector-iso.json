@@ -1,0 +1,13 @@
+{
+  "iso_sha256": "ec4b70157062bd67ada1c86c450b1db06ee53c18c4a42c93dc4e16f3b23013b6",
+  "iso_bytes": 1467521024,
+  "cpk_bytes": 1354011024,
+  "cpk_sha256": "16c041c5d7dd62648f15efc34ecf64ef25847ae0d4912a799503046a6b062965",
+  "ui_configured_textures": 274,
+  "ui_changed_bundles_with_aliases": 298,
+  "overlay_files": 582,
+  "overlay_bytes": 72885376,
+  "translation_text_changed": false,
+  "runtime_test": false,
+  "embedded_cpk_verified_by_embed_tool": true
+}

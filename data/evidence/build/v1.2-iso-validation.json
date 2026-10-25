@@ -1,0 +1,90 @@
+{
+  "version": "v1.2",
+  "iso": "/Users/zhaoxiangting/Documents/projects/common/fate:extra/work/release-v1.2/final/Fate_Extra_CN-v1.2.iso",
+  "iso_bytes": 1473841152,
+  "iso_sha256": "b3cc328cfe8abf2a25e65df02e2ab50c499b5aa13d3204707fd05f3715e4d21e",
+  "cpk": "/Users/zhaoxiangting/Documents/projects/common/fate:extra/work/github/fate-extra-cn-localization-retry/work/build/data.final/data.cpk",
+  "cpk_bytes": 1360396688,
+  "cpk_sha256": "b2912da37a016ff7e33233e6fc9553d40ec68bf1ab313ff5d1c71b9c2f8068d2",
+  "iso_embedded_cpk_size": 1360396688,
+  "iso_embedded_cpk_sha256": "b2912da37a016ff7e33233e6fc9553d40ec68bf1ab313ff5d1c71b9c2f8068d2",
+  "iso_cpk_hash_matches_build": true,
+  "reviewed_texture_readbacks": [
+    {
+      "cpk_package": "pack/savemenu.pak",
+      "member": "interface/save/0000.txb",
+      "exact_overlay_match": true,
+      "overlay_sha256": "4bca859bca282a9cd4c96b8f724c7935b21e2f9f54fd6ce46fb8da4cbd266c52",
+      "embedded_member_sha256": "4bca859bca282a9cd4c96b8f724c7935b21e2f9f54fd6ce46fb8da4cbd266c52"
+    },
+    {
+      "cpk_package": "pack/savemenu.pak",
+      "member": "interface/save/0001.txb",
+      "exact_overlay_match": true,
+      "overlay_sha256": "8d4b18cb247207484b85f25db319c4bb81c2c500602f820f2383044b0f1f1279",
+      "embedded_member_sha256": "8d4b18cb247207484b85f25db319c4bb81c2c500602f820f2383044b0f1f1279"
+    },
+    {
+      "cpk_package": "pack/beginning.pak",
+      "member": "interface/beginning/0000.txb",
+      "exact_overlay_match": true,
+      "overlay_sha256": "c231311594ba0bb1c4e91dc3b57ea93083a970fa5e167e913558caa3ea7192d0",
+      "embedded_member_sha256": "c231311594ba0bb1c4e91dc3b57ea93083a970fa5e167e913558caa3ea7192d0"
+    },
+    {
+      "cpk_package": "pack/modeselect.pak",
+      "member": "interface/modeselect/modeselect.txb",
+      "exact_overlay_match": true,
+      "overlay_sha256": "9bc36a44f24ee682984b4764365657de86ece6a38a98706fcb09f474e121e407",
+      "embedded_member_sha256": "9bc36a44f24ee682984b4764365657de86ece6a38a98706fcb09f474e121e407"
+    },
+    {
+      "cpk_package": "pack/000001.cmp",
+      "member": "interface/shop/shop_00.txb",
+      "exact_overlay_match": true,
+      "overlay_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "embedded_member_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5"
+    }
+  ],
+  "static_checks": "2026-10-25 rebuild: CPK hash and embedded CPK verified; all nine complete EI Drago mentions use upper EI Drago over base 大航海的恶魔; all four partial/uncertain mentions use EI; no old 艾尔/El translation remains in the effective build text. Sampled TXB and static item tables match overlays; XMB assets read back correctly. PPSSPP EBOOT includes translated dynamic MP strings. No visual check of the new build was completed.",
+  "source_iso": "/Users/zhaoxiangting/Documents/projects/common/fate:extra/2287/2287/2287 - 命运之夜 最初的开始 Fate Extra (Marvelous)(JP).iso",
+  "overlay_file_count": 588,
+  "overlay_bytes": 73011816,
+  "built_at": "2026-10-25T16:25:34+08:00",
+  "translations_sha256": "a8a536e1865b388117078ec33bf5ce3ccb6a977749a6a3b2386de25b0110dac9",
+  "ppsspp_variant": {
+    "iso": "/Users/zhaoxiangting/Documents/projects/common/fate:extra/work/release-v1.2/final/Fate_Extra_CN-v1.2-PPSSPP.iso",
+    "bytes": 1473841152,
+    "sha256": "2618deec26363b0ad7d07426b7f32cdf0c9ce7724cc18b007771e5bd0faac66b",
+    "decrypted_eboot_sha256": "5179e70d31aba70a5887e515c5d6412b4c6ac1ae4f03f83acbc40551c51371ac",
+    "runtime_string_patch_offsets": [
+      "0x14e3e4",
+      "0x14e41c"
+    ],
+    "data_cpk_sha256_unchanged": "b2912da37a016ff7e33233e6fc9553d40ec68bf1ab313ff5d1c71b9c2f8068d2",
+    "runtime_strings_readback": true,
+    "xmb_assets_readback": true,
+    "boot_note": "This ISO contains a decrypted EBOOT ELF for PPSSPP/CFW; retail PSP firmware compatibility is not implied."
+  },
+  "item_description_readback": {
+    "package": "pack/PRELOAD.pak",
+    "parameter_tables": {
+      "cmn/item_param_01.bin": "fb0d9ba526712b7222dd2717b9de35337631b2f852465cdf7247bc20e6f70515",
+      "cmn/item_param_04.bin": "f7623ff6070a774544d87344f923b6ff2d91db84f5a2a1692231026706404e97"
+    },
+    "matches_overlay_byte_for_byte": true,
+    "effective_gear_description_records": 32,
+    "japanese_residuals_in_visible_fields": 0,
+    "evidence": "data/evidence/ui/item-description-coverage-v1.2.md"
+  },
+  "xmb_readback_evidence": "data/evidence/build/v1.2-final-iso-fixes.json",
+  "layout_evidence": "data/review/dialogue-layout-audit-v17.md",
+  "sfo_title_readback": {
+    "value": "Fate/EXTRA 中文汉化版",
+    "readback_ok": true,
+    "checked_in": [
+      "Fate_Extra_CN-v1.2.iso",
+      "Fate_Extra_CN-v1.2-PPSSPP.iso"
+    ]
+  }
+}

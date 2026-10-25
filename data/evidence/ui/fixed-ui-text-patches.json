@@ -1,0 +1,51 @@
+{
+  "resources": [
+    {
+      "path": "PRELOAD/interface/mainmenu/help.bin",
+      "source_sha256": "fde263e3f668559846c8f65c8dd723fcae28ccbf9ae34c672bcce0725e51a120",
+      "strings": [
+        {
+          "id": 0,
+          "source": "現在の状態やスキルを確認します",
+          "target": "查看当前状态和技能"
+        },
+        {
+          "id": 1,
+          "source": "収集した情報マトリクスを確認します",
+          "target": "查看已收集的情报矩阵"
+        },
+        {
+          "id": 2,
+          "source": "装備している礼装を変更します",
+          "target": "更换当前装备的礼装"
+        },
+        {
+          "id": 3,
+          "source": "所持しているアイテムを確認します",
+          "target": "查看持有的道具"
+        },
+        {
+          "id": 4,
+          "source": "進行状況のセーブやゲームの設定を行います",
+          "target": "保存当前进度或调整游戏设置"
+        }
+      ]
+    },
+    {
+      "path": "PRELOAD/interface/cmn/dialog.bin",
+      "source_sha256": "5078e5e3923dcecc41fa9b863c4e31a4541a2c42c9bb047125b01416ceed47f6",
+      "strings": [
+        {
+          "id": 0,
+          "source": "はい",
+          "target": "是"
+        },
+        {
+          "id": 1,
+          "source": "いいえ",
+          "target": "否"
+        }
+      ]
+    }
+  ]
+}

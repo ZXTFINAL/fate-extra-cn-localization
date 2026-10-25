@@ -172,15 +172,25 @@ def main() -> None:
     main_parts = [split_tex(b) for _, b in main_entries]
     new_main_glyphs = render(missing, 16, 13, args.renderer)
     for c, index in zip(missing, reversed(spare)):
-        for codepoint in range(0xe000, 0xe758):
-            alias = chr(codepoint)
+        alias = mapping.get(c)
+        if alias is not None:
+            owners = [owner for owner, value in mapping.items() if value == alias and owner != c]
+            if owners:
+                raise ValueError(f'private glyph alias {alias!r} for {c!r} is already assigned to {owners[0]!r}')
             k = encode_key(alias, {})
-            if k not in main_keys and alias not in mapping.values():
-                mapping[c] = alias
-                main_keys.add(k)
-                break
+            if k in main_keys:
+                raise ValueError(f'private glyph alias {alias!r} for {c!r} unexpectedly already exists in kanzi.bin')
         else:
-            raise ValueError('no unused CP932 private key')
+            for codepoint in range(0xe000, 0xe758):
+                candidate = chr(codepoint)
+                k = encode_key(candidate, {})
+                if k not in main_keys and candidate not in mapping.values():
+                    alias = candidate
+                    mapping[c] = alias
+                    break
+            else:
+                raise ValueError('no unused CP932 private key')
+        main_keys.add(k)
         old_row = main_rows[index]
         main_rows[index] = make_row(c, mapping)
         put_cell(main_parts[index // 256][1], new_main_glyphs[c], index % 256, 16, 256)

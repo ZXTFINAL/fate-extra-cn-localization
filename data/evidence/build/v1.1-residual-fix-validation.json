@@ -1,0 +1,50 @@
+{
+  "version": "1.1 residual fix",
+  "iso": "/Users/zhaoxiangting/Documents/projects/common/fate:extra/work/build/Fate_Extra_CN-v1.1-residual-fix.iso",
+  "iso_bytes": 1480052736,
+  "iso_sha256": "07a7af6fa16773d276fa14a2a49ad40facfe3e53935e6484cd601c7f6a6901e8",
+  "cpk": "/Users/zhaoxiangting/Documents/projects/common/fate:extra/work/build/localization-v1.1/residual-fix-20261023/stage/data.cpk",
+  "cpk_bytes": 1366608272,
+  "cpk_sha256": "b36f4bebe19308411e748d15dde13dfe11c1f99b1b5495e7ce9887c4023bc245",
+  "iso_embedded_cpk_size": 1366608272,
+  "iso_embedded_cpk_sha256": "b36f4bebe19308411e748d15dde13dfe11c1f99b1b5495e7ce9887c4023bc245",
+  "iso_cpk_hash_matches_build": true,
+  "reviewed_texture_readbacks": [
+    {
+      "cpk_package": "pack/savemenu.pak",
+      "member": "interface/save/0000.txb",
+      "exact_overlay_match": true,
+      "overlay_sha256": "4bca859bca282a9cd4c96b8f724c7935b21e2f9f54fd6ce46fb8da4cbd266c52",
+      "embedded_member_sha256": "4bca859bca282a9cd4c96b8f724c7935b21e2f9f54fd6ce46fb8da4cbd266c52"
+    },
+    {
+      "cpk_package": "pack/savemenu.pak",
+      "member": "interface/save/0001.txb",
+      "exact_overlay_match": true,
+      "overlay_sha256": "8d4b18cb247207484b85f25db319c4bb81c2c500602f820f2383044b0f1f1279",
+      "embedded_member_sha256": "8d4b18cb247207484b85f25db319c4bb81c2c500602f820f2383044b0f1f1279"
+    },
+    {
+      "cpk_package": "pack/beginning.pak",
+      "member": "interface/beginning/0000.txb",
+      "exact_overlay_match": true,
+      "overlay_sha256": "c231311594ba0bb1c4e91dc3b57ea93083a970fa5e167e913558caa3ea7192d0",
+      "embedded_member_sha256": "c231311594ba0bb1c4e91dc3b57ea93083a970fa5e167e913558caa3ea7192d0"
+    },
+    {
+      "cpk_package": "pack/modeselect.pak",
+      "member": "interface/modeselect/modeselect.txb",
+      "exact_overlay_match": true,
+      "overlay_sha256": "9bc36a44f24ee682984b4764365657de86ece6a38a98706fcb09f474e121e407",
+      "embedded_member_sha256": "9bc36a44f24ee682984b4764365657de86ece6a38a98706fcb09f474e121e407"
+    },
+    {
+      "cpk_package": "pack/000001.cmp",
+      "member": "interface/shop/shop_00.txb",
+      "exact_overlay_match": true,
+      "overlay_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5",
+      "embedded_member_sha256": "5f8c3e746fb453aa3a203c10c38604f458ac3a6bd0f40b9551339eb60a1fb0d5"
+    }
+  ],
+  "static_checks": "All displayed save, mode-select, and shop TXB resources in CPK match the corresponding overlay bytes exactly. PSP hardware playback was not performed in this validation."
+}

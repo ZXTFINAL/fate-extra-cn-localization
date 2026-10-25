@@ -7,9 +7,9 @@
       "blocks": [
         {
           "box": [
-            20,
+            17,
             0,
-            44,
+            47,
             16
           ],
           "background": [
@@ -31,7 +31,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "helper_gothic"
         }
       ]
     },
@@ -42,9 +43,9 @@
       "blocks": [
         {
           "box": [
-            20,
+            17,
             0,
-            44,
+            47,
             16
           ],
           "background": [
@@ -66,7 +67,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "helper_gothic"
         }
       ]
     },
@@ -77,9 +79,9 @@
       "blocks": [
         {
           "box": [
-            20,
+            17,
             0,
-            44,
+            47,
             16
           ],
           "background": [
@@ -101,7 +103,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "helper_gothic"
         }
       ]
     },
@@ -112,9 +115,9 @@
       "blocks": [
         {
           "box": [
-            20,
+            17,
             0,
-            44,
+            47,
             16
           ],
           "background": [
@@ -136,7 +139,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "helper_gothic"
         }
       ]
     },
@@ -147,9 +151,9 @@
       "blocks": [
         {
           "box": [
-            16,
+            10,
             0,
-            304,
+            310,
             16
           ],
           "background": [
@@ -171,7 +175,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -206,7 +211,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -241,7 +247,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -252,9 +259,9 @@
       "blocks": [
         {
           "box": [
-            16,
+            10,
             0,
-            112,
+            118,
             16
           ],
           "background": [
@@ -276,7 +283,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -287,9 +295,9 @@
       "blocks": [
         {
           "box": [
-            16,
+            10,
             0,
-            144,
+            150,
             16
           ],
           "background": [
@@ -311,7 +319,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -322,9 +331,9 @@
       "blocks": [
         {
           "box": [
-            16,
+            10,
             0,
-            144,
+            150,
             16
           ],
           "background": [
@@ -346,7 +355,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -357,9 +367,9 @@
       "blocks": [
         {
           "box": [
-            20,
+            14,
             0,
-            44,
+            50,
             16
           ],
           "background": [
@@ -381,7 +391,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "helper_gothic"
         }
       ]
     },
@@ -392,9 +403,9 @@
       "blocks": [
         {
           "box": [
-            20,
+            14,
             0,
-            76,
+            82,
             16
           ],
           "background": [
@@ -416,7 +427,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "helper_gothic"
         }
       ]
     },
@@ -427,9 +439,9 @@
       "blocks": [
         {
           "box": [
-            20,
+            12,
             0,
-            44,
+            52,
             16
           ],
           "background": [
@@ -451,7 +463,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "helper_gothic"
         }
       ]
     },
@@ -462,9 +475,9 @@
       "blocks": [
         {
           "box": [
-            20,
+            14,
             0,
-            44,
+            50,
             16
           ],
           "background": [
@@ -486,7 +499,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "helper_gothic"
         }
       ]
     },
@@ -512,16 +526,18 @@
         {
           "box": [
             0,
-            11,
+            3,
             102,
-            32
+            42
           ],
           "background": null,
           "text": "小卖部",
-          "size": 32,
+          "size": 42,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "display_mincho",
+          "width_scale": 0.76
         },
         {
           "box": [
@@ -563,16 +579,18 @@
         {
           "box": [
             0,
-            18,
+            2,
             64,
-            28
+            42
           ],
           "background": null,
           "text": "购买",
-          "size": 28,
+          "size": 42,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "display_mincho",
+          "width_scale": 0.75
         }
       ]
     },
@@ -598,16 +616,18 @@
         {
           "box": [
             0,
-            18,
+            2,
             64,
-            28
+            42
           ],
           "background": null,
           "text": "出售",
-          "size": 28,
+          "size": 42,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "display_mincho",
+          "width_scale": 0.75
         }
       ]
     },
@@ -642,7 +662,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_compact"
         }
       ]
     },
@@ -653,9 +674,9 @@
       "blocks": [
         {
           "box": [
-            16,
+            10,
             0,
-            112,
+            118,
             16
           ],
           "background": [
@@ -677,7 +698,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -712,7 +734,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_compact"
         }
       ]
     },
@@ -739,7 +762,7 @@
         {
           "box": [
             0,
-            6,
+            8,
             160,
             16
           ],
@@ -751,7 +774,8 @@
             216,
             255
           ],
-          "background": null
+          "background": null,
+          "style": "matrix_tech"
         }
       ]
     },
@@ -778,7 +802,7 @@
         {
           "box": [
             0,
-            6,
+            8,
             160,
             16
           ],
@@ -790,7 +814,8 @@
             216,
             255
           ],
-          "background": null
+          "background": null,
+          "style": "matrix_tech"
         }
       ]
     },
@@ -817,7 +842,7 @@
         {
           "box": [
             0,
-            6,
+            8,
             160,
             16
           ],
@@ -829,7 +854,8 @@
             216,
             255
           ],
-          "background": null
+          "background": null,
+          "style": "matrix_tech"
         }
       ]
     },
@@ -855,7 +881,7 @@
         {
           "box": [
             0,
-            8,
+            2,
             520,
             16
           ],
@@ -864,7 +890,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "outlined_compact"
         }
       ]
     },
@@ -890,7 +917,7 @@
         {
           "box": [
             0,
-            8,
+            2,
             520,
             16
           ],
@@ -899,7 +926,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "outlined_compact"
         }
       ]
     },
@@ -925,7 +953,7 @@
         {
           "box": [
             0,
-            8,
+            2,
             520,
             16
           ],
@@ -934,7 +962,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "outlined_compact"
         }
       ]
     },
@@ -969,7 +998,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -1004,7 +1034,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -1039,7 +1070,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -1074,7 +1106,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -1109,7 +1142,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -1144,7 +1178,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -1179,7 +1214,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -1214,7 +1250,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -1249,7 +1286,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -1284,7 +1322,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -1319,7 +1358,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -1354,7 +1394,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -1389,7 +1430,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -1424,7 +1466,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -1459,7 +1502,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -1494,7 +1538,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -1529,7 +1574,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -1564,7 +1610,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -1599,7 +1646,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -1634,7 +1682,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -1669,7 +1718,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -1704,7 +1754,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -1739,7 +1790,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -1774,7 +1826,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -1809,7 +1862,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -1844,7 +1898,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -1879,7 +1934,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -1914,7 +1970,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -1949,7 +2006,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -1975,7 +2033,7 @@
         {
           "box": [
             20,
-            8,
+            2,
             108,
             16
           ],
@@ -1984,7 +2042,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -2019,7 +2078,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -2054,7 +2114,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -2089,7 +2150,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -2124,7 +2186,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -2150,16 +2213,18 @@
         {
           "box": [
             0,
-            12,
+            5,
             162,
-            39
+            44
           ],
           "background": null,
           "text": "今日成果",
-          "size": 39,
+          "size": 44,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "display_mincho",
+          "width_scale": 0.87
         }
       ]
     },
@@ -2186,7 +2251,7 @@
         {
           "box": [
             0,
-            6,
+            8,
             128,
             16
           ],
@@ -2198,7 +2263,8 @@
             216,
             255
           ],
-          "background": null
+          "background": null,
+          "style": "matrix_tech"
         }
       ]
     },
@@ -2225,7 +2291,7 @@
         {
           "box": [
             0,
-            6,
+            8,
             128,
             16
           ],
@@ -2237,7 +2303,8 @@
             216,
             255
           ],
-          "background": null
+          "background": null,
+          "style": "matrix_tech"
         }
       ]
     },
@@ -2263,16 +2330,18 @@
         {
           "box": [
             0,
-            17,
+            0,
             192,
-            30
+            59
           ],
           "background": null,
           "text": "第一月想海",
-          "size": 30,
+          "size": 59,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "neon_mincho",
+          "width_scale": 0.53
         }
       ]
     },
@@ -2307,7 +2376,8 @@
           "size": 20,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "ui_compact"
         }
       ]
     },
@@ -2342,7 +2412,8 @@
           "size": 20,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "ui_compact"
         }
       ]
     },
@@ -2368,16 +2439,18 @@
         {
           "box": [
             0,
-            17,
+            0,
             192,
-            30
+            59
           ],
           "background": null,
           "text": "第二月想海",
-          "size": 30,
+          "size": 59,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "neon_mincho",
+          "width_scale": 0.53
         }
       ]
     },
@@ -2412,7 +2485,8 @@
           "size": 20,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "ui_compact"
         }
       ]
     },
@@ -2447,7 +2521,8 @@
           "size": 20,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "ui_compact"
         }
       ]
     },
@@ -2473,16 +2548,18 @@
         {
           "box": [
             0,
-            17,
+            0,
             192,
-            30
+            59
           ],
           "background": null,
           "text": "第三月想海",
-          "size": 30,
+          "size": 59,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "neon_mincho",
+          "width_scale": 0.53
         }
       ]
     },
@@ -2517,7 +2594,8 @@
           "size": 20,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "ui_compact"
         }
       ]
     },
@@ -2552,7 +2630,8 @@
           "size": 20,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "ui_compact"
         }
       ]
     },
@@ -2578,16 +2657,18 @@
         {
           "box": [
             0,
-            17,
+            0,
             192,
-            30
+            59
           ],
           "background": null,
           "text": "第四月想海",
-          "size": 30,
+          "size": 59,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "neon_mincho",
+          "width_scale": 0.53
         }
       ]
     },
@@ -2622,7 +2703,8 @@
           "size": 20,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "ui_compact"
         }
       ]
     },
@@ -2657,7 +2739,8 @@
           "size": 20,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "ui_compact"
         }
       ]
     },
@@ -2683,16 +2766,18 @@
         {
           "box": [
             0,
-            17,
+            0,
             192,
-            30
+            59
           ],
           "background": null,
           "text": "第五月想海",
-          "size": 30,
+          "size": 59,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "neon_mincho",
+          "width_scale": 0.53
         }
       ]
     },
@@ -2727,7 +2812,8 @@
           "size": 20,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "ui_compact"
         }
       ]
     },
@@ -2762,7 +2848,8 @@
           "size": 20,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "ui_compact"
         }
       ]
     },
@@ -2788,16 +2875,18 @@
         {
           "box": [
             0,
-            17,
+            0,
             192,
-            30
+            59
           ],
           "background": null,
           "text": "第六月想海",
-          "size": 30,
+          "size": 59,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "neon_mincho",
+          "width_scale": 0.53
         }
       ]
     },
@@ -2832,7 +2921,8 @@
           "size": 20,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "ui_compact"
         }
       ]
     },
@@ -2867,7 +2957,8 @@
           "size": 20,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "ui_compact"
         }
       ]
     },
@@ -2893,16 +2984,18 @@
         {
           "box": [
             0,
-            17,
+            0,
             192,
-            30
+            59
           ],
           "background": null,
           "text": "第七月想海",
-          "size": 30,
+          "size": 59,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "neon_mincho",
+          "width_scale": 0.53
         }
       ]
     },
@@ -2937,7 +3030,8 @@
           "size": 20,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "ui_compact"
         }
       ]
     },
@@ -2972,7 +3066,8 @@
           "size": 20,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "ui_compact"
         }
       ]
     },
@@ -2998,16 +3093,18 @@
         {
           "box": [
             0,
-            17,
+            0,
             192,
-            30
+            59
           ],
           "background": null,
           "text": "第零月想海",
-          "size": 30,
+          "size": 59,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "neon_mincho",
+          "width_scale": 0.53
         }
       ]
     },
@@ -3042,7 +3139,8 @@
           "size": 20,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "ui_compact"
         }
       ]
     },
@@ -3077,7 +3175,8 @@
           "size": 20,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "ui_compact"
         }
       ]
     },
@@ -3088,9 +3187,9 @@
       "blocks": [
         {
           "box": [
-            20,
+            17,
             0,
-            44,
+            47,
             16
           ],
           "background": [
@@ -3112,7 +3211,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_compact"
         }
       ]
     },
@@ -3123,9 +3223,9 @@
       "blocks": [
         {
           "box": [
-            20,
+            17,
             0,
-            76,
+            79,
             16
           ],
           "background": [
@@ -3147,7 +3247,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_compact"
         }
       ]
     },
@@ -3158,9 +3259,9 @@
       "blocks": [
         {
           "box": [
-            34,
+            31,
             0,
-            62,
+            65,
             16
           ],
           "background": [
@@ -3182,7 +3283,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_compact"
         }
       ]
     },
@@ -3217,7 +3319,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_compact"
         }
       ]
     },
@@ -3252,7 +3355,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_compact"
         }
       ]
     },
@@ -3263,9 +3367,9 @@
       "blocks": [
         {
           "box": [
-            16,
+            13,
             0,
-            192,
+            195,
             16
           ],
           "background": [
@@ -3287,7 +3391,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_compact"
         }
       ]
     },
@@ -3298,9 +3403,9 @@
       "blocks": [
         {
           "box": [
-            16,
+            13,
             0,
-            192,
+            195,
             16
           ],
           "background": [
@@ -3322,7 +3427,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_compact"
         }
       ]
     },
@@ -3333,9 +3439,9 @@
       "blocks": [
         {
           "box": [
-            16,
+            13,
             0,
-            192,
+            195,
             16
           ],
           "background": [
@@ -3357,7 +3463,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_compact"
         }
       ]
     },
@@ -3368,9 +3475,9 @@
       "blocks": [
         {
           "box": [
-            16,
+            13,
             0,
-            192,
+            195,
             16
           ],
           "background": [
@@ -3392,7 +3499,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_compact"
         }
       ]
     },
@@ -3427,7 +3535,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_compact"
         }
       ]
     },
@@ -3462,7 +3571,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_compact"
         }
       ]
     },
@@ -3497,7 +3607,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -3532,7 +3643,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -3567,7 +3679,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -3602,7 +3715,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -3637,7 +3751,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -3672,7 +3787,8 @@
           "size": 18,
           "align": "center",
           "background": null,
-          "color": "palette_ink"
+          "color": "palette_ink",
+          "style": "ui_compact"
         }
       ]
     },
@@ -3698,16 +3814,18 @@
         {
           "box": [
             0,
-            14,
+            8,
             192,
-            36
+            45
           ],
           "background": null,
           "text": "灵魂篡改",
-          "size": 36,
+          "size": 44,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "display_mincho",
+          "width_scale": 0.76
         }
       ]
     },
@@ -3720,8 +3838,8 @@
           "box": [
             0,
             0,
-            112,
-            18
+            136,
+            32
           ],
           "background": [
             0,
@@ -3742,7 +3860,23 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_compact"
+        },
+        {
+          "box": [
+            120,
+            15,
+            16,
+            16
+          ],
+          "background": null,
+          "text": "天",
+          "size": 14,
+          "spacing": 2,
+          "color": "palette_ink",
+          "align": "center",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -3777,7 +3911,8 @@
           "size": 19,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "ui_compact"
         }
       ]
     },
@@ -3812,7 +3947,8 @@
           "size": 19,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "ui_compact"
         }
       ]
     },
@@ -3847,7 +3983,8 @@
           "size": 19,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "ui_compact"
         }
       ]
     },
@@ -3882,7 +4019,8 @@
           "size": 19,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "ui_compact"
         }
       ]
     },
@@ -3917,7 +4055,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_compact"
         }
       ]
     },
@@ -3930,8 +4069,8 @@
           "box": [
             0,
             0,
-            112,
-            18
+            136,
+            32
           ],
           "background": [
             0,
@@ -3952,7 +4091,23 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_compact"
+        },
+        {
+          "box": [
+            120,
+            15,
+            16,
+            16
+          ],
+          "background": null,
+          "text": "天",
+          "size": 14,
+          "spacing": 2,
+          "color": "palette_ink",
+          "align": "center",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -3978,16 +4133,17 @@
         {
           "box": [
             0,
-            5,
+            0,
             64,
-            21
+            18
           ],
           "background": null,
           "text": "早晨",
-          "size": 21,
+          "size": 18,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "ui_compact"
         }
       ]
     },
@@ -4013,16 +4169,17 @@
         {
           "box": [
             0,
-            5,
+            1,
             64,
-            21
+            18
           ],
           "background": null,
           "text": "中午",
-          "size": 21,
+          "size": 18,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "ui_compact"
         }
       ]
     },
@@ -4048,16 +4205,17 @@
         {
           "box": [
             0,
-            5,
+            1,
             64,
-            21
+            18
           ],
           "background": null,
           "text": "傍晚",
-          "size": 21,
+          "size": 18,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "ui_compact"
         }
       ]
     },
@@ -4083,16 +4241,17 @@
         {
           "box": [
             0,
-            5,
+            0,
             64,
-            21
+            18
           ],
           "background": null,
           "text": "决战日",
-          "size": 21,
+          "size": 18,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "ui_compact"
         }
       ]
     },
@@ -4118,7 +4277,7 @@
         {
           "box": [
             0,
-            8,
+            3,
             192,
             16
           ],
@@ -4127,7 +4286,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "outlined_compact"
         }
       ]
     },
@@ -4153,7 +4313,7 @@
         {
           "box": [
             0,
-            8,
+            3,
             192,
             16
           ],
@@ -4162,7 +4322,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "outlined_compact"
         }
       ]
     },
@@ -4197,7 +4358,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_compact"
         }
       ]
     },
@@ -4208,9 +4370,9 @@
       "blocks": [
         {
           "box": [
-            18,
+            14,
             0,
-            30,
+            34,
             24
           ],
           "background": [
@@ -4232,7 +4394,8 @@
           "size": 15,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_compact"
         }
       ]
     },
@@ -4243,9 +4406,9 @@
       "blocks": [
         {
           "box": [
-            18,
+            14,
             0,
-            70,
+            74,
             24
           ],
           "background": [
@@ -4267,7 +4430,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_compact"
         }
       ]
     },
@@ -4278,9 +4442,9 @@
       "blocks": [
         {
           "box": [
-            16,
+            10,
             0,
-            136,
+            142,
             16
           ],
           "background": [
@@ -4302,7 +4466,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_compact"
         }
       ]
     },
@@ -4334,10 +4499,11 @@
           ],
           "background": null,
           "text": "〈注意〉",
-          "size": 18,
+          "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "outlined_mincho"
         }
       ]
     },
@@ -4369,10 +4535,11 @@
           ],
           "background": null,
           "text": "本作存在通向死路的剧情路线，",
-          "size": 18,
+          "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "outlined_mincho"
         }
       ]
     },
@@ -4404,10 +4571,11 @@
           ],
           "background": null,
           "text": "以及不合常理的选项。",
-          "size": 18,
+          "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "outlined_mincho"
         }
       ]
     },
@@ -4439,10 +4607,11 @@
           ],
           "background": null,
           "text": "建议您准备",
-          "size": 18,
+          "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "outlined_mincho"
         }
       ]
     },
@@ -4474,10 +4643,11 @@
           ],
           "background": null,
           "text": "多个存档。",
-          "size": 18,
+          "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "outlined_mincho"
         }
       ]
     },
@@ -4512,7 +4682,8 @@
           "size": 34,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "neon_tech"
         }
       ]
     },
@@ -4547,7 +4718,8 @@
           "size": 30,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "neon_tech"
         }
       ]
     },
@@ -4582,7 +4754,8 @@
           "size": 30,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "neon_tech"
         }
       ]
     },
@@ -4617,7 +4790,8 @@
           "size": 30,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "neon_tech"
         }
       ]
     },
@@ -4652,7 +4826,8 @@
           "size": 30,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "neon_tech"
         }
       ]
     },
@@ -4687,7 +4862,8 @@
           "size": 30,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "neon_tech"
         }
       ]
     },
@@ -4722,7 +4898,37 @@
           "size": 28,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_tech"
+        },
+        {
+          "box": [
+            128,
+            0,
+            40,
+            40
+          ],
+          "background": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "box": [
+            128,
+            6,
+            40,
+            28
+          ],
+          "background": null,
+          "text": "人",
+          "size": 28,
+          "spacing": 2,
+          "color": "palette_ink",
+          "align": "center",
+          "style": "neon_tech"
         }
       ]
     },
@@ -4757,7 +4963,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "outlined_mincho"
         }
       ]
     },
@@ -4792,7 +4999,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "outlined_mincho"
         }
       ]
     },
@@ -4827,7 +5035,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "outlined_mincho"
         }
       ]
     },
@@ -4862,7 +5071,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "outlined_mincho"
         }
       ]
     },
@@ -4897,7 +5107,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "outlined_mincho"
         }
       ]
     },
@@ -4928,11 +5139,12 @@
             24
           ],
           "background": null,
-          "text": "彼常独立于剑丘之上，\n沉醉于胜利之中。",
-          "size": 12,
+          "text": "彼常独立于剑丘之上，沉醉于胜利之中。",
+          "size": 11,
           "spacing": 0,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "outlined_mincho"
         }
       ]
     },
@@ -4967,7 +5179,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "outlined_mincho"
         }
       ]
     },
@@ -5002,7 +5215,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "center"
+          "align": "center",
+          "style": "outlined_mincho"
         }
       ]
     },
@@ -5027,9 +5241,9 @@
         },
         {
           "box": [
-            0,
-            3,
-            288,
+            7,
+            6,
+            281,
             21
           ],
           "background": null,
@@ -5037,7 +5251,8 @@
           "size": 21,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "class_gothic"
         },
         {
           "box": [
@@ -5055,9 +5270,9 @@
         },
         {
           "box": [
-            0,
+            7,
             55,
-            288,
+            281,
             30
           ],
           "background": null,
@@ -5065,7 +5280,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "outlined_mincho"
         }
       ]
     },
@@ -5090,9 +5306,9 @@
         },
         {
           "box": [
-            0,
-            3,
-            288,
+            7,
+            5,
+            281,
             21
           ],
           "background": null,
@@ -5100,7 +5316,8 @@
           "size": 21,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "class_gothic"
         },
         {
           "box": [
@@ -5118,9 +5335,9 @@
         },
         {
           "box": [
-            0,
+            7,
             55,
-            288,
+            281,
             30
           ],
           "background": null,
@@ -5128,7 +5345,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "outlined_mincho"
         }
       ]
     },
@@ -5153,9 +5371,9 @@
         },
         {
           "box": [
-            0,
-            3,
-            288,
+            7,
+            5,
+            281,
             21
           ],
           "background": null,
@@ -5163,7 +5381,8 @@
           "size": 21,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "class_gothic"
         },
         {
           "box": [
@@ -5181,9 +5400,9 @@
         },
         {
           "box": [
-            0,
+            7,
             55,
-            288,
+            281,
             30
           ],
           "background": null,
@@ -5191,7 +5410,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "outlined_mincho"
         }
       ]
     },
@@ -5202,9 +5422,9 @@
       "blocks": [
         {
           "box": [
-            20,
+            17,
             0,
-            44,
+            47,
             16
           ],
           "background": [
@@ -5226,7 +5446,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "helper_gothic"
         }
       ]
     },
@@ -5237,9 +5458,9 @@
       "blocks": [
         {
           "box": [
-            20,
+            17,
             0,
-            44,
+            47,
             16
           ],
           "background": [
@@ -5261,7 +5482,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "helper_gothic"
         }
       ]
     },
@@ -5272,9 +5494,9 @@
       "blocks": [
         {
           "box": [
-            20,
+            17,
             0,
-            44,
+            47,
             16
           ],
           "background": [
@@ -5296,7 +5518,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "helper_gothic"
         }
       ]
     },
@@ -5307,9 +5530,9 @@
       "blocks": [
         {
           "box": [
-            20,
+            17,
             0,
-            44,
+            47,
             16
           ],
           "background": [
@@ -5331,7 +5554,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "helper_gothic"
         }
       ]
     },
@@ -5342,9 +5566,9 @@
       "blocks": [
         {
           "box": [
-            16,
+            10,
             0,
-            304,
+            310,
             16
           ],
           "background": [
@@ -5366,7 +5590,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_compact"
         }
       ]
     },
@@ -5377,9 +5602,9 @@
       "blocks": [
         {
           "box": [
-            16,
+            10,
             0,
-            304,
+            310,
             16
           ],
           "background": [
@@ -5401,7 +5626,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_compact"
         }
       ]
     },
@@ -5436,7 +5662,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_compact"
         }
       ]
     },
@@ -5471,7 +5698,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -5506,7 +5734,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -5517,9 +5746,9 @@
       "blocks": [
         {
           "box": [
+            54,
             0,
-            0,
-            192,
+            84,
             32
           ],
           "background": [
@@ -5531,17 +5760,18 @@
         },
         {
           "box": [
-            0,
-            8,
-            192,
-            16
+            54,
+            3,
+            84,
+            29
           ],
           "background": null,
           "text": "获得财宝",
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "center",
+          "style": "matrix_tech"
         }
       ]
     },
@@ -5567,7 +5797,7 @@
         {
           "box": [
             0,
-            8,
+            1,
             96,
             16
           ],
@@ -5576,7 +5806,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "matrix_tech"
         }
       ]
     },
@@ -5602,7 +5833,7 @@
         {
           "box": [
             0,
-            8,
+            1,
             96,
             16
           ],
@@ -5611,7 +5842,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "matrix_tech"
         }
       ]
     },
@@ -5637,7 +5869,7 @@
         {
           "box": [
             0,
-            8,
+            1,
             96,
             16
           ],
@@ -5646,7 +5878,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "matrix_tech"
         }
       ]
     },
@@ -5672,7 +5905,7 @@
         {
           "box": [
             0,
-            8,
+            1,
             96,
             16
           ],
@@ -5681,7 +5914,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "matrix_tech"
         }
       ]
     },
@@ -5716,7 +5950,9 @@
           "size": 20,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "class_gothic",
+          "width_scale": 0.9
         }
       ]
     },
@@ -5751,7 +5987,9 @@
           "size": 20,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "class_gothic",
+          "width_scale": 0.9
         }
       ]
     },
@@ -5786,7 +6024,9 @@
           "size": 20,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "class_gothic",
+          "width_scale": 0.9
         }
       ]
     },
@@ -5821,7 +6061,9 @@
           "size": 20,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "class_gothic",
+          "width_scale": 0.9
         }
       ]
     },
@@ -5856,7 +6098,9 @@
           "size": 17,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "class_gothic",
+          "width_scale": 0.9
         }
       ]
     },
@@ -5891,7 +6135,9 @@
           "size": 20,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "class_gothic",
+          "width_scale": 0.9
         }
       ]
     },
@@ -5926,7 +6172,9 @@
           "size": 20,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "class_gothic",
+          "width_scale": 0.9
         }
       ]
     },
@@ -5961,7 +6209,9 @@
           "size": 20,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "class_gothic",
+          "width_scale": 0.9
         }
       ]
     },
@@ -5996,7 +6246,9 @@
           "size": 20,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "class_gothic",
+          "width_scale": 0.9
         }
       ]
     },
@@ -6031,7 +6283,9 @@
           "size": 20,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "class_gothic",
+          "width_scale": 0.9
         }
       ]
     },
@@ -6066,7 +6320,9 @@
           "size": 20,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "class_gothic",
+          "width_scale": 0.9
         }
       ]
     },
@@ -6101,7 +6357,9 @@
           "size": 20,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "class_gothic",
+          "width_scale": 0.9
         }
       ]
     },
@@ -6136,7 +6394,9 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "class_gothic",
+          "width_scale": 0.84
         }
       ]
     },
@@ -6171,7 +6431,9 @@
           "size": 20,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "class_gothic",
+          "width_scale": 0.9
         }
       ]
     },
@@ -6206,7 +6468,9 @@
           "size": 17,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "class_gothic",
+          "width_scale": 0.9
         }
       ]
     },
@@ -6241,7 +6505,9 @@
           "size": 20,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "class_gothic",
+          "width_scale": 0.9
         }
       ]
     },
@@ -6267,7 +6533,7 @@
         {
           "box": [
             16,
-            8,
+            1,
             112,
             16
           ],
@@ -6276,7 +6542,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "helper_gothic"
         }
       ]
     },
@@ -6287,9 +6554,9 @@
       "blocks": [
         {
           "box": [
-            20,
+            16,
             0,
-            44,
+            48,
             16
           ],
           "background": [
@@ -6311,7 +6578,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "helper_gothic"
         }
       ]
     },
@@ -6346,7 +6614,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -6381,7 +6650,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -6416,7 +6686,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -6451,7 +6722,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -6486,7 +6758,25 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "圈境",
+              "style": "neon_magenta"
+            },
+            {
+              "text": " A",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     },
@@ -6521,7 +6811,25 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "勇猛",
+              "style": "neon_magenta"
+            },
+            {
+              "text": " B",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     },
@@ -6556,7 +6864,25 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "骑乘",
+              "style": "neon_magenta"
+            },
+            {
+              "text": " B",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     },
@@ -6591,7 +6917,25 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "神性",
+              "style": "neon_magenta"
+            },
+            {
+              "text": " B",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     },
@@ -6626,7 +6970,25 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "咒术",
+              "style": "neon_magenta"
+            },
+            {
+              "text": " EX",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     },
@@ -6661,7 +7023,25 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "变化",
+              "style": "neon_magenta"
+            },
+            {
+              "text": " A+",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     },
@@ -6696,7 +7076,25 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "变化",
+              "style": "neon_magenta"
+            },
+            {
+              "text": " A",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     },
@@ -6731,7 +7129,25 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "魔眼",
+              "style": "neon_magenta"
+            },
+            {
+              "text": " A→C",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     },
@@ -6766,7 +7182,25 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "对魔力",
+              "style": "neon_magenta"
+            },
+            {
+              "text": " B",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     },
@@ -6801,7 +7235,25 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "对魔力",
+              "style": "neon_magenta"
+            },
+            {
+              "text": " C",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     },
@@ -6836,7 +7288,25 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "对魔力",
+              "style": "neon_magenta"
+            },
+            {
+              "text": " D",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     },
@@ -6871,7 +7341,25 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "皇帝特权",
+              "style": "neon_magenta"
+            },
+            {
+              "text": " EX",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     },
@@ -6906,7 +7394,25 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "头痛",
+              "style": "neon_magenta"
+            },
+            {
+              "text": " B",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     },
@@ -6941,7 +7447,25 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "单独行动",
+              "style": "neon_magenta"
+            },
+            {
+              "text": " A",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     },
@@ -6976,7 +7500,25 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "单独行动",
+              "style": "neon_magenta"
+            },
+            {
+              "text": " C",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     },
@@ -7011,7 +7553,25 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "心眼（伪）",
+              "style": "neon_magenta"
+            },
+            {
+              "text": " B",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     },
@@ -7046,7 +7606,25 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "自我改造",
+              "style": "neon_magenta"
+            },
+            {
+              "text": " A",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     },
@@ -7081,7 +7659,25 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "战斗续行",
+              "style": "neon_magenta"
+            },
+            {
+              "text": " A",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     },
@@ -7116,7 +7712,25 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "破坏工作",
+              "style": "neon_magenta"
+            },
+            {
+              "text": " A",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     },
@@ -7147,11 +7761,29 @@
             14
           ],
           "background": null,
-          "text": "气息遮断",
+          "text": "气息遮断 —",
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "气息遮断",
+              "style": "neon_magenta"
+            },
+            {
+              "text": " —",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     },
@@ -7182,11 +7814,29 @@
             14
           ],
           "background": null,
-          "text": "中国武术",
+          "text": "中国武术 A++",
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "中国武术",
+              "style": "neon_magenta"
+            },
+            {
+              "text": " A++",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     },
@@ -7221,7 +7871,25 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "反骨之相",
+              "style": "neon_magenta"
+            },
+            {
+              "text": " B",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     },
@@ -7256,7 +7924,25 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "阵地建造",
+              "style": "neon_magenta"
+            },
+            {
+              "text": " A",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     },
@@ -7291,7 +7977,25 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "阵地建造",
+              "style": "neon_magenta"
+            },
+            {
+              "text": " C",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     },
@@ -7326,7 +8030,25 @@
           "size": 13,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "战斗续行",
+              "style": "neon_magenta"
+            },
+            {
+              "text": " A→C",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     },
@@ -7358,10 +8080,28 @@
           ],
           "background": null,
           "text": "风暴航海者 A+",
-          "size": 14,
+          "size": 13,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "风暴航海者",
+              "style": "neon_magenta"
+            },
+            {
+              "text": " A+",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     },
@@ -7393,10 +8133,28 @@
           ],
           "background": null,
           "text": "星之开拓者 EX",
-          "size": 14,
+          "size": 13,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "星之开拓者",
+              "style": "neon_magenta"
+            },
+            {
+              "text": " EX",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     },
@@ -7431,7 +8189,25 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "无辜的怪物",
+              "style": "neon_magenta"
+            },
+            {
+              "text": " A",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     },
@@ -7463,10 +8239,28 @@
           ],
           "background": null,
           "text": "信仰的加护 A+",
-          "size": 14,
+          "size": 13,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "信仰的加护",
+              "style": "neon_magenta"
+            },
+            {
+              "text": " A+",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     },
@@ -7498,10 +8292,28 @@
           ],
           "background": null,
           "text": "圣者之数字 EX",
-          "size": 14,
+          "size": 13,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "圣者之数字",
+              "style": "neon_magenta"
+            },
+            {
+              "text": " EX",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     },
@@ -7536,7 +8348,25 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "原初之一",
+              "style": "neon_magenta"
+            },
+            {
+              "text": " EX→X",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     },
@@ -7571,7 +8401,25 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "狂化",
+              "style": "neon_magenta"
+            },
+            {
+              "text": " A",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     },
@@ -7606,7 +8454,25 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "狂化",
+              "style": "neon_magenta"
+            },
+            {
+              "text": " A→C",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     },
@@ -7632,7 +8498,7 @@
         {
           "box": [
             0,
-            8,
+            1,
             128,
             16
           ],
@@ -7641,7 +8507,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "matrix_tech"
         }
       ]
     },
@@ -7676,7 +8543,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_mincho"
         }
       ]
     },
@@ -7711,7 +8579,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_mincho"
         }
       ]
     },
@@ -7746,7 +8615,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_mincho"
         }
       ]
     },
@@ -7781,7 +8651,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_mincho"
         }
       ]
     },
@@ -7816,7 +8687,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "neon_mincho"
         }
       ]
     },
@@ -7827,9 +8699,9 @@
       "blocks": [
         {
           "box": [
-            20,
+            16,
             0,
-            44,
+            48,
             16
           ],
           "background": [
@@ -7851,7 +8723,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "helper_gothic"
         }
       ]
     },
@@ -7862,9 +8735,9 @@
       "blocks": [
         {
           "box": [
-            20,
+            17,
             0,
-            44,
+            47,
             16
           ],
           "background": [
@@ -7886,7 +8759,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "helper_gothic"
         }
       ]
     },
@@ -7897,9 +8771,9 @@
       "blocks": [
         {
           "box": [
-            20,
+            17,
             0,
-            44,
+            47,
             16
           ],
           "background": [
@@ -7921,7 +8795,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "helper_gothic"
         }
       ]
     },
@@ -7932,9 +8807,9 @@
       "blocks": [
         {
           "box": [
-            16,
+            11,
             0,
-            176,
+            181,
             16
           ],
           "background": [
@@ -7956,7 +8831,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -7991,7 +8867,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -8026,7 +8903,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -8061,7 +8939,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_compact"
         }
       ]
     },
@@ -8086,17 +8965,18 @@
         },
         {
           "box": [
-            0,
+            3,
             4,
-            128,
+            125,
             16
           ],
           "background": null,
           "text": "文字速度",
-          "size": 16,
+          "size": 12,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -8121,17 +9001,18 @@
         },
         {
           "box": [
-            0,
+            2,
             4,
-            96,
+            94,
             16
           ],
           "background": null,
           "text": "剧情语音",
-          "size": 16,
+          "size": 12,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -8166,7 +9047,8 @@
           "size": 13,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -8191,17 +9073,18 @@
         },
         {
           "box": [
-            0,
+            2,
             4,
-            96,
+            94,
             16
           ],
           "background": null,
           "text": "镜头操作",
-          "size": 16,
+          "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -8226,17 +9109,18 @@
         },
         {
           "box": [
-            0,
+            2,
             4,
-            96,
+            94,
             16
           ],
           "background": null,
           "text": "恢复默认设置",
-          "size": 16,
+          "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -8261,17 +9145,18 @@
         },
         {
           "box": [
-            0,
+            2,
             4,
-            32,
+            30,
             16
           ],
           "background": null,
           "text": "确定",
-          "size": 16,
+          "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -8296,17 +9181,18 @@
         },
         {
           "box": [
-            16,
+            17,
             1,
-            80,
+            79,
             14
           ],
           "background": null,
           "text": "切换设置",
-          "size": 14,
+          "size": 12,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_compact"
         }
       ]
     },
@@ -8317,9 +9203,9 @@
       "blocks": [
         {
           "box": [
-            16,
+            11,
             0,
-            144,
+            149,
             32
           ],
           "background": [
@@ -8331,17 +9217,18 @@
         },
         {
           "box": [
-            16,
-            8,
-            144,
+            15,
+            2,
+            145,
             16
           ],
           "background": null,
           "text": "调整各项设置。",
-          "size": 16,
+          "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "outlined_compact"
         }
       ]
     },
@@ -8373,10 +9260,11 @@
           ],
           "background": null,
           "text": "慢",
-          "size": 14,
+          "size": 12,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "center",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -8408,10 +9296,11 @@
           ],
           "background": null,
           "text": "普通",
-          "size": 14,
+          "size": 12,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "center",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -8443,10 +9332,11 @@
           ],
           "background": null,
           "text": "快",
-          "size": 14,
+          "size": 12,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "center",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -8478,10 +9368,11 @@
           ],
           "background": null,
           "text": "反转",
-          "size": 14,
+          "size": 12,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "center",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -8513,10 +9404,11 @@
           ],
           "background": null,
           "text": "不反转",
-          "size": 14,
+          "size": 12,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "center",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -8551,7 +9443,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -8586,7 +9479,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -8621,7 +9515,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -8656,7 +9551,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -8691,7 +9587,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -8726,7 +9623,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -8761,7 +9659,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -8796,7 +9695,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -8831,7 +9731,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -8842,9 +9743,9 @@
       "blocks": [
         {
           "box": [
-            16,
+            11,
             0,
-            144,
+            149,
             16
           ],
           "background": [
@@ -8866,7 +9767,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -8901,7 +9803,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -8936,7 +9839,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -8947,9 +9851,9 @@
       "blocks": [
         {
           "box": [
-            16,
+            11,
             0,
-            144,
+            149,
             16
           ],
           "background": [
@@ -8971,7 +9875,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -9006,7 +9911,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -9041,7 +9947,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -9076,7 +9983,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -9111,7 +10019,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -9146,7 +10055,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -9181,7 +10091,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -9216,7 +10127,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -9251,7 +10163,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_mincho"
         }
       ]
     },
@@ -9286,7 +10199,8 @@
           "size": 20,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "class_gothic"
         }
       ]
     },
@@ -9321,7 +10235,8 @@
           "size": 20,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "class_gothic"
         }
       ]
     },
@@ -9356,7 +10271,8 @@
           "size": 20,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "class_gothic"
         }
       ]
     },
@@ -9367,9 +10283,9 @@
       "blocks": [
         {
           "box": [
-            20,
+            21,
             0,
-            76,
+            75,
             32
           ],
           "background": [
@@ -9381,9 +10297,9 @@
         },
         {
           "box": [
-            20,
-            8,
-            76,
+            24,
+            2,
+            72,
             16
           ],
           "background": null,
@@ -9391,7 +10307,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "helper_gothic"
         }
       ]
     },
@@ -9402,9 +10319,9 @@
       "blocks": [
         {
           "box": [
-            20,
+            21,
             0,
-            76,
+            75,
             32
           ],
           "background": [
@@ -9416,9 +10333,9 @@
         },
         {
           "box": [
-            20,
-            8,
-            76,
+            24,
+            2,
+            72,
             16
           ],
           "background": null,
@@ -9426,7 +10343,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "helper_gothic"
         }
       ]
     },
@@ -9437,9 +10355,9 @@
       "blocks": [
         {
           "box": [
-            20,
+            21,
             0,
-            76,
+            75,
             32
           ],
           "background": [
@@ -9451,9 +10369,9 @@
         },
         {
           "box": [
-            20,
-            8,
-            76,
+            24,
+            3,
+            72,
             16
           ],
           "background": null,
@@ -9461,7 +10379,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "helper_gothic"
         }
       ]
     },
@@ -9472,9 +10391,9 @@
       "blocks": [
         {
           "box": [
-            34,
+            32,
             0,
-            126,
+            128,
             32
           ],
           "background": [
@@ -9486,9 +10405,9 @@
         },
         {
           "box": [
-            34,
-            8,
-            126,
+            33,
+            2,
+            127,
             16
           ],
           "background": null,
@@ -9496,7 +10415,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "helper_gothic"
         }
       ]
     },
@@ -9507,9 +10427,9 @@
       "blocks": [
         {
           "box": [
-            34,
+            32,
             0,
-            126,
+            128,
             32
           ],
           "background": [
@@ -9521,9 +10441,9 @@
         },
         {
           "box": [
-            34,
-            8,
-            126,
+            33,
+            2,
+            127,
             16
           ],
           "background": null,
@@ -9531,7 +10451,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "helper_gothic"
         }
       ]
     },
@@ -9566,7 +10487,8 @@
           "size": 14,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_compact"
         }
       ]
     },
@@ -9601,7 +10523,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_compact"
         }
       ]
     },
@@ -9636,7 +10559,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_compact"
         }
       ]
     },
@@ -9671,7 +10595,8 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "ui_compact"
         }
       ]
     },
@@ -9697,7 +10622,7 @@
         {
           "box": [
             0,
-            8,
+            3,
             160,
             16
           ],
@@ -9706,7 +10631,97 @@
           "size": 16,
           "spacing": 2,
           "color": "palette_ink",
-          "align": "left"
+          "align": "left",
+          "style": "matrix_tech"
+        }
+      ]
+    },
+    {
+      "file": "infomatrixex/interface/infomatrixex/0000.txb",
+      "index": 51,
+      "source_name": "mtx_lv_04.tex",
+      "blocks": [
+        {
+          "box": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "background": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "box": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "background": null,
+          "text": "E",
+          "size": 52,
+          "spacing": 0,
+          "color": "palette_ink",
+          "align": "center",
+          "style": "neon_rank"
+        }
+      ]
+    },
+    {
+      "file": "infomatrixex/interface/infomatrixex/0000.txb",
+      "index": 82,
+      "source_name": "mtx_skill_b00.tex",
+      "blocks": [
+        {
+          "box": [
+            0,
+            0,
+            96,
+            16
+          ],
+          "background": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "box": [
+            0,
+            1,
+            96,
+            14
+          ],
+          "background": null,
+          "text": "????",
+          "size": 14,
+          "spacing": 2,
+          "color": "palette_ink",
+          "align": "left",
+          "style": "neon_magenta",
+          "width_scale": 0.95,
+          "segments": [
+            {
+              "text": "???",
+              "style": "neon_magenta"
+            },
+            {
+              "text": "?",
+              "style": "neon_rank",
+              "color": [
+                237,
+                255,
+                181,
+                255
+              ]
+            }
+          ]
         }
       ]
     }

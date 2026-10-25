@@ -24,6 +24,7 @@ import argparse
 import hashlib
 import json
 import os
+import re
 import shutil
 import struct
 import subprocess
@@ -45,6 +46,28 @@ PIPELINE = ROOT / "scripts" / "pipeline"
 REPO_TEXT = ROOT / "data" / "translation" / "text.jsonl"
 REPO_GLYPH = ROOT / "data" / "translation" / "glyph-map.json"
 REPO_POEM_GLYPH = ROOT / "data" / "translation" / "poem-glyph-map.json"
+REPO_REMAINING_JAPANESE_FIXES = ROOT / "data" / "review" / "remaining-japanese-fixes.jsonl"
+REPO_REVIEW_LEDGER_DIR = ROOT / "data" / "review"
+REPO_BUILD_LAYOUT_FIXES = REPO_REVIEW_LEDGER_DIR / "dialogue-layout-fixes.jsonl"
+REPO_BUILD_REVIEW_LEDGERS = (
+    "merged-initial-fixes.jsonl",
+    "context-opening-fixes.jsonl",
+    "context-extra-fixes.jsonl",
+    "context-lane-1-fixes.jsonl",
+    "context-lane-2-fixes.jsonl",
+    "lane2-noise-fixes.json",
+    "context-lane-3-fixes.jsonl",
+    "context-lane-4-fixes.jsonl",
+    "control-restoration-fixes.jsonl",
+    "root-manual-fixes.jsonl",
+    "ruby-fixes.jsonl",
+    "consistency-fixes.jsonl",
+    "remaining-japanese-fixes.jsonl",
+)
+REPO_SERVANT_DIALOGUE_FIXES = ROOT / "data" / "review" / "servant-dialogue-fixes.jsonl"
+REPO_SERVANT_DIALOGUE_REFERENCES = ROOT / "data" / "evidence" / "servant-dialogue-references.jsonl"
+
+RUBY_PAIR_RE = re.compile(r"#RUBS(.*?)#RUBE(.*?)#REND", re.S)
 
 ISO_MEMBER = "PSP_GAME/USRDIR/data.cpk"
 ISO_MEMBER_FALLBACKS = ("PSP_GAME/USRDIR/DATA.CPK", "PSP_GAME/USRDIR/data.CPK")
@@ -257,12 +280,137 @@ def ensure_translations() -> None:
     if not refs.exists():
         log("生成引用表 refs.jsonl（ID → 文件/偏移/指针），首次较慢")
         run([sys.executable, str(PIPELINE / "dump_fate_extra_text.py"),
-             str(EXTRACT / "packages"),
+             str(EXTRACT / "packages" / "pack" if (EXTRACT / "packages" / "pack").is_dir() else EXTRACT / "packages"),
              "--day-input", str(EXTRACT / "cpk" / "day"),
              "--output", str(target),
              "--references", str(refs)])
         # dump 会用空译文覆盖主表，重新写回仓库译文
         shutil.copyfile(REPO_TEXT, target)
+
+
+def prepare_build_translations() -> tuple[Path, Path]:
+    """Apply reviewed text fixes, then the final dialogue layout ledger."""
+    main_path = TRANS / "text.jsonl"
+    rows = load_jsonl(main_path)
+    by_id = {row["id"]: row for row in rows}
+    if len(by_id) != len(rows):
+        die("译文主表存在重复 ID，无法准备构建输入")
+
+    applied_by_ledger: dict[str, int] = {}
+    for ledger_name in REPO_BUILD_REVIEW_LEDGERS:
+        ledger = REPO_REVIEW_LEDGER_DIR / ledger_name
+        if not ledger.is_file():
+            continue
+        if ledger.suffix == ".json":
+            payload = json.loads(ledger.read_text(encoding="utf-8"))
+            fixes = payload.get("fixes", []) if isinstance(payload, dict) else payload
+        else:
+            fixes = load_jsonl(ledger)
+        if not isinstance(fixes, list):
+            die(f"审校文件格式错误：{ledger}")
+        applied = 0
+        for fix in fixes:
+            row = by_id.get(fix["id"])
+            if row is None:
+                die(f"审校修正的 ID 不在主表中：{ledger.name}: {fix['id']}")
+            if "zh_cn" not in fix:
+                die(f"审校修正缺少 zh_cn：{ledger.name}: {fix['id']}")
+            row["zh_cn"] = fix["zh_cn"]
+            applied += 1
+        applied_by_ledger[ledger.name] = applied
+
+    # A reading that merely repeats the Chinese base adds visual noise and can
+    # create tiny, blurred superscripts. Keep semantic/foreign readings.
+    duplicate_rubies = 0
+    for row in rows:
+        text = row.get("zh_cn", "")
+        def remove_duplicate(match):
+            nonlocal duplicate_rubies
+            upper, base = match.groups()
+            if upper == base:
+                duplicate_rubies += 1
+                return base
+            return match.group(0)
+        row["zh_cn"] = RUBY_PAIR_RE.sub(remove_duplicate, text)
+    write_jsonl(main_path, rows)
+    review_report = {
+        "translation_rows": len(rows),
+        "applied_by_ledger": applied_by_ledger,
+        "applied_fixes": sum(applied_by_ledger.values()),
+        "removed_identical_ruby_pairs": duplicate_rubies,
+        "precedence": list(REPO_BUILD_REVIEW_LEDGERS),
+    }
+    report_path = BUILD / "review-ledger-v12.json"
+    report_path.parent.mkdir(parents=True, exist_ok=True)
+    report_path.write_text(json.dumps(review_report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    log(f"审校修正已应用：{review_report['applied_fixes']} 条；移除重复注音 {duplicate_rubies} 处")
+
+    servant_fixes = load_jsonl(REPO_SERVANT_DIALOGUE_FIXES) if REPO_SERVANT_DIALOGUE_FIXES.exists() else []
+    servant_refs = load_jsonl(REPO_SERVANT_DIALOGUE_REFERENCES) if REPO_SERVANT_DIALOGUE_REFERENCES.exists() else []
+    servant_fix_by_id = {row["id"]: row for row in servant_fixes}
+    servant_ref_by_id = {row["id"]: row for row in servant_refs}
+    if servant_fix_by_id.keys() != servant_ref_by_id.keys():
+        die("从者对白译文与来源指针清单的 ID 不一致")
+
+    build_rows = list(rows)
+    main_ids = set(by_id)
+    for ref in servant_refs:
+        if ref["id"] in main_ids:
+            die(f"从者对白 ID 与主剧情 ID 冲突：{ref['id']}")
+        fix = servant_fix_by_id[ref["id"]]
+        build_rows.append({
+            "id": ref["id"],
+            "jp": ref["jp"],
+            "jp_bytes_hex": ref["jp_bytes_hex"],
+            "zh_cn": fix["zh_cn"],
+            "reference_count": ref.get("reference_count", 1),
+        })
+
+    # Semantic review ledgers can replace already-wrapped source rows. Apply
+    # the reviewed layout ledger last so these edits cannot reintroduce long
+    # lines or one-character orphan lines into the actual build input.
+    layout_fixes = load_jsonl(REPO_BUILD_LAYOUT_FIXES) if REPO_BUILD_LAYOUT_FIXES.is_file() else []
+    build_by_id = {row["id"]: row for row in build_rows}
+    if len(build_by_id) != len(build_rows):
+        die("合并后的构建译文存在重复 ID，无法应用最终排版修正")
+    for fix in layout_fixes:
+        row = build_by_id.get(fix["id"])
+        if row is None:
+            die(f"最终排版修正的 ID 不在构建译文中：{fix['id']}")
+        if "zh_cn" not in fix:
+            die(f"最终排版修正缺少 zh_cn：{fix['id']}")
+        row["zh_cn"] = fix["zh_cn"]
+    if layout_fixes:
+        write_jsonl(main_path, rows)
+    review_report["post_layout_ledger"] = REPO_BUILD_LAYOUT_FIXES.name
+    review_report["post_layout_fixes"] = len(layout_fixes)
+    report_path.write_text(json.dumps(review_report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    if layout_fixes:
+        log(f"最终对话排版修正已应用：{len(layout_fixes)} 条")
+
+    main_refs = load_jsonl(TRANS / "refs.jsonl")
+    build_refs = list(main_refs)
+    existing_ref_keys = {(r["id"], r["file"], r["text_offset"]) for r in main_refs}
+    for ref in servant_refs:
+        key = (ref["id"], ref["file"], ref["text_offset"])
+        if key in existing_ref_keys:
+            continue
+        build_refs.append({
+            "id": ref["id"],
+            "file": ref["file"],
+            "text_offset": ref["text_offset"],
+            "pointer_offsets": ref["pointer_offsets"],
+            "categories": ["servant_dialogue"],
+            "kinds": ["character_dialogue"],
+        })
+        existing_ref_keys.add(key)
+
+    build_text_path = TRANS / "build-text.jsonl"
+    build_refs_path = TRANS / "build-refs.jsonl"
+    write_jsonl(build_text_path, build_rows)
+    write_jsonl(build_refs_path, build_refs)
+    log(f"构建译文已合并：主剧情 {len(rows)} 条 + 从者对白 {len(servant_refs)} 条；引用 {len(build_refs)} 条")
+    return build_text_path, build_refs_path
 
 
 def verify_inventory(strict: bool = False) -> None:
@@ -333,6 +481,7 @@ def cmd_rebuild(args) -> None:
     ensure_source_cpk(Path(args.iso).expanduser() if args.iso else None)
     ensure_extracted()
     ensure_translations()
+    build_text_path, build_refs_path = prepare_build_translations()
 
     overlay = overlay_root(args.overlay)
     if overlay is None:
@@ -353,8 +502,8 @@ def cmd_rebuild(args) -> None:
 
     output_cpk = BUILD / "data.cpk"
     build_cmd = [sys.executable, str(PIPELINE / "build_fate_extra.py"),
-                 "--translations", str(TRANS / "text.jsonl"),
-                 "--references", str(TRANS / "refs.jsonl"),
+                 "--translations", str(build_text_path),
+                 "--references", str(build_refs_path),
                  "--glyph-map", str(TRANS / "glyph-map.json"),
                  "--extract-root", str(EXTRACT),
                  "--manifest", str(EXTRACT / "manifest.json"),
@@ -396,11 +545,11 @@ def cmd_rebuild(args) -> None:
     final_cpk = final_dir / "data.cpk"
     revision_args = [sys.executable, str(PIPELINE / "stage_fate_extra_revision.py"),
                      "--source-cpk", str(output_cpk),
-                     "--previous-translations", str(TRANS / "text.jsonl"),
-                     "--translations", str(TRANS / "text.jsonl"),
+                     "--previous-translations", str(build_text_path),
+                     "--translations", str(build_text_path),
                      "--previous-glyph-map", str(TRANS / "glyph-map.json"),
                      "--glyph-map", str(TRANS / "glyph-map.json"),
-                     "--references", str(TRANS / "refs.jsonl"),
+                     "--references", str(build_refs_path),
                      "--manifest", str(EXTRACT / "manifest.json"),
                      "--overlay", str(interaction_overlay),
                      "--out", str(final_dir)]
@@ -421,7 +570,9 @@ def cmd_rebuild(args) -> None:
         "output_cpk": str(output_cpk),
         "output_cpk_bytes": output_cpk.stat().st_size,
         "output_cpk_sha256": sha256(output_cpk),
-        "translations_sha256": sha256(TRANS / "text.jsonl"),
+        "translations_sha256": sha256(build_text_path),
+        "main_translation_sha256": sha256(TRANS / "text.jsonl"),
+        "build_references_sha256": sha256(build_refs_path),
         "glyph_map_sha256": sha256(TRANS / "glyph-map.json"),
         "overlay": str(overlay) if overlay else None,
     }

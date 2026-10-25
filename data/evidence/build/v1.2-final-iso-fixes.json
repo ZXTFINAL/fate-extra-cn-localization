@@ -1,0 +1,89 @@
+{
+  "version": "v1.2",
+  "built_at": "2026-10-25T16:25:34+08:00",
+  "xmb_assets": {
+    "ICON0.PNG": {
+      "matches_localized_source": true,
+      "sha256": "87a4d70e2b384cf5f5cb6d0f119583a6f2db2388d2b5a9e7e2be4ba6de7bbbeb"
+    },
+    "PIC0.PNG": {
+      "matches_localized_source": true,
+      "sha256": "97e51c1c738a11141b8f403701fab6ebad5954ac31201a8a0bae903a623b801e"
+    },
+    "PIC1.PNG": {
+      "matches_localized_source": true,
+      "sha256": "73e18620b2b83da6fba583216bfd90f225c5940a6fd1b5dea41582450ba6c81a"
+    }
+  },
+  "isos": [
+    {
+      "file": "Fate_Extra_CN-v1.2.iso",
+      "path": "/Users/zhaoxiangting/Documents/projects/common/fate:extra/work/release-v1.2/final/Fate_Extra_CN-v1.2.iso",
+      "sha256": "b3cc328cfe8abf2a25e65df02e2ab50c499b5aa13d3204707fd05f3715e4d21e",
+      "eboot_kind": "original_encrypted",
+      "dynamic_effect_strings": [],
+      "bytes": 1473841152,
+      "cpk_sha256": "b2912da37a016ff7e33233e6fc9553d40ec68bf1ab313ff5d1c71b9c2f8068d2",
+      "xmb": {
+        "ICON0.PNG": {
+          "matches_localized_source": true,
+          "sha256": "87a4d70e2b384cf5f5cb6d0f119583a6f2db2388d2b5a9e7e2be4ba6de7bbbeb"
+        },
+        "PIC0.PNG": {
+          "matches_localized_source": true,
+          "sha256": "97e51c1c738a11141b8f403701fab6ebad5954ac31201a8a0bae903a623b801e"
+        },
+        "PIC1.PNG": {
+          "matches_localized_source": true,
+          "sha256": "73e18620b2b83da6fba583216bfd90f225c5940a6fd1b5dea41582450ba6c81a"
+        }
+      },
+      "sfo_title": {
+        "value": "Fate/EXTRA 中文汉化版",
+        "readback_ok": true
+      }
+    },
+    {
+      "file": "Fate_Extra_CN-v1.2-PPSSPP.iso",
+      "path": "/Users/zhaoxiangting/Documents/projects/common/fate:extra/work/release-v1.2/final/Fate_Extra_CN-v1.2-PPSSPP.iso",
+      "sha256": "2618deec26363b0ad7d07426b7f32cdf0c9ce7724cc18b007771e5bd0faac66b",
+      "eboot_kind": "decrypted_elf",
+      "dynamic_effect_strings": [
+        {
+          "source": "boost_mp(%02d);",
+          "translation": "御主MP+%02d",
+          "mapped_bytes": "8ce48ee54d502b25303264",
+          "occurrences": 1
+        },
+        {
+          "source": "マスターのＭＰが%s上昇",
+          "translation": "御主MP提升%s点",
+          "mapped_bytes": "8ce48ee54d5092f1f0e12573935f",
+          "occurrences": 1
+        }
+      ],
+      "bytes": 1473841152,
+      "cpk_sha256": "b2912da37a016ff7e33233e6fc9553d40ec68bf1ab313ff5d1c71b9c2f8068d2",
+      "xmb": {
+        "ICON0.PNG": {
+          "matches_localized_source": true,
+          "sha256": "87a4d70e2b384cf5f5cb6d0f119583a6f2db2388d2b5a9e7e2be4ba6de7bbbeb"
+        },
+        "PIC0.PNG": {
+          "matches_localized_source": true,
+          "sha256": "97e51c1c738a11141b8f403701fab6ebad5954ac31201a8a0bae903a623b801e"
+        },
+        "PIC1.PNG": {
+          "matches_localized_source": true,
+          "sha256": "73e18620b2b83da6fba583216bfd90f225c5940a6fd1b5dea41582450ba6c81a"
+        }
+      },
+      "sfo_title": {
+        "value": "Fate/EXTRA 中文汉化版",
+        "readback_ok": true
+      }
+    }
+  ],
+  "output_cpk_sha256": "b2912da37a016ff7e33233e6fc9553d40ec68bf1ab313ff5d1c71b9c2f8068d2",
+  "translations_sha256": "a8a536e1865b388117078ec33bf5ce3ccb6a977749a6a3b2386de25b0110dac9"
+}

@@ -1,0 +1,421 @@
+{
+  "entry": "000001/interface/shop/shop_00.txb#39",
+  "text": "购买",
+  "clear_box": [
+    15,
+    0,
+    49,
+    16
+  ],
+  "source_icon_box": [
+    0,
+    0,
+    15,
+    16
+  ],
+  "verified_bundle_count": 57,
+  "aliases_verified": 56,
+  "all_texture_hashes_identical": true,
+  "checks": [
+    {
+      "path": "000001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "001001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "002001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "003001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "010001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "011001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "012001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "013001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "014001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "015001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "016001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "017001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "018001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "019001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "020001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "021001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "022001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "023001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "024001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "025001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "026001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "027001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "028001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "029001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "030001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "031001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "032001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "033001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "034001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "035001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "036001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "037001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "038001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "039001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "040001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "041001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "042001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "043001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "044001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "045001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "046001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "047001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "048001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "049001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "050001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "051001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "052001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "053001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "054001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "056001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "057001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "058001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "059001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "060001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "061001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "062001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    },
+    {
+      "path": "063001/interface/shop/shop_00.txb",
+      "sha256": "a0076dc03f43be2ff08d0f2830b3bdf0aa253ac12cd1fa8fbd7221dde8dfecaf",
+      "matches_preview": true,
+      "icon_preserved": true,
+      "gap_cleared": true
+    }
+  ],
+  "review_preview": "data/evidence/ui/shop-purchase-left-residual-preview.png"
+}
