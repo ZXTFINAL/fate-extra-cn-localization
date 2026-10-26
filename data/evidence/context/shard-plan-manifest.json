@@ -1,5 +1,5 @@
 {
-  "notice": "这是基于refs文件顺序的全量分片计划，不是全量人工校对完成证明。risk_search仅为检索线索。每个ID只分配一次目标审阅位置；共享文本仍须核对所有使用语境。",
+  "notice": "这是基于refs文件顺序的全量分片计划，不是全量人工校对完成证明。risk_search仅为检索线索。每个ID只分配一次目标审阅位置；共享文本仍须核对所有使用语境。 分片状态字段是生成时快照；当前审校进度见 current_review_coverage。",
   "text_count": 19711,
   "ref_count": 408796,
   "physical_files": 864,
@@ -30201,5 +30201,56 @@
       "risk_search_counts": {},
       "status": "planned_unreviewed_except_opening_ids"
     }
-  ]
+  ],
+  "current_review_coverage": {
+    "status": "primary_context_review_complete",
+    "scope": "每个唯一文本 ID 至少审阅一个指定主语境位置",
+    "unique_ids_covered": 19711,
+    "unique_ids_total": 19711,
+    "opening_reviewed_ids": 641,
+    "lane_reviewed_unique_ids": 19070,
+    "lanes": [
+      {
+        "lane": 1,
+        "target_count": 6356,
+        "reviewed_count": 4716,
+        "remaining_in_lane": 1640,
+        "fix_count": 488,
+        "status": "in_progress"
+      },
+      {
+        "lane": 2,
+        "target_count": 6357,
+        "reviewed_count": 3720,
+        "remaining_in_lane": 2637,
+        "fix_count": 520,
+        "status": "in_progress"
+      },
+      {
+        "lane": 3,
+        "target_count": 6357,
+        "reviewed_count": 4532,
+        "remaining_in_lane": 1825,
+        "fix_count": 699,
+        "status": "in_progress"
+      },
+      {
+        "lane": 4,
+        "target_count": 6102,
+        "reviewed_count": 6102,
+        "remaining_in_lane": 0,
+        "fix_count": 1371,
+        "status": "complete"
+      }
+    ],
+    "remaining_lane1_to_3_ids_reviewed_in_lane4": 6102,
+    "source_occurrences": 408796,
+    "all_occurrence_contexts_reviewed": false,
+    "not_claimed_complete": [
+      "所有重复引用的语境",
+      "全部剧情分支",
+      "图片内文字",
+      "运行时全流程"
+    ]
+  }
 }
