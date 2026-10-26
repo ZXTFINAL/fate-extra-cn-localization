@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-26",
+  "game_id": "NPJH50247",
+  "source_cpk_sha256": "de615b0fc29d30e5f1bbe2e869f358bdedead07350e819500b992913f2426786",
+  "preload_font_assets": {
+    "kanzi.bin": "e7664be5a53457ed513cb92dec5b1c53692f5b487044064280c578ccc948bf67",
+    "font.txb": "15d54219e3a2a41d37c07d3dfd6f9e239e86af8d03815ed102103173a6801f05",
+    "ruby.bin": "da222fbed6d54fb44299bc722638d43237690594fa67ab884f915ddf6519c605",
+    "ruby.txb": "3bd12a49a05d52238272ff0c6c87afb2897c2191a2f601fc08d9bacaa0fe9fdc"
+  },
+  "main_font_atlas": {
+    "pages": 16,
+    "scale": 8,
+    "glyph_count": 4096,
+    "required_glyphs": {
+      "E": {"index": 32, "page": 0},
+      "I": {"index": 36, "page": 0},
+      "D": {"index": 31, "page": 0},
+      "r": {"index": 75, "page": 0},
+      "a": {"index": 58, "page": 0},
+      "g": {"index": 64, "page": 0},
+      "o": {"index": 72, "page": 0},
+      "大": {"index": 1764, "page": 6},
+      "航": {"index": 1084, "page": 4},
+      "海": {"index": 621, "page": 2},
+      "的": {"index": 1927, "page": 7},
+      "恶": {"index": 2994, "page": 11},
+      "魔": {"index": 2219, "page": 8}
+    },
+    "all_pages_present_and_mapped": true
+  },
+  "ui_pack": {
+    "file": "Fate_Extra_CN-v1.2-HD-UI-Pack-internal.zip",
+    "bytes": 215225104,
+    "sha256": "27a5789f84f02685cd42a8b42d2e5419cdac6ce5cdd758366f03b9c676d3dd78"
+  },
+  "combined_packs": {
+    "full": {
+      "file": "Fate_Extra_CN-v1.2-HD-Combined-Pack.zip",
+      "bytes": 925737199,
+      "sha256": "cee75f4d8c757ec0725227ce544e7533186e34ccbaa2e3413702e738c42b3441",
+      "scene_mappings": 14227,
+      "ui_mappings": 9776,
+      "combined_mappings": 22428,
+      "ui_image_count": 9287,
+      "texture_ini_count": 1
+    },
+    "mobile": {
+      "file": "Fate_Extra_CN-v1.2-HD-Combined-Pack-Mobile.zip",
+      "bytes": 395961483,
+      "sha256": "526ebfcb0db0c5417322e29e3bb952a871ca181fafdf4dc9df5d9c7a49d608f5",
+      "scene_mappings": 14227,
+      "ui_mappings": 9776,
+      "combined_mappings": 22428,
+      "ui_image_count": 9287,
+      "texture_ini_count": 1
+    }
+  },
+  "validation": "ZIP CRC, mapping readback, resource references and character coverage checked. No PPSSPP runtime/gameplay verification was run."
+}
