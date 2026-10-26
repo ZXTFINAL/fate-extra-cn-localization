@@ -64,6 +64,12 @@ REPO_BUILD_REVIEW_LEDGERS = (
     "consistency-fixes.jsonl",
     "remaining-japanese-fixes.jsonl",
 )
+REPO_CONTEXT_REVIEW_LEDGERS = {
+    "context-lane-1-fixes.jsonl",
+    "context-lane-2-fixes.jsonl",
+    "context-lane-3-fixes.jsonl",
+    "context-lane-4-fixes.jsonl",
+}
 REPO_SERVANT_DIALOGUE_FIXES = ROOT / "data" / "review" / "servant-dialogue-fixes.jsonl"
 REPO_SERVANT_DIALOGUE_REFERENCES = ROOT / "data" / "evidence" / "servant-dialogue-references.jsonl"
 
@@ -297,6 +303,15 @@ def prepare_build_translations() -> tuple[Path, Path]:
         die("译文主表存在重复 ID，无法准备构建输入")
 
     applied_by_ledger: dict[str, int] = {}
+    refs_path = TRANS / "refs.jsonl"
+    reference_keys: set[tuple[str, str, int]] = set()
+    if any((REPO_REVIEW_LEDGER_DIR / name).is_file() for name in REPO_CONTEXT_REVIEW_LEDGERS):
+        if not refs_path.is_file():
+            die("上下文审校补丁需要 work/translation/refs.jsonl 来源定位；请先运行 bootstrap")
+        reference_keys = {
+            (ref["id"], ref["file"], int(ref["text_offset"]))
+            for ref in load_jsonl(refs_path)
+        }
     for ledger_name in REPO_BUILD_REVIEW_LEDGERS:
         ledger = REPO_REVIEW_LEDGER_DIR / ledger_name
         if not ledger.is_file():
@@ -309,12 +324,31 @@ def prepare_build_translations() -> tuple[Path, Path]:
         if not isinstance(fixes, list):
             die(f"审校文件格式错误：{ledger}")
         applied = 0
+        seen_ledger_ids: dict[str, str] = {}
         for fix in fixes:
             row = by_id.get(fix["id"])
             if row is None:
                 die(f"审校修正的 ID 不在主表中：{ledger.name}: {fix['id']}")
             if "zh_cn" not in fix:
                 die(f"审校修正缺少 zh_cn：{ledger.name}: {fix['id']}")
+            if ledger_name in REPO_CONTEXT_REVIEW_LEDGERS:
+                source_ref = fix.get("source_ref")
+                if not isinstance(source_ref, dict) or not source_ref.get("file") or "text_offset" not in source_ref:
+                    die(f"上下文审校缺少原文定位 source_ref：{ledger.name}: {fix['id']}")
+                source_jp = fix.get("source_jp")
+                if not source_jp or source_jp != row.get("jp"):
+                    die(f"上下文审校原文与目标 ID 不符：{ledger.name}: {fix['id']}")
+                ref_key = (fix["id"], source_ref["file"], int(source_ref["text_offset"]))
+                if ref_key not in reference_keys:
+                    die(f"上下文审校来源定位不在原盘引用表中：{ledger.name}: {fix['id']} {source_ref}")
+            previous_text = seen_ledger_ids.get(fix["id"])
+            if (ledger_name in REPO_CONTEXT_REVIEW_LEDGERS
+                    and previous_text is not None and previous_text != fix["zh_cn"]
+                    and not fix.get("supersedes")):
+                die(f"同一审校文件重复 ID 且译文冲突：{ledger.name}: {fix['id']}")
+            if ledger_name in REPO_CONTEXT_REVIEW_LEDGERS and fix.get("supersedes") and previous_text is None:
+                die(f"审校标记 supersedes 但没有更早版本：{ledger.name}: {fix['id']}")
+            seen_ledger_ids[fix["id"]] = fix["zh_cn"]
             row["zh_cn"] = fix["zh_cn"]
             applied += 1
         applied_by_ledger[ledger.name] = applied

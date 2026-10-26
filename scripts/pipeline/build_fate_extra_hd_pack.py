@@ -24,6 +24,14 @@ from patch_fate_extra_image_text import render_blocks
 from ui_glyph_styles import load_atlas
 
 
+def sha256_file(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open('rb') as stream:
+        for chunk in iter(lambda: stream.read(8 << 20), b''):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
 def data_hash(raw: bytes, algorithm: str) -> int:
     if algorithm == 'xxh64':
         return xxhash.xxh64(raw, seed=0xBACD7814).intdigest() & 0xffffffff
@@ -85,6 +93,7 @@ def main():
     ap.add_argument('--overlay',type=Path,required=True,help='Current Chinese pack overlay (old hashes also supported)')
     ap.add_argument('--new-ui',type=Path,required=True,help='Newly generated Chinese UI bundles')
     ap.add_argument('--out',type=Path,required=True,help='New output directory')
+    ap.add_argument('--source-cpk',type=Path,help='Final CPK embedded in the ISO this pack is built for')
     ap.add_argument('--scale',type=int,default=8,choices=[4,8],help='Direct vector raster resolution multiplier')
     ap.add_argument('--runtime-matches',type=Path,help='Optional independently observed runtime tile keys')
     args=ap.parse_args();root=Path(__file__).resolve().parents[2];scale=args.scale
@@ -242,6 +251,19 @@ def main():
         if path.relative_to(game).as_posix() not in used:
             path.unlink()
     manifest['image_files']=len(used)
+    kanzi_bytes=(args.overlay/'PRELOAD/kanzi.bin').read_bytes()
+    font_bytes=(args.overlay/'PRELOAD/font.txb').read_bytes()
+    manifest['main_font_coverage']={
+        'font_pages':len(manifest['fonts']),
+        'expected_font_pages':16,
+        'glyph_slots':count,
+        'expected_glyph_slots':4096,
+        'all_slots_rendered':len(manifest['fonts'])==16 and count==4096,
+        'kanzi_sha256':hashlib.sha256(kanzi_bytes).hexdigest(),
+        'font_txb_sha256':hashlib.sha256(font_bytes).hexdigest(),
+    }
+    if args.source_cpk:
+        manifest['source_cpk_sha256']=sha256_file(args.source_cpk)
     manifest['runtime_test']='not run; verified against existing gameplay dumps only'
     (args.out/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({k:manifest[k] for k in ['image_files','mappings','runtime_key_validation']}),flush=True)

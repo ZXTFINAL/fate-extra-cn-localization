@@ -50,7 +50,7 @@ def sha256_file(path: Path) -> str:
     return digest.hexdigest()
 
 
-README_FULL = """# Fate/EXTRA 简体中文 v1.2 高清纹理合并包
+README_FULL = """# Fate/EXTRA 简体中文 v1.3 高清纹理合并包
 
 本包把高清场景纹理与简体中文 UI/字库纹理合并到**唯一一份** `NPJH50247/textures.ini`，避免两个独立包的同名配置互相覆盖。哈希模式为 `xxh64`；同一纹理哈希同时命中时，中文 UI 映射优先，场景图不会盖回中文菜单、标题或字库。
 
@@ -60,6 +60,8 @@ README_FULL = """# Fate/EXTRA 简体中文 v1.2 高清纹理合并包
 2. 解压本 ZIP，将里面的 `NPJH50247` 文件夹整体放到当前记忆棒的 `PSP/TEXTURES/` 下。最终路径应为 `PSP/TEXTURES/NPJH50247/textures.ini`。
 3. 如果已有 `NPJH50247` 纹理目录，先备份并移走旧目录，再安装本包，避免旧配置和旧韩文纹理残留。请只使用这一份合并配置；不要再将独立场景包或 UI 包中的配置覆盖进来。
 4. PPSSPP 1.15 或更新版本中启用「纹理替换」。为了看清高分辨率纹理，建议把「图形 → 渲染分辨率」设为 8 倍 PSP 分辨率，然后完全重启 PPSSPP。
+
+请与 v1.3 ISO 配套使用。本包内 `manifest.json` 记录了生成时对应的 CPK SHA-256；不能与其他版本 ISO 混用。若更换了游戏版本，删除旧的纹理缓存后再装对应纹理包。
 
 本包只适用于 PPSSPP，不适用于实体 PSP。场景包中的 KTX2 纹理需要 PPSSPP 1.15+。PPSSPP 使用的记忆棒目录可在「设置 → 系统」中查看。
 
@@ -72,7 +74,7 @@ README_FULL = """# Fate/EXTRA 简体中文 v1.2 高清纹理合并包
 如果你已经安装了其他纹理包，请先用干净的 `NPJH50247` 目录测试。署名：酱油馒头粥。原游戏及素材版权归各自权利人所有。
 """
 
-README_MOBILE = """# Fate/EXTRA 简体中文 v1.2 高清纹理合并包（移动设备版）
+README_MOBILE = """# Fate/EXTRA 简体中文 v1.3 高清纹理合并包（移动设备版）
 
 本包把 PPSSPP 论坛作者 user555 发布的 50% 分辨率移动场景纹理，与本汉化的简体中文 UI、正文与注音字库合成到**唯一一份** `NPJH50247/textures.ini`。场景纹理边长为完整版的 50%（约为原版游戏的 2 倍），中文 UI 和字库保持相同的高清质量。
 
@@ -83,9 +85,11 @@ README_MOBILE = """# Fate/EXTRA 简体中文 v1.2 高清纹理合并包（移动
 3. 如果已有 `NPJH50247` 纹理目录，先备份并移走旧目录，再安装本包，避免旧配置和旧韩文纹理残留。请只安装本移动版合并包，不要再叠加完整版场景包、独立 UI 包或其它 `textures.ini`。
 4. PPSSPP 1.15 或更新版本中启用「纹理替换」。手持设备先用 2x 或 3x PSP 渲染分辨率；设备性能允许时再提高。完全重启 PPSSPP 后载入游戏。
 
+请与 v1.3 ISO 配套使用。本包内 `manifest.json` 记录了生成时对应的 CPK SHA-256；不能与其他版本 ISO 混用。若更换了游戏版本，删除旧的纹理缓存后再装对应纹理包。
+
 本包只适用于 PPSSPP，不适用于实体 PSP。场景纹理使用 UASTC KTX2；PPSSPP 1.15+ 支持。该版本用于降低场景纹理的显存占用，不能保证修复所有设备或 ISO 的运行错误。
 
-本 v1.2 UI 映射与合并配置已完成静态回读校验；此组合包尚未在 PPSSPP 逐项运行。低显存设备可能需要降低场景分辨率或改用 UI-only 包。
+本 v1.3 UI 映射与合并配置已完成静态回读校验；此组合包尚未在 PPSSPP 逐项运行。低显存设备可能需要降低场景分辨率。
 
 ## 内容与来源
 
@@ -118,12 +122,22 @@ def copy_member(src: zipfile.ZipFile, name: str, dst: zipfile.ZipFile) -> tuple[
 
 
 def build(scene_zip: Path, ui_zip: Path, output: Path, variant: str = "full",
-          version: str = "v1.2", runtime_test_note: str = "Static ZIP/INI/resource-reference checks only; PPSSPP runtime pending.") -> dict:
+          version: str = "v1.3", runtime_test_note: str = "Static ZIP/INI/resource-reference checks only; PPSSPP runtime pending.",
+          source_cpk: Path | None = None) -> dict:
     if variant not in {"full", "mobile"}:
         raise ValueError(f"unsupported combined-pack variant: {variant}")
     with zipfile.ZipFile(scene_zip) as scene, zipfile.ZipFile(ui_zip) as ui:
         scene_map = read_mapping(scene, f"{GAME}/textures.ini")
         ui_map = read_mapping(ui, f"{GAME}/textures-xxh64.ini")
+        ui_manifest = json.loads(ui.read("manifest.json")) if "manifest.json" in ui.namelist() else {}
+        ui_cpk_hash = ui_manifest.get("source_cpk_sha256")
+        if source_cpk is not None:
+            expected_cpk_hash = sha256_file(source_cpk)
+            if ui_cpk_hash != expected_cpk_hash:
+                raise ValueError(
+                    "UI texture pack was not built from the final ISO CPK: "
+                    f"expected {expected_cpk_hash}, got {ui_cpk_hash}"
+                )
         scene_names = set(scene.namelist())
         ui_names = set(ui.namelist())
         for key, name in scene_map.items():
@@ -179,6 +193,7 @@ def build(scene_zip: Path, ui_zip: Path, output: Path, variant: str = "full",
                 "sources": {
                     "scene_pack_sha256": sha256_file(scene_zip),
                     "ui_pack_sha256": sha256_file(ui_zip),
+                    "ui_source_cpk_sha256": ui_cpk_hash,
                 },
                 "runtime_test": runtime_test_note,
             }
@@ -207,15 +222,16 @@ def build(scene_zip: Path, ui_zip: Path, output: Path, variant: str = "full",
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--scene-zip", type=Path, required=True, help="scene texture ZIP")
-    parser.add_argument("--ui-zip", type=Path, required=True, help="v1.2 Chinese UI texture ZIP")
+    parser.add_argument("--ui-zip", type=Path, required=True, help="Chinese UI texture ZIP")
     parser.add_argument("--out", type=Path, required=True, help="combined texture ZIP output")
     parser.add_argument("--variant", choices=["full", "mobile"], default="full", help="README and manifest variant")
-    parser.add_argument("--version", default="v1.2", help="release version written in README and manifest")
+    parser.add_argument("--version", default="v1.3", help="release version written in README and manifest")
     parser.add_argument("--runtime-test-note", default="Static ZIP/INI/resource-reference checks only; PPSSPP runtime pending.",
                         help="runtime validation note written in manifest")
+    parser.add_argument("--source-cpk", type=Path, help="require UI pack and combined pack to match this final CPK")
     args = parser.parse_args()
     print(json.dumps(build(args.scene_zip, args.ui_zip, args.out, args.variant, args.version,
-                           args.runtime_test_note), ensure_ascii=False, indent=2))
+                           args.runtime_test_note, args.source_cpk), ensure_ascii=False, indent=2))
 
 
 if __name__ == "__main__":

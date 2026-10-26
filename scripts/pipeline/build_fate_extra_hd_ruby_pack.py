@@ -14,7 +14,7 @@ from pathlib import Path
 import numpy as np
 from PIL import Image
 
-from build_fate_extra_hd_pack import data_hash, palette_key
+from build_fate_extra_hd_pack import data_hash, palette_key, sha256_file
 from extract_fate_extra import parse_cpk, read_cpk_entry, safe_relpath, unpack_pak
 from fate_extra_texture import Bundle, Texture
 
@@ -170,7 +170,7 @@ def build(cpk: Path, pack_root: Path, renderer: Path, report_path: Path) -> dict
     manifest_path = pack_root / "manifest.json"
     manifest = json.loads(manifest_path.read_text(encoding="utf-8")) if manifest_path.exists() else {}
     manifest["ruby_hd"] = {
-        "source_cpk_sha256": __import__("hashlib").sha256(cpk.read_bytes()).hexdigest(),
+        "source_cpk_sha256": sha256_file(cpk),
         "font": FONTS,
         "scale": SCALE,
         "pitch": PITCH,

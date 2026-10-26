@@ -2224,7 +2224,7 @@
   {
    "path": "packages/pack/PRELOAD/font.txb",
    "size": 526416,
-   "sha256": "15d54219e3a2a41d37c07d3dfd6f9e239e86af8d03815ed102103173a6801f05"
+   "sha256": "13c75015bd327b3513b07240e8b42e39d11e8e98fadd175a2169b29ad3d8f6a5"
   },
   {
    "path": "packages/pack/PRELOAD/interface/calendar/pgst_000.txb",
@@ -2334,7 +2334,7 @@
   {
    "path": "packages/pack/PRELOAD/kanzi.bin",
    "size": 24592,
-   "sha256": "e7664be5a53457ed513cb92dec5b1c53692f5b487044064280c578ccc948bf67"
+   "sha256": "27f175b8f3d4568770956bc660f2335ad0da84e3e2edcccf64aa4cd9d4e15ccf"
   },
   {
    "path": "packages/pack/PRELOAD/paramData/chaDataTbl.sjis",
