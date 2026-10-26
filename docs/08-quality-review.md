@@ -77,9 +77,9 @@ refs.sort(key=lambda r: (r["file"], r["text_offset"]))
 | lane | 目标数 | 已读 | 修正 |
 |---|---:|---:|---:|
 | lane 1 | 6,356 | 4,716 | 488 |
-| lane 2 | 6,357 | 3,720 | 见 `context-lane-2-fixes.jsonl` |
-| lane 3 | 6,357 | 4,532 | 见 `context-lane-3-fixes.jsonl` |
-| lane 4 catch-up | 6,102 | 6,102 | 见 `context-lane-4-fixes.jsonl` |
+| lane 2 | 6,357 | 3,720 | 520 |
+| lane 3 | 6,357 | 4,532 | 699 |
+| lane 4 catch-up | 6,102 | 6,102 | 1,371 |
 
 已审唯一 ID 合计：前三 lane 已读 12,968 + lane 4 补读 6,102 + 开场 641 = **19,711 / 19,711**。旧版 `19,070 / 25,172（75.8%）` 把 lane 4 的 catch-up 数重复加入分母，统计错误。
 
